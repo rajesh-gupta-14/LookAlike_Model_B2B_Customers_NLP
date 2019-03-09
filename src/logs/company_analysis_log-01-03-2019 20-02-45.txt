@@ -1,0 +1,30 @@
+03/01/2019 20:02:45 INFO: ==========Script execution started==========
+03/01/2019 20:02:45 INFO: Authenticating with the Twitter API...
+03/01/2019 20:02:45 DEBUG: PARAMS: {'q': b'Apple domain', 'lang': b'en', 'count': b'1000'}
+03/01/2019 20:02:45 DEBUG: Signing request <PreparedRequest [GET]> using client <Client client_key=eRvtkP6oXaUK6ZiCKCnOPujQ8, client_secret=****, resource_owner_key=1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx, resource_owner_secret=****, signature_method=HMAC-SHA1, signature_type=AUTH_HEADER, callback_uri=None, rsa_key=None, verifier=None, realm=None, encoding=utf-8, decoding=None, nonce=None, timestamp=None>
+03/01/2019 20:02:45 DEBUG: Including body in call to sign: False
+03/01/2019 20:02:45 DEBUG: Collected params: [('q', 'Apple domain'), ('lang', 'en'), ('count', '1000'), ('oauth_nonce', '5772638777489238741551484965'), ('oauth_timestamp', '1551484965'), ('oauth_version', '1.0'), ('oauth_signature_method', 'HMAC-SHA1'), ('oauth_consumer_key', 'eRvtkP6oXaUK6ZiCKCnOPujQ8'), ('oauth_token', '1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx')]
+03/01/2019 20:02:45 DEBUG: Normalized params: count=1000&lang=en&oauth_consumer_key=eRvtkP6oXaUK6ZiCKCnOPujQ8&oauth_nonce=5772638777489238741551484965&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1551484965&oauth_token=1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx&oauth_version=1.0&q=Apple%20domain
+03/01/2019 20:02:45 DEBUG: Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/01/2019 20:02:45 DEBUG: Signing: signature base string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&count%3D1000%26lang%3Den%26oauth_consumer_key%3DeRvtkP6oXaUK6ZiCKCnOPujQ8%26oauth_nonce%3D5772638777489238741551484965%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1551484965%26oauth_token%3D1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx%26oauth_version%3D1.0%26q%3DApple%2520domain
+03/01/2019 20:02:45 DEBUG: Signature: TmHdQTGBkyonzIA5ZA2Vig0Azqg=
+03/01/2019 20:02:45 DEBUG: Updated url: https://api.twitter.com/1.1/search/tweets.json?q=Apple+domain&lang=en&count=1000
+03/01/2019 20:02:45 DEBUG: Updated headers: {'Host': 'api.twitter.com', 'Authorization': 'OAuth oauth_nonce="5772638777489238741551484965", oauth_timestamp="1551484965", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="eRvtkP6oXaUK6ZiCKCnOPujQ8", oauth_token="1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx", oauth_signature="TmHdQTGBkyonzIA5ZA2Vig0Azqg%3D"'}
+03/01/2019 20:02:45 DEBUG: Updated body: None
+03/01/2019 20:02:45 DEBUG: Starting new HTTPS connection (1): api.twitter.com:443
+03/01/2019 20:02:46 DEBUG: https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=Apple+domain&lang=en&count=1000 HTTP/1.1" 200 372188
+03/01/2019 20:02:46 DEBUG: PARAMS: {'q': b'Samsung', 'lang': b'en', 'count': b'1000'}
+03/01/2019 20:02:46 DEBUG: Signing request <PreparedRequest [GET]> using client <Client client_key=eRvtkP6oXaUK6ZiCKCnOPujQ8, client_secret=****, resource_owner_key=1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx, resource_owner_secret=****, signature_method=HMAC-SHA1, signature_type=AUTH_HEADER, callback_uri=None, rsa_key=None, verifier=None, realm=None, encoding=utf-8, decoding=None, nonce=None, timestamp=None>
+03/01/2019 20:02:46 DEBUG: Including body in call to sign: False
+03/01/2019 20:02:46 DEBUG: Collected params: [('q', 'Samsung'), ('lang', 'en'), ('count', '1000'), ('oauth_nonce', '104787198747301903591551484966'), ('oauth_timestamp', '1551484966'), ('oauth_version', '1.0'), ('oauth_signature_method', 'HMAC-SHA1'), ('oauth_consumer_key', 'eRvtkP6oXaUK6ZiCKCnOPujQ8'), ('oauth_token', '1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx')]
+03/01/2019 20:02:46 DEBUG: Normalized params: count=1000&lang=en&oauth_consumer_key=eRvtkP6oXaUK6ZiCKCnOPujQ8&oauth_nonce=104787198747301903591551484966&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1551484966&oauth_token=1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx&oauth_version=1.0&q=Samsung
+03/01/2019 20:02:46 DEBUG: Normalized URI: https://api.twitter.com/1.1/search/tweets.json
+03/01/2019 20:02:46 DEBUG: Signing: signature base string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fsearch%2Ftweets.json&count%3D1000%26lang%3Den%26oauth_consumer_key%3DeRvtkP6oXaUK6ZiCKCnOPujQ8%26oauth_nonce%3D104787198747301903591551484966%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1551484966%26oauth_token%3D1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx%26oauth_version%3D1.0%26q%3DSamsung
+03/01/2019 20:02:46 DEBUG: Signature: n2GE37Hus8bixLzJLCX6g22W3OU=
+03/01/2019 20:02:46 DEBUG: Updated url: https://api.twitter.com/1.1/search/tweets.json?q=Samsung&lang=en&count=1000
+03/01/2019 20:02:46 DEBUG: Updated headers: {'Host': 'api.twitter.com', 'Authorization': 'OAuth oauth_nonce="104787198747301903591551484966", oauth_timestamp="1551484966", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="eRvtkP6oXaUK6ZiCKCnOPujQ8", oauth_token="1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx", oauth_signature="n2GE37Hus8bixLzJLCX6g22W3OU%3D"'}
+03/01/2019 20:02:46 DEBUG: Updated body: None
+03/01/2019 20:02:46 DEBUG: Starting new HTTPS connection (1): api.twitter.com:443
+03/01/2019 20:02:46 DEBUG: https://api.twitter.com:443 "GET /1.1/search/tweets.json?q=Samsung&lang=en&count=1000 HTTP/1.1" 200 368598
+03/01/2019 20:02:47 INFO: Writing the fetched tweets into a csv file
+03/01/2019 20:02:47 INFO: Writing raw twitter data to CSV format: raw_twitter_data.csv

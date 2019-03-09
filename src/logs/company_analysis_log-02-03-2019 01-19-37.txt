@@ -1,0 +1,123 @@
+03/02/2019 01:19:37 INFO: ============Script execution started============
+03/02/2019 01:19:37 INFO: ============IBM data collection started============
+03/02/2019 01:19:37 INFO: ============IBM, SIZE feature data collection started============
+03/02/2019 01:19:37 INFO: =====================Setting company variables for Google Search===================
+03/02/2019 01:19:37 INFO: ======================Generating Google Search code==========================
+03/02/2019 01:19:37 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/02/2019 01:19:38 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=IBM&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/02/2019 01:19:38 INFO: =========================Getting search result hyperlinks========================
+03/02/2019 01:19:38 INFO: =========================Getting search result source code=========================
+03/02/2019 01:19:38 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/02/2019 01:19:38 DEBUG: https://www.statista.com:443 "GET /statistics/265007/number-of-employees-at-ibm-since-2000/ HTTP/1.1" 200 None
+03/02/2019 01:19:38 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/02/2019 01:19:38 DEBUG: https://en.wikipedia.org:443 "GET /wiki/IBM HTTP/1.1" 200 76221
+03/02/2019 01:19:39 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/02/2019 01:19:39 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Category:IBM_employees HTTP/1.1" 200 13655
+03/02/2019 01:19:39 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/02/2019 01:19:39 DEBUG: https://www.statista.com:443 "GET /statistics/265007/number-of-employees-at-ibm-since-2000/ HTTP/1.1" 200 None
+03/02/2019 01:19:39 DEBUG: Starting new HTTPS connection (1): www.ibm.com:443
+03/02/2019 01:19:40 DEBUG: https://www.ibm.com:443 "GET /partnerworld/resources/manage/partner-profiling-system-employee-list HTTP/1.1" 200 5922
+03/02/2019 01:19:40 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/02/2019 01:19:40 DEBUG: https://ca.linkedin.com:443 "GET /company/ibm HTTP/1.1" 999 1461
+03/02/2019 01:19:40 DEBUG: Starting new HTTPS connection (1): www.zdnet.com:443
+03/02/2019 01:19:41 DEBUG: https://www.zdnet.com:443 "GET /article/red-hat-leaders-praise-ibm-acquisition-but-employees-are-worried/ HTTP/1.1" 200 None
+03/02/2019 01:19:41 DEBUG: Starting new HTTPS connection (1): www.vox.com:443
+03/02/2019 01:19:41 DEBUG: https://www.vox.com:443 "GET /2018/4/20/17261798/ibm-layoffs-retirements-older-workers-age-discrimination-claims HTTP/1.1" 200 37877
+03/02/2019 01:19:41 DEBUG: Starting new HTTPS connection (1): www.payscale.com:443
+03/02/2019 01:19:42 DEBUG: https://www.payscale.com:443 "GET /research/CA/Employer%3DInternational_Business_Machines_(IBM)_Corp./Salary HTTP/1.1" 404 None
+03/02/2019 01:19:42 DEBUG: Starting new HTTPS connection (1): www.nytimes.com:443
+03/02/2019 01:19:42 DEBUG: https://www.nytimes.com:443 "GET /2017/09/28/technology/ibm-india.html HTTP/1.1" 200 86728
+03/02/2019 01:19:42 DEBUG: Starting new HTTPS connection (1): www.theregister.co.uk:443
+03/02/2019 01:19:43 DEBUG: https://www.theregister.co.uk:443 "GET /2018/07/23/ibm_q2_2018_results/ HTTP/1.1" 200 None
+03/02/2019 01:19:43 INFO: ============IBM, SIZE feature data collection ended============
+03/02/2019 01:19:43 INFO: ============IBM, ACQUISITIONS feature data collection started============
+03/02/2019 01:19:43 INFO: =====================Setting company variables for Google Search===================
+03/02/2019 01:19:43 INFO: ======================Generating Google Search code==========================
+03/02/2019 01:19:43 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/02/2019 01:19:43 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=IBM&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/02/2019 01:19:43 INFO: =========================Getting search result hyperlinks========================
+03/02/2019 01:19:43 INFO: =========================Getting search result source code=========================
+03/02/2019 01:19:43 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/02/2019 01:19:43 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_mergers_and_acquisitions_by_IBM HTTP/1.1" 200 52273
+03/02/2019 01:19:43 DEBUG: Starting new HTTPS connection (1): www.newswire.ca:443
+03/02/2019 01:19:44 DEBUG: https://www.newswire.ca:443 "GET /news-releases/ibm-to-acquire-red-hat-completely-changing-the-cloud-landscape-and-becoming-worlds-1-hybrid-cloud-provider-698833901.html HTTP/1.1" 200 51261
+03/02/2019 01:19:44 DEBUG: Starting new HTTPS connection (1): www.redhat.com:443
+03/02/2019 01:19:44 DEBUG: https://www.redhat.com:443 "GET /en/about/press-releases/ibm-acquire-red-hat-completely-changing-cloud-landscape-and-becoming-worlds-1-hybrid-cloud-provider HTTP/1.1" 200 14842
+03/02/2019 01:19:44 DEBUG: Starting new HTTPS connection (1): www.zdnet.com:443
+03/02/2019 01:19:44 DEBUG: https://www.zdnet.com:443 "GET /article/ibm-acquires-red-hat/ HTTP/1.1" 200 98548
+03/02/2019 01:19:44 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/02/2019 01:19:44 DEBUG: https://techcrunch.com:443 "GET /2018/10/28/forget-watson-the-red-hat-acquisition-may-be-the-thing-that-saves-ibm/ HTTP/1.1" 200 21498
+03/02/2019 01:19:44 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/02/2019 01:19:45 DEBUG: https://techcrunch.com:443 "GET /2018/10/29/assessing-ibms-34-billion-red-hat-acquisition/ HTTP/1.1" 200 20528
+03/02/2019 01:19:45 DEBUG: Starting new HTTPS connection (1): www.itworldcanada.com:443
+03/02/2019 01:19:45 DEBUG: https://www.itworldcanada.com:443 "GET /article/ibm-acquires-red-had-in-largest-software-acquisition-ever-for-34-billion-analysis/410878 HTTP/1.1" 200 15383
+03/02/2019 01:19:45 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/02/2019 01:19:46 DEBUG: https://www.cnbc.com:443 "GET /2018/10/28/ibm-to-acquire-red-hat-in-deal-valued-at-34-billion.html HTTP/1.1" 200 46328
+03/02/2019 01:19:46 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/02/2019 01:19:46 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2018-10-28/ibm-is-said-to-near-deal-to-acquire-software-maker-red-hat HTTP/1.1" 307 0
+03/02/2019 01:19:46 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/02/2019 01:19:46 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=cb5457c0-3caa-11e9-a4f9-1170f75b36c3&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0xMC0yOC9pYm0taXMtc2FpZC10by1uZWFyLWRlYWwtdG8tYWNxdWlyZS1zb2Z0d2FyZS1tYWtlci1yZWQtaGF0 HTTP/1.1" 200 4595
+03/02/2019 01:19:46 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/02/2019 01:19:46 DEBUG: https://www.forbes.com:443 "GET /sites/jasonbloomberg/2018/11/18/three-things-ibm-must-do-to-keep-red-hat-acquisition-from-sinking-the-company/ HTTP/1.1" 200 51403
+03/02/2019 01:19:46 INFO: ============IBM, ACQUISITIONS feature data collection ended============
+03/02/2019 01:19:46 INFO: ============IBM data collection ended============
+03/02/2019 01:19:46 INFO: ============Oracle data collection started============
+03/02/2019 01:19:46 INFO: ============Oracle, SIZE feature data collection started============
+03/02/2019 01:19:46 INFO: =====================Setting company variables for Google Search===================
+03/02/2019 01:19:46 INFO: ======================Generating Google Search code==========================
+03/02/2019 01:19:46 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/02/2019 01:19:47 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Oracle&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/02/2019 01:19:47 INFO: =========================Getting search result hyperlinks========================
+03/02/2019 01:19:47 INFO: =========================Getting search result source code=========================
+03/02/2019 01:19:47 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/02/2019 01:19:47 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Oracle_Corporation HTTP/1.1" 200 76921
+03/02/2019 01:19:47 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/02/2019 01:19:47 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Oracle_Corporation HTTP/1.1" 200 76921
+03/02/2019 01:19:47 DEBUG: Starting new HTTPS connection (1): content.eluta.ca:443
+03/02/2019 01:19:48 DEBUG: https://content.eluta.ca:443 "GET /top-employer-oracle-canada HTTP/1.1" 200 11150
+03/02/2019 01:19:48 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/02/2019 01:19:48 DEBUG: https://www.statista.com:443 "GET /statistics/236999/number-of-employees-at-oracle-worldwide/ HTTP/1.1" 200 None
+03/02/2019 01:19:48 DEBUG: Starting new HTTPS connection (1): www.oracle.com:443
+03/02/2019 01:19:48 DEBUG: https://www.oracle.com:443 "GET /corporate/citizenship/workforce/ HTTP/1.1" 200 8645
+03/02/2019 01:19:48 DEBUG: Starting new HTTPS connection (1): www.oracle.com:443
+03/02/2019 01:19:48 DEBUG: https://www.oracle.com:443 "GET /industries/retail/products/merchandise-planning/size-profile-optimization/ HTTP/1.1" 200 7757
+03/02/2019 01:19:48 DEBUG: Starting new HTTPS connection (1): docs.oracle.com:443
+03/02/2019 01:19:49 DEBUG: https://docs.oracle.com:443 "GET /cd/B14117_01/server.101/b10758/sqlqr06.htm HTTP/1.1" 200 6054
+03/02/2019 01:19:49 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/02/2019 01:19:49 DEBUG: https://ca.linkedin.com:443 "GET /company/oracle HTTP/1.1" 999 1461
+03/02/2019 01:19:49 DEBUG: Starting new HTTPS connection (1): www.glassdoor.com:443
+03/02/2019 01:19:50 DEBUG: https://www.glassdoor.com:443 "GET /Overview/Working-at-Oracle-EI_IE1737.11,17.htm HTTP/1.1" 403 None
+03/02/2019 01:19:50 DEBUG: Starting new HTTPS connection (1): stackoverflow.com:443
+03/02/2019 01:19:50 DEBUG: https://stackoverflow.com:443 "GET /questions/6569276/how-to-make-use-of-sql-oracle-to-count-the-size-of-a-string HTTP/1.1" 200 34810
+03/02/2019 01:19:50 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/02/2019 01:19:50 DEBUG: https://www.forbes.com:443 "GET /companies/oracle/ HTTP/1.1" 200 35222
+03/02/2019 01:19:50 INFO: ============Oracle, SIZE feature data collection ended============
+03/02/2019 01:19:50 INFO: ============Oracle, ACQUISITIONS feature data collection started============
+03/02/2019 01:19:50 INFO: =====================Setting company variables for Google Search===================
+03/02/2019 01:19:50 INFO: ======================Generating Google Search code==========================
+03/02/2019 01:19:50 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/02/2019 01:19:50 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Oracle&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/02/2019 01:19:50 INFO: =========================Getting search result hyperlinks========================
+03/02/2019 01:19:50 INFO: =========================Getting search result source code=========================
+03/02/2019 01:19:50 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/02/2019 01:19:51 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_acquisitions_by_Oracle HTTP/1.1" 200 25526
+03/02/2019 01:19:51 DEBUG: Starting new HTTPS connection (1): www.oracle.com:443
+03/02/2019 01:19:51 DEBUG: https://www.oracle.com:443 "GET /ca-en/corporate/acquisitions/ HTTP/1.1" 200 8048
+03/02/2019 01:19:51 DEBUG: Starting new HTTPS connection (1): www.oracle.com:443
+03/02/2019 01:19:51 DEBUG: https://www.oracle.com:443 "GET /partners/en/partner-with-oracle/market-and-sell/acquisitions/index.html HTTP/1.1" 200 9691
+03/02/2019 01:19:51 DEBUG: Starting new HTTPS connection (1): www.networkworld.com:443
+03/02/2019 01:19:51 DEBUG: https://www.networkworld.com:443 "GET /article/3101876/a-look-at-oracle-s-10-biggest-acquisitions.html HTTP/1.1" 200 32574
+03/02/2019 01:19:51 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/02/2019 01:19:52 DEBUG: https://www.crunchbase.com:443 "GET /organization/oracle/acquisitions/acquisitions_list HTTP/1.1" 403 None
+03/02/2019 01:19:52 DEBUG: Starting new HTTPS connection (1): www.investopedia.com:443
+03/02/2019 01:19:52 DEBUG: https://www.investopedia.com:443 "GET /articles/insights/081816/top-8-companies-owned-oracle-orcl.asp HTTP/1.1" 200 None
+03/02/2019 01:19:52 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/02/2019 01:19:52 DEBUG: https://techcrunch.com:443 "GET /2018/10/22/oracle-acquires-datafox-a-developer-of-predictive-intelligence-as-a-service-and-a-trove-of-company-information/ HTTP/1.1" 200 16324
+03/02/2019 01:19:52 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/02/2019 01:19:52 DEBUG: https://techcrunch.com:443 "GET /2018/04/24/oracle-acquires-grapeshot-a-marketing-tech-startup-that-helps-ensure-brand-safety/ HTTP/1.1" 200 16771
+03/02/2019 01:19:53 DEBUG: Starting new HTTPS connection (1): searchsalesforce.techtarget.com:443
+03/02/2019 01:19:53 DEBUG: https://searchsalesforce.techtarget.com:443 "GET /opinion/Oracle-buys-Salesforcecom-Headline-of-the-near-future HTTP/1.1" 200 None
+03/02/2019 01:19:53 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/02/2019 01:19:54 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DkIGVJiAclHQ HTTP/1.1" 503 1800
+03/02/2019 01:19:54 INFO: ============Oracle, ACQUISITIONS feature data collection ended============
+03/02/2019 01:19:54 INFO: ============Oracle data collection ended============

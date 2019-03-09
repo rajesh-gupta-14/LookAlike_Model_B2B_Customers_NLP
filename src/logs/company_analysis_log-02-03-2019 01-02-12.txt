@@ -1,0 +1,4 @@
+03/02/2019 01:02:12 INFO: ============Script execution started============
+03/02/2019 01:02:12 INFO: ============IBM data collection started============
+03/02/2019 01:02:12 INFO: ============IBM, SIZE feature data collection started============
+03/02/2019 01:02:12 INFO: =====================Setting company variables for Google Search===================

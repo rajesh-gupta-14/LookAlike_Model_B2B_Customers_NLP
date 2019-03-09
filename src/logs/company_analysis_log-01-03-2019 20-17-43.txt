@@ -1,0 +1,17 @@
+03/01/2019 20:17:43 INFO: ==========Script execution started==========
+03/01/2019 20:17:43 INFO: Authenticating with the Twitter API...
+03/01/2019 20:17:43 DEBUG: PARAMS: {'id': b'Apple India'}
+03/01/2019 20:17:43 DEBUG: Signing request <PreparedRequest [GET]> using client <Client client_key=eRvtkP6oXaUK6ZiCKCnOPujQ8, client_secret=****, resource_owner_key=1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx, resource_owner_secret=****, signature_method=HMAC-SHA1, signature_type=AUTH_HEADER, callback_uri=None, rsa_key=None, verifier=None, realm=None, encoding=utf-8, decoding=None, nonce=None, timestamp=None>
+03/01/2019 20:17:43 DEBUG: Including body in call to sign: False
+03/01/2019 20:17:43 DEBUG: Collected params: [('id', 'Apple India'), ('oauth_nonce', '110660548921236645161551485863'), ('oauth_timestamp', '1551485863'), ('oauth_version', '1.0'), ('oauth_signature_method', 'HMAC-SHA1'), ('oauth_consumer_key', 'eRvtkP6oXaUK6ZiCKCnOPujQ8'), ('oauth_token', '1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx')]
+03/01/2019 20:17:43 DEBUG: Normalized params: id=Apple%20India&oauth_consumer_key=eRvtkP6oXaUK6ZiCKCnOPujQ8&oauth_nonce=110660548921236645161551485863&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1551485863&oauth_token=1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx&oauth_version=1.0
+03/01/2019 20:17:43 DEBUG: Normalized URI: https://api.twitter.com/1.1/statuses/user_timeline.json
+03/01/2019 20:17:43 DEBUG: Signing: signature base string: GET&https%3A%2F%2Fapi.twitter.com%2F1.1%2Fstatuses%2Fuser_timeline.json&id%3DApple%2520India%26oauth_consumer_key%3DeRvtkP6oXaUK6ZiCKCnOPujQ8%26oauth_nonce%3D110660548921236645161551485863%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1551485863%26oauth_token%3D1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx%26oauth_version%3D1.0
+03/01/2019 20:17:43 DEBUG: Signature: 4FXINR+u/0KUIQ0KH7GzZHYb+ss=
+03/01/2019 20:17:43 DEBUG: Updated url: https://api.twitter.com/1.1/statuses/user_timeline.json?id=Apple+India
+03/01/2019 20:17:43 DEBUG: Updated headers: {'Host': 'api.twitter.com', 'Authorization': 'OAuth oauth_nonce="110660548921236645161551485863", oauth_timestamp="1551485863", oauth_version="1.0", oauth_signature_method="HMAC-SHA1", oauth_consumer_key="eRvtkP6oXaUK6ZiCKCnOPujQ8", oauth_token="1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx", oauth_signature="4FXINR%2Bu%2F0KUIQ0KH7GzZHYb%2Bss%3D"'}
+03/01/2019 20:17:43 DEBUG: Updated body: None
+03/01/2019 20:17:43 DEBUG: Starting new HTTPS connection (1): api.twitter.com:443
+03/01/2019 20:17:43 DEBUG: https://api.twitter.com:443 "GET /1.1/statuses/user_timeline.json?id=Apple+India HTTP/1.1" 200 2
+03/01/2019 20:17:43 INFO: Writing the fetched tweets into a csv file
+03/01/2019 20:17:43 INFO: Writing raw twitter data to CSV format: raw_twitter_data.csv
