@@ -29,17 +29,18 @@ def google_scraper():
 			google_scraper.generate_google_src_code()
 			hyperlinks = google_scraper.get_hyperlinks()
 			raw_feature_data = google_scraper.get_raw_data(hyperlinks)
-			raw_feature_data = pd.DataFrame(raw_feature_data, columns=[feature])
-			company_data = pd.concat([company_data, raw_feature_data], axis = 1)
+			raw_feature_data_df = pd.DataFrame(raw_feature_data, columns=[feature])
+			company_data = pd.concat([company_data, raw_feature_data_df], axis = 1)
 			logging.info("============{}, {} feature data collection completed============".format(company, feature))
-		company_name = [company for each_count in range(COUNT)]
+		company_name = [company for each_count in range(len(raw_feature_data))]
 		company_name_df = pd.DataFrame(company_name, columns=["COMPANY"])
 		company_data = pd.concat([company_data, company_name_df], axis=1)
-		raw_data = pd.concat([raw_data, company_data], ignore_index=True)
+		pickle(company_data, company)
+		#raw_data = pd.concat([raw_data, company_data], ignore_index=True)
 		logging.info("============{} data collection completed============".format(company))	
 
-	print(raw_data)
-	raw_data.to_csv(COMPANY_DATA_PATH, index=False)
+	#print(raw_data)
+	#raw_data.to_csv(COMPANY_DATA_PATH, index=False)
 
 def twitter_scraper():
 	raw_twitter_data = pd.DataFrame()

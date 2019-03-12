@@ -13,7 +13,7 @@ TWITTER_QUERIES = ["Apple","Samsung"]
 # Raw Twitter Data CSV filename
 TWITTER_DATA_CSV = "raw_twitter_data.csv"
 #############
-
+## START
 # Company names
 COMPANIES = ["IBM", "Oracle"]
 
@@ -36,8 +36,8 @@ CHROMEDRIVERPATH = "D:/MACS/nlp/Project/company-analysis-env/project-code/src/ch
 HEADERLESS = False
 
 # Google and Twitter enabler
-GOOGLE = 1
-TWITTER = 0
+GOOGLE = 0
+TWITTER = 1
 
 # Number of tweets needed
 TWEETS = 200
