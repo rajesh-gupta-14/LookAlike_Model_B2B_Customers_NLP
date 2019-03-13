@@ -10,7 +10,7 @@ import csv
 import json
 import os
 from global_vars import *
-import pickle as pl
+import pickle as pkl
 
 def configure_logger():
 	current_datetime = datetime.now().strftime("%d-%m-%Y %H-%M-%S")
@@ -41,11 +41,22 @@ def get_raw_tweets_from_csv():
 	return raw_tweets
 
 
-def write_to_file(text):
-	with open("trial.txt","w") as f:
+def write_file(text, filename):
+	with open(filename,"w") as f:
 		f.write(text)
 
-def pickle(obj, company):
-	COMPANYPKLPATH = company + ".pkl" 
+def read_file(filename):
+	with open(filename, "r") as f:
+		data = f.read()
+	return data
+	
+def pickle(obj, filename):
+	COMPANYPKLPATH = filename + ".pkl" 
 	with open(COMPANYPKLPATH, "wb") as f:
-		pl.dump(obj, f)
+		pkl.dump(obj, f)
+
+def unpickle(filename):
+	COMPANYPKLPATH = filename + ".pkl"
+	with open(COMPANYPKLPATH, "rb") as f:
+		data = pkl.load(f)
+	return data
