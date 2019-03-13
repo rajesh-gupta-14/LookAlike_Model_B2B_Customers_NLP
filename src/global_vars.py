@@ -1,19 +1,6 @@
 # imports
 import os
-######
-# Twitter API credentials
-CONSUMER_KEY = "eRvtkP6oXaUK6ZiCKCnOPujQ8"
-CONSUMER_SECRET = "91vze0F0XCeNw442JWtW7vQdN36fAthDcfsXAhOCuM3KScvGQK"
-ACCESS_KEY = "1044693780224462849-sgHwgJaSKB5Vm9C6R9yKsHlApxdwlx"
-ACCESS_SECRET = "XP9kVkHm8b7DAqqDi3CqSm4JznLdCc0yNrXpkWVM7JaBD"
 
-# User Query
-TWITTER_QUERIES = ["Apple","Samsung"]
-
-# Raw Twitter Data CSV filename
-TWITTER_DATA_CSV = "raw_twitter_data.csv"
-#############
-## START
 # Company names
 COMPANIES = ["IBM", "Oracle"]
 
