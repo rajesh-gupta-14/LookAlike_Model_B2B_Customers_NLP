@@ -14,17 +14,17 @@ FEATURES = {
 COUNT = 10
 
 # Company Data CSV filename
-COMPANY_DATA_PATH = "company_data.csv"
+COMPANY_DATA_PATH = os.path.join(os.getcwd(), "twitter_data", "company_data.csv")
 
 # Chromedriver path
-CHROMEDRIVERPATH = "D:/MACS/nlp/Project/company-analysis-env/project-code/src/chromedriver.exe"
+CHROMEDRIVERPATH = os.path.join(os.getcwd(), "driver", "chromedriver.exe")
 
 # Headerless boolean
 HEADERLESS = False
 
 # Google and Twitter enabler
-GOOGLE = 0
-TWITTER = 1
+GOOGLE = 1
+TWITTER = 0
 
 # Number of tweets needed
 TWEETS = 200

@@ -50,13 +50,13 @@ def read_file(filename):
 		data = f.read()
 	return data
 	
-def pickle(obj, filename):
-	COMPANYPKLPATH = filename + ".pkl" 
+def pickle(obj, filename, foldername):
+	COMPANYPKLPATH = os.path.join(os.getcwd(), foldername, filename + ".pkl") 
 	with open(COMPANYPKLPATH, "wb") as f:
 		pkl.dump(obj, f)
 
-def unpickle(filename):
-	COMPANYPKLPATH = filename + ".pkl"
+def unpickle(filename, foldername):
+	COMPANYPKLPATH = os.path.join(os.getcwd(), foldername, filename + ".pkl")
 	with open(COMPANYPKLPATH, "rb") as f:
 		data = pkl.load(f)
 	return data

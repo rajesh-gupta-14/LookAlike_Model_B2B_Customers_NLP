@@ -1,0 +1,302 @@
+03/20/2019 21:17:35 INFO: ============Script execution started============
+03/20/2019 21:17:35 INFO: =====================Setting company variables for Google Search===================
+03/20/2019 21:17:35 INFO: ======================Generating Google Search code==========================
+03/20/2019 21:17:35 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/20/2019 21:17:35 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=@IBM&as_oq=&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/20/2019 21:17:36 INFO: =========================Getting search result hyperlinks========================
+03/20/2019 21:17:36 INFO: ============Twitter hyperlink extraction started============
+03/20/2019 21:17:36 INFO: ============Twitter hyperlink extraction completed============
+03/20/2019 21:17:36 INFO: ============Tweets extraction for @IBM started============
+03/20/2019 21:17:36 INFO: ============Selenium URL set:https://twitter.com/ibm============
+03/20/2019 21:17:36 INFO: ============Selenium Invoked============
+03/20/2019 21:17:39 DEBUG: POST http://127.0.0.1:51353/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"prefs": {"profile.managed_default_content_settings.images": 2}, "extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"prefs": {"profile.managed_default_content_settings.images": 2}, "extensions": [], "args": []}}}
+03/20/2019 21:17:39 DEBUG: Starting new HTTP connection (1): 127.0.0.1:51353
+03/20/2019 21:17:41 DEBUG: http://127.0.0.1:51353 "POST /session HTTP/1.1" 200 833
+03/20/2019 21:17:41 DEBUG: Finished Request
+03/20/2019 21:17:41 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/url {"url": "https://twitter.com/ibm", "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:43 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/url HTTP/1.1" 200 72
+03/20/2019 21:17:43 DEBUG: Finished Request
+03/20/2019 21:17:43 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/element {"using": "class name", "value": "tweet-text", "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:43 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/element HTTP/1.1" 200 102
+03/20/2019 21:17:43 DEBUG: Finished Request
+03/20/2019 21:17:43 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:43 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 72
+03/20/2019 21:17:43 DEBUG: Finished Request
+03/20/2019 21:17:43 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:44 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 470793
+03/20/2019 21:17:44 DEBUG: Finished Request
+03/20/2019 21:17:45 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:45 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 676612
+03/20/2019 21:17:45 DEBUG: Finished Request
+03/20/2019 21:17:45 INFO: ============29 tweets obtained for IBM============
+03/20/2019 21:17:45 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:46 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 72
+03/20/2019 21:17:46 DEBUG: Finished Request
+03/20/2019 21:17:46 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:46 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 670608
+03/20/2019 21:17:46 DEBUG: Finished Request
+03/20/2019 21:17:47 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:47 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 897583
+03/20/2019 21:17:47 DEBUG: Finished Request
+03/20/2019 21:17:48 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:48 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 897583
+03/20/2019 21:17:48 DEBUG: Finished Request
+03/20/2019 21:17:48 INFO: ============48 tweets obtained for IBM============
+03/20/2019 21:17:48 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:49 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 72
+03/20/2019 21:17:49 DEBUG: Finished Request
+03/20/2019 21:17:49 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:49 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 895444
+03/20/2019 21:17:49 DEBUG: Finished Request
+03/20/2019 21:17:50 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:50 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 1123238
+03/20/2019 21:17:50 DEBUG: Finished Request
+03/20/2019 21:17:51 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:51 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 1123238
+03/20/2019 21:17:51 DEBUG: Finished Request
+03/20/2019 21:17:52 INFO: ============66 tweets obtained for IBM============
+03/20/2019 21:17:52 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:52 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 72
+03/20/2019 21:17:52 DEBUG: Finished Request
+03/20/2019 21:17:52 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:52 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 1126181
+03/20/2019 21:17:52 DEBUG: Finished Request
+03/20/2019 21:17:54 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:54 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 1348820
+03/20/2019 21:17:54 DEBUG: Finished Request
+03/20/2019 21:17:55 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:55 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 1348820
+03/20/2019 21:17:55 DEBUG: Finished Request
+03/20/2019 21:17:56 INFO: ============83 tweets obtained for IBM============
+03/20/2019 21:17:56 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:56 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 72
+03/20/2019 21:17:56 DEBUG: Finished Request
+03/20/2019 21:17:56 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:57 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 1344169
+03/20/2019 21:17:57 DEBUG: Finished Request
+03/20/2019 21:17:58 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:17:59 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 1599479
+03/20/2019 21:17:59 DEBUG: Finished Request
+03/20/2019 21:18:00 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:00 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 1599479
+03/20/2019 21:18:00 DEBUG: Finished Request
+03/20/2019 21:18:01 INFO: ============103 tweets obtained for IBM============
+03/20/2019 21:18:01 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:01 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 72
+03/20/2019 21:18:01 DEBUG: Finished Request
+03/20/2019 21:18:01 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:02 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 1599906
+03/20/2019 21:18:02 DEBUG: Finished Request
+03/20/2019 21:18:03 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:04 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 1819730
+03/20/2019 21:18:04 DEBUG: Finished Request
+03/20/2019 21:18:05 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:05 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 1819730
+03/20/2019 21:18:05 DEBUG: Finished Request
+03/20/2019 21:18:07 INFO: ============120 tweets obtained for IBM============
+03/20/2019 21:18:07 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:07 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 72
+03/20/2019 21:18:07 DEBUG: Finished Request
+03/20/2019 21:18:07 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:07 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 1811743
+03/20/2019 21:18:07 DEBUG: Finished Request
+03/20/2019 21:18:09 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:10 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2028955
+03/20/2019 21:18:10 DEBUG: Finished Request
+03/20/2019 21:18:11 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:11 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2028955
+03/20/2019 21:18:11 DEBUG: Finished Request
+03/20/2019 21:18:13 INFO: ============137 tweets obtained for IBM============
+03/20/2019 21:18:13 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:13 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 72
+03/20/2019 21:18:13 DEBUG: Finished Request
+03/20/2019 21:18:13 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:13 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2026745
+03/20/2019 21:18:13 DEBUG: Finished Request
+03/20/2019 21:18:15 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:15 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2290335
+03/20/2019 21:18:16 DEBUG: Finished Request
+03/20/2019 21:18:17 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:18 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2290335
+03/20/2019 21:18:18 DEBUG: Finished Request
+03/20/2019 21:18:20 INFO: ============157 tweets obtained for IBM============
+03/20/2019 21:18:20 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:20 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 72
+03/20/2019 21:18:20 DEBUG: Finished Request
+03/20/2019 21:18:20 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:20 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2280572
+03/20/2019 21:18:20 DEBUG: Finished Request
+03/20/2019 21:18:22 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:23 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2512660
+03/20/2019 21:18:23 DEBUG: Finished Request
+03/20/2019 21:18:24 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:25 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2512660
+03/20/2019 21:18:25 DEBUG: Finished Request
+03/20/2019 21:18:26 INFO: ============175 tweets obtained for IBM============
+03/20/2019 21:18:26 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:26 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 72
+03/20/2019 21:18:26 DEBUG: Finished Request
+03/20/2019 21:18:26 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:27 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2515265
+03/20/2019 21:18:27 DEBUG: Finished Request
+03/20/2019 21:18:29 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:30 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2731159
+03/20/2019 21:18:30 DEBUG: Finished Request
+03/20/2019 21:18:32 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:32 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2731159
+03/20/2019 21:18:32 DEBUG: Finished Request
+03/20/2019 21:18:34 INFO: ============192 tweets obtained for IBM============
+03/20/2019 21:18:34 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:34 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 72
+03/20/2019 21:18:34 DEBUG: Finished Request
+03/20/2019 21:18:34 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:35 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2730534
+03/20/2019 21:18:35 DEBUG: Finished Request
+03/20/2019 21:18:38 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:38 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2948971
+03/20/2019 21:18:39 DEBUG: Finished Request
+03/20/2019 21:18:41 DEBUG: POST http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:41 DEBUG: http://127.0.0.1:51353 "POST /session/b5ad0fa08accb620eae4fae3473ea061/execute HTTP/1.1" 200 2948971
+03/20/2019 21:18:41 DEBUG: Finished Request
+03/20/2019 21:18:43 INFO: ============208 tweets obtained for IBM============
+03/20/2019 21:18:43 DEBUG: DELETE http://127.0.0.1:51353/session/b5ad0fa08accb620eae4fae3473ea061 {"sessionId": "b5ad0fa08accb620eae4fae3473ea061"}
+03/20/2019 21:18:43 DEBUG: http://127.0.0.1:51353 "DELETE /session/b5ad0fa08accb620eae4fae3473ea061 HTTP/1.1" 200 72
+03/20/2019 21:18:43 DEBUG: Finished Request
+03/20/2019 21:18:46 INFO: =====================Setting company variables for Google Search===================
+03/20/2019 21:18:46 INFO: ======================Generating Google Search code==========================
+03/20/2019 21:18:46 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/20/2019 21:18:47 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=@Oracle&as_oq=&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/20/2019 21:18:47 INFO: =========================Getting search result hyperlinks========================
+03/20/2019 21:18:47 INFO: ============Twitter hyperlink extraction started============
+03/20/2019 21:18:47 INFO: ============Twitter hyperlink extraction completed============
+03/20/2019 21:18:47 INFO: ============Tweets extraction for @Oracle started============
+03/20/2019 21:18:47 INFO: ============Selenium URL set:https://twitter.com/oracle============
+03/20/2019 21:18:47 INFO: ============Selenium Invoked============
+03/20/2019 21:18:50 DEBUG: POST http://127.0.0.1:51455/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"prefs": {"profile.managed_default_content_settings.images": 2}, "extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"prefs": {"profile.managed_default_content_settings.images": 2}, "extensions": [], "args": []}}}
+03/20/2019 21:18:50 DEBUG: Starting new HTTP connection (1): 127.0.0.1:51455
+03/20/2019 21:18:52 DEBUG: http://127.0.0.1:51455 "POST /session HTTP/1.1" 200 832
+03/20/2019 21:18:52 DEBUG: Finished Request
+03/20/2019 21:18:52 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/url {"url": "https://twitter.com/oracle", "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:18:54 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/url HTTP/1.1" 200 72
+03/20/2019 21:18:54 DEBUG: Finished Request
+03/20/2019 21:18:54 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/element {"using": "class name", "value": "tweet-text", "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:18:54 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/element HTTP/1.1" 200 102
+03/20/2019 21:18:54 DEBUG: Finished Request
+03/20/2019 21:18:54 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:18:55 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 72
+03/20/2019 21:18:55 DEBUG: Finished Request
+03/20/2019 21:18:55 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:18:55 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 566691
+03/20/2019 21:18:55 DEBUG: Finished Request
+03/20/2019 21:18:55 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:18:55 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 833846
+03/20/2019 21:18:55 DEBUG: Finished Request
+03/20/2019 21:18:56 INFO: ============40 tweets obtained for Oracle============
+03/20/2019 21:18:56 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:18:56 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 72
+03/20/2019 21:18:56 DEBUG: Finished Request
+03/20/2019 21:18:56 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:18:56 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 833868
+03/20/2019 21:18:56 DEBUG: Finished Request
+03/20/2019 21:18:57 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:18:57 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 1108498
+03/20/2019 21:18:57 DEBUG: Finished Request
+03/20/2019 21:18:58 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:18:58 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 1108498
+03/20/2019 21:18:58 DEBUG: Finished Request
+03/20/2019 21:18:59 INFO: ============60 tweets obtained for Oracle============
+03/20/2019 21:18:59 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:18:59 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 72
+03/20/2019 21:18:59 DEBUG: Finished Request
+03/20/2019 21:18:59 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:18:59 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 1103440
+03/20/2019 21:18:59 DEBUG: Finished Request
+03/20/2019 21:19:01 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:01 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 1381722
+03/20/2019 21:19:01 DEBUG: Finished Request
+03/20/2019 21:19:02 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:02 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 1381722
+03/20/2019 21:19:02 DEBUG: Finished Request
+03/20/2019 21:19:03 INFO: ============80 tweets obtained for Oracle============
+03/20/2019 21:19:03 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:03 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 72
+03/20/2019 21:19:03 DEBUG: Finished Request
+03/20/2019 21:19:03 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:03 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 1384388
+03/20/2019 21:19:03 DEBUG: Finished Request
+03/20/2019 21:19:05 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:05 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 1665042
+03/20/2019 21:19:05 DEBUG: Finished Request
+03/20/2019 21:19:06 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:07 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 1665042
+03/20/2019 21:19:07 DEBUG: Finished Request
+03/20/2019 21:19:08 INFO: ============100 tweets obtained for Oracle============
+03/20/2019 21:19:08 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:08 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 72
+03/20/2019 21:19:08 DEBUG: Finished Request
+03/20/2019 21:19:08 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:08 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 1665042
+03/20/2019 21:19:08 DEBUG: Finished Request
+03/20/2019 21:19:10 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:10 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 1928689
+03/20/2019 21:19:10 DEBUG: Finished Request
+03/20/2019 21:19:11 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:11 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 1928689
+03/20/2019 21:19:11 DEBUG: Finished Request
+03/20/2019 21:19:12 INFO: ============120 tweets obtained for Oracle============
+03/20/2019 21:19:12 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:12 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 72
+03/20/2019 21:19:12 DEBUG: Finished Request
+03/20/2019 21:19:12 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:13 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 1929439
+03/20/2019 21:19:13 DEBUG: Finished Request
+03/20/2019 21:19:15 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:15 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 2190267
+03/20/2019 21:19:15 DEBUG: Finished Request
+03/20/2019 21:19:16 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:17 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 2190267
+03/20/2019 21:19:17 DEBUG: Finished Request
+03/20/2019 21:19:18 INFO: ============140 tweets obtained for Oracle============
+03/20/2019 21:19:18 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:18 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 72
+03/20/2019 21:19:18 DEBUG: Finished Request
+03/20/2019 21:19:18 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:18 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 2192872
+03/20/2019 21:19:18 DEBUG: Finished Request
+03/20/2019 21:19:20 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:21 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 2465091
+03/20/2019 21:19:21 DEBUG: Finished Request
+03/20/2019 21:19:22 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:23 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 2465091
+03/20/2019 21:19:23 DEBUG: Finished Request
+03/20/2019 21:19:24 INFO: ============160 tweets obtained for Oracle============
+03/20/2019 21:19:24 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:24 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 72
+03/20/2019 21:19:24 DEBUG: Finished Request
+03/20/2019 21:19:24 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:25 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 2458592
+03/20/2019 21:19:25 DEBUG: Finished Request
+03/20/2019 21:19:27 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:28 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 2726633
+03/20/2019 21:19:28 DEBUG: Finished Request
+03/20/2019 21:19:29 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:30 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 2726633
+03/20/2019 21:19:30 DEBUG: Finished Request
+03/20/2019 21:19:32 INFO: ============180 tweets obtained for Oracle============
+03/20/2019 21:19:32 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "window.scrollTo(0, document.body.scrollHeight);", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:32 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 72
+03/20/2019 21:19:32 DEBUG: Finished Request
+03/20/2019 21:19:32 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:32 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 2726633
+03/20/2019 21:19:32 DEBUG: Finished Request
+03/20/2019 21:19:35 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:35 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 2981807
+03/20/2019 21:19:35 DEBUG: Finished Request
+03/20/2019 21:19:37 DEBUG: POST http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20/execute {"script": "return document.body.innerHTML;", "args": [], "sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:37 DEBUG: http://127.0.0.1:51455 "POST /session/0aa1bbae9bc201b2542c410df7686b20/execute HTTP/1.1" 200 2981807
+03/20/2019 21:19:38 DEBUG: Finished Request
+03/20/2019 21:19:39 INFO: ============200 tweets obtained for Oracle============
+03/20/2019 21:19:39 DEBUG: DELETE http://127.0.0.1:51455/session/0aa1bbae9bc201b2542c410df7686b20 {"sessionId": "0aa1bbae9bc201b2542c410df7686b20"}
+03/20/2019 21:19:39 DEBUG: http://127.0.0.1:51455 "DELETE /session/0aa1bbae9bc201b2542c410df7686b20 HTTP/1.1" 200 72
+03/20/2019 21:19:39 DEBUG: Finished Request
+03/20/2019 21:19:42 INFO: ============Script execution completed============

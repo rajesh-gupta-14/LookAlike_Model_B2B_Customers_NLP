@@ -7,7 +7,7 @@
 from global_vars import *
 import pandas as pd
 from google_scraper import GoogleScraper
-from utility_functions import write_to_file
+from utility_functions import *
 from bs4 import BeautifulSoup
 import requests
 import logging
