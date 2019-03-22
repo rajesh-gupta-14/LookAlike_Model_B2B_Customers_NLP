@@ -14,8 +14,9 @@ class DataCleaning:
         self.js = re.compile(r'<script.*?>.*?</script>')
         self.html = re.compile(r'<.*?>')
         self.braces = re.compile(r'{.*?}')
-        self.spl_symbols = re.compile(r'&\S*?;')
+        self.spl_symbols = re.compile(r'&\S*?;|[\\\/\_\(\)\|\>\<\%]|\.async\-hide')
         self.spaces = re.compile(r'\s+')
+        self.urls = re.compile(r'https?\:\/\/.*?\s')
 
     def clean_js(self, df, columns=None):
         """
@@ -60,8 +61,12 @@ class DataCleaning:
             return df.T.iloc[0,:] # df.squeeze() will also do
         return self.spaces.sub(" ", str(df))
 
-    def clean_nan(self, df, columns=None):
-        pass
+    def clean_urls(self, df, columns=None):
+        logging.info("="*15+"Cleaning URLs"+"="*15)
+        if columns is not None:
+            df = df[columns].to_frame().applymap(lambda x: self.clean_urls(x))
+            return df.T.iloc[0,:] # df.squeeze() will also do
+        return self.urls.sub(" ", str(df))
 
 if __name__ == "__main__":
     configure_logger()
@@ -80,10 +85,15 @@ if __name__ == "__main__":
         data[columns] = data[columns].applymap(lambda x: clean.clean_html(x))
         logging.info("="*15 + "Cleaning the braces"+ "="*15)
         data[columns] = data[columns].applymap(lambda x: clean.clean_braces(x))
+        logging.info("="*15 + "Cleaning the URLs"+ "="*15)
+        data[columns] = data[columns].applymap(lambda x: clean.clean_urls(x))
         logging.info("="*15 + "Cleaning the special symbols"+ "="*15)
         data[columns] = data[columns].applymap(lambda x: clean.clean_special_symbols(x))
         logging.info("="*15 + "Cleaning the spaces"+ "="*15)
         data[columns] = data[columns].applymap(lambda x: clean.clean_spaces(x))
+        logging.info("="*15 + "Filling NaNs (nan string due to str(df) in clean fns) and blanks with 0"+ "="*15)
+        data[columns] = data[columns].replace("nan", 0)
+        data[columns] = data[columns].replace(" ", 0)
         logging.info("="*15 + f"{company} data cleaned"+ "="*15)
         pickle(data, company, "cleaned_data")
         print(data)

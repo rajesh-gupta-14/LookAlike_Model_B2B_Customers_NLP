@@ -7,7 +7,10 @@ COMPANIES = ["IBM", "Oracle"]
 # Features
 FEATURES = {
     "SIZE" : ["\"size\"", "\"number of employees\"", "\"employees\""],
-    "ACQUISITIONS" : ["\"acquire\"", "\"take over\"", "\"took over\"","\"acquisition\""]
+    "ACQUISITIONS" : ["\"acquire\"", "\"take over\"", "\"took over\"","\"acquisition\""],
+    "FUTURE GOALS" : ["\"future\"", "\"goals\"", "\"future goals\"", "\"aim\"", "\"ambition\"", "\"objectives\"", "\"deals\""],
+    "TECH STACK" : ["\"technology\"","\"stack\"","\"stack\"","\"development tools\""],
+    "PRODUCTS" : ["\"products\"", "\"services\"", "\"applications\"", "\"software\"", "\"tools\""]
     }
 
 # Number of Google results

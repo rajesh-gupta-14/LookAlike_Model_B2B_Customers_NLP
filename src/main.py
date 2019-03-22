@@ -38,7 +38,7 @@ def google_scraper():
 		company_name = [company for each_count in range(company_rows)]
 		company_name_df = pd.DataFrame(company_name, columns=["COMPANY"])
 		company_data = pd.concat([company_data, company_name_df], axis=1)
-		pickle(company_data, "raw_data", company)
+		pickle(company_data, company, "raw_data")
 		raw_data = pd.concat([raw_data, company_data], ignore_index=True)
 		logging.info("============{} data collection completed============".format(company))	
 
