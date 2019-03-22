@@ -12,7 +12,8 @@ class DataCleaning:
 
     def __init__(self):
         self.js = re.compile(r'<script.*?>.*?</script>')
-        self.html = re.compile(r'<.*?>.*?</.*?>')
+        self.css = re.compile(r'<style.*?>.*?</style>')
+        self.html = re.compile(r'<.*?>')
         self.braces = re.compile(r'{.*?}')
         self.spl_symbols = re.compile(r'&\S*?;|[\\\/\_\(\)\|\>\<\%]|\.async\-hide')
         self.spaces = re.compile(r'\s+')
@@ -39,6 +40,13 @@ class DataCleaning:
             df = df[columns].to_frame().applymap(lambda x: self.clean_html(x))
             return df.T.iloc[0,:] # df.squeeze() will also do
         return self.html.sub(" ", str(df))
+
+    def clean_css(self, df, columns=None):
+        logging.info("="*15+"Cleaning CSS"+"="*15)
+        if columns is not None:
+            df = df[columns].to_frame().applymap(lambda x: self.clean_css(x))
+            return df.T.iloc[0,:] # df.squeeze() will also do
+        return self.css.sub(" ", str(df))
 
     def clean_braces(self, df, columns=None):
         logging.info("="*15+"Cleaning braces"+"="*15)
@@ -75,14 +83,14 @@ if __name__ == "__main__":
     for company in COMPANIES:
         logging.info("="*15 + f"Unpickling of {company}"+ "="*15)
         data = unpickle(company, "raw_data")
-        if company=="Microsoft":
-            write_file(data.iloc[4,4],"x.txt")
         clean = DataCleaning()
         columns = list(FEATURES.keys())
         # Even this can be used as an alternative to applymap
         # data[columns] = data[columns].apply(lambda x: clean.clean_js(x, columns=columns), axis=1)
         logging.info("="*15 + "Cleaning JS"+ "="*15)
         data[columns] = data[columns].applymap(lambda x: clean.clean_js(x))
+        logging.info("="*15 + "Cleaning CSS"+ "="*15)
+        data[columns] = data[columns].applymap(lambda x: clean.clean_css(x))
         logging.info("="*15 + "Cleaning HTML"+ "="*15)
         data[columns] = data[columns].applymap(lambda x: clean.clean_html(x))
         logging.info("="*15 + "Cleaning the braces"+ "="*15)
@@ -97,7 +105,5 @@ if __name__ == "__main__":
         data[columns] = data[columns].replace("nan", 0)
         data[columns] = data[columns].replace(" ", 0)
         logging.info("="*15 + f"{company} data cleaned"+ "="*15)
-        if company=="Microsoft":
-            write_file(data.iloc[4,4],"x1.txt")
         pickle(data, company, "cleaned_data")
         print(data)
