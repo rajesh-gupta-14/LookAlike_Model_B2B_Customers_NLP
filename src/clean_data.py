@@ -12,7 +12,7 @@ class DataCleaning:
 
     def __init__(self):
         self.js = re.compile(r'<script.*?>.*?</script>')
-        self.html = re.compile(r'<.*?>')
+        self.html = re.compile(r'<.*?>.*?</.*?>')
         self.braces = re.compile(r'{.*?}')
         self.spl_symbols = re.compile(r'&\S*?;|[\\\/\_\(\)\|\>\<\%]|\.async\-hide')
         self.spaces = re.compile(r'\s+')
@@ -75,6 +75,8 @@ if __name__ == "__main__":
     for company in COMPANIES:
         logging.info("="*15 + f"Unpickling of {company}"+ "="*15)
         data = unpickle(company, "raw_data")
+        if company=="Microsoft":
+            write_file(data.iloc[4,4],"x.txt")
         clean = DataCleaning()
         columns = list(FEATURES.keys())
         # Even this can be used as an alternative to applymap
@@ -95,5 +97,7 @@ if __name__ == "__main__":
         data[columns] = data[columns].replace("nan", 0)
         data[columns] = data[columns].replace(" ", 0)
         logging.info("="*15 + f"{company} data cleaned"+ "="*15)
+        if company=="Microsoft":
+            write_file(data.iloc[4,4],"x1.txt")
         pickle(data, company, "cleaned_data")
         print(data)
