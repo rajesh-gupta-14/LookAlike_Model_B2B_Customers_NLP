@@ -9,7 +9,9 @@ import requests
 import logging
 
 class GoogleScraper():
-    
+
+    headers = {'Accept-Encoding': 'gzip, deflate'}
+
     def __init__(self, company_name, any_of_these=[], count=10):
         logging.info("=====================Setting company variables for Google Search===================")
         self.company_name = company_name
@@ -22,7 +24,7 @@ class GoogleScraper():
     # Generate the source code of google search page
     def generate_google_src_code(self):
         logging.info("======================Generating Google Search code==========================")
-        response = requests.get(self.google_url)
+        response = requests.get(self.google_url, headers=GoogleScraper.headers)
         self.google_src_code = response.text.encode("ascii","ignore").decode("utf-8")
         return self.google_src_code
 
@@ -41,6 +43,6 @@ class GoogleScraper():
             hyperlinks = self.hyperlinks
         logging.info("=========================Getting search result source code=========================")
         raw_data = []
-        raw_data = [str(requests.get(hyperlink).text.encode("ascii","ignore").decode("utf-8")).replace("\n","").replace(",","")
+        raw_data = [str(requests.get(hyperlink, headers=GoogleScraper.headers).text.encode("ascii","ignore").decode("utf-8")).replace("\n","").replace(",","")
                                 for hyperlink in hyperlinks]
         return raw_data

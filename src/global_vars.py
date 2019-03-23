@@ -2,7 +2,7 @@
 import os
 
 # Company names
-COMPANIES = ["Amazon", "Microsoft"]
+COMPANIES = ["IBM", "Oracle", "Amazon", "Microsoft"]
 
 # Features
 FEATURES = {
