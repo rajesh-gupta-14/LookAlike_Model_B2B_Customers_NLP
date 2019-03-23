@@ -7,8 +7,14 @@ from utility_functions import *
 from global_vars import *
 import re, pandas as pd
 import logging
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer, WordNetLemmatizer
 
 class DataCleaning:
+
+    stop = stopwords.words('english')
+    ps = PorterStemmer()
+    wnl = WordNetLemmatizer()
 
     def __init__(self):
         self.js = re.compile(r'<script.*?>.*?</script>')
@@ -76,6 +82,30 @@ class DataCleaning:
             return df.T.iloc[0,:] # df.squeeze() will also do
         return self.urls.sub(" ", str(df))
 
+    @classmethod
+    def clean_stopwords(cls, df, columns=None):
+        logging.info("="*15+"Cleaning stopwords"+"="*15)
+        if columns is not None:
+            df = df[columns].to_frame().applymap(lambda x: cls.clean_stopwords(x))
+            return df.T.iloc[0,:] # df.squeeze() will also do
+        return " ".join([token for token in str(df).split() if token not in cls.stop])
+    
+    @classmethod
+    def stem_tokens(cls, df, columns=None):
+        logging.info("="*15+"Stemming words"+"="*15)
+        if columns is not None:
+            df = df[columns].to_frame().applymap(lambda x: cls.stem_tokens(x))
+            return df.T.iloc[0,:] # df.squeeze() will also do
+        return " ".join([cls.ps.stem(token) for token in str(df).split()])
+
+    @classmethod
+    def lemmatize_tokens(cls, df, columns=None):
+        logging.info("="*15+"Lemmatizing words"+"="*15)
+        if columns is not None:
+            df = df[columns].to_frame().applymap(lambda x: cls.lemmatize_tokens(x))
+            return df.T.iloc[0,:] # df.squeeze() will also do
+        return " ".join([cls.wnl.lemmatize(token) for token in str(df).split()])
+
 if __name__ == "__main__":
     configure_logger()
     logging.info("="*15 + "Cleaning script started"+ "="*15)
@@ -101,6 +131,12 @@ if __name__ == "__main__":
         data[columns] = data[columns].applymap(lambda x: clean.clean_special_symbols(x))
         logging.info("="*15 + "Cleaning the spaces"+ "="*15)
         data[columns] = data[columns].applymap(lambda x: clean.clean_spaces(x))
+        logging.info("="*15 + "Removing the stopwords" + "="*15)
+        data[columns] = data[columns].applymap(lambda x: DataCleaning.clean_stopwords(x))
+        logging.info("="*15 + "Lemmaitizing the words" + "="*15)
+        data[columns] = data[columns].applymap(lambda x: DataCleaning.lemmatize_tokens(x))
+        #logging.info("="*15 + "Stemming the words" + "="*15) #Bad results due to stemming
+        #data[columns] = data[columns].applymap(lambda x: DataCleaning.stem_tokens(x))
         logging.info("="*15 + "Filling NaNs (nan string due to str(df) in clean fns) and blanks with 0"+ "="*15)
         data[columns] = data[columns].replace("nan", 0)
         data[columns] = data[columns].replace(" ", 0)
