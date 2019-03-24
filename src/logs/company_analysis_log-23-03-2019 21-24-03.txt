@@ -1,0 +1,11 @@
+03/23/2019 21:24:03 INFO: ===============Merging cleaned dataframes===============
+03/23/2019 21:24:03 INFO: ===============Generating SIZE set
+03/23/2019 21:24:03 INFO: ===============Successfully generated===============
+03/23/2019 21:24:03 INFO: ===============Generating ACQUISITIONS set
+03/23/2019 21:24:03 INFO: ===============Successfully generated===============
+03/23/2019 21:24:03 INFO: ===============Generating FUTURE GOALS set
+03/23/2019 21:24:03 INFO: ===============Successfully generated===============
+03/23/2019 21:24:03 INFO: ===============Generating TECH STACK set
+03/23/2019 21:24:03 INFO: ===============Successfully generated===============
+03/23/2019 21:24:03 INFO: ===============Generating PRODUCTS set
+03/23/2019 21:24:03 INFO: ===============Successfully generated===============
