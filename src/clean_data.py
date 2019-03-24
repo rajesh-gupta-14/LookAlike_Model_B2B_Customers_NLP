@@ -5,7 +5,7 @@
 #==========================================
 from utility_functions import *
 from global_vars import *
-import re, pandas as pd
+import re, pandas as pd, numpy as np
 import logging
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer, WordNetLemmatizer
@@ -16,7 +16,7 @@ class DataCleaning:
     ps = PorterStemmer()
     wnl = WordNetLemmatizer()
 
-    def __init__(self):
+    def __init__(self, company, features):
         self.js = re.compile(r'<script.*?>.*?</script>')
         self.css = re.compile(r'<style.*?>.*?</style>')
         self.html = re.compile(r'<.*?>')
@@ -24,6 +24,20 @@ class DataCleaning:
         self.spl_symbols = re.compile(r'&\S*?;|[\\\/\_\(\)\|\>\<\%]|\.async\-hide')
         self.spaces = re.compile(r'\s+')
         self.urls = re.compile(r'https?\:\/\/.*?\s')
+        self.generate_metadata_pattern(company, features)
+
+    def generate_metadata_pattern(self, company, features):
+        metadata=list(features.keys())
+        metadata.extend([x.strip("\"") for _, featurevalues in features.items() for x in featurevalues])
+        metadata.append(company)
+        self.meta_data = re.compile(r'{}'.format("|".join(metadata)), re.I)
+
+    def clean_metadata(self, df, columns=None):
+        logging.info("="*15+"Cleaning metadata"+"="*15)
+        if columns is not None:
+            df = df[columns].to_frame().applymap(lambda x: self.clean_metadata(x))
+            return df.T.iloc[0,:] # df.squeeze() will also do
+        return self.meta_data.sub(" ", str(df))
 
     def clean_js(self, df, columns=None):
         """
@@ -113,10 +127,12 @@ if __name__ == "__main__":
     for company in COMPANIES:
         logging.info("="*15 + f"Unpickling of {company}"+ "="*15)
         data = unpickle(company, "raw_data")
-        clean = DataCleaning()
+        clean = DataCleaning(company, FEATURES)
         columns = list(FEATURES.keys())
         # Even this can be used as an alternative to applymap
         # data[columns] = data[columns].apply(lambda x: clean.clean_js(x, columns=columns), axis=1)
+        logging.info("="*15 + "Cleaning company name and features"+ "="*15)
+        data[columns] = data[columns].applymap(lambda x: clean.clean_metadata(x))
         logging.info("="*15 + "Cleaning JS"+ "="*15)
         data[columns] = data[columns].applymap(lambda x: clean.clean_js(x))
         logging.info("="*15 + "Cleaning CSS"+ "="*15)
@@ -142,4 +158,4 @@ if __name__ == "__main__":
         data[columns] = data[columns].replace(" ", 0)
         logging.info("="*15 + f"{company} data cleaned"+ "="*15)
         pickle(data, company, "cleaned_data")
-        print(data)
+        #print(data)
