@@ -158,4 +158,4 @@ if __name__ == "__main__":
         data[columns] = data[columns].replace(" ", 0)
         logging.info("="*15 + f"{company} data cleaned"+ "="*15)
         pickle(data, company, "cleaned_data")
-        #print(data)
+        print(data)
