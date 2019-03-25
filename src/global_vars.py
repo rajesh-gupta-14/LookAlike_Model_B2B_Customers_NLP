@@ -31,3 +31,9 @@ TWITTER = 0
 
 # Number of tweets needed
 TWEETS = 200
+
+# Modelling
+TOPIC_MODELLING = 0
+
+# Make datasets
+MAKE_DATASETS = 1
