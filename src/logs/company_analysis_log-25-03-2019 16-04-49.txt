@@ -1,0 +1,17 @@
+03/25/2019 16:04:49 INFO: ===============Topic modelling activated===============
+03/25/2019 16:04:49 INFO: ===============Unpickling of __feature__===============
+03/25/2019 16:04:49 INFO: ===============Count vectorizer model being built===============
+03/25/2019 16:04:49 INFO: ===============LDA model being built===============
+03/25/2019 16:05:37 INFO: ===============LDA model saved===============
+03/25/2019 16:05:37 INFO: ===============Transforming feature data to get topic distribution vectors===============
+03/25/2019 16:05:37 INFO: ===============Pickling the topic dist model for __feature__===============
+03/25/2019 16:05:37 INFO: ===============Building datasets===============
+03/25/2019 16:05:37 INFO: ===============Unpickling of __topic_model_feature__===============
+03/25/2019 16:05:37 INFO: ===============IBM dataset being calculated===============
+03/25/2019 16:05:37 INFO: ===============IBM dataset obtained===============
+03/25/2019 16:05:37 INFO: ===============Oracle dataset being calculated===============
+03/25/2019 16:05:37 INFO: ===============Oracle dataset obtained===============
+03/25/2019 16:05:37 INFO: ===============Amazon dataset being calculated===============
+03/25/2019 16:05:37 INFO: ===============Amazon dataset obtained===============
+03/25/2019 16:05:37 INFO: ===============Microsoft dataset being calculated===============
+03/25/2019 16:05:37 INFO: ===============Microsoft dataset obtained===============

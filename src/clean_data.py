@@ -21,7 +21,7 @@ class DataCleaning:
         self.css = re.compile(r'<style.*?>.*?</style>')
         self.html = re.compile(r'<.*?>')
         self.braces = re.compile(r'{.*?}')
-        self.spl_symbols = re.compile(r'&\S*?;|[\\\/\_\(\)\|\>\<\%]|\.async\-hide')
+        self.spl_symbols = re.compile(r'&\S*?;|[\\\/\_\(\)\|\>\<\%]|\.async\-hide|wikipedia|free|encyclopedia|403|Forbidden|nginx', re.I)
         self.spaces = re.compile(r'\s+')
         self.urls = re.compile(r'https?\:\/\/.*?\s')
         self.generate_metadata_pattern(company, features)

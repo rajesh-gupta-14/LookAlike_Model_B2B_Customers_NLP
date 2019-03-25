@@ -18,14 +18,14 @@ from sklearn.model_selection import train_test_split
 def preprocessing(data):
     return data.split()
 
-def topic_model():
-    logging.info("="*15 + "Unpickling of __feature__" + "="*15)  
-    feature_set = unpickle("ACQUISITIONS", "feature_sets")
+def topic_model(feature):
+    logging.info("="*15 + f"Unpickling of {feature}" + "="*15)  
+    feature_set = unpickle(feature, "feature_sets")
     #feature_set["SIZE"] = feature_set["SIZE"].apply(preprocessing)
 
     logging.info("="*15 + "Count vectorizer model being built" + "="*15)
     cv = CountVectorizer(analyzer=preprocessing, max_df = 1.0, min_df = 2)
-    vector_data = cv.fit_transform(feature_set["ACQUISITIONS"])
+    vector_data = cv.fit_transform(feature_set[feature])
 
     logging.info("="*15 + "LDA model being built" + "="*15)
     lda_model = LatentDirichletAllocation(n_topics=10, max_iter=1000, learning_method='online')
@@ -36,45 +36,67 @@ def topic_model():
 
     logging.info("="*15 + "Transforming feature data to get topic distribution vectors" + "="*15)
     lda_z = model.transform(vector_data)
-    feature_set["TOPIC MODELLING DIST"] = list(lda_z)
+    feature_set["TOPIC_MODEL_VECTOR"] = list(lda_z)
 
-    logging.info("="*15 + "Pickling the topic dist model for __feature__" + "="*15)
-    pickle(feature_set, "test_acq", "transformed_feature_sets")
-    print(feature_set[["TOPIC MODELLING DIST","COMPANY"]])
+    logging.info("="*15 + f"Pickling the topic dist model for {feature}" + "="*15)
+    pickle(feature_set, f"test_{feature}", "transformed_feature_sets")
+    print(feature_set[["TOPIC_MODEL_VECTOR","COMPANY"]])
     
-def knn(finaldata):
-    finaldata_arr = np.array(finaldata["TOPIC_MODEL_VECTOR"].values.tolist())
-    X_train, X_test, y_train, y_test = train_test_split(finaldata_arr,
-                                            finaldata["COMPANY"], test_size=0.25)
-    knn_model = KNeighborsClassifier(n_neighbors=1)
-    #Train the model using the training sets
-    knn_model.fit(X_train, y_train)
-    print(y_test)
-    #Predict the response for test dataset
-    y_pred = knn_model.predict(X_test)
-    print(y_pred)
+def knn(df):
+    """
+    X_train, X_test, y_train, y_test = train_test_split(input,
+                                            inputlabel, test_size=0.5)
+    """
+    result = pd.DataFrame()
+    for company in COMPANIES:
+        logging.info("="*15 + f"kNN model for similar company to {company} being built" + "="*15)
+        X_train = np.array(df[df["COMPANY"]!=company]["TOPIC_MODEL_VECTOR"].values.tolist())
+        y_train = df[df["COMPANY"]!=company]["COMPANY"]
+        logging.info("="*15 + f"kNN model - Train data READY" + "="*15)
+        X_test = np.array(df[df["COMPANY"]==company]["TOPIC_MODEL_VECTOR"].values.tolist())
+        y_test = df[df["COMPANY"]==company]["COMPANY"]
+        logging.info("="*15 + f"kNN model - Test data READY" + "="*15)
+        
+        knn_model = KNeighborsClassifier(n_neighbors=1)
+        logging.info("="*15 + f"kNN model being trained" + "="*15)
+        # Train the model
+        knn_model.fit(X_train, y_train)
+        logging.info("="*15 + f"kNN model trained successfully" + "="*15)
+        # Predict the response for test dataset
+        logging.info("="*15 + f"kNN model trained successfully" + "="*15)
+        y_pred = knn_model.predict(X_test)
+        logging.info("="*15 + f"kNN model predicted the most similar company to {company} successfully" + "="*15)
+        test_comp = pd.DataFrame({"TOPIC_MODEL_VECTOR":list(X_test), "COMPANY":list(y_test), "SIMILAR_COMPANY":list(y_pred)})
+        result = pd.concat([result, test_comp], ignore_index=True, axis=0)
+    print(result)
+        
 
-def make_data():
-    logging.info("="*15 + "Unpickling of __topic_model_feature__" + "="*15)
-    data = unpickle("test_acq", "extras")
+def make_data(feature):
+    logging.info("="*15 + f"Unpickling of transformed {feature}" + "="*15)
+    data = unpickle(f"test_{feature}", "transformed_feature_sets")
     companies = list(data["COMPANY"].unique())
     final_data = pd.DataFrame()
     for company in companies:
         logging.info("="*15 + f"{company} dataset being calculated" + "="*15)
-        company_data_dist = data[data["COMPANY"]==company][["TOPIC MODELLING DIST","COMPANY"]]
-        comp_topic_vector = np.mean(company_data_dist["TOPIC MODELLING DIST"])
+        company_data_dist = data[data["COMPANY"]==company][["TOPIC_MODEL_VECTOR","COMPANY"]]
+        comp_topic_vector = np.mean(company_data_dist["TOPIC_MODEL_VECTOR"])
         company_df = pd.DataFrame([[np.array(comp_topic_vector),company]], columns=["TOPIC_MODEL_VECTOR","COMPANY"])
         final_data = pd.concat([final_data, company_df], axis=0, ignore_index=True)
         logging.info("="*15 + f"{company} dataset obtained" + "="*15)
-    knn(final_data)
+    pickle(final_data, "final_data", "final_data")
 
 def main():
+    feature = str(input("Enter feature .pkl file name in EXACT format:\n"))
     if TOPIC_MODELLING:
         logging.info("="*15 + "Topic modelling activated" + "="*15)
-        topic_model()
+        topic_model(feature)
     if MAKE_DATASETS:
         logging.info("="*15 + "Building datasets" + "="*15)
-        make_data()
+        make_data(feature)
+    if KNN:
+        logging.info("="*15 + "kNN model activated" + "="*15)
+        final_data = unpickle("final_data", "final_data")
+        knn(final_data)
 
 # ------------------------------
 if __name__ == "__main__":

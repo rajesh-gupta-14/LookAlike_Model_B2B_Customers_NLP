@@ -33,7 +33,10 @@ TWITTER = 0
 TWEETS = 200
 
 # Modelling
-TOPIC_MODELLING = 0
+TOPIC_MODELLING = 1
 
 # Make datasets
 MAKE_DATASETS = 1
+
+# Knn model activation
+KNN = 1
