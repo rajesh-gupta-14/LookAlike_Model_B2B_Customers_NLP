@@ -40,3 +40,9 @@ MAKE_DATASETS = 1
 
 # Knn model activation
 KNN = 1
+
+# Iterations for topic modelling - Do not go above 10000
+NO_OF_ITERATIONS = 1000
+
+# Number of topics to be extracted
+NO_OF_TOPICS = 10

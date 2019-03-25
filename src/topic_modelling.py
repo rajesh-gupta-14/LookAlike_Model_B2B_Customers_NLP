@@ -28,7 +28,7 @@ def topic_model(feature):
     vector_data = cv.fit_transform(feature_set[feature])
 
     logging.info("="*15 + "LDA model being built" + "="*15)
-    lda_model = LatentDirichletAllocation(n_topics=10, max_iter=1000, learning_method='online')
+    lda_model = LatentDirichletAllocation(n_topics=NO_OF_TOPICS, max_iter=NO_OF_ITERATIONS, learning_method='online')
     model = lda_model.fit(vector_data)
 
     pickle(model, "lda_model", "topic_models")
@@ -63,7 +63,6 @@ def knn(df):
         knn_model.fit(X_train, y_train)
         logging.info("="*15 + f"kNN model trained successfully" + "="*15)
         # Predict the response for test dataset
-        logging.info("="*15 + f"kNN model trained successfully" + "="*15)
         y_pred = knn_model.predict(X_test)
         logging.info("="*15 + f"kNN model predicted the most similar company to {company} successfully" + "="*15)
         test_comp = pd.DataFrame({"TOPIC_MODEL_VECTOR":list(X_test), "COMPANY":list(y_test), "SIMILAR_COMPANY":list(y_pred)})
@@ -77,12 +76,12 @@ def make_data(feature):
     companies = list(data["COMPANY"].unique())
     final_data = pd.DataFrame()
     for company in companies:
-        logging.info("="*15 + f"{company} dataset being calculated" + "="*15)
+        logging.info("="*15 + f"{company} dataset - average of topic vectors being calculated" + "="*15)
         company_data_dist = data[data["COMPANY"]==company][["TOPIC_MODEL_VECTOR","COMPANY"]]
         comp_topic_vector = np.mean(company_data_dist["TOPIC_MODEL_VECTOR"])
         company_df = pd.DataFrame([[np.array(comp_topic_vector),company]], columns=["TOPIC_MODEL_VECTOR","COMPANY"])
         final_data = pd.concat([final_data, company_df], axis=0, ignore_index=True)
-        logging.info("="*15 + f"{company} dataset obtained" + "="*15)
+        logging.info("="*15 + f"{company} dataset - average obtained" + "="*15)
     pickle(final_data, "final_data", "final_data")
 
 def main():
@@ -90,13 +89,16 @@ def main():
     if TOPIC_MODELLING:
         logging.info("="*15 + "Topic modelling activated" + "="*15)
         topic_model(feature)
+        logging.info("="*15 + "Topic modelling completed" + "="*15)
     if MAKE_DATASETS:
         logging.info("="*15 + "Building datasets" + "="*15)
         make_data(feature)
+        logging.info("="*15 + "Datasets built" + "="*15)
     if KNN:
         logging.info("="*15 + "kNN model activated" + "="*15)
         final_data = unpickle("final_data", "final_data")
         knn(final_data)
+        logging.info("="*15 + "Similar companies predicted" + "="*15)
 
 # ------------------------------
 if __name__ == "__main__":
