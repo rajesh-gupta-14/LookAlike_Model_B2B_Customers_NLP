@@ -1,0 +1,10 @@
+03/25/2019 03:10:04 INFO: ===============Building datasets===============
+03/25/2019 03:10:04 INFO: ===============Unpickling of __topic_model_feature__===============
+03/25/2019 03:10:04 INFO: ===============IBM dataset being calculated===============
+03/25/2019 03:10:04 INFO: ===============IBM dataset obtained===============
+03/25/2019 03:10:04 INFO: ===============Oracle dataset being calculated===============
+03/25/2019 03:10:04 INFO: ===============Oracle dataset obtained===============
+03/25/2019 03:10:04 INFO: ===============Amazon dataset being calculated===============
+03/25/2019 03:10:04 INFO: ===============Amazon dataset obtained===============
+03/25/2019 03:10:04 INFO: ===============Microsoft dataset being calculated===============
+03/25/2019 03:10:04 INFO: ===============Microsoft dataset obtained===============

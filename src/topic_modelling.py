@@ -12,11 +12,13 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import LatentDirichletAllocation
 from utility_functions import *
 from global_vars import *
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.model_selection import train_test_split
 
 def preprocessing(data):
     return data.split()
 
-def topic_model():  
+def topic_model():
     logging.info("="*15 + "Unpickling of __feature__" + "="*15)  
     feature_set = unpickle("ACQUISITIONS", "feature_sets")
     #feature_set["SIZE"] = feature_set["SIZE"].apply(preprocessing)
@@ -40,6 +42,18 @@ def topic_model():
     pickle(feature_set, "test_acq", "transformed_feature_sets")
     print(feature_set[["TOPIC MODELLING DIST","COMPANY"]])
     
+def knn(finaldata):
+    finaldata_arr = np.array(finaldata["TOPIC_MODEL_VECTOR"].values.tolist())
+    X_train, X_test, y_train, y_test = train_test_split(finaldata_arr,
+                                            finaldata["COMPANY"], test_size=0.25)
+    knn_model = KNeighborsClassifier(n_neighbors=1)
+    #Train the model using the training sets
+    knn_model.fit(X_train, y_train)
+    print(y_test)
+    #Predict the response for test dataset
+    y_pred = knn_model.predict(X_test)
+    print(y_pred)
+
 def make_data():
     logging.info("="*15 + "Unpickling of __topic_model_feature__" + "="*15)
     data = unpickle("test_acq", "extras")
@@ -49,10 +63,10 @@ def make_data():
         logging.info("="*15 + f"{company} dataset being calculated" + "="*15)
         company_data_dist = data[data["COMPANY"]==company][["TOPIC MODELLING DIST","COMPANY"]]
         comp_topic_vector = np.mean(company_data_dist["TOPIC MODELLING DIST"])
-        company_df = pd.DataFrame([[comp_topic_vector,company]], columns=["TOPIC_MODEL_VECTOR","COMPANY"])
+        company_df = pd.DataFrame([[np.array(comp_topic_vector),company]], columns=["TOPIC_MODEL_VECTOR","COMPANY"])
         final_data = pd.concat([final_data, company_df], axis=0, ignore_index=True)
         logging.info("="*15 + f"{company} dataset obtained" + "="*15)
-    print(final_data)
+    knn(final_data)
 
 def main():
     if TOPIC_MODELLING:
@@ -61,7 +75,6 @@ def main():
     if MAKE_DATASETS:
         logging.info("="*15 + "Building datasets" + "="*15)
         make_data()
-
 
 # ------------------------------
 if __name__ == "__main__":
@@ -80,5 +93,3 @@ if __name__ == "__main__":
     print("=" * 20)
     """
     # ------------------------------
-    
-    
