@@ -6,7 +6,7 @@
 from utility_functions import *
 from global_vars import *
 import re, pandas as pd, numpy as np
-import logging
+import logging, string
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer, WordNetLemmatizer
 
@@ -120,6 +120,17 @@ class DataCleaning:
             return df.T.iloc[0,:] # df.squeeze() will also do
         return " ".join([cls.wnl.lemmatize(token) for token in str(df).split()])
 
+    @classmethod
+    def preprocessing(cls, data):
+        try:
+            # Remove punctuations
+            data = [str(_char) for _char in data if _char not in string.punctuation]
+            # Changing back to text
+            data = "".join(data)
+        except Exception:
+            data = str(0)
+        return data
+
 if __name__ == "__main__":
     configure_logger()
     logging.info("="*15 + "Cleaning script started"+ "="*15)
@@ -131,6 +142,8 @@ if __name__ == "__main__":
         columns = list(FEATURES.keys())
         # Even this can be used as an alternative to applymap
         # data[columns] = data[columns].apply(lambda x: clean.clean_js(x, columns=columns), axis=1)
+        logging.info("="*15 + "Make the whole data lowercase"+ "="*15)
+        data[columns] = data[columns].apply(lambda x: x.astype(str).str.lower())
         logging.info("="*15 + "Cleaning company name and features"+ "="*15)
         data[columns] = data[columns].applymap(lambda x: clean.clean_metadata(x))
         logging.info("="*15 + "Cleaning JS"+ "="*15)
@@ -149,13 +162,15 @@ if __name__ == "__main__":
         data[columns] = data[columns].applymap(lambda x: clean.clean_spaces(x))
         logging.info("="*15 + "Removing the stopwords" + "="*15)
         data[columns] = data[columns].applymap(lambda x: DataCleaning.clean_stopwords(x))
-        logging.info("="*15 + "Lemmaitizing the words" + "="*15)
+        logging.info("="*15 + "Lemmatizing the words" + "="*15)
         data[columns] = data[columns].applymap(lambda x: DataCleaning.lemmatize_tokens(x))
         #logging.info("="*15 + "Stemming the words" + "="*15) #Bad results due to stemming
         #data[columns] = data[columns].applymap(lambda x: DataCleaning.stem_tokens(x))
         logging.info("="*15 + "Filling NaNs (nan string due to str(df) in clean fns) and blanks with 0"+ "="*15)
         data[columns] = data[columns].replace("nan", 0)
         data[columns] = data[columns].replace(" ", 0)
+        logging.info("="*15 + "Removing punctuation" + "="*15)
+        data[columns] = data[columns].applymap(lambda x: DataCleaning.preprocessing(x))
         logging.info("="*15 + f"{company} data cleaned"+ "="*15)
         pickle(data, company, "cleaned_data")
         print(data)
