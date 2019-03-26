@@ -1,0 +1,45 @@
+03/26/2019 16:37:31 INFO: ===============Topic modelling activated===============
+03/26/2019 16:37:31 INFO: ===============Unpickling of SIZE===============
+03/26/2019 16:37:31 INFO: ===============Count vectorizer model being built===============
+03/26/2019 16:37:31 INFO: ===============LDA model being built===============
+03/26/2019 16:39:29 INFO: ===============LDA model saved===============
+03/26/2019 16:39:29 INFO: ===============Transforming feature data to get topic distribution vectors===============
+03/26/2019 16:39:29 INFO: ===============Pickling the topic dist model for SIZE===============
+03/26/2019 16:39:30 INFO: ===============Topic modelling completed===============
+03/26/2019 16:39:30 INFO: ===============Building datasets===============
+03/26/2019 16:39:30 INFO: ===============Unpickling of transformed SIZE===============
+03/26/2019 16:39:30 INFO: ===============IBM dataset - average of topic vectors being calculated===============
+03/26/2019 16:39:30 INFO: ===============IBM dataset - average obtained===============
+03/26/2019 16:39:30 INFO: ===============Oracle dataset - average of topic vectors being calculated===============
+03/26/2019 16:39:30 INFO: ===============Oracle dataset - average obtained===============
+03/26/2019 16:39:30 INFO: ===============Amazon dataset - average of topic vectors being calculated===============
+03/26/2019 16:39:30 INFO: ===============Amazon dataset - average obtained===============
+03/26/2019 16:39:30 INFO: ===============Microsoft dataset - average of topic vectors being calculated===============
+03/26/2019 16:39:30 INFO: ===============Microsoft dataset - average obtained===============
+03/26/2019 16:39:30 INFO: ===============Datasets built===============
+03/26/2019 16:39:30 INFO: ===============kNN model activated===============
+03/26/2019 16:39:30 INFO: ===============kNN model for similar company to IBM being built===============
+03/26/2019 16:39:30 INFO: ===============kNN model - Train data READY===============
+03/26/2019 16:39:30 INFO: ===============kNN model - Test data READY===============
+03/26/2019 16:39:30 INFO: ===============kNN model being trained===============
+03/26/2019 16:39:30 INFO: ===============kNN model trained successfully===============
+03/26/2019 16:39:30 INFO: ===============kNN model predicted the most similar company to IBM successfully===============
+03/26/2019 16:39:30 INFO: ===============kNN model for similar company to Oracle being built===============
+03/26/2019 16:39:30 INFO: ===============kNN model - Train data READY===============
+03/26/2019 16:39:30 INFO: ===============kNN model - Test data READY===============
+03/26/2019 16:39:30 INFO: ===============kNN model being trained===============
+03/26/2019 16:39:30 INFO: ===============kNN model trained successfully===============
+03/26/2019 16:39:30 INFO: ===============kNN model predicted the most similar company to Oracle successfully===============
+03/26/2019 16:39:30 INFO: ===============kNN model for similar company to Amazon being built===============
+03/26/2019 16:39:30 INFO: ===============kNN model - Train data READY===============
+03/26/2019 16:39:30 INFO: ===============kNN model - Test data READY===============
+03/26/2019 16:39:30 INFO: ===============kNN model being trained===============
+03/26/2019 16:39:30 INFO: ===============kNN model trained successfully===============
+03/26/2019 16:39:30 INFO: ===============kNN model predicted the most similar company to Amazon successfully===============
+03/26/2019 16:39:30 INFO: ===============kNN model for similar company to Microsoft being built===============
+03/26/2019 16:39:30 INFO: ===============kNN model - Train data READY===============
+03/26/2019 16:39:30 INFO: ===============kNN model - Test data READY===============
+03/26/2019 16:39:30 INFO: ===============kNN model being trained===============
+03/26/2019 16:39:30 INFO: ===============kNN model trained successfully===============
+03/26/2019 16:39:30 INFO: ===============kNN model predicted the most similar company to Microsoft successfully===============
+03/26/2019 16:39:30 INFO: ===============Similar companies predicted===============

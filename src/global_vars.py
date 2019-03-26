@@ -42,7 +42,7 @@ MAKE_DATASETS = 0
 KNN = 0
 
 # Iterations for topic modelling - Do not go above 10000
-NO_OF_ITERATIONS = 1000
+NO_OF_ITERATIONS = 10000
 
 # Number of topics to be extracted
 NO_OF_TOPICS = 10

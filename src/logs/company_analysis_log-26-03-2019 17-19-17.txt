@@ -1,0 +1,26 @@
+03/26/2019 17:19:18 INFO: ===============kNN model activated===============
+03/26/2019 17:19:18 INFO: ===============kNN model for similar company to IBM being built===============
+03/26/2019 17:19:18 INFO: ===============kNN model - Train data READY===============
+03/26/2019 17:19:18 INFO: ===============kNN model - Test data READY===============
+03/26/2019 17:19:18 INFO: ===============kNN model being trained===============
+03/26/2019 17:19:18 INFO: ===============kNN model trained successfully===============
+03/26/2019 17:19:18 INFO: ===============kNN model predicted the most similar company to IBM successfully===============
+03/26/2019 17:19:18 INFO: ===============kNN model for similar company to Oracle being built===============
+03/26/2019 17:19:18 INFO: ===============kNN model - Train data READY===============
+03/26/2019 17:19:18 INFO: ===============kNN model - Test data READY===============
+03/26/2019 17:19:18 INFO: ===============kNN model being trained===============
+03/26/2019 17:19:18 INFO: ===============kNN model trained successfully===============
+03/26/2019 17:19:18 INFO: ===============kNN model predicted the most similar company to Oracle successfully===============
+03/26/2019 17:19:19 INFO: ===============kNN model for similar company to Amazon being built===============
+03/26/2019 17:19:19 INFO: ===============kNN model - Train data READY===============
+03/26/2019 17:19:19 INFO: ===============kNN model - Test data READY===============
+03/26/2019 17:19:19 INFO: ===============kNN model being trained===============
+03/26/2019 17:19:19 INFO: ===============kNN model trained successfully===============
+03/26/2019 17:19:19 INFO: ===============kNN model predicted the most similar company to Amazon successfully===============
+03/26/2019 17:19:19 INFO: ===============kNN model for similar company to Microsoft being built===============
+03/26/2019 17:19:19 INFO: ===============kNN model - Train data READY===============
+03/26/2019 17:19:19 INFO: ===============kNN model - Test data READY===============
+03/26/2019 17:19:19 INFO: ===============kNN model being trained===============
+03/26/2019 17:19:19 INFO: ===============kNN model trained successfully===============
+03/26/2019 17:19:19 INFO: ===============kNN model predicted the most similar company to Microsoft successfully===============
+03/26/2019 17:19:19 INFO: ===============Similar companies predicted===============

@@ -1,0 +1,7 @@
+03/26/2019 17:19:57 INFO: ===============kNN model activated===============
+03/26/2019 17:19:57 INFO: ===============kNN model for similar company to IBM being built===============
+03/26/2019 17:19:57 INFO: ===============kNN model - Train data READY===============
+03/26/2019 17:19:57 INFO: ===============kNN model - Test data READY===============
+03/26/2019 17:19:57 INFO: ===============kNN model being trained===============
+03/26/2019 17:19:57 INFO: ===============kNN model trained successfully===============
+03/26/2019 17:19:57 INFO: ===============kNN model predicted the most similar company to IBM successfully===============

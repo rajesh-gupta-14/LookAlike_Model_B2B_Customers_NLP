@@ -64,8 +64,17 @@ def knn(df):
         logging.info("="*15 + f"kNN model trained successfully" + "="*15)
         # Predict the response for test dataset
         y_pred = knn_model.predict(X_test)
+        y_pred_proba = knn_model.predict_proba(X_test)
+        y_pred_dist = knn_model.kneighbors(X_test)
+        """
+        print(f"TEST DATA ORDER\n {y_train}")
+        print(f"PREDICTION \n {y_pred}")
+        print(f"PROBABILITIES \n {y_pred_proba}")
+        dist = list(y_pred_dist[0])
+        print(f"DISTANCE in same order as TEST DATA \n{dist}\n")
+        """
         logging.info("="*15 + f"kNN model predicted the most similar company to {company} successfully" + "="*15)
-        test_comp = pd.DataFrame({"TOPIC_MODEL_VECTOR":list(X_test), "COMPANY":list(y_test), "SIMILAR_COMPANY":list(y_pred)})
+        test_comp = pd.DataFrame({"TOPIC_MODEL_VECTOR":list(X_test), "COMPANY":list(y_test), "SIMILAR_COMPANY":list(y_pred), "DISTANCE":list(y_pred_dist[0])})
         result = pd.concat([result, test_comp], ignore_index=True, axis=0)
     print(result)
         
