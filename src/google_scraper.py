@@ -43,6 +43,11 @@ class GoogleScraper():
             hyperlinks = self.hyperlinks
         logging.info("=========================Getting search result source code=========================")
         raw_data = []
-        raw_data = [str(requests.get(hyperlink, headers=GoogleScraper.headers, verify=False).text.encode("ascii","ignore").decode("utf-8")).replace("\n","").replace(",","")
-                                for hyperlink in hyperlinks]
+		for hyperlink in hyperlinks:
+			try:
+				html_code = str(requests.get(hyperlink, headers=GoogleScraper.headers, verify=False).text.encode("ascii","ignore").decode("utf-8")).replace("\n","").replace(",","")
+				raw_data.append(html_code)
+			except:
+				logging.info("="*15+ "URL skipped" + "="*15)
+				continue
         return raw_data
