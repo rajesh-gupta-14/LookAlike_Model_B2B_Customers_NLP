@@ -1,9 +1,0 @@
-03/23/2019 20:46:52 INFO: ============Script execution started============
-03/23/2019 20:46:52 INFO: ============IBM data collection started============
-03/23/2019 20:46:52 INFO: ============IBM, SIZE feature data collection started============
-03/23/2019 20:46:52 INFO: =====================Setting company variables for Google Search===================
-03/23/2019 20:46:52 INFO: ======================Generating Google Search code==========================
-03/23/2019 20:46:52 DEBUG: Starting new HTTPS connection (1): www.google.com:443
-03/23/2019 20:46:53 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=IBM&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
-03/23/2019 20:46:53 INFO: =========================Getting search result hyperlinks========================
-03/23/2019 20:46:53 INFO: =========================Getting search result source code=========================

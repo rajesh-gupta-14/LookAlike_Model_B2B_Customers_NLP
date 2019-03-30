@@ -15,7 +15,7 @@ from global_vars import *
 def merge_datasets(datasets=[], column=None):
     feature_df = pd.DataFrame()
     for each_dataset in datasets:
-        company = each_dataset.ix[0, "COMPANY"]
+        company = each_dataset.loc[0, "COMPANY"]
         logging.info("="*15 + f"Merging for {company} {column}" + "="*15)
         feature_df = pd.concat([feature_df, each_dataset[[column, "COMPANY"]]], axis=0, ignore_index=True)
     return feature_df

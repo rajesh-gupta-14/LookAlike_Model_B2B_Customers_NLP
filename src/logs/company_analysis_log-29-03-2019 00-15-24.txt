@@ -1,0 +1,155 @@
+03/29/2019 00:15:24 INFO: ============Script execution started============
+03/29/2019 00:15:24 INFO: ============Morgan Stanley data collection started============
+03/29/2019 00:15:24 INFO: ============Morgan Stanley, SIZE feature data collection started============
+03/29/2019 00:15:24 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:15:24 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:15:24 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:15:25 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Morgan%20Stanley&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:15:25 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:15:25 INFO: =========================Getting search result source code=========================
+03/29/2019 00:15:25 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:15:25 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Morgan_Stanley HTTP/1.1" 200 52147
+03/29/2019 00:15:25 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:15:26 DEBUG: https://www.morganstanley.com:443 "GET /people HTTP/1.1" 200 11353
+03/29/2019 00:15:26 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:15:27 DEBUG: https://www.morganstanley.com:443 "GET /about-us HTTP/1.1" 200 12094
+03/29/2019 00:15:27 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:15:27 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Morgan_Stanley HTTP/1.1" 200 52147
+03/29/2019 00:15:27 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:15:27 DEBUG: https://ca.linkedin.com:443 "GET /company/morgan-stanley HTTP/1.1" 999 1461
+03/29/2019 00:15:27 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/29/2019 00:15:28 DEBUG: https://www.owler.com:443 "GET /company/morganstanley HTTP/1.1" 405 5784
+03/29/2019 00:15:28 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/29/2019 00:15:29 DEBUG: https://www.forbes.com:443 "GET /companies/morgan-stanley/ HTTP/1.1" 200 43531
+03/29/2019 00:15:29 DEBUG: Starting new HTTPS connection (1): www.glassdoor.com:443
+03/29/2019 00:15:29 DEBUG: https://www.glassdoor.com:443 "GET /Overview/Working-at-Morgan-Stanley-EI_IE2282.11,25.htm HTTP/1.1" 403 None
+03/29/2019 00:15:29 DEBUG: Starting new HTTPS connection (1): corporatefinanceinstitute.com:443
+03/29/2019 00:15:30 DEBUG: https://corporatefinanceinstitute.com:443 "GET /resources/careers/companies/morgan-stanley-investment-bank/ HTTP/1.1" 200 None
+03/29/2019 00:15:30 DEBUG: Starting new HTTPS connection (1): www.reuters.com:443
+03/29/2019 00:15:31 DEBUG: https://www.reuters.com:443 "GET /article/us-morganstanley-jobcuts/morgan-stanley-cuts-1600-jobs-as-business-languishes-idUSBRE9080SJ20130109 HTTP/1.1" 200 None
+03/29/2019 00:15:31 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/29/2019 00:15:31 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2018-10-18/goldman-morgan-stanley-seek-lending-growth-for-yachts-mansions HTTP/1.1" 307 0
+03/29/2019 00:15:31 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/29/2019 00:15:31 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=e8d8a3b0-51d0-11e9-ba3a-fbe33604e018&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0xMC0xOC9nb2xkbWFuLW1vcmdhbi1zdGFubGV5LXNlZWstbGVuZGluZy1ncm93dGgtZm9yLXlhY2h0cy1tYW5zaW9ucw== HTTP/1.1" 200 4595
+03/29/2019 00:15:31 INFO: ============Morgan Stanley, SIZE feature data collection completed============
+03/29/2019 00:15:31 INFO: ============Morgan Stanley, ACQUISITIONS feature data collection started============
+03/29/2019 00:15:31 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:15:31 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:15:31 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:15:32 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Morgan%20Stanley&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:15:32 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:15:32 INFO: =========================Getting search result source code=========================
+03/29/2019 00:15:32 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:15:33 DEBUG: https://www.morganstanley.com:443 "GET /press-releases/morgan-stanley-to-acquire-solium--creating-a-leading-provider-of HTTP/1.1" 200 11073
+03/29/2019 00:15:33 DEBUG: Starting new HTTPS connection (1): www.barrons.com:443
+03/29/2019 00:15:33 DEBUG: https://www.barrons.com:443 "GET /articles/morgan-stanley-splashes-900m-in-acquisition-51549902249 HTTP/1.1" 200 None
+03/29/2019 00:15:34 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:15:34 DEBUG: https://www.morganstanley.com:443 "GET /press-releases/morgan-stanley-to-acquire-solium--creating-a-leading-provider-of HTTP/1.1" 200 11073
+03/29/2019 00:15:34 DEBUG: Starting new HTTPS connection (1): solium.com:443
+03/29/2019 00:15:34 DEBUG: https://solium.com:443 "GET /morgan-stanley-to-acquire-solium/ HTTP/1.1" 403 162
+03/29/2019 00:15:34 DEBUG: Starting new HTTPS connection (1): www.businessinsider.com:443
+03/29/2019 00:15:35 DEBUG: https://www.businessinsider.com:443 "GET /morgan-stanley-acquires-solium-capital-2019-2 HTTP/1.1" 200 46396
+03/29/2019 00:15:35 DEBUG: Starting new HTTPS connection (1): www.cbc.ca:443
+03/29/2019 00:15:36 DEBUG: https://www.cbc.ca:443 "GET /news/canada/calgary/solium-capital-morgan-stanley-purchase-1.5014205 HTTP/1.1" 200 15951
+03/29/2019 00:15:36 DEBUG: Starting new HTTPS connection (1): business.financialpost.com:443
+03/29/2019 00:15:37 DEBUG: https://business.financialpost.com:443 "GET /news/fp-street/morgan-stanley-to-buy-canadian-employee-stock-manager-solium-for-1-1-billion HTTP/1.1" 200 None
+03/29/2019 00:15:37 DEBUG: Starting new HTTPS connection (1): www.ft.com:443
+03/29/2019 00:15:37 DEBUG: https://www.ft.com:443 "GET /content/5608d49c-2df4-11e9-8744-e7016697f225 HTTP/1.1" 200 30888
+03/29/2019 00:15:37 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/29/2019 00:15:37 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2019-02-11/morgan-stanley-to-purchase-solium-capital-for-about-900-million HTTP/1.1" 307 0
+03/29/2019 00:15:37 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/29/2019 00:15:38 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=eca6e9c0-51d0-11e9-b241-c5c8d1152b45&url=L25ld3MvYXJ0aWNsZXMvMjAxOS0wMi0xMS9tb3JnYW4tc3RhbmxleS10by1wdXJjaGFzZS1zb2xpdW0tY2FwaXRhbC1mb3ItYWJvdXQtOTAwLW1pbGxpb24= HTTP/1.1" 200 4595
+03/29/2019 00:15:38 DEBUG: Starting new HTTPS connection (1): www.bnnbloomberg.ca:443
+03/29/2019 00:15:38 DEBUG: https://www.bnnbloomberg.ca:443 "GET /company-news/video/why-morgan-stanley-s-acquisition-provides-a-compelling-growth-opportunity-for-solium-capital~1608842 HTTP/1.1" 200 30918
+03/29/2019 00:15:38 DEBUG: Starting new HTTPS connection (1): www.ccn.com:443
+03/29/2019 00:15:39 DEBUG: https://www.ccn.com:443 "GET /morgan-stanley-to-spend-900-million-in-biggest-acquisition-since-2008-crisis-will-the-trump-admin-approve HTTP/1.1" 403 None
+03/29/2019 00:15:39 INFO: ============Morgan Stanley, ACQUISITIONS feature data collection completed============
+03/29/2019 00:15:39 INFO: ============Morgan Stanley, FUTURE GOALS feature data collection started============
+03/29/2019 00:15:39 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:15:39 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:15:39 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:15:40 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Morgan%20Stanley&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:15:40 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:15:40 INFO: =========================Getting search result source code=========================
+03/29/2019 00:15:40 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:15:40 DEBUG: https://www.morganstanley.com:443 "GET /what-we-do/wealth-management/gps HTTP/1.1" 200 13538
+03/29/2019 00:15:40 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:15:41 DEBUG: https://www.morganstanley.com:443 "GET /ideas/investment-banking-deals-outlook HTTP/1.1" 200 16123
+03/29/2019 00:15:41 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:15:41 DEBUG: https://www.morganstanley.com:443 "GET /about-us HTTP/1.1" 200 12094
+03/29/2019 00:15:41 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/29/2019 00:15:41 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2019-01-17/morgan-stanley-is-ready-after-a-decade-to-grow-through-deals HTTP/1.1" 307 0
+03/29/2019 00:15:41 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/29/2019 00:15:41 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=eefaebe0-51d0-11e9-8c92-7126ab229752&url=L25ld3MvYXJ0aWNsZXMvMjAxOS0wMS0xNy9tb3JnYW4tc3RhbmxleS1pcy1yZWFkeS1hZnRlci1hLWRlY2FkZS10by1ncm93LXRocm91Z2gtZGVhbHM= HTTP/1.1" 200 4595
+03/29/2019 00:15:41 DEBUG: Starting new HTTPS connection (1): www.ft.com:443
+03/29/2019 00:15:42 DEBUG: https://www.ft.com:443 "GET /stream/4169dc7c-0429-4bb6-855f-9cfb4353606b HTTP/1.1" 200 48283
+03/29/2019 00:15:42 DEBUG: Starting new HTTPS connection (1): www.wsj.com:443
+03/29/2019 00:15:43 DEBUG: https://www.wsj.com:443 "GET /articles/morgan-stanley-in-its-biggest-deal-since-crisis-courts-future-millionaires-11549885394 HTTP/1.1" 200 None
+03/29/2019 00:15:43 DEBUG: Starting new HTTPS connection (1): morganstanley.tal.net:443
+03/29/2019 00:15:44 DEBUG: https://morganstanley.tal.net:443 "GET /vx/mobile-0/brand-2/candidate/so/pm/1/pl/2/opp/6685-Morgan-Stanley-Insights-Future-Female-Traders-2019-Hong-Kong/en-GB HTTP/1.1" 200 None
+03/29/2019 00:15:44 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/29/2019 00:15:45 DEBUG: https://www.cnbc.com:443 "GET /2019/02/11/morgan-stanley-just-made-its-biggest-deal-since-the-financial-crisis-and-says-it-wants-to-do-more.html HTTP/1.1" 200 41514
+03/29/2019 00:15:45 DEBUG: Starting new HTTPS connection (1): www.proactiveinvestors.com:443
+03/29/2019 00:15:45 DEBUG: https://www.proactiveinvestors.com:443 "GET /companies/news/207180/goldman-sachs-morgan-stanley-ride-deals-to-score-big-3q-earnings-beats-207180.html HTTP/1.1" 302 None
+03/29/2019 00:15:45 DEBUG: Starting new HTTPS connection (1): ca.proactiveinvestors.com:443
+03/29/2019 00:15:47 DEBUG: https://ca.proactiveinvestors.com:443 "GET /companies/news/207180/goldman-sachs-morgan-stanley-ride-deals-to-score-big-3q-earnings-beats-207180.html HTTP/1.1" 200 None
+03/29/2019 00:15:47 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:15:47 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Morgan_Stanley HTTP/1.1" 200 52147
+03/29/2019 00:15:47 INFO: ============Morgan Stanley, FUTURE GOALS feature data collection completed============
+03/29/2019 00:15:47 INFO: ============Morgan Stanley, TECH STACK feature data collection started============
+03/29/2019 00:15:47 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:15:47 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:15:48 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:15:48 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Morgan%20Stanley&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:15:49 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:15:49 INFO: =========================Getting search result source code=========================
+03/29/2019 00:15:49 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:15:49 DEBUG: https://www.morganstanley.com:443 "GET /Themes/tech-media-telecom-trends-insights-outlook HTTP/1.1" 200 14265
+03/29/2019 00:15:49 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:15:50 DEBUG: https://www.morganstanley.com:443 "GET /people-opportunities/students-graduates/programs/technology/full-time-analyst-north-america HTTP/1.1" 200 11545
+03/29/2019 00:15:50 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:15:50 DEBUG: https://www.morganstanley.com:443 "GET /people-opportunities/students-graduates/programs/technology/summer-analyst-emea HTTP/1.1" 200 11972
+03/29/2019 00:15:50 DEBUG: Starting new HTTPS connection (1): indico.cern.ch:443
+03/29/2019 00:15:51 DEBUG: https://indico.cern.ch:443 "GET /event/640051/attachments/1472621/2279346/MorganStanley_Brochure.pdf HTTP/1.1" 404 None
+03/29/2019 00:15:51 DEBUG: Starting new HTTPS connection (1): morganstanley.tal.net:443
+03/29/2019 00:15:52 DEBUG: https://morganstanley.tal.net:443 "GET /vx/mobile-0/brand-0/candidate/so/pm/1/pl/1/opp/5766-2019-Technology-Summer-Analyst-Program-New-York/en-GB HTTP/1.1" 200 None
+03/29/2019 00:15:52 DEBUG: Starting new HTTPS connection (1): morganstanley.tal.net:443
+03/29/2019 00:15:53 DEBUG: https://morganstanley.tal.net:443 "GET /vx/mobile-0/brand-0/candidate/so/pm/1/pl/2/opp/6758-2019-Spring-Technology-Early-Insights-Day/en-GB HTTP/1.1" 200 None
+03/29/2019 00:15:53 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/29/2019 00:15:54 DEBUG: https://www.cnbc.com:443 "GET /2018/11/20/morgan-stanley-launches-new-advisory-technology-platform.html HTTP/1.1" 200 55350
+03/29/2019 00:15:54 DEBUG: Starting new HTTPS connection (1): www.brightnetwork.co.uk:443
+03/29/2019 00:15:55 DEBUG: https://www.brightnetwork.co.uk:443 "GET /employer-advice/morgan-stanley/life-technology-associate-morgan-stanley/ HTTP/1.1" 200 None
+03/29/2019 00:15:55 DEBUG: Starting new HTTPS connection (1): www.americanbanker.com:443
+03/29/2019 00:15:56 DEBUG: https://www.americanbanker.com:443 "GET /news/morgan-stanley-kicks-new-tech-strategy-into-gear HTTP/1.1" 403 560
+03/29/2019 00:15:56 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/29/2019 00:15:57 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3Dby2aJKw5NNw HTTP/1.1" 503 1799
+03/29/2019 00:15:57 INFO: ============Morgan Stanley, TECH STACK feature data collection completed============
+03/29/2019 00:15:57 INFO: ============Morgan Stanley, PRODUCTS feature data collection started============
+03/29/2019 00:15:57 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:15:57 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:15:57 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:15:57 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Morgan%20Stanley&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:15:58 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:15:58 INFO: =========================Getting search result source code=========================
+03/29/2019 00:15:58 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:15:58 DEBUG: https://www.morganstanley.com:443 "GET /what-we-do HTTP/1.1" 200 13280
+03/29/2019 00:15:58 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:15:59 DEBUG: https://www.morganstanley.com:443 "GET /im/en-gb/intermediary-investor/funds-and-performance.html HTTP/1.1" 200 10362
+03/29/2019 00:15:59 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:16:00 DEBUG: https://www.morganstanley.com:443 "GET /spc/knowledge/managing-equity/Executive-Financial-Services/Products-and-Services.html HTTP/1.1" 200 20127
+03/29/2019 00:16:00 DEBUG: Starting new HTTPS connection (1): www.morganstanley.com:443
+03/29/2019 00:16:00 DEBUG: https://www.morganstanley.com:443 "GET /wealth-general/digital-solutions HTTP/1.1" 200 12609
+03/29/2019 00:16:00 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:16:00 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Morgan_Stanley HTTP/1.1" 200 52147
+03/29/2019 00:16:00 DEBUG: Starting new HTTPS connection (1): www.investopedia.com:443
+03/29/2019 00:16:00 DEBUG: https://www.investopedia.com:443 "GET /articles/markets/082515/how-morgan-stanley-makes-its-money-ms.asp HTTP/1.1" 200 None
+03/29/2019 00:16:01 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:16:01 DEBUG: https://ca.linkedin.com:443 "GET /company/morgan-stanley HTTP/1.1" 999 1461
+03/29/2019 00:16:01 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/29/2019 00:16:01 DEBUG: https://www.cnbc.com:443 "GET /video/2019/01/15/morgan-stanley-these-are-the-best-software-names-to-own.html HTTP/1.1" 200 60226
+03/29/2019 00:16:01 DEBUG: Starting new HTTPS connection (1): ca.indeed.com:443
+03/29/2019 00:16:02 DEBUG: https://ca.indeed.com:443 "GET /Morgan-Stanley-jobs HTTP/1.1" 200 None
+03/29/2019 00:16:02 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/29/2019 00:16:02 DEBUG: https://www.glassdoor.ca:443 "GET /Salary/Morgan-Stanley-Software-Developer-Salaries-E2282_D_KO15,33.htm HTTP/1.1" 403 None
+03/29/2019 00:16:02 INFO: ============Morgan Stanley, PRODUCTS feature data collection completed============
+03/29/2019 00:16:03 INFO: ============Morgan Stanley data collection completed============

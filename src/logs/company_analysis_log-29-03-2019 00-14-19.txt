@@ -1,0 +1,148 @@
+03/29/2019 00:14:19 INFO: ============Script execution started============
+03/29/2019 00:14:19 INFO: ============Deloitte data collection started============
+03/29/2019 00:14:19 INFO: ============Deloitte, SIZE feature data collection started============
+03/29/2019 00:14:19 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:14:19 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:14:19 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:14:20 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Deloitte&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:14:20 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:14:20 INFO: =========================Getting search result source code=========================
+03/29/2019 00:14:20 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/29/2019 00:14:21 DEBUG: https://www.statista.com:443 "GET /statistics/269014/number-of-employees-at-deloitte-worldwide/ HTTP/1.1" 200 None
+03/29/2019 00:14:21 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:14:21 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Deloitte HTTP/1.1" 200 53678
+03/29/2019 00:14:21 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/29/2019 00:14:21 DEBUG: https://www.statista.com:443 "GET /statistics/269014/number-of-employees-at-deloitte-worldwide/ HTTP/1.1" 200 None
+03/29/2019 00:14:21 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:14:22 DEBUG: https://ca.linkedin.com:443 "GET /company/deloitte HTTP/1.1" 999 1461
+03/29/2019 00:14:22 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:22 DEBUG: https://www2.deloitte.com:443 "GET /global/en/pages/about-deloitte/articles/about-deloitte.html HTTP/1.1" 200 20415
+03/29/2019 00:14:22 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:22 DEBUG: https://www2.deloitte.com:443 "GET /ca/en/pages/press-releases/articles/deloitte-canadas-new-national-office-redefines-work-for-employees-and-clients.html HTTP/1.1" 200 20202
+03/29/2019 00:14:22 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:22 DEBUG: https://www2.deloitte.com:443 "GET /uk/en/pages/about-deloitte-uk/articles/who-we-are.html HTTP/1.1" 200 18881
+03/29/2019 00:14:22 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:23 DEBUG: https://www2.deloitte.com:443 "GET /ca/en/pages/press-releases/articles/cannabis-report.html HTTP/1.1" 200 19319
+03/29/2019 00:14:23 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:24 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/technology/articles/deloitte-digital-mobile-enterprise.html HTTP/1.1" 200 24363
+03/29/2019 00:14:24 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:25 DEBUG: https://www2.deloitte.com:443 "GET /us/en/footerlinks/office-locator/more-office-details/minneapolis-office.html HTTP/1.1" 200 23962
+03/29/2019 00:14:25 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:25 DEBUG: https://www2.deloitte.com:443 "GET /global/en/pages/legal/solutions/employment-benefit-solutions.html HTTP/1.1" 200 18789
+03/29/2019 00:14:25 INFO: ============Deloitte, SIZE feature data collection completed============
+03/29/2019 00:14:25 INFO: ============Deloitte, ACQUISITIONS feature data collection started============
+03/29/2019 00:14:25 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:14:25 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:14:25 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:14:26 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Deloitte&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:14:26 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:14:26 INFO: =========================Getting search result source code=========================
+03/29/2019 00:14:26 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:27 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/about-deloitte/articles/press-releases/deloitte-expands-cloud-capabilities-with-new-acquisition-atadata.html HTTP/1.1" 200 25448
+03/29/2019 00:14:27 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:28 DEBUG: https://www2.deloitte.com:443 "GET /ca/en/pages/mergers-and-acquisitions/articles/cdo.html HTTP/1.1" 200 19060
+03/29/2019 00:14:28 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:28 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/about-deloitte/articles/growth-through-acquisition.html HTTP/1.1" 200 24286
+03/29/2019 00:14:28 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:29 DEBUG: https://www2.deloitte.com:443 "GET /global/en/pages/mergers-and-acquisitions/articles/growth-through-merger-and-acquisitions.html HTTP/1.1" 200 16753
+03/29/2019 00:14:29 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:30 DEBUG: https://www2.deloitte.com:443 "GET /ca/en/pages/press-releases/articles/third-wave-consulting-joins-deloitte-digital.html HTTP/1.1" 200 18497
+03/29/2019 00:14:30 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:31 DEBUG: https://www2.deloitte.com:443 "GET /ca/en/pages/press-releases/articles/pr-INM-joins-deloitte-digital-to-expand-digital-marketing-services.html HTTP/1.1" 200 17905
+03/29/2019 00:14:31 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:32 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/mergers-and-acquisitions/articles/leading-through-transition-mergers-and-ascquisitions.html HTTP/1.1" 200 25082
+03/29/2019 00:14:32 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:33 DEBUG: https://www2.deloitte.com:443 "GET /ca/en/pages/press-releases/articles/deloitte-acquires-digital-marketing-and-analytics-firm.html HTTP/1.1" 200 17879
+03/29/2019 00:14:33 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/29/2019 00:14:34 DEBUG: https://www.crunchbase.com:443 "GET /organization/deloitte/acquisitions/acquisitions_list HTTP/1.1" 403 None
+03/29/2019 00:14:34 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/29/2019 00:14:34 DEBUG: https://www.crunchbase.com:443 "GET /organization/deloitte HTTP/1.1" 403 None
+03/29/2019 00:14:34 INFO: ============Deloitte, ACQUISITIONS feature data collection completed============
+03/29/2019 00:14:34 INFO: ============Deloitte, FUTURE GOALS feature data collection started============
+03/29/2019 00:14:34 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:14:34 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:14:34 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:14:34 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Deloitte&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:14:35 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:14:35 INFO: =========================Getting search result source code=========================
+03/29/2019 00:14:35 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:36 DEBUG: https://www2.deloitte.com:443 "GET /ro/en/pages/deloitte-technology/analytics-and-information-management.html HTTP/1.1" 200 18276
+03/29/2019 00:14:36 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:36 DEBUG: https://www2.deloitte.com:443 "GET /az/en/pages/about-deloitte/articles/vision-values-strategy.html HTTP/1.1" 200 15853
+03/29/2019 00:14:36 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:36 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/technology/solutions/analytics-and-information-management-services.html HTTP/1.1" 200 25767
+03/29/2019 00:14:36 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:37 DEBUG: https://www2.deloitte.com:443 "GET /ca/en/pages/technology/solutions/information-management-analytics-technology.html HTTP/1.1" 200 19141
+03/29/2019 00:14:37 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:37 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/human-capital/articles/future-of-hr.html HTTP/1.1" 200 30762
+03/29/2019 00:14:37 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:37 DEBUG: https://www2.deloitte.com:443 "GET /global/en/pages/about-deloitte/articles/about-deloitte.html HTTP/1.1" 200 20415
+03/29/2019 00:14:37 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:40 DEBUG: https://www2.deloitte.com:443 "GET /global/en/pages/tax/articles/our-digital-future.html HTTP/1.1" 200 18957
+03/29/2019 00:14:40 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:40 DEBUG: https://www2.deloitte.com:443 "GET /content/campaigns/global/corporate-finance/cfa/home.html HTTP/1.1" 200 5271
+03/29/2019 00:14:40 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:41 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/about-deloitte/topics/future-of-mobility.html HTTP/1.1" 200 25256
+03/29/2019 00:14:41 DEBUG: Starting new HTTPS connection (1): yourfuture.deloitte.com.au:443
+03/29/2019 00:14:42 DEBUG: https://yourfuture.deloitte.com.au:443 "GET / HTTP/1.1" 302 0
+03/29/2019 00:14:42 DEBUG: https://yourfuture.deloitte.com.au:443 "GET /site/landing HTTP/1.1" 200 None
+03/29/2019 00:14:42 INFO: ============Deloitte, FUTURE GOALS feature data collection completed============
+03/29/2019 00:14:42 INFO: ============Deloitte, TECH STACK feature data collection started============
+03/29/2019 00:14:42 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:14:42 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:14:42 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:14:42 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Deloitte&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:14:43 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:14:43 INFO: =========================Getting search result source code=========================
+03/29/2019 00:14:43 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:43 DEBUG: https://www2.deloitte.com:443 "GET /ca/en/pages/technology/topics/technology.html HTTP/1.1" 200 20478
+03/29/2019 00:14:43 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:43 DEBUG: https://www2.deloitte.com:443 "GET /global/en/pages/technology/topics/technology.html HTTP/1.1" 200 22152
+03/29/2019 00:14:43 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:43 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/technology/topics/technology.html HTTP/1.1" 200 22700
+03/29/2019 00:14:43 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:44 DEBUG: https://www2.deloitte.com:443 "GET /insights/us/en/focus/tech-trends.html HTTP/1.1" 200 16131
+03/29/2019 00:14:44 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:44 DEBUG: https://www2.deloitte.com:443 "GET /global/en/pages/technology/solutions/technology-services.html HTTP/1.1" 200 18291
+03/29/2019 00:14:44 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:45 DEBUG: https://www2.deloitte.com:443 "GET /uk/en/pages/careers/articles/student-technology.html HTTP/1.1" 200 25587
+03/29/2019 00:14:45 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:46 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/technology-media-and-telecommunications/solutions/technology-industry-services.html HTTP/1.1" 200 22633
+03/29/2019 00:14:46 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:48 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/strategy/solutions/technology-industry-deloitte-us-consulting.html HTTP/1.1" 200 23589
+03/29/2019 00:14:48 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:48 DEBUG: https://www2.deloitte.com:443 "GET /nl/nl/pages/technology/topics/technology.html HTTP/1.1" 200 19307
+03/29/2019 00:14:48 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:48 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/technology-media-and-telecommunications/topics/technology-industry.html HTTP/1.1" 200 23595
+03/29/2019 00:14:48 INFO: ============Deloitte, TECH STACK feature data collection completed============
+03/29/2019 00:14:48 INFO: ============Deloitte, PRODUCTS feature data collection started============
+03/29/2019 00:14:48 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:14:48 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:14:48 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:14:48 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Deloitte&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:14:49 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:14:49 INFO: =========================Getting search result source code=========================
+03/29/2019 00:14:49 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:49 DEBUG: https://www2.deloitte.com:443 "GET /ca/en.html HTTP/1.1" 200 16737
+03/29/2019 00:14:49 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:51 DEBUG: https://www2.deloitte.com:443 "GET /global/en/pages/about-deloitte/solutions/services.html HTTP/1.1" 200 17745
+03/29/2019 00:14:51 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:52 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/risk/solutions/financial-technology-software-and-services.html HTTP/1.1" 200 23946
+03/29/2019 00:14:52 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:53 DEBUG: https://www2.deloitte.com:443 "GET /ca/en.html HTTP/1.1" 200 16737
+03/29/2019 00:14:53 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:53 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/consulting/topics/deloitte-platforms-market-ready-products-and-solutions.html HTTP/1.1" 200 31565
+03/29/2019 00:14:53 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:55 DEBUG: https://www2.deloitte.com:443 "GET /global/en/pages/technology/solutions/deloitte-digital.html HTTP/1.1" 200 19003
+03/29/2019 00:14:55 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:56 DEBUG: https://www2.deloitte.com:443 "GET /ca/en/pages/technology/solutions/application-management-services.html HTTP/1.1" 200 18310
+03/29/2019 00:14:56 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:14:57 DEBUG: https://www2.deloitte.com:443 "GET /global/en/pages/about-deloitte/articles/Deloitte-named-a-global-leader-in-IT-applications-software-consulting-ALM.html HTTP/1.1" 200 17381
+03/29/2019 00:14:57 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:15:00 DEBUG: https://www2.deloitte.com:443 "GET /global/en/pages/technology/topics/application-management-services.html HTTP/1.1" 200 16221
+03/29/2019 00:15:00 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:15:00 DEBUG: https://www2.deloitte.com:443 "GET /us/en/pages/strategy/solutions/consulting-consumer-and-industrial-products-services.html HTTP/1.1" 200 21332
+03/29/2019 00:15:00 DEBUG: Starting new HTTPS connection (1): careers.deloitte.ca:443
+03/29/2019 00:15:01 DEBUG: https://careers.deloitte.ca:443 "GET /job/Vancouver-AnalystSenior-Associate%252C-Value-Creation-Services-%2528VCS%2529-BC-V7X-1P4/518500300/ HTTP/1.1" 200 7118
+03/29/2019 00:15:01 INFO: ============Deloitte, PRODUCTS feature data collection completed============
+03/29/2019 00:15:07 INFO: ============Deloitte data collection completed============

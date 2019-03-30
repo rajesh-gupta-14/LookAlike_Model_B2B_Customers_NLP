@@ -1,0 +1,180 @@
+03/29/2019 00:03:21 INFO: ============Script execution started============
+03/29/2019 00:03:21 INFO: ============Spotify data collection started============
+03/29/2019 00:03:21 INFO: ============Spotify, SIZE feature data collection started============
+03/29/2019 00:03:21 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:03:21 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:03:21 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:03:22 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Spotify&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:03:23 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:03:23 INFO: =========================Getting search result source code=========================
+03/29/2019 00:03:23 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/29/2019 00:03:23 DEBUG: https://www.statista.com:443 "GET /statistics/245130/number-of-spotify-employees/ HTTP/1.1" 200 None
+03/29/2019 00:03:23 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/29/2019 00:03:23 DEBUG: https://www.statista.com:443 "GET /statistics/245130/number-of-spotify-employees/ HTTP/1.1" 200 None
+03/29/2019 00:03:24 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:03:24 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Spotify HTTP/1.1" 200 96770
+03/29/2019 00:03:24 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:03:24 DEBUG: https://ca.linkedin.com:443 "GET /company/spotify HTTP/1.1" 999 1461
+03/29/2019 00:03:24 DEBUG: Starting new HTTPS connection (1): www.businessinsider.com:443
+03/29/2019 00:03:25 DEBUG: https://www.businessinsider.com:443 "GET /spotify-jobs-change-every-two-years-2018-8 HTTP/1.1" 200 48504
+03/29/2019 00:03:25 DEBUG: Starting new HTTPS connection (1): craft.co:443
+03/29/2019 00:03:25 DEBUG: https://craft.co:443 "GET /spotify HTTP/1.1" 405 2887
+03/29/2019 00:03:25 DEBUG: Starting new HTTPS connection (1): community.spotify.com:443
+03/29/2019 00:03:26 DEBUG: https://community.spotify.com:443 "GET /t5/Live-Ideas/Subscription-Spotify-for-Company-Employees/idi-p/4587598 HTTP/1.1" 200 37840
+03/29/2019 00:03:27 DEBUG: Starting new HTTPS connection (1): hrblog.spotify.com:443
+03/29/2019 00:03:27 DEBUG: https://hrblog.spotify.com:443 "GET /2017/02/03/social-at-spotify-whats-it-all-about/ HTTP/1.1" 200 None
+03/29/2019 00:03:27 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/29/2019 00:03:28 DEBUG: https://www.owler.com:443 "GET /company/spotify HTTP/1.1" 405 5772
+03/29/2019 00:03:28 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/29/2019 00:03:28 DEBUG: https://www.forbes.com:443 "GET /companies/spotify-technology/ HTTP/1.1" 200 41316
+03/29/2019 00:03:28 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/29/2019 00:03:28 DEBUG: https://www.glassdoor.ca:443 "GET /spotify HTTP/1.1" 403 None
+03/29/2019 00:03:28 INFO: ============Spotify, SIZE feature data collection completed============
+03/29/2019 00:03:28 INFO: ============Spotify, ACQUISITIONS feature data collection started============
+03/29/2019 00:03:28 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:03:28 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:03:28 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:03:29 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Spotify&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:03:30 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:03:30 INFO: =========================Getting search result source code=========================
+03/29/2019 00:03:30 DEBUG: Starting new HTTPS connection (1): variety.com:443
+03/29/2019 00:03:31 DEBUG: https://variety.com:443 "GET /2019/digital/news/spotify-parcast-podcasting-acquisition-1203172479/ HTTP/1.1" 200 None
+03/29/2019 00:03:31 DEBUG: Starting new HTTPS connection (1): www.theverge.com:443
+03/29/2019 00:03:31 DEBUG: https://www.theverge.com:443 "GET /2019/2/6/18213462/spotify-podcasts-gimlet-anchor-acquisition HTTP/1.1" 200 41097
+03/29/2019 00:03:31 DEBUG: Starting new HTTPS connection (1): investors.spotify.com:443
+03/29/2019 00:03:32 DEBUG: https://investors.spotify.com:443 "GET /financials/press-release-details/2019/Spotify-to-Acquire-Parcast-a-Premier-Podcast-Storytelling-Studio/default.aspx HTTP/1.1" 200 None
+03/29/2019 00:03:32 DEBUG: Starting new HTTPS connection (1): newsroom.spotify.com:443
+03/29/2019 00:03:33 DEBUG: https://newsroom.spotify.com:443 "GET /2019-03-26/5-fast-facts-about-spotifys-acquisition-of-parcast/ HTTP/1.1" 200 50906
+03/29/2019 00:03:33 DEBUG: Starting new HTTPS connection (1): www.macrumors.com:443
+03/29/2019 00:03:33 DEBUG: https://www.macrumors.com:443 "GET /2019/03/26/spotify-third-podcast-acquisition/ HTTP/1.1" 200 20193
+03/29/2019 00:03:33 DEBUG: Starting new HTTPS connection (1): variety.com:443
+03/29/2019 00:03:33 DEBUG: https://variety.com:443 "GET /2019/digital/news/spotify-parcast-podcasting-acquisition-1203172479/ HTTP/1.1" 200 None
+03/29/2019 00:03:33 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:03:34 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Spotify HTTP/1.1" 200 96770
+03/29/2019 00:03:34 DEBUG: Starting new HTTPS connection (1): venturebeat.com:443
+03/29/2019 00:03:35 DEBUG: https://venturebeat.com:443 "GET /2019/02/06/spotifys-gimlet-and-anchor-acquisitions-mark-the-third-wave-of-podcasting/ HTTP/1.1" 200 None
+03/29/2019 00:03:35 DEBUG: Starting new HTTP connection (1): www.niemanlab.org:80
+03/29/2019 00:03:36 DEBUG: http://www.niemanlab.org:80 "GET /2019/02/anchor-too-with-a-second-big-acquisition-spotify-shows-its-serious-about-podcasts-as-both-producer-and-platform/ HTTP/1.1" 200 None
+03/29/2019 00:03:37 DEBUG: Starting new HTTPS connection (1): www.engadget.com:443
+03/29/2019 00:03:38 DEBUG: https://www.engadget.com:443 "GET /2019/03/26/spotify-original-podcasts-parcast/ HTTP/1.1" 200 38671
+03/29/2019 00:03:38 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/29/2019 00:03:38 DEBUG: https://www.crunchbase.com:443 "GET /organization/spotify/acquisitions/acquisitions_list HTTP/1.1" 403 None
+03/29/2019 00:03:38 INFO: ============Spotify, ACQUISITIONS feature data collection completed============
+03/29/2019 00:03:38 INFO: ============Spotify, FUTURE GOALS feature data collection started============
+03/29/2019 00:03:38 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:03:38 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:03:38 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:03:39 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Spotify&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:03:39 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:03:39 INFO: =========================Getting search result source code=========================
+03/29/2019 00:03:39 DEBUG: Starting new HTTPS connection (1): open.spotify.com:443
+03/29/2019 00:03:40 DEBUG: https://open.spotify.com:443 "GET /artist/1ILwJ5zliBLMsRARQJjOMp HTTP/1.1" 200 None
+03/29/2019 00:03:40 DEBUG: Starting new HTTPS connection (1): open.spotify.com:443
+03/29/2019 00:03:40 DEBUG: https://open.spotify.com:443 "GET /album/17FBoXK1NU2rvJBbzdzw0r HTTP/1.1" 200 None
+03/29/2019 00:03:40 DEBUG: Starting new HTTPS connection (1): support.spotify.com:443
+03/29/2019 00:03:41 DEBUG: https://support.spotify.com:443 "GET /article/spotify-new-subscriber-offers/ HTTP/1.1" 302 None
+03/29/2019 00:03:41 DEBUG: https://support.spotify.com:443 "GET /ca-en/article/spotify-new-subscriber-offers/ HTTP/1.1" 200 None
+03/29/2019 00:03:41 DEBUG: Starting new HTTPS connection (1): open.spotify.com:443
+03/29/2019 00:03:42 DEBUG: https://open.spotify.com:443 "GET /artist/1RyvyyTE3xzB2ZywiAwp0i HTTP/1.1" 200 None
+03/29/2019 00:03:42 DEBUG: Starting new HTTPS connection (1): open.spotify.com:443
+03/29/2019 00:03:42 DEBUG: https://open.spotify.com:443 "GET /album/0jCVC8ndYYOooEY2YTO1l6 HTTP/1.1" 200 None
+03/29/2019 00:03:42 DEBUG: Starting new HTTPS connection (1): www.poynter.org:443
+03/29/2019 00:03:43 DEBUG: https://www.poynter.org:443 "GET /business-work/2019/spotifys-purchase-of-gimlet-could-change-podcastings-future/ HTTP/1.1" 200 None
+03/29/2019 00:03:43 DEBUG: Starting new HTTPS connection (1): www.redflagdeals.com:443
+03/29/2019 00:03:44 DEBUG: https://www.redflagdeals.com:443 "GET /in/toronto/deals/t/spotify/ HTTP/1.1" 200 21822
+03/29/2019 00:03:44 DEBUG: Starting new HTTPS connection (1): www.bbc.com:443
+03/29/2019 00:03:46 DEBUG: https://www.bbc.com:443 "GET /news/technology-43237139 HTTP/1.1" 200 40366
+03/29/2019 00:03:46 DEBUG: Starting new HTTPS connection (1): www.digitaltrends.com:443
+03/29/2019 00:03:47 DEBUG: https://www.digitaltrends.com:443 "GET /music/how-much-is-spotify-premium/ HTTP/1.1" 200 53009
+03/29/2019 00:03:47 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/29/2019 00:03:47 DEBUG: https://www.forbes.com:443 "GET /sites/sophiecharara/2018/11/01/spotify-q3-2018-results-apple-music-streaming/ HTTP/1.1" 200 49759
+03/29/2019 00:03:47 INFO: ============Spotify, FUTURE GOALS feature data collection completed============
+03/29/2019 00:03:47 INFO: ============Spotify, TECH STACK feature data collection started============
+03/29/2019 00:03:47 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:03:47 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:03:47 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:03:48 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Spotify&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:03:49 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:03:49 INFO: =========================Getting search result source code=========================
+03/29/2019 00:03:49 DEBUG: Starting new HTTPS connection (1): forums.redflagdeals.com:443
+03/29/2019 00:03:50 DEBUG: https://forums.redflagdeals.com:443 "GET /stack-prepaid-mastercard-free-1-yr-netflix-spotify-tidal-no-qc-2216455/ HTTP/1.1" 200 41301
+03/29/2019 00:03:50 DEBUG: Starting new HTTPS connection (1): www.reddit.com:443
+03/29/2019 00:03:50 DEBUG: https://www.reddit.com:443 "GET /r/STKToken/comments/98utp8/stack_is_covering_the_cost_of_netflix_spotify_or/ HTTP/1.1" 429 593
+03/29/2019 00:03:50 DEBUG: Starting new HTTPS connection (1): labs.spotify.com:443
+03/29/2019 00:03:51 DEBUG: https://labs.spotify.com:443 "GET / HTTP/1.1" 200 None
+03/29/2019 00:03:51 DEBUG: Starting new HTTPS connection (1): stackshare.io:443
+03/29/2019 00:03:53 DEBUG: https://stackshare.io:443 "GET /spotify/spotify HTTP/1.1" 200 None
+03/29/2019 00:03:53 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/29/2019 00:03:53 DEBUG: https://www.bloomberg.com:443 "GET /profile/company/SPOT:US HTTP/1.1" 307 0
+03/29/2019 00:03:53 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/29/2019 00:03:53 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=48c6d0a0-51cf-11e9-b645-6b8b110c1585&url=L3Byb2ZpbGUvY29tcGFueS9TUE9UOlVT HTTP/1.1" 200 4595
+03/29/2019 00:03:53 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/29/2019 00:03:53 DEBUG: https://www.bloomberg.com:443 "GET /research//stocks/private/snapshot.asp%3FprivcapId%3D225595077 HTTP/1.1" 307 0
+03/29/2019 00:03:53 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/29/2019 00:03:54 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=49022bf0-51cf-11e9-a5bd-e7a77428c253&url=L3Jlc2VhcmNoLy9zdG9ja3MvcHJpdmF0ZS9zbmFwc2hvdC5hc3AlM0Zwcml2Y2FwSWQlM0QyMjU1OTUwNzc= HTTP/1.1" 200 4595
+03/29/2019 00:03:54 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:03:54 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Spotify HTTP/1.1" 200 96770
+03/29/2019 00:03:54 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/29/2019 00:03:54 DEBUG: https://www.forbes.com:443 "GET /companies/spotify-technology/ HTTP/1.1" 200 41316
+03/29/2019 00:03:54 DEBUG: Starting new HTTPS connection (1): www.theguardian.com:443
+03/29/2019 00:03:55 DEBUG: https://www.theguardian.com:443 "GET /technology/spotify HTTP/1.1" 200 123869
+03/29/2019 00:03:55 DEBUG: Starting new HTTP connection (1): techgenix.com:80
+03/29/2019 00:03:57 DEBUG: http://techgenix.com:80 "GET /lessons-from-spotify/ HTTP/1.1" 200 None
+03/29/2019 00:03:57 INFO: ============Spotify, TECH STACK feature data collection completed============
+03/29/2019 00:03:57 INFO: ============Spotify, PRODUCTS feature data collection started============
+03/29/2019 00:03:57 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:03:57 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:03:57 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:03:58 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Spotify&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:03:58 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:03:58 INFO: =========================Getting search result source code=========================
+03/29/2019 00:03:58 DEBUG: Starting new HTTPS connection (1): artists.spotify.com:443
+03/29/2019 00:03:59 DEBUG: https://artists.spotify.com:443 "GET /blog/category/products HTTP/1.1" 200 None
+03/29/2019 00:03:59 DEBUG: Starting new HTTPS connection (1): open.spotify.com:443
+03/29/2019 00:04:00 DEBUG: https://open.spotify.com:443 "GET /artist/0mwCI9ZfHyOj3ENpFd6AEn HTTP/1.1" 200 None
+03/29/2019 00:04:00 DEBUG: Starting new HTTPS connection (1): www.lifewire.com:443
+03/29/2019 00:04:00 DEBUG: https://www.lifewire.com:443 "GET /awesome-tools-for-better-spotify-playlists-4091942 HTTP/1.1" 200 None
+03/29/2019 00:04:00 DEBUG: Starting new HTTPS connection (1): www.popsci.com:443
+03/29/2019 00:04:00 DEBUG: https://www.popsci.com:443 "GET /spotify-add-ons-and-tricks HTTP/1.1" 200 43175
+03/29/2019 00:04:00 DEBUG: Starting new HTTPS connection (1): spotifyforbrands.com:443
+03/29/2019 00:04:00 DEBUG: https://spotifyforbrands.com:443 "GET / HTTP/1.1" 302 0
+03/29/2019 00:04:01 DEBUG: https://spotifyforbrands.com:443 "GET /en-CA/ HTTP/1.1" 200 172407
+03/29/2019 00:04:01 DEBUG: Starting new HTTPS connection (1): spotify-everywhere.com:443
+03/29/2019 00:04:01 DEBUG: https://spotify-everywhere.com:443 "GET / HTTP/1.1" 200 None
+03/29/2019 00:04:01 DEBUG: Starting new HTTPS connection (1): motherboard.vice.com:443
+03/29/2019 00:04:02 DEBUG: https://motherboard.vice.com:443 "GET /en_us/article/59z7vk/hidden-features-and-third-party-programs-that-make-spotify-work-for-you HTTP/1.1" 200 62870
+03/29/2019 00:04:02 DEBUG: Starting new HTTPS connection (1): towardsdatascience.com:443
+03/29/2019 00:04:02 DEBUG: https://towardsdatascience.com:443 "GET /in-this-article-i-provide-a-detailed-analysis-of-spotify-as-a-company-music-industry-direction-eeb945d7257c HTTP/1.1" 302 154
+03/29/2019 00:04:02 DEBUG: Starting new HTTPS connection (1): medium.com:443
+03/29/2019 00:04:02 DEBUG: https://medium.com:443 "GET /m/global-identity?redirectUrl=https%3A%2F%2Ftowardsdatascience.com%2Fin-this-article-i-provide-a-detailed-analysis-of-spotify-as-a-company-music-industry-direction-eeb945d7257c HTTP/1.1" 302 None
+03/29/2019 00:04:03 DEBUG: https://towardsdatascience.com:443 "GET /in-this-article-i-provide-a-detailed-analysis-of-spotify-as-a-company-music-industry-direction-eeb945d7257c?gi=ba91f7059cfa HTTP/1.1" 200 None
+03/29/2019 00:04:03 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:04:03 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Spotify HTTP/1.1" 200 96770
+03/29/2019 00:04:03 DEBUG: Starting new HTTPS connection (1): ca.tunecore.com:443
+03/29/2019 00:04:03 DEBUG: https://ca.tunecore.com:443 "GET /get-your-music-on-spotify HTTP/1.1" 403 162
+03/29/2019 00:04:03 INFO: ============Spotify, PRODUCTS feature data collection completed============
+03/29/2019 00:04:05 INFO: ============Spotify data collection completed============
+03/29/2019 00:04:05 INFO: ============Neilson data collection started============
+03/29/2019 00:04:05 INFO: ============Neilson, SIZE feature data collection started============
+03/29/2019 00:04:05 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:04:05 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:04:05 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:04:06 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Neilson&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:04:06 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:04:07 INFO: =========================Getting search result source code=========================
+03/29/2019 00:04:07 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/29/2019 00:04:07 DEBUG: https://www.owler.com:443 "GET /company/neilson HTTP/1.1" 405 5772
+03/29/2019 00:04:07 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:04:07 DEBUG: https://ca.linkedin.com:443 "GET /company/neilson-active-holidays HTTP/1.1" 999 1461
+03/29/2019 00:04:07 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:04:08 DEBUG: https://ca.linkedin.com:443 "GET /company/neilson-group HTTP/1.1" 999 1461
+03/29/2019 00:04:08 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/29/2019 00:04:08 DEBUG: https://www.glassdoor.ca:443 "GET /Overview/Working-at-Neilson-Marketing-Services-EI_IE1303281.11,37.htm HTTP/1.1" 403 None
+03/29/2019 00:04:08 DEBUG: Starting new HTTPS connection (1): www.neilsondairy.com:443
+03/29/2019 00:04:09 DEBUG: https://www.neilsondairy.com:443 "GET /en/history HTTP/1.1" 200 None
+03/29/2019 00:04:09 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:04:09 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Neilson_Dairy HTTP/1.1" 200 11761
+03/29/2019 00:04:09 DEBUG: Starting new HTTPS connection (1): www.theglobeandmail.com:443
+03/29/2019 00:04:10 DEBUG: https://www.theglobeandmail.com:443 "GET /report-on-business/weston-sells-neilson-dairy-to-saputo/article1064578/ HTTP/1.1" 200 None
+03/29/2019 00:04:10 DEBUG: Starting new HTTPS connection (1): cfs.nrcan.gc.ca:443
+03/29/2019 00:04:12 DEBUG: https://cfs.nrcan.gc.ca:443 "GET /employees/read/eneilson HTTP/1.1" 200 4180

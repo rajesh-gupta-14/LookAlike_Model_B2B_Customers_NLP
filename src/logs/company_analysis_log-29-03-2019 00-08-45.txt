@@ -1,0 +1,164 @@
+03/29/2019 00:08:45 INFO: ============Script execution started============
+03/29/2019 00:08:45 INFO: ============Fortinet data collection started============
+03/29/2019 00:08:45 INFO: ============Fortinet, SIZE feature data collection started============
+03/29/2019 00:08:45 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:08:45 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:08:45 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:08:45 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Fortinet&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:08:45 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:08:45 INFO: =========================Getting search result source code=========================
+03/29/2019 00:08:45 DEBUG: Starting new HTTPS connection (1): www.fortinet.com:443
+03/29/2019 00:08:46 DEBUG: https://www.fortinet.com:443 "GET /au/corporate/about-us/about-us.html HTTP/1.1" 200 18480
+03/29/2019 00:08:46 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:08:46 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Fortinet HTTP/1.1" 200 29173
+03/29/2019 00:08:46 DEBUG: Starting new HTTPS connection (1): content.eluta.ca:443
+03/29/2019 00:08:48 DEBUG: https://content.eluta.ca:443 "GET /top-employer-fortinet HTTP/1.1" 200 11707
+03/29/2019 00:08:48 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/29/2019 00:08:48 DEBUG: https://www.owler.com:443 "GET /company/fortinet HTTP/1.1" 405 5774
+03/29/2019 00:08:48 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/29/2019 00:08:49 DEBUG: https://www.glassdoor.ca:443 "GET /Reviews/Fortinet-Reviews-E23128.htm HTTP/1.1" 403 None
+03/29/2019 00:08:49 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:08:49 DEBUG: https://ca.linkedin.com:443 "GET /company/fortinet HTTP/1.1" 999 1461
+03/29/2019 00:08:49 DEBUG: Starting new HTTPS connection (1): globenewswire.com:443
+03/29/2019 00:08:49 DEBUG: https://globenewswire.com:443 "GET /news-release/2018/12/21/1677702/0/en/Fortinet-Recognized-by-Glassdoor-as-one-of-the-Best-Places-to-Work-in-Canada.html HTTP/1.1" 301 0
+03/29/2019 00:08:49 DEBUG: Starting new HTTPS connection (1): www.globenewswire.com:443
+03/29/2019 00:08:50 DEBUG: https://www.globenewswire.com:443 "GET /news-release/2018/12/21/1677702/0/en/Fortinet-Recognized-by-Glassdoor-as-one-of-the-Best-Places-to-Work-in-Canada.html HTTP/1.1" 200 None
+03/29/2019 00:08:50 DEBUG: Starting new HTTPS connection (1): www.indeed.com:443
+03/29/2019 00:08:50 DEBUG: https://www.indeed.com:443 "GET /cmp/Fortinet/reviews HTTP/1.1" 200 None
+03/29/2019 00:08:50 DEBUG: Starting new HTTPS connection (1): www.bctechnology.com:443
+03/29/2019 00:08:51 DEBUG: https://www.bctechnology.com:443 "GET /companies/Fortinet-Technologies.cfm HTTP/1.1" 200 30360
+03/29/2019 00:08:51 DEBUG: Starting new HTTPS connection (1): wearebctech.com:443
+03/29/2019 00:08:53 DEBUG: https://wearebctech.com:443 "GET /spotlight-on-fortinet/ HTTP/1.1" 200 17667
+03/29/2019 00:08:54 INFO: ============Fortinet, SIZE feature data collection completed============
+03/29/2019 00:08:54 INFO: ============Fortinet, ACQUISITIONS feature data collection started============
+03/29/2019 00:08:54 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:08:54 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:08:54 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:08:54 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Fortinet&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:08:54 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:08:54 INFO: =========================Getting search result source code=========================
+03/29/2019 00:08:54 DEBUG: Starting new HTTPS connection (1): www.fortinet.com:443
+03/29/2019 00:08:55 DEBUG: https://www.fortinet.com:443 "GET /products/fortinet-acquisition.html HTTP/1.1" 200 17213
+03/29/2019 00:08:55 DEBUG: Starting new HTTPS connection (1): www.fortinet.com:443
+03/29/2019 00:08:56 DEBUG: https://www.fortinet.com:443 "GET /products/fortinet-acquisition.html HTTP/1.1" 200 17213
+03/29/2019 00:08:56 DEBUG: Starting new HTTPS connection (1): www.fortinet.com:443
+03/29/2019 00:08:56 DEBUG: https://www.fortinet.com:443 "GET /corporate/about-us/newsroom/press-releases/2018/fortinet-acquires-bradford-networks.html HTTP/1.1" 200 19842
+03/29/2019 00:08:56 DEBUG: Starting new HTTPS connection (1): www.fortinet.com:443
+03/29/2019 00:08:57 DEBUG: https://www.fortinet.com:443 "GET /blog/business-and-technology/fortinet-acquires-zonefox.html HTTP/1.1" 200 8659
+03/29/2019 00:08:57 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:08:57 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Fortinet HTTP/1.1" 200 29173
+03/29/2019 00:08:57 DEBUG: Starting new HTTPS connection (1): globenewswire.com:443
+03/29/2019 00:08:57 DEBUG: https://globenewswire.com:443 "GET /news-release/2018/06/04/1516256/0/en/Fortinet-Acquires-Bradford-Networks.html HTTP/1.1" 301 0
+03/29/2019 00:08:57 DEBUG: Starting new HTTPS connection (1): www.globenewswire.com:443
+03/29/2019 00:08:59 DEBUG: https://www.globenewswire.com:443 "GET /news-release/2018/06/04/1516256/0/en/Fortinet-Acquires-Bradford-Networks.html HTTP/1.1" 200 None
+03/29/2019 00:08:59 DEBUG: Starting new HTTPS connection (1): globenewswire.com:443
+03/29/2019 00:08:59 DEBUG: https://globenewswire.com:443 "GET /news-release/2018/10/23/1625497/0/en/Fortinet-Acquires-Cloud-Based-Threat-Analytics-Company-ZoneFox.html HTTP/1.1" 301 0
+03/29/2019 00:08:59 DEBUG: Starting new HTTPS connection (1): www.globenewswire.com:443
+03/29/2019 00:09:00 DEBUG: https://www.globenewswire.com:443 "GET /news-release/2018/10/23/1625497/0/en/Fortinet-Acquires-Cloud-Based-Threat-Analytics-Company-ZoneFox.html HTTP/1.1" 200 None
+03/29/2019 00:09:00 DEBUG: Starting new HTTPS connection (1): www.streetinsider.com:443
+03/29/2019 00:09:00 DEBUG: https://www.streetinsider.com:443 "GET /Management%2BComments/Fortinet%2B%2528FTNT%2529%2BAnnounces%2BAcquisition%2Bof%2BZoneFox/14732184.html HTTP/1.1" 416 3125
+03/29/2019 00:09:00 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/29/2019 00:09:01 DEBUG: https://www.crunchbase.com:443 "GET /organization/fortinet/acquisitions/acquisitions_list HTTP/1.1" 403 None
+03/29/2019 00:09:01 DEBUG: Starting new HTTPS connection (1): www.securityweek.com:443
+03/29/2019 00:09:01 DEBUG: https://www.securityweek.com:443 "GET /fortinet-acquires-bradford-networks-extend-security-edge HTTP/1.1" 200 None
+03/29/2019 00:09:01 DEBUG: Starting new HTTPS connection (1): www.securityweek.com:443
+03/29/2019 00:09:02 DEBUG: https://www.securityweek.com:443 "GET /fortinet-tackles-insider-threats-zonefox-acquisition HTTP/1.1" 200 None
+03/29/2019 00:09:02 INFO: ============Fortinet, ACQUISITIONS feature data collection completed============
+03/29/2019 00:09:02 INFO: ============Fortinet, FUTURE GOALS feature data collection started============
+03/29/2019 00:09:02 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:09:02 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:09:02 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:09:03 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Fortinet&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:09:03 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:09:03 INFO: =========================Getting search result source code=========================
+03/29/2019 00:09:03 DEBUG: Starting new HTTPS connection (1): www.fortinet.com:443
+03/29/2019 00:09:04 DEBUG: https://www.fortinet.com:443 "GET /blog/business-and-technology/achieving-business-goals-with-intent-based-segmentation.html HTTP/1.1" 200 7769
+03/29/2019 00:09:04 DEBUG: Starting new HTTPS connection (1): www.fortinet.com:443
+03/29/2019 00:09:04 DEBUG: https://www.fortinet.com:443 "GET /content/dam/fortinet/assets/brochures/FortinetBroch.pdf HTTP/1.1" 200 None
+03/29/2019 00:09:05 DEBUG: SHIFT_JIS Japanese prober hit error at byte 995
+03/29/2019 00:09:05 DEBUG: EUC-JP Japanese prober hit error at byte 991
+03/29/2019 00:09:05 DEBUG: GB2312 Chinese prober hit error at byte 995
+03/29/2019 00:09:05 DEBUG: EUC-KR Korean prober hit error at byte 991
+03/29/2019 00:09:05 DEBUG: CP949 Korean prober hit error at byte 991
+03/29/2019 00:09:05 DEBUG: Big5 Chinese prober hit error at byte 995
+03/29/2019 00:09:05 DEBUG: EUC-TW Taiwan prober hit error at byte 991
+03/29/2019 00:09:10 DEBUG: windows-1251 confidence = 0.041209295980244545, below negative shortcut threshhold 0.05
+03/29/2019 00:09:13 DEBUG: KOI8-R confidence = 0.042080513294509694, below negative shortcut threshhold 0.05
+03/29/2019 00:09:15 DEBUG: ISO-8859-5 confidence = 0.04359243357477687, below negative shortcut threshhold 0.05
+03/29/2019 00:09:18 DEBUG: MacCyrillic confidence = 0.04318379049276256, below negative shortcut threshhold 0.05
+03/29/2019 00:09:21 DEBUG: IBM866 confidence = 0.04447541785785487, below negative shortcut threshhold 0.05
+03/29/2019 00:09:24 DEBUG: IBM855 confidence = 0.04154739920894557, below negative shortcut threshhold 0.05
+03/29/2019 00:09:39 DEBUG: ISO-8859-5 confidence = 0.04274676707193029, below negative shortcut threshhold 0.05
+03/29/2019 00:09:46 DEBUG: windows-1251 confidence = 0.04059077078199793, below negative shortcut threshhold 0.05
+03/29/2019 00:09:50 DEBUG: TIS-620 confidence = 0.04443658760258952, below negative shortcut threshhold 0.05
+03/29/2019 00:09:57 DEBUG: windows-1255 confidence = 0.04409806041379399, below negative shortcut threshhold 0.05
+03/29/2019 00:09:59 DEBUG: windows-1255 confidence = 0.04443220895557419, below negative shortcut threshhold 0.05
+03/29/2019 00:10:03 DEBUG: windows-1251 not active
+03/29/2019 00:10:03 DEBUG: KOI8-R not active
+03/29/2019 00:10:03 DEBUG: ISO-8859-5 not active
+03/29/2019 00:10:03 DEBUG: MacCyrillic not active
+03/29/2019 00:10:03 DEBUG: IBM866 not active
+03/29/2019 00:10:03 DEBUG: IBM855 not active
+03/29/2019 00:10:03 DEBUG: ISO-8859-7 Greek confidence = 0.07252636399389419
+03/29/2019 00:10:03 DEBUG: windows-1253 Greek confidence = 0.07418012298583045
+03/29/2019 00:10:03 DEBUG: ISO-8859-5 not active
+03/29/2019 00:10:03 DEBUG: windows-1251 not active
+03/29/2019 00:10:03 DEBUG: TIS-620 not active
+03/29/2019 00:10:03 DEBUG: ISO-8859-9 Turkish confidence = 0.11823010277763854
+03/29/2019 00:10:03 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/29/2019 00:10:03 DEBUG: windows-1255 not active
+03/29/2019 00:10:03 DEBUG: windows-1255 not active
+03/29/2019 00:10:03 DEBUG: no probers hit minimum threshold
+03/29/2019 00:10:03 DEBUG: utf-8  confidence = 0.010000000000000009
+03/29/2019 00:10:03 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/29/2019 00:10:03 DEBUG: EUC-JP Japanese confidence = 0.01
+03/29/2019 00:10:03 DEBUG: GB2312 Chinese confidence = 0.01
+03/29/2019 00:10:03 DEBUG: EUC-KR Korean confidence = 0.01
+03/29/2019 00:10:03 DEBUG: CP949 Korean confidence = 0.01
+03/29/2019 00:10:03 DEBUG: Big5 Chinese confidence = 0.01
+03/29/2019 00:10:03 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/29/2019 00:10:03 DEBUG: windows-1251 Russian confidence = 0.041209295980244545
+03/29/2019 00:10:03 DEBUG: KOI8-R Russian confidence = 0.042080513294509694
+03/29/2019 00:10:03 DEBUG: ISO-8859-5 Russian confidence = 0.04359243357477687
+03/29/2019 00:10:03 DEBUG: MacCyrillic Russian confidence = 0.04318379049276256
+03/29/2019 00:10:03 DEBUG: IBM866 Russian confidence = 0.04447541785785487
+03/29/2019 00:10:03 DEBUG: IBM855 Russian confidence = 0.04154739920894557
+03/29/2019 00:10:03 DEBUG: ISO-8859-7 Greek confidence = 0.07252636399389419
+03/29/2019 00:10:03 DEBUG: windows-1253 Greek confidence = 0.07418012298583045
+03/29/2019 00:10:03 DEBUG: ISO-8859-5 Bulgairan confidence = 0.04274676707193029
+03/29/2019 00:10:03 DEBUG: windows-1251 Bulgarian confidence = 0.04059077078199793
+03/29/2019 00:10:03 DEBUG: TIS-620 Thai confidence = 0.04443658760258952
+03/29/2019 00:10:03 DEBUG: ISO-8859-9 Turkish confidence = 0.11823010277763854
+03/29/2019 00:10:03 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/29/2019 00:10:03 DEBUG: windows-1255 Hebrew confidence = 0.04409806041379399
+03/29/2019 00:10:03 DEBUG: windows-1255 Hebrew confidence = 0.04443220895557419
+03/29/2019 00:10:03 DEBUG: windows-1255 Hebrew confidence = 0.04443220895557419
+03/29/2019 00:10:03 DEBUG: Starting new HTTPS connection (1): www.fortinet.com:443
+03/29/2019 00:10:03 DEBUG: https://www.fortinet.com:443 "GET /blog/business-and-technology/protect-against-current-and-future-threats-with-the-fortigate-en.html HTTP/1.1" 200 8518
+03/29/2019 00:10:03 DEBUG: Starting new HTTPS connection (1): simplywall.st:443
+03/29/2019 00:10:04 DEBUG: https://simplywall.st:443 "GET /stocks/us/software/nasdaq-ftnt/fortinet/news/is-it-too-late-to-buy-fortinet-inc-nasdaqftnt/ HTTP/1.1" 200 None
+03/29/2019 00:10:04 DEBUG: Starting new HTTPS connection (1): www.fool.com:443
+03/29/2019 00:10:05 DEBUG: https://www.fool.com:443 "GET /investing/2018/07/27/is-fortinet-built-for-long-term-growth.aspx HTTP/1.1" 200 None
+03/29/2019 00:10:05 DEBUG: Starting new HTTPS connection (1): www.fool.com:443
+03/29/2019 00:10:06 DEBUG: https://www.fool.com:443 "GET /investing/2017/11/30/heres-why-the-best-is-yet-to-come-for-fortinet-inc.aspx HTTP/1.1" 200 None
+03/29/2019 00:10:06 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/29/2019 00:10:07 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3Doy0B5Q4rjXM HTTP/1.1" 503 1799
+03/29/2019 00:10:07 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/29/2019 00:10:08 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DFb_1hICmDw4 HTTP/1.1" 503 1799
+03/29/2019 00:10:08 DEBUG: Starting new HTTPS connection (1): www.quantumrun.com:443
+03/29/2019 00:10:08 DEBUG: https://www.quantumrun.com:443 "GET /company_profile/future-of-fortinet/16827 HTTP/1.1" 200 None
+03/29/2019 00:10:08 DEBUG: Starting new HTTPS connection (1): laminar.co:443
+03/29/2019 00:10:11 DEBUG: https://laminar.co:443 "GET /the-future-with-fortinet/ HTTP/1.1" 200 None
+03/29/2019 00:10:11 INFO: ============Fortinet, FUTURE GOALS feature data collection completed============
+03/29/2019 00:10:11 INFO: ============Fortinet, TECH STACK feature data collection started============
+03/29/2019 00:10:11 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:10:11 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:10:11 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:10:11 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Fortinet&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:10:12 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:10:12 INFO: =========================Getting search result source code=========================
+03/29/2019 00:10:12 DEBUG: Starting new HTTPS connection (1): www.fortinet.com:443
+03/29/2019 00:10:12 DEBUG: https://www.fortinet.com:443 "GET / HTTP/1.1" 200 18672
+03/29/2019 00:10:12 DEBUG: Starting new HTTPS connection (1): www.fortinet.com:443
+03/29/2019 00:10:13 DEBUG: https://www.fortinet.com:443 "GET /corporate/careers.html HTTP/1.1" 200 19599
+03/29/2019 00:10:13 DEBUG: Starting new HTTPS connection (1): help.fortinet.com:443

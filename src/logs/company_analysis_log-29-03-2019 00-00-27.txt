@@ -1,0 +1,300 @@
+03/29/2019 00:00:27 INFO: ============Script execution started============
+03/29/2019 00:00:27 INFO: ============Cognizant data collection started============
+03/29/2019 00:00:27 INFO: ============Cognizant, SIZE feature data collection started============
+03/29/2019 00:00:27 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:00:27 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:00:27 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:00:28 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Cognizant&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:00:29 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:00:29 INFO: =========================Getting search result source code=========================
+03/29/2019 00:00:29 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/29/2019 00:00:29 DEBUG: https://www.statista.com:443 "GET /statistics/328322/cognizant-employee-numbers/ HTTP/1.1" 200 None
+03/29/2019 00:00:29 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:00:29 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Cognizant HTTP/1.1" 200 52074
+03/29/2019 00:00:29 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/29/2019 00:00:30 DEBUG: https://www.statista.com:443 "GET /statistics/328322/cognizant-employee-numbers/ HTTP/1.1" 200 None
+03/29/2019 00:00:30 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:00:30 DEBUG: https://ca.linkedin.com:443 "GET /company/cognizant HTTP/1.1" 999 1461
+03/29/2019 00:00:30 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/29/2019 00:00:30 DEBUG: https://www.owler.com:443 "GET /company/cognizant HTTP/1.1" 405 5776
+03/29/2019 00:00:30 DEBUG: Starting new HTTPS connection (1): www.glassdoor.com:443
+03/29/2019 00:00:31 DEBUG: https://www.glassdoor.com:443 "GET /Overview/Working-at-Cognizant-Technology-Solutions-EI_IE8014.11,41.htm HTTP/1.1" 403 None
+03/29/2019 00:00:31 DEBUG: Starting new HTTPS connection (1): m.economictimes.com:443
+03/29/2019 00:00:31 DEBUG: https://m.economictimes.com:443 "GET /tech/hardware/a-quarter-of-cognizant-employees-is-in-digital/articleshow/66839477.cms HTTP/1.1" 302 0
+03/29/2019 00:00:31 DEBUG: Starting new HTTPS connection (1): economictimes.indiatimes.com:443
+03/29/2019 00:00:33 DEBUG: https://economictimes.indiatimes.com:443 "GET /tech/hardware/a-quarter-of-cognizant-employees-is-in-digital/articleshow/66839477.cms?from=mdr HTTP/1.1" 200 37230
+03/29/2019 00:00:33 DEBUG: Starting new HTTPS connection (1): economictimes.indiatimes.com:443
+03/29/2019 00:00:34 DEBUG: https://economictimes.indiatimes.com:443 "GET /tech/hardware/a-quarter-of-cognizant-employees-is-in-digital/articleshow/66839477.cms HTTP/1.1" 200 37072
+03/29/2019 00:00:34 DEBUG: Starting new HTTPS connection (1): www.cognizant.com:443
+03/29/2019 00:00:37 DEBUG: https://www.cognizant.com:443 "GET /content/dam/cognizant_foundation/investors/2018/q1-corporate-factsheet.pdf HTTP/1.1" 301 279
+03/29/2019 00:00:42 DEBUG: https://www.cognizant.com:443 "GET /investors-pdf/2018/q1-corporate-factsheet.pdf HTTP/1.1" 404 16
+03/29/2019 00:00:42 DEBUG: Starting new HTTPS connection (1): www.msn.com:443
+03/29/2019 00:00:42 DEBUG: https://www.msn.com:443 "GET /en-in/news/other/cognizant-fires-200-senior-level-employees-offers-them-up-to-4-months-of-severance-payout/ar-BBObd3m HTTP/1.1" 200 18775
+03/29/2019 00:00:42 DEBUG: Starting new HTTPS connection (1): www.businesstoday.in:443
+03/29/2019 00:00:43 DEBUG: https://www.businesstoday.in:443 "GET /current/corporate/cognizant-fires-200-senior-level-employees-offers-4-months-severance-payout/story/284541.html HTTP/1.1" 200 19417
+03/29/2019 00:00:43 INFO: ============Cognizant, SIZE feature data collection completed============
+03/29/2019 00:00:43 INFO: ============Cognizant, ACQUISITIONS feature data collection started============
+03/29/2019 00:00:43 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:00:43 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:00:43 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:00:44 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Cognizant&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:00:44 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:00:44 INFO: =========================Getting search result source code=========================
+03/29/2019 00:00:44 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:00:44 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Cognizant HTTP/1.1" 200 52074
+03/29/2019 00:00:44 DEBUG: Starting new HTTPS connection (1): www.crn.com:443
+03/29/2019 00:00:45 DEBUG: https://www.crn.com:443 "GET /news/channel-programs/cognizant-acquisition-spree-continues-with-deal-for-salesforce-specialist-advanced-technology-group HTTP/1.1" 200 None
+03/29/2019 00:00:45 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/29/2019 00:00:46 DEBUG: https://www.crunchbase.com:443 "GET /organization/cognizant-technology-solutions/acquisitions/acquisitions_list HTTP/1.1" 403 None
+03/29/2019 00:00:46 DEBUG: Starting new HTTPS connection (1): news.cognizant.com:443
+03/29/2019 00:00:47 DEBUG: https://news.cognizant.com:443 "GET /2018-09-18-Cognizant-to-Acquire-Advanced-Technology-Group-to-Expand-Cloud-Quote-to-Cash-Capabilities HTTP/1.1" 200 49343
+03/29/2019 00:00:47 DEBUG: Starting new HTTPS connection (1): www.prnewswire.com:443
+03/29/2019 00:00:47 DEBUG: https://www.prnewswire.com:443 "GET /news-releases/cognizant-to-acquire-advanced-technology-group-to-expand-cloud-quote-to-cash-capabilities-300714099.html HTTP/1.1" 200 None
+03/29/2019 00:00:47 DEBUG: Starting new HTTPS connection (1): www.prnewswire.com:443
+03/29/2019 00:00:47 DEBUG: https://www.prnewswire.com:443 "GET /news-releases/cognizant-to-acquire-mustache-a-new-york-based-creative-content-agency-300763039.html HTTP/1.1" 200 48056
+03/29/2019 00:00:48 DEBUG: Starting new HTTPS connection (1): www.techcircle.in:443
+03/29/2019 00:00:49 DEBUG: https://www.techcircle.in:443 "GET /2018/12/12/cognizant-notches-sixth-acquisition-this-year-with-content-firm-mustache/ HTTP/1.1" 200 None
+03/29/2019 00:00:49 DEBUG: Starting new HTTPS connection (1): www.finextra.com:443
+03/29/2019 00:00:50 DEBUG: https://www.finextra.com:443 "GET /newsarticle/33247/cognizant-to-acquire-finnish-bank-backed-oy-samlink HTTP/1.1" 200 22129
+03/29/2019 00:00:50 DEBUG: Starting new HTTPS connection (1): www.reuters.com:443
+03/29/2019 00:00:50 DEBUG: https://www.reuters.com:443 "GET /article/us-softvision-m-a-cognizant-tech/cognizant-in-talks-to-acquire-softvision-sources-idUSKCN1M72ID HTTP/1.1" 200 None
+03/29/2019 00:00:51 DEBUG: Starting new HTTPS connection (1): economictimes.indiatimes.com:443
+03/29/2019 00:00:52 DEBUG: https://economictimes.indiatimes.com:443 "GET /tech/ites/cognizant-to-acquire-us-based-mustache/articleshow/67046596.cms HTTP/1.1" 200 36585
+03/29/2019 00:00:52 INFO: ============Cognizant, ACQUISITIONS feature data collection completed============
+03/29/2019 00:00:52 INFO: ============Cognizant, FUTURE GOALS feature data collection started============
+03/29/2019 00:00:52 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:00:52 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:00:52 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:00:53 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Cognizant&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:00:53 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:00:53 INFO: =========================Getting search result source code=========================
+03/29/2019 00:00:53 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/29/2019 00:00:53 DEBUG: https://www.quora.com:443 "GET /What-is-the-objective-of-Cognizant-Technology-Solutions HTTP/1.1" 200 None
+03/29/2019 00:00:54 DEBUG: Starting new HTTPS connection (1): www.cognizant.com:443
+03/29/2019 00:00:54 DEBUG: https://www.cognizant.com:443 "GET /about-cognizant HTTP/1.1" 200 51025
+03/29/2019 00:00:54 DEBUG: Starting new HTTP connection (1): news.cognizant.com:80
+03/29/2019 00:00:54 DEBUG: http://news.cognizant.com:80 "GET /news%3Fitem%3D6278 HTTP/1.1" 301 0
+03/29/2019 00:00:54 DEBUG: Starting new HTTPS connection (1): news.cognizant.com:443
+03/29/2019 00:00:55 DEBUG: https://news.cognizant.com:443 "GET /news%3Fitem%3D6278 HTTP/1.1" 404 None
+03/29/2019 00:00:55 DEBUG: Starting new HTTPS connection (1): www.cognizant.com:443
+03/29/2019 00:00:56 DEBUG: https://www.cognizant.com:443 "GET /en-ch/leading-in-digital HTTP/1.1" 301 259
+03/29/2019 00:01:00 DEBUG: https://www.cognizant.com:443 "GET /en-ch/customer-experience HTTP/1.1" 404 16
+03/29/2019 00:01:00 DEBUG: Starting new HTTPS connection (1): www.cognizant.com:443
+03/29/2019 00:01:05 DEBUG: https://www.cognizant.com:443 "GET /about-cognizant/cultural-values HTTP/1.1" 404 16
+03/29/2019 00:01:05 DEBUG: Starting new HTTPS connection (1): www.cognizant.com:443
+03/29/2019 00:01:06 DEBUG: https://www.cognizant.com:443 "GET /consulting/business-it-strategy HTTP/1.1" 200 47104
+03/29/2019 00:01:06 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/29/2019 00:01:06 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DnjwHmeYyfSc HTTP/1.1" 503 1799
+03/29/2019 00:01:06 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/29/2019 00:01:07 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3Dvw7NVbNHi3I HTTP/1.1" 503 1799
+03/29/2019 00:01:07 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/29/2019 00:01:08 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DrXt65v5BeH4 HTTP/1.1" 503 1799
+03/29/2019 00:01:08 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/29/2019 00:01:08 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DE9asaxZJ7Bo HTTP/1.1" 503 1799
+03/29/2019 00:01:08 INFO: ============Cognizant, FUTURE GOALS feature data collection completed============
+03/29/2019 00:01:08 INFO: ============Cognizant, TECH STACK feature data collection started============
+03/29/2019 00:01:08 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:01:08 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:01:08 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:01:09 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Cognizant&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:01:10 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:01:10 INFO: =========================Getting search result source code=========================
+03/29/2019 00:01:10 DEBUG: Starting new HTTPS connection (1): www.cognizant.com:443
+03/29/2019 00:01:10 DEBUG: https://www.cognizant.com:443 "GET / HTTP/1.1" 200 50782
+03/29/2019 00:01:10 DEBUG: Starting new HTTPS connection (1): www.cognizant.com:443
+03/29/2019 00:01:10 DEBUG: https://www.cognizant.com:443 "GET /technology-solutions HTTP/1.1" 200 52471
+03/29/2019 00:01:11 DEBUG: Starting new HTTPS connection (1): www.cognizant.com:443
+03/29/2019 00:01:11 DEBUG: https://www.cognizant.com:443 "GET /about-cognizant HTTP/1.1" 200 51025
+03/29/2019 00:01:11 DEBUG: Starting new HTTPS connection (1): www.cognizant.com:443
+03/29/2019 00:01:11 DEBUG: https://www.cognizant.com:443 "GET /contactus HTTP/1.1" 200 57697
+03/29/2019 00:01:11 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:01:11 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Cognizant HTTP/1.1" 200 52074
+03/29/2019 00:01:11 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/29/2019 00:01:12 DEBUG: https://www.glassdoor.ca:443 "GET /Overview/Working-at-Cognizant-Technology-Solutions-EI_IE8014.11,41.htm HTTP/1.1" 403 None
+03/29/2019 00:01:12 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:01:12 DEBUG: https://ca.linkedin.com:443 "GET /company/cognizant HTTP/1.1" 999 1461
+03/29/2019 00:01:12 DEBUG: Starting new HTTPS connection (1): www.facebook.com:443
+03/29/2019 00:01:13 DEBUG: https://www.facebook.com:443 "GET /Cognizant/ HTTP/1.1" 200 None
+03/29/2019 00:01:13 DEBUG: Starting new HTTPS connection (1): ca.indeed.com:443
+03/29/2019 00:01:13 DEBUG: https://ca.indeed.com:443 "GET /cmp/Cognizant-Technology-Solutions/reviews%3Ffcountry%3DCA%26floc%3DMississauga%252C%2BON HTTP/1.1" 404 None
+03/29/2019 00:01:13 DEBUG: Starting new HTTPS connection (1): www.glassdoor.co.in:443
+03/29/2019 00:01:14 DEBUG: https://www.glassdoor.co.in:443 "GET /Reviews/Cognizant-Technology-Solutions-Reviews-E8014.htm HTTP/1.1" 403 None
+03/29/2019 00:01:14 INFO: ============Cognizant, TECH STACK feature data collection completed============
+03/29/2019 00:01:14 INFO: ============Cognizant, PRODUCTS feature data collection started============
+03/29/2019 00:01:14 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:01:14 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:01:14 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:01:15 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Cognizant&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:01:15 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:01:15 INFO: =========================Getting search result source code=========================
+03/29/2019 00:01:15 DEBUG: Starting new HTTPS connection (1): www.cognizant.com:443
+03/29/2019 00:01:16 DEBUG: https://www.cognizant.com:443 "GET /products-and-platforms HTTP/1.1" 200 50621
+03/29/2019 00:01:16 DEBUG: Starting new HTTPS connection (1): www.cognizant.com:443
+03/29/2019 00:01:20 DEBUG: https://www.cognizant.com:443 "GET /technology-solutions/software-vendors HTTP/1.1" 404 16
+03/29/2019 00:01:20 DEBUG: Starting new HTTPS connection (1): www.cognizant.com:443
+03/29/2019 00:01:21 DEBUG: https://www.cognizant.com:443 "GET /accelerator/products HTTP/1.1" 200 6118
+03/29/2019 00:01:21 DEBUG: Starting new HTTPS connection (1): www.cognizant.com:443
+03/29/2019 00:01:21 DEBUG: https://www.cognizant.com:443 "GET /technology-solutions HTTP/1.1" 200 52471
+03/29/2019 00:01:21 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:01:21 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Cognizant HTTP/1.1" 200 52074
+03/29/2019 00:01:21 DEBUG: Starting new HTTPS connection (1): www.g2crowd.com:443
+03/29/2019 00:01:22 DEBUG: https://www.g2crowd.com:443 "GET /vendors/cognizant HTTP/1.1" 200 None
+03/29/2019 00:01:22 DEBUG: Starting new HTTPS connection (1): www1.pega.com:443
+03/29/2019 00:01:22 DEBUG: https://www1.pega.com:443 "GET /services/partnerships/cognizant HTTP/1.1" 301 260
+03/29/2019 00:01:22 DEBUG: Starting new HTTPS connection (1): www.pega.com:443
+03/29/2019 00:01:22 DEBUG: https://www.pega.com:443 "GET /services/partnerships/cognizant HTTP/1.1" 200 45127
+03/29/2019 00:01:22 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:01:23 DEBUG: https://ca.linkedin.com:443 "GET /company/cognizant HTTP/1.1" 999 1461
+03/29/2019 00:01:23 DEBUG: Starting new HTTPS connection (1): www.gartner.com:443
+03/29/2019 00:01:23 DEBUG: https://www.gartner.com:443 "GET /reviews/vendor/cognizant HTTP/1.1" 200 None
+03/29/2019 00:01:23 DEBUG: Starting new HTTP connection (1): www1.softwareag.com:80
+03/29/2019 00:01:23 DEBUG: http://www1.softwareag.com:80 "GET /us/partners/ourpartners/Cognizant_page.asp HTTP/1.1" 301 0
+03/29/2019 00:01:23 DEBUG: Starting new HTTPS connection (1): www.softwareag.com:443
+03/29/2019 00:01:24 DEBUG: https://www.softwareag.com:443 "GET /corporate/partners/partner_finder/cognizant.html HTTP/1.1" 200 154565
+03/29/2019 00:01:25 INFO: ============Cognizant, PRODUCTS feature data collection completed============
+03/29/2019 00:01:29 INFO: ============Cognizant data collection completed============
+03/29/2019 00:01:29 INFO: ============Shopify data collection started============
+03/29/2019 00:01:29 INFO: ============Shopify, SIZE feature data collection started============
+03/29/2019 00:01:29 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:01:29 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:01:29 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:01:30 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Shopify&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:01:30 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:01:30 INFO: =========================Getting search result source code=========================
+03/29/2019 00:01:30 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:01:30 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Shopify HTTP/1.1" 200 28493
+03/29/2019 00:01:30 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:01:30 DEBUG: https://ca.linkedin.com:443 "GET /company/shopify HTTP/1.1" 999 1461
+03/29/2019 00:01:30 DEBUG: Starting new HTTPS connection (1): www.shopify.ca:443
+03/29/2019 00:01:31 DEBUG: https://www.shopify.ca:443 "GET /careers HTTP/1.1" 200 None
+03/29/2019 00:01:31 DEBUG: Starting new HTTPS connection (1): help.shopify.com:443
+03/29/2019 00:01:31 DEBUG: https://help.shopify.com:443 "GET /en/themes/customization/products/features/add-size-chart HTTP/1.1" 200 None
+03/29/2019 00:01:31 DEBUG: Starting new HTTPS connection (1): content.eluta.ca:443
+03/29/2019 00:01:32 DEBUG: https://content.eluta.ca:443 "GET /top-employer-shopify HTTP/1.1" 200 15323
+03/29/2019 00:01:32 DEBUG: Starting new HTTPS connection (1): www.shopifyandyou.com:443
+03/29/2019 00:01:33 DEBUG: https://www.shopifyandyou.com:443 "GET /blogs/news/statistics-about-shopify HTTP/1.1" 200 None
+03/29/2019 00:01:33 DEBUG: Starting new HTTPS connection (1): techvibes.com:443
+03/29/2019 00:01:33 DEBUG: https://techvibes.com:443 "GET /2015/09/04/a-brief-history-of-shopify-2015-09-04 HTTP/1.1" 200 19595
+03/29/2019 00:01:34 DEBUG: Starting new HTTPS connection (1): ca.indeed.com:443
+03/29/2019 00:01:34 DEBUG: https://ca.indeed.com:443 "GET /cmp/Shopify/reviews%3Ffcountry%3DALL HTTP/1.1" 404 None
+03/29/2019 00:01:34 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/29/2019 00:01:34 DEBUG: https://www.glassdoor.ca:443 "GET /Benefits/Shopify-Canada-Benefits-EI_IE675933.0,7_IL.8,14_IN3.htm HTTP/1.1" 403 None
+03/29/2019 00:01:34 DEBUG: Starting new HTTPS connection (1): www.therecord.com:443
+03/29/2019 00:01:35 DEBUG: https://www.therecord.com:443 "GET /news-story/7661683-shopify-hiring-hundreds-in-waterloo/ HTTP/1.1" 200 None
+03/29/2019 00:01:35 INFO: ============Shopify, SIZE feature data collection completed============
+03/29/2019 00:01:35 INFO: ============Shopify, ACQUISITIONS feature data collection started============
+03/29/2019 00:01:35 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:01:35 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:01:35 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:01:36 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Shopify&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:01:37 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:01:37 INFO: =========================Getting search result source code=========================
+03/29/2019 00:01:37 DEBUG: Starting new HTTPS connection (1): medium.com:443
+03/29/2019 00:01:37 DEBUG: https://medium.com:443 "GET /%40arjunsarin/should-google-acquire-shopify-to-fuel-growth-d6892123eaa3 HTTP/1.1" 301 None
+03/29/2019 00:01:37 DEBUG: https://medium.com:443 "GET /@arjunsarin/should-google-acquire-shopify-to-fuel-growth-d6892123eaa3 HTTP/1.1" 200 None
+03/29/2019 00:01:37 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/29/2019 00:01:40 DEBUG: https://techcrunch.com:443 "GET /2018/07/19/walmart-acquiring-shopify-is-no-longer-a-laughable-idea/ HTTP/1.1" 200 None
+03/29/2019 00:01:40 DEBUG: Starting new HTTPS connection (1): help.shopify.com:443
+03/29/2019 00:01:41 DEBUG: https://help.shopify.com:443 "GET /en/manual/reports-and-analytics/shopify-reports/report-types/acquisition-reports HTTP/1.1" 200 None
+03/29/2019 00:01:41 DEBUG: Starting new HTTPS connection (1): apps.shopify.com:443
+03/29/2019 00:01:41 DEBUG: https://apps.shopify.com:443 "GET /argoperks HTTP/1.1" 200 None
+03/29/2019 00:01:42 DEBUG: Starting new HTTPS connection (1): www.fool.ca:443
+03/29/2019 00:01:42 DEBUG: https://www.fool.ca:443 "GET /2018/11/05/these-3-companies-could-buy-shopify-inc-tsxshop/ HTTP/1.1" 403 None
+03/29/2019 00:01:42 DEBUG: Starting new HTTPS connection (1): www.itbusiness.ca:443
+03/29/2019 00:01:42 DEBUG: https://www.itbusiness.ca:443 "GET /news/shopify-acquires-ecommerce-return-solution-return-magic/102545 HTTP/1.1" 200 16839
+03/29/2019 00:01:42 DEBUG: Starting new HTTPS connection (1): betakit.com:443
+03/29/2019 00:01:43 DEBUG: https://betakit.com:443 "GET /shopify-acquires-swedish-ecommerce-marketplace-tictail/ HTTP/1.1" 200 None
+03/29/2019 00:01:43 DEBUG: Starting new HTTPS connection (1): www.shopify.ca:443
+03/29/2019 00:01:44 DEBUG: https://www.shopify.ca:443 "GET /guides/ecommerce-analytics/customer-acquisition-metrics HTTP/1.1" 200 None
+03/29/2019 00:01:44 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/29/2019 00:01:44 DEBUG: https://www.glassdoor.ca:443 "GET /Interview/Shopify-Talent-Acquisition-Interview-Questions-EI_IE675933.0,7_KO8,26.htm HTTP/1.1" 403 None
+03/29/2019 00:01:44 DEBUG: Starting new HTTP connection (1): www.bnnbloomberg.ca:80
+03/29/2019 00:01:44 DEBUG: http://www.bnnbloomberg.ca:80 "GET /technology/video/croxon-adobe-s-magento-acquisition-could-infringe-on-a-segment-that-shopify-almost-had-to-itself~1400348 HTTP/1.1" 301 0
+03/29/2019 00:01:44 DEBUG: Starting new HTTPS connection (1): www.bnnbloomberg.ca:443
+03/29/2019 00:01:45 DEBUG: https://www.bnnbloomberg.ca:443 "GET /technology/video/croxon-adobe-s-magento-acquisition-could-infringe-on-a-segment-that-shopify-almost-had-to-itself~1400348 HTTP/1.1" 200 29643
+03/29/2019 00:01:45 INFO: ============Shopify, ACQUISITIONS feature data collection completed============
+03/29/2019 00:01:45 INFO: ============Shopify, FUTURE GOALS feature data collection started============
+03/29/2019 00:01:45 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:01:45 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:01:45 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:01:45 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Shopify&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:01:46 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:01:46 INFO: =========================Getting search result source code=========================
+03/29/2019 00:01:46 DEBUG: Starting new HTTPS connection (1): help.shopify.com:443
+03/29/2019 00:01:46 DEBUG: https://help.shopify.com:443 "GET /en/manual/reports-and-analytics/google-analytics/google-analytics-goals-and-funnels HTTP/1.1" 200 None
+03/29/2019 00:01:46 DEBUG: Starting new HTTPS connection (1): www.shopify.com:443
+03/29/2019 00:01:47 DEBUG: https://www.shopify.com:443 "GET /enterprise/the-future-of-ecommerce HTTP/1.1" 200 None
+03/29/2019 00:01:47 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/29/2019 00:01:48 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DeWOjeIPyeSc HTTP/1.1" 503 1799
+03/29/2019 00:01:48 DEBUG: Starting new HTTPS connection (1): business.financialpost.com:443
+03/29/2019 00:01:50 DEBUG: https://business.financialpost.com:443 "GET /technology/why-shopify-thinks-augmented-reality-is-the-future-of-online-retail HTTP/1.1" 200 None
+03/29/2019 00:01:50 DEBUG: Starting new HTTPS connection (1): uplaterthanyou.com:443
+03/29/2019 00:01:50 DEBUG: https://uplaterthanyou.com:443 "GET /pages/shopify HTTP/1.1" 200 None
+03/29/2019 00:01:50 DEBUG: Starting new HTTPS connection (1): www.fool.com:443
+03/29/2019 00:01:51 DEBUG: https://www.fool.com:443 "GET /investing/2018/03/27/3-ways-shopify-is-investing-in-its-future.aspx HTTP/1.1" 200 None
+03/29/2019 00:01:51 DEBUG: Starting new HTTPS connection (1): neilpatel.com:443
+03/29/2019 00:01:51 DEBUG: https://neilpatel.com:443 "GET /blog/how-shopify-grew-10x-in-3-years-and-how-you-can-achieve-similar-results/ HTTP/1.1" 403 162
+03/29/2019 00:01:51 DEBUG: Starting new HTTPS connection (1): investorplace.com:443
+03/29/2019 00:01:52 DEBUG: https://investorplace.com:443 "GET /2018/12/shopify-stock-supports-bull-bear/ HTTP/1.1" 200 None
+03/29/2019 00:01:52 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/29/2019 00:01:53 DEBUG: https://www.cnbc.com:443 "GET /video/2018/11/26/future-of-retail-will-be-consumers-buying-directly-says-shopify-coo.html HTTP/1.1" 200 60446
+03/29/2019 00:01:53 DEBUG: Starting new HTTPS connection (1): www.dreamgrow.com:443
+03/29/2019 00:01:54 DEBUG: https://www.dreamgrow.com:443 "GET /black-friday-shopify-deals/ HTTP/1.1" 200 None
+03/29/2019 00:01:54 INFO: ============Shopify, FUTURE GOALS feature data collection completed============
+03/29/2019 00:01:54 INFO: ============Shopify, TECH STACK feature data collection started============
+03/29/2019 00:01:54 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:01:54 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:01:54 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:01:55 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Shopify&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:01:55 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:01:55 INFO: =========================Getting search result source code=========================
+03/29/2019 00:01:55 DEBUG: Starting new HTTPS connection (1): engineering.shopify.com:443
+03/29/2019 00:01:55 DEBUG: https://engineering.shopify.com:443 "GET /blogs/engineering/e-commerce-at-scale-inside-shopifys-tech-stack HTTP/1.1" 200 None
+03/29/2019 00:01:55 DEBUG: Starting new HTTPS connection (1): www.shopify.com:443
+03/29/2019 00:01:56 DEBUG: https://www.shopify.com:443 "GET /enterprise/six-must-have-technologies-to-build-the-best-ecommerce-tech-stack HTTP/1.1" 200 None
+03/29/2019 00:01:56 DEBUG: Starting new HTTPS connection (1): help.shopify.com:443
+03/29/2019 00:01:57 DEBUG: https://help.shopify.com:443 "GET /en/themes/development/getting-started/choosing-an-editor HTTP/1.1" 200 None
+03/29/2019 00:01:57 DEBUG: Starting new HTTPS connection (1): stackshare.io:443
+03/29/2019 00:01:59 DEBUG: https://stackshare.io:443 "GET /shopify/shopify HTTP/1.1" 200 None
+03/29/2019 00:01:59 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/29/2019 00:01:59 DEBUG: https://www.quora.com:443 "GET /What-is-the-technology-stack-behind-Shopify HTTP/1.1" 200 None
+03/29/2019 00:02:00 DEBUG: Starting new HTTPS connection (1): www.shopify.ca:443
+03/29/2019 00:02:00 DEBUG: https://www.shopify.ca:443 "GET /plus/partners/fisher-technology HTTP/1.1" 200 None
+03/29/2019 00:02:00 DEBUG: Starting new HTTPS connection (1): www.shopify.ca:443
+03/29/2019 00:02:01 DEBUG: https://www.shopify.ca:443 "GET /blog/creating-a-full-stack-design-company HTTP/1.1" 200 None
+03/29/2019 00:02:02 DEBUG: Starting new HTTPS connection (1): colorlib.com:443
+03/29/2019 00:02:02 DEBUG: https://colorlib.com:443 "GET /wp/shopify-technology-themes/ HTTP/1.1" 200 None
+03/29/2019 00:02:02 DEBUG: Starting new HTTPS connection (1): themeforest.net:443
+03/29/2019 00:02:02 DEBUG: https://themeforest.net:443 "GET /category/ecommerce/shopify/technology HTTP/1.1" 200 None
+03/29/2019 00:02:02 DEBUG: Starting new HTTPS connection (1): themeforest.net:443
+03/29/2019 00:02:02 DEBUG: https://themeforest.net:443 "GET /popular_item/by_category%3Fcategory%3Decommerce/shopify/technology HTTP/1.1" 200 None
+03/29/2019 00:02:02 INFO: ============Shopify, TECH STACK feature data collection completed============
+03/29/2019 00:02:02 INFO: ============Shopify, PRODUCTS feature data collection started============
+03/29/2019 00:02:02 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:02:02 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:02:02 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:02:03 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Shopify&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:02:04 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:02:04 INFO: =========================Getting search result source code=========================
+03/29/2019 00:02:04 DEBUG: Starting new HTTPS connection (1): www.shopify.ca:443
+03/29/2019 00:02:04 DEBUG: https://www.shopify.ca:443 "GET /tools HTTP/1.1" 200 None
+03/29/2019 00:02:04 DEBUG: Starting new HTTPS connection (1): www.shopify.ca:443
+03/29/2019 00:02:04 DEBUG: https://www.shopify.ca:443 "GET /sell/services HTTP/1.1" 200 None
+03/29/2019 00:02:04 DEBUG: Starting new HTTPS connection (1): apps.shopify.com:443
+03/29/2019 00:02:05 DEBUG: https://apps.shopify.com:443 "GET / HTTP/1.1" 200 None
+03/29/2019 00:02:05 DEBUG: Starting new HTTPS connection (1): help.shopify.com:443
+03/29/2019 00:02:06 DEBUG: https://help.shopify.com:443 "GET /en/manual/products HTTP/1.1" 200 None
+03/29/2019 00:02:06 DEBUG: Starting new HTTPS connection (1): help.shopify.com:443
+03/29/2019 00:02:07 DEBUG: https://help.shopify.com:443 "GET /en/manual/productivity-tools/free-tools HTTP/1.1" 200 None
+03/29/2019 00:02:07 DEBUG: Starting new HTTPS connection (1): help.shopify.com:443
+03/29/2019 00:02:07 DEBUG: https://help.shopify.com:443 "GET /en/manual/products/digital-service-product HTTP/1.1" 200 None
+03/29/2019 00:02:07 DEBUG: Starting new HTTPS connection (1): apps.shopify.com:443
+03/29/2019 00:02:08 DEBUG: https://apps.shopify.com:443 "GET /browse/finding-and-adding-products HTTP/1.1" 200 None
+03/29/2019 00:02:08 DEBUG: Starting new HTTPS connection (1): apps.shopify.com:443
+03/29/2019 00:02:09 DEBUG: https://apps.shopify.com:443 "GET /verified-products HTTP/1.1" 200 None
+03/29/2019 00:02:09 DEBUG: Starting new HTTPS connection (1): www.shopify.com:443
+03/29/2019 00:02:09 DEBUG: https://www.shopify.com:443 "GET /blog/12-things-to-sell-on-shopify-other-than-products HTTP/1.1" 200 None
+03/29/2019 00:02:09 DEBUG: Starting new HTTPS connection (1): www.softwareadvice.com:443
+03/29/2019 00:02:10 DEBUG: https://www.softwareadvice.com:443 "GET /ecommerce/shopify-profile/ HTTP/1.1" 200 211524
+03/29/2019 00:02:10 INFO: ============Shopify, PRODUCTS feature data collection completed============
+03/29/2019 00:02:10 INFO: ============Shopify data collection completed============

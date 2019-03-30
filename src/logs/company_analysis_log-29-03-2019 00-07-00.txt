@@ -1,0 +1,103 @@
+03/29/2019 00:07:00 INFO: ============Script execution started============
+03/29/2019 00:07:00 INFO: ============Neilson data collection started============
+03/29/2019 00:07:00 INFO: ============Neilson, SIZE feature data collection started============
+03/29/2019 00:07:00 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:07:00 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:07:00 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:07:01 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Neilson&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:07:01 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:07:01 INFO: =========================Getting search result source code=========================
+03/29/2019 00:07:01 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/29/2019 00:07:02 DEBUG: https://www.owler.com:443 "GET /company/neilson HTTP/1.1" 405 5772
+03/29/2019 00:07:02 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:07:02 DEBUG: https://ca.linkedin.com:443 "GET /company/neilson-active-holidays HTTP/1.1" 999 1461
+03/29/2019 00:07:02 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:07:02 DEBUG: https://ca.linkedin.com:443 "GET /company/neilson-group HTTP/1.1" 999 1461
+03/29/2019 00:07:02 DEBUG: Starting new HTTPS connection (1): www.neilsondairy.com:443
+03/29/2019 00:07:03 DEBUG: https://www.neilsondairy.com:443 "GET /en/history HTTP/1.1" 200 None
+03/29/2019 00:07:03 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:07:03 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Neilson_Dairy HTTP/1.1" 200 11761
+03/29/2019 00:07:03 DEBUG: Starting new HTTPS connection (1): www.theglobeandmail.com:443
+03/29/2019 00:07:03 DEBUG: https://www.theglobeandmail.com:443 "GET /report-on-business/weston-sells-neilson-dairy-to-saputo/article1064578/ HTTP/1.1" 200 None
+03/29/2019 00:07:03 DEBUG: Starting new HTTPS connection (1): cfs.nrcan.gc.ca:443
+03/29/2019 00:07:07 DEBUG: https://cfs.nrcan.gc.ca:443 "GET /employees/read/eneilson HTTP/1.1" 200 4180
+03/29/2019 00:07:07 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/29/2019 00:07:07 DEBUG: https://www.glassdoor.ca:443 "GET /Overview/Working-at-Neilson-and-Associates-EI_IE1315588.11,33.htm HTTP/1.1" 403 None
+03/29/2019 00:07:07 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/29/2019 00:07:07 DEBUG: https://www.glassdoor.ca:443 "GET /Overview/Working-at-Neilson-Financial-Services-EI_IE1163495.11,37.htm HTTP/1.1" 403 None
+03/29/2019 00:07:07 INFO: ============Neilson, SIZE feature data collection completed============
+03/29/2019 00:07:07 INFO: ============Neilson, ACQUISITIONS feature data collection started============
+03/29/2019 00:07:07 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:07:07 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:07:07 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:07:07 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Neilson&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:07:08 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:07:08 INFO: =========================Getting search result source code=========================
+03/29/2019 00:07:08 DEBUG: Starting new HTTPS connection (1): www.facebook.com:443
+03/29/2019 00:07:08 DEBUG: https://www.facebook.com:443 "GET /CadburyDairyMilkCanada/posts/when-cadbury-took-over-neilson-chocolates-did-they-continue-to-make-all-of-the-n/10153853667298885/ HTTP/1.1" 200 None
+03/29/2019 00:07:09 DEBUG: Starting new HTTPS connection (1): www.thespec.com:443
+03/29/2019 00:07:10 DEBUG: https://www.thespec.com:443 "GET /news-story/2097917-saputo-buys-neilson-in-dairy-deal/ HTTP/1.1" 200 None
+03/29/2019 00:07:10 DEBUG: Starting new HTTPS connection (1): www.theglobeandmail.com:443
+03/29/2019 00:07:10 DEBUG: https://www.theglobeandmail.com:443 "GET /report-on-business/weston-sells-neilson-dairy-to-saputo/article1064578/ HTTP/1.1" 200 None
+03/29/2019 00:07:10 DEBUG: Starting new HTTPS connection (1): www.on-sitemag.com:443
+03/29/2019 00:07:13 DEBUG: https://www.on-sitemag.com:443 "GET /construction/pomerleau-acquires-neilson-inc/1001719035/ HTTP/1.1" 200 None
+03/29/2019 00:07:13 DEBUG: Starting new HTTP connection (1): www.marketwired.com:80
+03/29/2019 00:07:13 DEBUG: http://www.marketwired.com:80 "GET /press-release/lecg-agrees-to-acquire-neilson-elggren-llp-nasdaq-xprt-735628.htm HTTP/1.1" 200 13661
+03/29/2019 00:07:13 DEBUG: Starting new HTTPS connection (1): www.amazon.ca:443
+03/29/2019 00:07:14 DEBUG: https://www.amazon.ca:443 "GET /Acquisition-Phonology-Case-Study/dp/0521134331 HTTP/1.1" 503 930
+03/29/2019 00:07:14 DEBUG: Starting new HTTPS connection (1): www.bakersjournal.com:443
+03/29/2019 00:07:15 DEBUG: https://www.bakersjournal.com:443 "GET /news/saputo-completes-acquisition-of-neilson-dairy-1295 HTTP/1.1" 200 None
+03/29/2019 00:07:15 DEBUG: Starting new HTTPS connection (1): www.neilsondairy.com:443
+03/29/2019 00:07:15 DEBUG: https://www.neilsondairy.com:443 "GET /en/history HTTP/1.1" 200 7214
+03/29/2019 00:07:15 DEBUG: Starting new HTTPS connection (1): www.thecanadianencyclopedia.ca:443
+03/29/2019 00:07:16 DEBUG: https://www.thecanadianencyclopedia.ca:443 "GET /en/article/john-neilson HTTP/1.1" 200 17979
+03/29/2019 00:07:16 DEBUG: Starting new HTTP connection (1): olympiques.saputo.com:80
+03/29/2019 00:07:16 DEBUG: http://olympiques.saputo.com:80 "GET /investors-and-medias/press-releases/detail.aspx%3Fid%3D3045%26langType%3D11274 HTTP/1.1" 400 None
+03/29/2019 00:07:16 INFO: ============Neilson, ACQUISITIONS feature data collection completed============
+03/29/2019 00:07:16 INFO: ============Neilson, FUTURE GOALS feature data collection started============
+03/29/2019 00:07:16 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:07:16 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:07:16 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:07:17 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Neilson&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:07:17 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:07:17 INFO: =========================Getting search result source code=========================
+03/29/2019 00:07:17 DEBUG: Starting new HTTPS connection (1): www.neilson.co.uk:443
+03/29/2019 00:07:18 DEBUG: https://www.neilson.co.uk:443 "GET /ski/ski-deals/last-minute-ski-deals HTTP/1.1" 200 None
+03/29/2019 00:07:18 DEBUG: Starting new HTTPS connection (1): www.neilson.co.uk:443
+03/29/2019 00:07:19 DEBUG: https://www.neilson.co.uk:443 "GET /ski/ski-deals HTTP/1.1" 200 None
+03/29/2019 00:07:19 DEBUG: Starting new HTTPS connection (1): www.neilson.co.uk:443
+03/29/2019 00:07:20 DEBUG: https://www.neilson.co.uk:443 "GET /beach/offers/last-minute-offers HTTP/1.1" 200 None
+03/29/2019 00:07:21 DEBUG: Starting new HTTPS connection (1): www.igluski.com:443
+03/29/2019 00:07:22 DEBUG: https://www.igluski.com:443 "GET /ski-holidays/neilson-ski HTTP/1.1" 200 41291
+03/29/2019 00:07:22 DEBUG: Starting new HTTPS connection (1): www.igluski.com:443
+03/29/2019 00:07:23 DEBUG: https://www.igluski.com:443 "GET /news/iglu-ski-is-the-exclusive-partner-of-neilson-mountain-collection_a19736516 HTTP/1.1" 200 15702
+03/29/2019 00:07:23 DEBUG: Starting new HTTPS connection (1): www.lowcostdeals.co.uk:443
+03/29/2019 00:07:26 DEBUG: https://www.lowcostdeals.co.uk:443 "GET /neilson-holidays/neilson-beach-holidays/ HTTP/1.1" 200 25491
+03/29/2019 00:07:26 DEBUG: Starting new HTTPS connection (1): www.myvouchercodes.co.uk:443
+03/29/2019 00:07:27 DEBUG: https://www.myvouchercodes.co.uk:443 "GET /neilson-active-holidays HTTP/1.1" 200 None
+03/29/2019 00:07:27 DEBUG: Starting new HTTPS connection (1): www.travelclubelite.com:443
+03/29/2019 00:07:28 DEBUG: https://www.travelclubelite.com:443 "GET /partner-offers/neilson-special-offers/ HTTP/1.1" 200 19178
+03/29/2019 00:07:28 DEBUG: Starting new HTTPS connection (1): www.facebook.com:443
+03/29/2019 00:07:30 DEBUG: https://www.facebook.com:443 "GET /neilsonholidays/ HTTP/1.1" 200 None
+03/29/2019 00:07:31 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/29/2019 00:07:31 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3D5yeL6kdx4i8 HTTP/1.1" 503 1799
+03/29/2019 00:07:31 INFO: ============Neilson, FUTURE GOALS feature data collection completed============
+03/29/2019 00:07:31 INFO: ============Neilson, TECH STACK feature data collection started============
+03/29/2019 00:07:31 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:07:31 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:07:31 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:07:32 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Neilson&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:07:32 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:07:32 INFO: =========================Getting search result source code=========================
+03/29/2019 00:07:32 DEBUG: Starting new HTTPS connection (1): www.neilsonjamestech.co.uk:443
+03/29/2019 00:07:33 DEBUG: https://www.neilsonjamestech.co.uk:443 "GET / HTTP/1.1" 200 None
+03/29/2019 00:07:33 DEBUG: Starting new HTTPS connection (1): www.povertyactionlab.org:443
+03/29/2019 00:07:34 DEBUG: https://www.povertyactionlab.org:443 "GET /blog/3-5-18/affiliate-spotlight-christopher-neilson-using-technology-close-information-gaps HTTP/1.1" 200 None
+03/29/2019 00:07:34 DEBUG: Starting new HTTPS connection (1): twitter.com:443
+03/29/2019 00:07:34 DEBUG: https://twitter.com:443 "GET /flyingjok%3Flang%3Den HTTP/1.1" 404 1742
+03/29/2019 00:07:34 DEBUG: Starting new HTTPS connection (1): www.mba.co.uk:443
+03/29/2019 00:07:35 DEBUG: https://www.mba.co.uk:443 "GET /work/neilson/ HTTP/1.1" 200 8903
+03/29/2019 00:07:35 DEBUG: Starting new HTTPS connection (1): sprott.carleton.ca:443
+03/29/2019 00:07:36 DEBUG: https://sprott.carleton.ca:443 "GET /profile/leighann-neilson/ HTTP/1.1" 200 12544
+03/29/2019 00:07:36 DEBUG: Starting new HTTPS connection (1): libraries.smith.edu:443
+03/29/2019 00:07:37 DEBUG: https://libraries.smith.edu:443 "GET /news/2018/12/neilson-library-construction-update-progress-report-december-14-2018 HTTP/1.1" 200 15845

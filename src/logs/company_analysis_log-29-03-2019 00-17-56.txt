@@ -1,0 +1,48 @@
+03/29/2019 00:17:56 INFO: ============Script execution started============
+03/29/2019 00:17:56 INFO: ============KPMG data collection started============
+03/29/2019 00:17:56 INFO: ============KPMG, SIZE feature data collection started============
+03/29/2019 00:17:56 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:17:56 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:17:56 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:17:58 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=KPMG&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 727
+03/29/2019 00:17:58 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DKPMG%26as_oq%3D%2522size%2522%2520%2522number%2520of%2520employees%2522%2520%2522employees%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GOWc9uQFIhkA8aeDS789oFCLfhvr1chpWqF3lN2hUQZoMgFy HTTP/1.1" 503 3787
+03/29/2019 00:17:58 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:17:58 INFO: =========================Getting search result source code=========================
+03/29/2019 00:17:58 INFO: ============KPMG, SIZE feature data collection completed============
+03/29/2019 00:17:58 INFO: ============KPMG, ACQUISITIONS feature data collection started============
+03/29/2019 00:17:58 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:17:58 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:17:58 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:17:59 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=KPMG&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 746
+03/29/2019 00:17:59 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DKPMG%26as_oq%3D%2522acquire%2522%2520%2522take%2520over%2522%2520%2522took%2520over%2522%2520%2522acquisition%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GOac9uQFIhkA8aeDS71_1YP2arkoQzVwUT4DMF56zuLvMgFy HTTP/1.1" 503 3826
+03/29/2019 00:17:59 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:17:59 INFO: =========================Getting search result source code=========================
+03/29/2019 00:17:59 INFO: ============KPMG, ACQUISITIONS feature data collection completed============
+03/29/2019 00:17:59 INFO: ============KPMG, FUTURE GOALS feature data collection started============
+03/29/2019 00:17:59 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:17:59 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:17:59 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:18:00 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=KPMG&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 800
+03/29/2019 00:18:00 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DKPMG%26as_oq%3D%2522future%2522%2520%2522goals%2522%2520%2522future%2520goals%2522%2520%2522aim%2522%2520%2522ambition%2522%2520%2522objectives%2522%2520%2522deals%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GOec9uQFIhkA8aeDS1X2VkLHh49sL4A-0nkyKcDoF06-MgFy HTTP/1.1" 503 3940
+03/29/2019 00:18:00 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:18:00 INFO: =========================Getting search result source code=========================
+03/29/2019 00:18:00 INFO: ============KPMG, FUTURE GOALS feature data collection completed============
+03/29/2019 00:18:00 INFO: ============KPMG, TECH STACK feature data collection started============
+03/29/2019 00:18:00 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:18:00 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:18:00 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:18:01 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=KPMG&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 743
+03/29/2019 00:18:01 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DKPMG%26as_oq%3D%2522technology%2522%2520%2522stack%2522%2520%2522stack%2522%2520%2522development%2520tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GOmc9uQFIhkA8aeDS4Kjdbz2XjdJ7akMwotvwgQKdaBLMgFy HTTP/1.1" 503 3823
+03/29/2019 00:18:01 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:18:01 INFO: =========================Getting search result source code=========================
+03/29/2019 00:18:01 INFO: ============KPMG, TECH STACK feature data collection completed============
+03/29/2019 00:18:01 INFO: ============KPMG, PRODUCTS feature data collection started============
+03/29/2019 00:18:01 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:18:01 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:18:01 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:18:02 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=KPMG&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 758
+03/29/2019 00:18:03 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DKPMG%26as_oq%3D%2522products%2522%2520%2522services%2522%2520%2522applications%2522%2520%2522software%2522%2520%2522tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GOqc9uQFIhkA8aeDS9HxVeVonx7XUSDPo6nmf3PsBaP7MgFy HTTP/1.1" 503 3856
+03/29/2019 00:18:03 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:18:03 INFO: =========================Getting search result source code=========================
+03/29/2019 00:18:03 INFO: ============KPMG, PRODUCTS feature data collection completed============
+03/29/2019 00:18:03 INFO: ============KPMG data collection completed============

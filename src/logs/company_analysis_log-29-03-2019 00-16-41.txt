@@ -1,0 +1,48 @@
+03/29/2019 00:16:41 INFO: ============Script execution started============
+03/29/2019 00:16:41 INFO: ============Royal Bank of Canada data collection started============
+03/29/2019 00:16:41 INFO: ============Royal Bank of Canada, SIZE feature data collection started============
+03/29/2019 00:16:41 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:16:41 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:16:41 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:16:42 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Royal%20Bank%20of%20Canada&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 755
+03/29/2019 00:16:42 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DRoyal%2520Bank%2520of%2520Canada%26as_oq%3D%2522size%2522%2520%2522number%2520of%2520employees%2522%2520%2522employees%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GJmc9uQFIhkA8aeDS_LfOhIsVV66bnvuCrbypkAZxJfWMgFy HTTP/1.1" 503 3853
+03/29/2019 00:16:42 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:16:42 INFO: =========================Getting search result source code=========================
+03/29/2019 00:16:42 INFO: ============Royal Bank of Canada, SIZE feature data collection completed============
+03/29/2019 00:16:42 INFO: ============Royal Bank of Canada, ACQUISITIONS feature data collection started============
+03/29/2019 00:16:42 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:16:42 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:16:42 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:16:43 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Royal%20Bank%20of%20Canada&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 774
+03/29/2019 00:16:43 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DRoyal%2520Bank%2520of%2520Canada%26as_oq%3D%2522acquire%2522%2520%2522take%2520over%2522%2520%2522took%2520over%2522%2520%2522acquisition%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GJqc9uQFIhkA8aeDS1crYzblaz4HjTeud_gOgp0sWDnWMgFy HTTP/1.1" 503 3892
+03/29/2019 00:16:43 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:16:43 INFO: =========================Getting search result source code=========================
+03/29/2019 00:16:43 INFO: ============Royal Bank of Canada, ACQUISITIONS feature data collection completed============
+03/29/2019 00:16:43 INFO: ============Royal Bank of Canada, FUTURE GOALS feature data collection started============
+03/29/2019 00:16:43 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:16:43 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:16:43 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:16:44 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Royal%20Bank%20of%20Canada&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 828
+03/29/2019 00:16:44 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DRoyal%2520Bank%2520of%2520Canada%26as_oq%3D%2522future%2522%2520%2522goals%2522%2520%2522future%2520goals%2522%2520%2522aim%2522%2520%2522ambition%2522%2520%2522objectives%2522%2520%2522deals%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GJyc9uQFIhkA8aeDS7s9jFDTtrRwDCxYpeJePRR6RojjMgFy HTTP/1.1" 503 4006
+03/29/2019 00:16:44 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:16:44 INFO: =========================Getting search result source code=========================
+03/29/2019 00:16:44 INFO: ============Royal Bank of Canada, FUTURE GOALS feature data collection completed============
+03/29/2019 00:16:44 INFO: ============Royal Bank of Canada, TECH STACK feature data collection started============
+03/29/2019 00:16:44 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:16:44 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:16:44 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:16:46 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Royal%20Bank%20of%20Canada&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 771
+03/29/2019 00:16:46 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DRoyal%2520Bank%2520of%2520Canada%26as_oq%3D%2522technology%2522%2520%2522stack%2522%2520%2522stack%2522%2520%2522development%2520tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GJ2c9uQFIhkA8aeDSzI31-GKr3gu5hA5gdKUkRHgdzjOMgFy HTTP/1.1" 503 3889
+03/29/2019 00:16:46 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:16:46 INFO: =========================Getting search result source code=========================
+03/29/2019 00:16:46 INFO: ============Royal Bank of Canada, TECH STACK feature data collection completed============
+03/29/2019 00:16:46 INFO: ============Royal Bank of Canada, PRODUCTS feature data collection started============
+03/29/2019 00:16:46 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:16:46 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:16:46 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:16:46 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Royal%20Bank%20of%20Canada&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 786
+03/29/2019 00:16:46 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DRoyal%2520Bank%2520of%2520Canada%26as_oq%3D%2522products%2522%2520%2522services%2522%2520%2522applications%2522%2520%2522software%2522%2520%2522tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GJ6c9uQFIhkA8aeDS54Ogj8_mhGsQyee5t5aKsAf_MITMgFy HTTP/1.1" 503 3922
+03/29/2019 00:16:46 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:16:46 INFO: =========================Getting search result source code=========================
+03/29/2019 00:16:46 INFO: ============Royal Bank of Canada, PRODUCTS feature data collection completed============
+03/29/2019 00:16:46 INFO: ============Royal Bank of Canada data collection completed============

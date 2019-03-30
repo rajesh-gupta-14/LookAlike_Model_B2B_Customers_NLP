@@ -1,8 +1,0 @@
-03/26/2019 17:57:04 INFO: ===============Topic modelling activated===============
-03/26/2019 17:57:04 INFO: ===============Unpickling of SIZE===============
-03/26/2019 17:57:04 INFO: ===============Count vectorizer model being built===============
-03/26/2019 17:57:04 INFO: ===============LDA model being built===============
-03/26/2019 17:57:51 INFO: ===============LDA model saved===============
-03/26/2019 17:57:51 INFO: ===============Transforming feature data to get topic distribution vectors===============
-03/26/2019 17:57:51 INFO: ===============Pickling the topic dist model for SIZE===============
-03/26/2019 17:57:51 INFO: ===============Topic modelling completed===============

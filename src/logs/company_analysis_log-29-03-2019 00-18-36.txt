@@ -1,0 +1,48 @@
+03/29/2019 00:18:36 INFO: ============Script execution started============
+03/29/2019 00:18:36 INFO: ============Facebook data collection started============
+03/29/2019 00:18:36 INFO: ============Facebook, SIZE feature data collection started============
+03/29/2019 00:18:36 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:18:36 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:18:36 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:18:36 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Facebook&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 731
+03/29/2019 00:18:36 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DFacebook%26as_oq%3D%2522size%2522%2520%2522number%2520of%2520employees%2522%2520%2522employees%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GIyd9uQFIhkA8aeDS9QMVXgJ4Mv_jPnr24HK2edDOesRMgFy HTTP/1.1" 503 3799
+03/29/2019 00:18:36 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:18:36 INFO: =========================Getting search result source code=========================
+03/29/2019 00:18:36 INFO: ============Facebook, SIZE feature data collection completed============
+03/29/2019 00:18:36 INFO: ============Facebook, ACQUISITIONS feature data collection started============
+03/29/2019 00:18:36 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:18:36 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:18:36 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:18:37 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Facebook&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 750
+03/29/2019 00:18:37 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DFacebook%26as_oq%3D%2522acquire%2522%2520%2522take%2520over%2522%2520%2522took%2520over%2522%2520%2522acquisition%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GIyd9uQFIhkA8aeDS1m03jMnXdaFfQ7Ap_FUGX8Zns7lMgFy HTTP/1.1" 503 3838
+03/29/2019 00:18:37 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:18:37 INFO: =========================Getting search result source code=========================
+03/29/2019 00:18:37 INFO: ============Facebook, ACQUISITIONS feature data collection completed============
+03/29/2019 00:18:37 INFO: ============Facebook, FUTURE GOALS feature data collection started============
+03/29/2019 00:18:37 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:18:37 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:18:37 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:18:38 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Facebook&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 804
+03/29/2019 00:18:38 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DFacebook%26as_oq%3D%2522future%2522%2520%2522goals%2522%2520%2522future%2520goals%2522%2520%2522aim%2522%2520%2522ambition%2522%2520%2522objectives%2522%2520%2522deals%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GI2d9uQFIhkA8aeDS4XuDnWpdI1TBnd0aUsyp2aHRrlHMgFy HTTP/1.1" 503 3952
+03/29/2019 00:18:38 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:18:38 INFO: =========================Getting search result source code=========================
+03/29/2019 00:18:38 INFO: ============Facebook, FUTURE GOALS feature data collection completed============
+03/29/2019 00:18:38 INFO: ============Facebook, TECH STACK feature data collection started============
+03/29/2019 00:18:38 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:18:38 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:18:38 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:18:39 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Facebook&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 747
+03/29/2019 00:18:39 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DFacebook%26as_oq%3D%2522technology%2522%2520%2522stack%2522%2520%2522stack%2522%2520%2522development%2520tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GI6d9uQFIhkA8aeDS5rN5Py1GqT4ljaSSCJPSVsOOxhfMgFy HTTP/1.1" 503 3835
+03/29/2019 00:18:39 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:18:39 INFO: =========================Getting search result source code=========================
+03/29/2019 00:18:39 INFO: ============Facebook, TECH STACK feature data collection completed============
+03/29/2019 00:18:39 INFO: ============Facebook, PRODUCTS feature data collection started============
+03/29/2019 00:18:39 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:18:39 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:18:39 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:18:39 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Facebook&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 762
+03/29/2019 00:18:39 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DFacebook%26as_oq%3D%2522products%2522%2520%2522services%2522%2520%2522applications%2522%2520%2522software%2522%2520%2522tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GI-d9uQFIhkA8aeDS7D9bQWf4me0NApEBBAIOpwFQR3nMgFy HTTP/1.1" 503 3868
+03/29/2019 00:18:39 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:18:39 INFO: =========================Getting search result source code=========================
+03/29/2019 00:18:39 INFO: ============Facebook, PRODUCTS feature data collection completed============
+03/29/2019 00:18:39 INFO: ============Facebook data collection completed============

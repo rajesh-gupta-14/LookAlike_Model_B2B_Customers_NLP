@@ -2,7 +2,7 @@
 import os
 
 # Company names
-COMPANIES = ["SAP"]
+COMPANIES = ["Arista Networks", "Cognizant", "Deloitte", "Dropbox", "Freshdesk", "Informatica", "Shopify", "Spotify", "Symantec", "Toyota Motor", "VMware", "Zoho"]
 
 # Features
 FEATURES = {
@@ -36,13 +36,7 @@ TWEETS = 200
 TOPIC_MODELLING = 1
 
 # Make datasets
-MAKE_DATASETS = 0
+MAKE_DATASETS = 1
 
 # Knn model activation
-KNN = 0
-
-# Iterations for topic modelling - Do not go above 10000
-NO_OF_ITERATIONS = 10000
-
-# Number of topics to be extracted
-NO_OF_TOPICS = 10
+KNN = 1

@@ -1,0 +1,48 @@
+03/29/2019 00:17:33 INFO: ============Script execution started============
+03/29/2019 00:17:33 INFO: ============Loblaw Companies Limited data collection started============
+03/29/2019 00:17:33 INFO: ============Loblaw Companies Limited, SIZE feature data collection started============
+03/29/2019 00:17:33 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:17:33 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:17:33 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:17:34 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Loblaw%20Companies%20Limited&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 755
+03/29/2019 00:17:34 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DLoblaw%2520Companies%2520Limited%26as_oq%3D%2522size%2522%2520%2522number%2520of%2520employees%2522%2520%2522employees%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GM2c9uQFIhkA8aeDS_egX53X1UeFPALR1vKieMoBcbBbMgFy HTTP/1.1" 503 3859
+03/29/2019 00:17:34 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:17:34 INFO: =========================Getting search result source code=========================
+03/29/2019 00:17:34 INFO: ============Loblaw Companies Limited, SIZE feature data collection completed============
+03/29/2019 00:17:34 INFO: ============Loblaw Companies Limited, ACQUISITIONS feature data collection started============
+03/29/2019 00:17:34 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:17:34 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:17:34 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:17:35 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Loblaw%20Companies%20Limited&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 774
+03/29/2019 00:17:35 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DLoblaw%2520Companies%2520Limited%26as_oq%3D%2522acquire%2522%2520%2522take%2520over%2522%2520%2522took%2520over%2522%2520%2522acquisition%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GM6c9uQFIhkA8aeDS0EAt9tRjtxQrhjZDbNAs3VoZ8FoMgFy HTTP/1.1" 503 3898
+03/29/2019 00:17:35 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:17:35 INFO: =========================Getting search result source code=========================
+03/29/2019 00:17:35 INFO: ============Loblaw Companies Limited, ACQUISITIONS feature data collection completed============
+03/29/2019 00:17:35 INFO: ============Loblaw Companies Limited, FUTURE GOALS feature data collection started============
+03/29/2019 00:17:35 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:17:35 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:17:35 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:17:36 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Loblaw%20Companies%20Limited&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 828
+03/29/2019 00:17:36 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DLoblaw%2520Companies%2520Limited%26as_oq%3D%2522future%2522%2520%2522goals%2522%2520%2522future%2520goals%2522%2520%2522aim%2522%2520%2522ambition%2522%2520%2522objectives%2522%2520%2522deals%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GM-c9uQFIhkA8aeDS8bthsBGDH6GlMQHq3sjcrXnqmBLMgFy HTTP/1.1" 503 4012
+03/29/2019 00:17:36 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:17:36 INFO: =========================Getting search result source code=========================
+03/29/2019 00:17:36 INFO: ============Loblaw Companies Limited, FUTURE GOALS feature data collection completed============
+03/29/2019 00:17:36 INFO: ============Loblaw Companies Limited, TECH STACK feature data collection started============
+03/29/2019 00:17:36 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:17:36 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:17:36 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:17:37 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Loblaw%20Companies%20Limited&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 771
+03/29/2019 00:17:37 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DLoblaw%2520Companies%2520Limited%26as_oq%3D%2522technology%2522%2520%2522stack%2522%2520%2522stack%2522%2520%2522development%2520tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GNCc9uQFIhkA8aeDS2GbaYR1ALIfgQug4Z_v2dNNwCnSMgFy HTTP/1.1" 503 3895
+03/29/2019 00:17:37 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:17:37 INFO: =========================Getting search result source code=========================
+03/29/2019 00:17:37 INFO: ============Loblaw Companies Limited, TECH STACK feature data collection completed============
+03/29/2019 00:17:37 INFO: ============Loblaw Companies Limited, PRODUCTS feature data collection started============
+03/29/2019 00:17:37 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:17:37 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:17:37 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:17:38 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Loblaw%20Companies%20Limited&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 786
+03/29/2019 00:17:38 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DLoblaw%2520Companies%2520Limited%26as_oq%3D%2522products%2522%2520%2522services%2522%2520%2522applications%2522%2520%2522software%2522%2520%2522tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgQYikO6GNKc9uQFIhkA8aeDS3SBouebTgJLUzEaiNww0mErdJg3MgFy HTTP/1.1" 503 3928
+03/29/2019 00:17:38 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:17:38 INFO: =========================Getting search result source code=========================
+03/29/2019 00:17:38 INFO: ============Loblaw Companies Limited, PRODUCTS feature data collection completed============
+03/29/2019 00:17:39 INFO: ============Loblaw Companies Limited data collection completed============
