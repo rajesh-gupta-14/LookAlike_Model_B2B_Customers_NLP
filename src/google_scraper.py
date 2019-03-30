@@ -24,7 +24,7 @@ class GoogleScraper():
     # Generate the source code of google search page
     def generate_google_src_code(self):
         logging.info("======================Generating Google Search code==========================")
-        response = requests.get(self.google_url, headers=GoogleScraper.headers)
+        response = requests.get(self.google_url, headers=GoogleScraper.headers, verify=False)
         self.google_src_code = response.text.encode("ascii","ignore").decode("utf-8")
         return self.google_src_code
 
@@ -43,6 +43,11 @@ class GoogleScraper():
             hyperlinks = self.hyperlinks
         logging.info("=========================Getting search result source code=========================")
         raw_data = []
-        raw_data = [str(requests.get(hyperlink, headers=GoogleScraper.headers).text.encode("ascii","ignore").decode("utf-8")).replace("\n","").replace(",","")
-                                for hyperlink in hyperlinks]
+		for hyperlink in hyperlinks:
+			try:
+				html_code = str(requests.get(hyperlink, headers=GoogleScraper.headers, verify=False).text.encode("ascii","ignore").decode("utf-8")).replace("\n","").replace(",","")
+				raw_data.append(html_code)
+			except:
+				logging.info("="*15+ "URL skipped" + "="*15)
+				continue
         return raw_data

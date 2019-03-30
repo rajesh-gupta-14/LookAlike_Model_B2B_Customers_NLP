@@ -1,0 +1,449 @@
+03/28/2019 01:44:51 INFO: ============Script execution started============
+03/28/2019 01:44:51 INFO: ============Netflix data collection started============
+03/28/2019 01:44:51 INFO: ============Netflix, SIZE feature data collection started============
+03/28/2019 01:44:51 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:44:51 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:44:51 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:44:52 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:44:53 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:44:53 INFO: =========================Getting search result source code=========================
+03/28/2019 01:44:53 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/28/2019 01:44:53 DEBUG: https://www.statista.com:443 "GET /statistics/587671/netflix-employees/ HTTP/1.1" 200 None
+03/28/2019 01:44:53 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/28/2019 01:44:53 DEBUG: https://www.statista.com:443 "GET /topics/842/netflix/ HTTP/1.1" 200 None
+03/28/2019 01:44:53 DEBUG: Starting new HTTPS connection (1): jobs.netflix.com:443
+03/28/2019 01:44:54 DEBUG: https://jobs.netflix.com:443 "GET /culture HTTP/1.1" 200 129539
+03/28/2019 01:44:54 DEBUG: Starting new HTTPS connection (1): craft.co:443
+03/28/2019 01:44:55 DEBUG: https://craft.co:443 "GET /netflix HTTP/1.1" 405 2883
+03/28/2019 01:44:55 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:44:55 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Netflix HTTP/1.1" 200 149227
+03/28/2019 01:44:55 DEBUG: Starting new HTTPS connection (1): www.slashfilm.com:443
+03/28/2019 01:44:55 DEBUG: https://www.slashfilm.com:443 "GET /working-at-netflix/ HTTP/1.1" 200 None
+03/28/2019 01:44:55 DEBUG: Starting new HTTPS connection (1): insights.dice.com:443
+03/28/2019 01:44:56 DEBUG: https://insights.dice.com:443 "GET /2018/10/29/netflix-company-culture-termination/ HTTP/1.1" 403 162
+03/28/2019 01:44:56 DEBUG: Starting new HTTPS connection (1): www.glassdoor.com:443
+03/28/2019 01:44:56 DEBUG: https://www.glassdoor.com:443 "GET /Overview/Working-at-Netflix-EI_IE11891.11,18.htm HTTP/1.1" 403 None
+03/28/2019 01:44:56 DEBUG: Starting new HTTP connection (1): markets.businessinsider.com:80
+03/28/2019 01:44:56 DEBUG: http://markets.businessinsider.com:80 "GET /news/stocks/netflix-stock-price-hits-record-high-2018-5-1025212394 HTTP/1.1" 301 5689
+03/28/2019 01:44:56 DEBUG: Starting new HTTPS connection (1): markets.businessinsider.com:443
+03/28/2019 01:44:57 DEBUG: https://markets.businessinsider.com:443 "GET /news/stocks/netflix-stock-price-hits-record-high-2018-5-1025212394 HTTP/1.1" 200 26210
+03/28/2019 01:44:57 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/28/2019 01:44:57 DEBUG: https://www.forbes.com:443 "GET /companies/netflix/ HTTP/1.1" 200 42830
+03/28/2019 01:44:57 INFO: ============Netflix, SIZE feature data collection completed============
+03/28/2019 01:44:57 INFO: ============Netflix, ACQUISITIONS feature data collection started============
+03/28/2019 01:44:57 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:44:57 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:44:57 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:44:57 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:44:58 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:44:58 INFO: =========================Getting search result source code=========================
+03/28/2019 01:44:58 DEBUG: Starting new HTTPS connection (1): bgr.com:443
+03/28/2019 01:44:58 DEBUG: https://bgr.com:443 "GET /2019/02/04/netflix-vs-apple-tv-shows-acquisition-isnt-happening/ HTTP/1.1" 200 None
+03/28/2019 01:44:58 DEBUG: Starting new HTTP connection (1): fortune.com:80
+03/28/2019 01:44:59 DEBUG: http://fortune.com:80 "GET /2019/02/04/apple-netflix-acquisition/ HTTP/1.1" 200 None
+03/28/2019 01:44:59 DEBUG: Starting new HTTPS connection (1): www.thestreet.com:443
+03/28/2019 01:44:59 DEBUG: https://www.thestreet.com:443 "GET /investing/netflix-acquisition-abq-studios-14746375 HTTP/1.1" 404 421
+03/28/2019 01:44:59 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/28/2019 01:44:59 DEBUG: https://www.forbes.com:443 "GET /sites/enriquedans/2019/02/17/apple-and-netflix-is-there-any-truth-to-the-rumors/ HTTP/1.1" 200 47654
+03/28/2019 01:44:59 DEBUG: Starting new HTTPS connection (1): filmdaily.co:443
+03/28/2019 01:45:00 DEBUG: https://filmdaily.co:443 "GET /obsessions/netflix-aims-to-take-over-the-world/ HTTP/1.1" 403 162
+03/28/2019 01:45:00 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/28/2019 01:45:00 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2019-02-04/apple-acquisition-targets-could-include-netflix-sonos-jpmorgan HTTP/1.1" 307 0
+03/28/2019 01:45:00 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/28/2019 01:45:00 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=3e608720-5114-11e9-b36d-9b32d18eccba&url=L25ld3MvYXJ0aWNsZXMvMjAxOS0wMi0wNC9hcHBsZS1hY3F1aXNpdGlvbi10YXJnZXRzLWNvdWxkLWluY2x1ZGUtbmV0ZmxpeC1zb25vcy1qcG1vcmdhbg== HTTP/1.1" 200 4595
+03/28/2019 01:45:00 DEBUG: Starting new HTTPS connection (1): www.fastcompany.com:443
+03/28/2019 01:45:00 DEBUG: https://www.fastcompany.com:443 "GET /90301540/jp-morgan-says-apple-should-acquire-netflix HTTP/1.1" 200 89943
+03/28/2019 01:45:01 DEBUG: Starting new HTTPS connection (1): www.cultofmac.com:443
+03/28/2019 01:45:02 DEBUG: https://www.cultofmac.com:443 "GET /521181/40-percent-netflix/ HTTP/1.1" 200 None
+03/28/2019 01:45:02 DEBUG: Starting new HTTP connection (1): www.bnnbloomberg.ca:80
+03/28/2019 01:45:03 DEBUG: http://www.bnnbloomberg.ca:80 "GET /technology/video/tech-bytes-netflix-reportedly-mulling-threatre-chain-acquisition~1375801 HTTP/1.1" 301 0
+03/28/2019 01:45:03 DEBUG: Starting new HTTPS connection (1): www.bnnbloomberg.ca:443
+03/28/2019 01:45:04 DEBUG: https://www.bnnbloomberg.ca:443 "GET /technology/video/tech-bytes-netflix-reportedly-mulling-threatre-chain-acquisition~1375801 HTTP/1.1" 200 29575
+03/28/2019 01:45:04 DEBUG: Starting new HTTPS connection (1): www.knowyourmobile.com:443
+03/28/2019 01:45:05 DEBUG: https://www.knowyourmobile.com:443 "GET /products/netflix/24826/why-apple-will-never-buy-netflix-three-simple-reasons HTTP/1.1" 200 None
+03/28/2019 01:45:05 INFO: ============Netflix, ACQUISITIONS feature data collection completed============
+03/28/2019 01:45:05 INFO: ============Netflix, FUTURE GOALS feature data collection started============
+03/28/2019 01:45:05 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:45:05 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:45:05 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:45:07 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:45:07 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:45:07 INFO: =========================Getting search result source code=========================
+03/28/2019 01:45:07 DEBUG: Starting new HTTPS connection (1): screenrant.com:443
+03/28/2019 01:45:08 DEBUG: https://screenrant.com:443 "GET /netflix-future-blockbuster-indy-disney-streaming/ HTTP/1.1" 200 None
+03/28/2019 01:45:08 DEBUG: Starting new HTTPS connection (1): www.cnn.com:443
+03/28/2019 01:45:08 DEBUG: https://www.cnn.com:443 "GET /2019/03/04/media/netflix-steven-spielberg/index.html HTTP/1.1" 200 243060
+03/28/2019 01:45:09 DEBUG: Starting new HTTPS connection (1): qz.com:443
+03/28/2019 01:45:10 DEBUG: https://qz.com:443 "GET /1329821/netflix-is-preparing-for-a-future-where-it-has-mostly-originals/ HTTP/1.1" 200 30885
+03/28/2019 01:45:10 DEBUG: Starting new HTTPS connection (1): bgr.com:443
+03/28/2019 01:45:11 DEBUG: https://bgr.com:443 "GET /2019/03/27/the-future-of-netflix-video-game-designers/ HTTP/1.1" 200 None
+03/28/2019 01:45:11 DEBUG: Starting new HTTPS connection (1): www.mediapost.com:443
+03/28/2019 01:45:11 DEBUG: https://www.mediapost.com:443 "GET /publications/article/330756/netflix-positions-itself-for-the-future.html HTTP/1.1" 200 15665
+03/28/2019 01:45:11 DEBUG: Starting new HTTPS connection (1): www.groupon.com:443
+03/28/2019 01:45:13 DEBUG: https://www.groupon.com:443 "GET /coupons/stores/signup.netflix.com HTTP/1.1" 200 56939
+03/28/2019 01:45:14 DEBUG: Starting new HTTPS connection (1): www.thesun.co.uk:443
+03/28/2019 01:45:16 DEBUG: https://www.thesun.co.uk:443 "GET /sun-men/8723392/netflix-back-to-the-future-bizarre-tweet/ HTTP/1.1" 200 29356
+03/28/2019 01:45:16 DEBUG: Starting new HTTPS connection (1): zoutons.com:443
+03/28/2019 01:45:18 DEBUG: https://zoutons.com:443 "GET /us/netflix-coupons HTTP/1.1" 200 None
+03/28/2019 01:45:18 DEBUG: Starting new HTTPS connection (1): www.netflix.com:443
+03/28/2019 01:45:19 DEBUG: https://www.netflix.com:443 "GET /ca/title/80135587 HTTP/1.1" 200 None
+03/28/2019 01:45:20 DEBUG: Starting new HTTPS connection (1): givingassistant.org:443
+03/28/2019 01:45:20 DEBUG: https://givingassistant.org:443 "GET /coupon-codes/netflix.com HTTP/1.1" 200 51168
+03/28/2019 01:45:20 INFO: ============Netflix, FUTURE GOALS feature data collection completed============
+03/28/2019 01:45:20 INFO: ============Netflix, TECH STACK feature data collection started============
+03/28/2019 01:45:20 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:45:20 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:45:20 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:45:21 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:45:21 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:45:21 INFO: =========================Getting search result source code=========================
+03/28/2019 01:45:21 DEBUG: Starting new HTTPS connection (1): forums.redflagdeals.com:443
+03/28/2019 01:45:22 DEBUG: https://forums.redflagdeals.com:443 "GET /stack-prepaid-mastercard-free-1-yr-netflix-spotify-tidal-no-qc-2216455/ HTTP/1.1" 200 41282
+03/28/2019 01:45:22 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/28/2019 01:45:22 DEBUG: https://www.quora.com:443 "GET /What-technology-stack-is-Netflix-built-on HTTP/1.1" 200 None
+03/28/2019 01:45:23 DEBUG: Starting new HTTPS connection (1): stackshare.io:443
+03/28/2019 01:45:23 DEBUG: https://stackshare.io:443 "GET /netflix/netflix HTTP/1.1" 200 None
+03/28/2019 01:45:23 DEBUG: Starting new HTTPS connection (1): www.engadget.com:443
+03/28/2019 01:45:24 DEBUG: https://www.engadget.com:443 "GET /2018/03/10/netflix-streaming-tech-hollywood/ HTTP/1.1" 200 42393
+03/28/2019 01:45:24 DEBUG: Starting new HTTPS connection (1): netflix.github.io:443
+03/28/2019 01:45:24 DEBUG: https://netflix.github.io:443 "GET / HTTP/1.1" 200 8124
+03/28/2019 01:45:24 DEBUG: Starting new HTTPS connection (1): www.theverge.com:443
+03/28/2019 01:45:24 DEBUG: https://www.theverge.com:443 "GET /2019/3/26/18281474/netflix-osmosis-review-french-black-mirror-nanotechnology-romance HTTP/1.1" 200 48812
+03/28/2019 01:45:24 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:45:25 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Technical_details_of_Netflix HTTP/1.1" 200 19897
+03/28/2019 01:45:25 DEBUG: Starting new HTTP connection (1): www2.technologyreview.com:80
+03/28/2019 01:45:25 DEBUG: http://www2.technologyreview.com:80 "GET /tr50/netflix/ HTTP/1.1" 200 40114
+03/28/2019 01:45:25 DEBUG: Starting new HTTPS connection (1): medium.com:443
+03/28/2019 01:45:25 DEBUG: https://medium.com:443 "GET /netflix-techblog HTTP/1.1" 200 None
+03/28/2019 01:45:26 DEBUG: Starting new HTTPS connection (1): medium.com:443
+03/28/2019 01:45:26 DEBUG: https://medium.com:443 "GET /%40NetflixTechBlog HTTP/1.1" 404 None
+03/28/2019 01:45:26 INFO: ============Netflix, TECH STACK feature data collection completed============
+03/28/2019 01:45:26 INFO: ============Netflix, PRODUCTS feature data collection started============
+03/28/2019 01:45:26 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:45:26 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:45:26 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:45:27 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:45:27 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:45:27 INFO: =========================Getting search result source code=========================
+03/28/2019 01:45:27 DEBUG: Starting new HTTPS connection (1): netflix.github.io:443
+03/28/2019 01:45:27 DEBUG: https://netflix.github.io:443 "GET / HTTP/1.1" 200 8124
+03/28/2019 01:45:27 DEBUG: Starting new HTTPS connection (1): help.netflix.com:443
+03/28/2019 01:45:28 DEBUG: https://help.netflix.com:443 "GET /en/node/412 HTTP/1.1" 200 None
+03/28/2019 01:45:28 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:45:28 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Netflix HTTP/1.1" 200 149227
+03/28/2019 01:45:28 DEBUG: Starting new HTTPS connection (1): firstround.com:443
+03/28/2019 01:45:28 DEBUG: https://firstround.com:443 "GET /review/the-three-tools-netflix-used-to-build-its-world-class-brand/ HTTP/1.1" 200 24252
+03/28/2019 01:45:28 DEBUG: Starting new HTTPS connection (1): www.techhive.com:443
+03/28/2019 01:45:29 DEBUG: https://www.techhive.com:443 "GET /article/3336193/alternative-video-streaming-services-to-netflix-amazon-hulu.html HTTP/1.1" 200 34599
+03/28/2019 01:45:29 DEBUG: Starting new HTTPS connection (1): www.microsoft.com:443
+03/28/2019 01:45:30 DEBUG: https://www.microsoft.com:443 "GET /en-us/p/netflix/9wzdncrfj3tj HTTP/1.1" 200 None
+03/28/2019 01:45:30 DEBUG: Starting new HTTPS connection (1): netflix.en.softonic.com:443
+03/28/2019 01:45:30 DEBUG: https://netflix.en.softonic.com:443 "GET / HTTP/1.1" 200 None
+03/28/2019 01:45:31 DEBUG: Starting new HTTPS connection (1): www.tomsguide.com:443
+03/28/2019 01:45:32 DEBUG: https://www.tomsguide.com:443 "GET /us/best-streaming-video-services,review-2625.html HTTP/1.1" 403 146
+03/28/2019 01:45:32 DEBUG: Starting new HTTPS connection (1): partnerhelp.netflixstudios.com:443
+03/28/2019 01:45:32 DEBUG: https://partnerhelp.netflixstudios.com:443 "GET /hc/en-us/sections/203531958-IMF-Tools HTTP/1.1" 200 None
+03/28/2019 01:45:32 DEBUG: Starting new HTTPS connection (1): jobs.lever.co:443
+03/28/2019 01:45:33 DEBUG: https://jobs.lever.co:443 "GET /netflix/be1220d0-59a4-4f05-8b68-9fd87ae4066d HTTP/1.1" 200 None
+03/28/2019 01:45:33 INFO: ============Netflix, PRODUCTS feature data collection completed============
+03/28/2019 01:45:33 INFO: ============Netflix data collection completed============
+03/28/2019 01:45:33 INFO: ============Walmart data collection started============
+03/28/2019 01:45:33 INFO: ============Walmart, SIZE feature data collection started============
+03/28/2019 01:45:33 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:45:33 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:45:33 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:45:33 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Walmart&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:45:34 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:45:34 INFO: =========================Getting search result source code=========================
+03/28/2019 01:45:34 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:45:34 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Walmart HTTP/1.1" 200 144048
+03/28/2019 01:45:34 DEBUG: Starting new HTTPS connection (1): help.walmart.com:443
+03/28/2019 01:45:35 DEBUG: https://help.walmart.com:443 "GET /app/answers/detail/a_id/43/~/clothing-size-charts HTTP/1.1" 200 None
+03/28/2019 01:45:35 DEBUG: Starting new HTTPS connection (1): corporate.walmart.com:443
+03/28/2019 01:45:35 DEBUG: https://corporate.walmart.com:443 "GET /our-story/our-business HTTP/1.1" 200 None
+03/28/2019 01:45:36 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:45:36 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Walmart HTTP/1.1" 200 144048
+03/28/2019 01:45:36 DEBUG: Starting new HTTPS connection (1): www.businessinsider.com:443
+03/28/2019 01:45:36 DEBUG: https://www.businessinsider.com:443 "GET /walmart-employees-pay HTTP/1.1" 200 47616
+03/28/2019 01:45:36 DEBUG: Starting new HTTPS connection (1): www.businessinsider.com:443
+03/28/2019 01:45:37 DEBUG: https://www.businessinsider.com:443 "GET /walmart-store-employees-want-to-say-2018-6 HTTP/1.1" 200 47631
+03/28/2019 01:45:37 DEBUG: Starting new HTTPS connection (1): www.theverge.com:443
+03/28/2019 01:45:38 DEBUG: https://www.theverge.com:443 "GET /2018/12/21/18151738/walmart-eavesdrop-patent-customer-employee-privacy HTTP/1.1" 200 41573
+03/28/2019 01:45:38 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:45:38 DEBUG: https://www.walmart.ca:443 "GET /en/ip/pampers-baby-dry-diapers-super-econo-pack-size-1/6000198334415 HTTP/1.1" 200 49634
+03/28/2019 01:45:38 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:45:39 DEBUG: https://www.walmart.ca:443 "GET /en/ip/pampers-baby-dry-diapers-econo-plus-pack-size-2/6000198331193 HTTP/1.1" 200 56202
+03/28/2019 01:45:39 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:45:39 DEBUG: https://www.walmart.ca:443 "GET /en/ip/rascal-friends-premium-diapers-size-4/6000198888344 HTTP/1.1" 200 51605
+03/28/2019 01:45:40 DEBUG: Starting new HTTPS connection (1): www.indeed.com:443
+03/28/2019 01:45:40 DEBUG: https://www.indeed.com:443 "GET /cmp/Walmart/reviews HTTP/1.1" 200 None
+03/28/2019 01:45:41 INFO: ============Walmart, SIZE feature data collection completed============
+03/28/2019 01:45:41 INFO: ============Walmart, ACQUISITIONS feature data collection started============
+03/28/2019 01:45:41 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:45:41 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:45:41 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:45:41 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Walmart&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:45:42 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:45:42 INFO: =========================Getting search result source code=========================
+03/28/2019 01:45:42 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/28/2019 01:45:42 DEBUG: https://techcrunch.com:443 "GET /2018/10/12/walmart-continues-ma-spree-with-acquisition-of-lingerie-retailer-bare-necessities/ HTTP/1.1" 200 None
+03/28/2019 01:45:42 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/28/2019 01:45:42 DEBUG: https://techcrunch.com:443 "GET /2018/10/12/walmart-continues-ma-spree-with-acquisition-of-lingerie-retailer-bare-necessities/ HTTP/1.1" 200 16793
+03/28/2019 01:45:42 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/28/2019 01:45:43 DEBUG: https://www.crunchbase.com:443 "GET /organization/walmart/acquisitions/acquisitions_list HTTP/1.1" 403 None
+03/28/2019 01:45:43 DEBUG: Starting new HTTPS connection (1): www.supermarketnews.com:443
+03/28/2019 01:45:43 DEBUG: https://www.supermarketnews.com:443 "GET /retail-financial/walmart-completes-acquisition-india-s-flipkart HTTP/1.1" 200 None
+03/28/2019 01:45:43 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/28/2019 01:45:44 DEBUG: https://www.forbes.com:443 "GET /sites/walterloeb/2018/12/17/why-walmarts-new-acquisition-is-puzzling/ HTTP/1.1" 200 44196
+03/28/2019 01:45:44 DEBUG: Starting new HTTPS connection (1): www.recode.net:443
+03/28/2019 01:45:45 DEBUG: https://www.recode.net:443 "GET /2018/10/2/17924862/walmart-eloquii-acquisition-100-million-plus-sized-fashion HTTP/1.1" 200 41433
+03/28/2019 01:45:45 DEBUG: Starting new HTTPS connection (1): www.fool.com:443
+03/28/2019 01:45:46 DEBUG: https://www.fool.com:443 "GET /investing/2018/12/10/walmarts-latest-acquisition-could-add-300-million.aspx HTTP/1.1" 200 None
+03/28/2019 01:45:46 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:45:46 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Walmart_Canada HTTP/1.1" 200 34469
+03/28/2019 01:45:46 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/28/2019 01:45:47 DEBUG: https://www.cnbc.com:443 "GET /2018/12/06/walmart-to-acquire-online-home-decor-retailer-artcom.html HTTP/1.1" 200 44925
+03/28/2019 01:45:47 DEBUG: Starting new HTTPS connection (1): www.cbinsights.com:443
+03/28/2019 01:45:48 DEBUG: https://www.cbinsights.com:443 "GET /research/walmart-acquisition-targets/ HTTP/1.1" 200 18503
+03/28/2019 01:45:48 DEBUG: Starting new HTTPS connection (1): www.investopedia.com:443
+03/28/2019 01:45:48 DEBUG: https://www.investopedia.com:443 "GET /articles/markets/102315/top-4-companies-owned-walmart.asp HTTP/1.1" 200 None
+03/28/2019 01:45:48 INFO: ============Walmart, ACQUISITIONS feature data collection completed============
+03/28/2019 01:45:48 INFO: ============Walmart, FUTURE GOALS feature data collection started============
+03/28/2019 01:45:48 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:45:48 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:45:48 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:45:49 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Walmart&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:45:50 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:45:50 INFO: =========================Getting search result source code=========================
+03/28/2019 01:45:50 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:45:50 DEBUG: https://www.walmart.ca:443 "GET /en/N-33913 HTTP/1.1" 200 2553
+03/28/2019 01:45:50 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:45:50 DEBUG: https://www.walmart.ca:443 "GET /flyer HTTP/1.1" 200 30917
+03/28/2019 01:45:51 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:45:51 DEBUG: https://www.walmart.ca:443 "GET /en HTTP/1.1" 200 2534
+03/28/2019 01:45:51 DEBUG: Starting new HTTPS connection (1): www.redflagdeals.com:443
+03/28/2019 01:45:52 DEBUG: https://www.redflagdeals.com:443 "GET /canada/walmart-deals-coupons-sales/ HTTP/1.1" 200 27801
+03/28/2019 01:45:52 DEBUG: Starting new HTTPS connection (1): thekrazycouponlady.com:443
+03/28/2019 01:45:53 DEBUG: https://thekrazycouponlady.com:443 "GET /coupons-for/walmart HTTP/1.1" 200 4054
+03/28/2019 01:45:53 DEBUG: Starting new HTTPS connection (1): www.walmart.com:443
+03/28/2019 01:45:54 DEBUG: https://www.walmart.com:443 "GET /m/deals/christmas-gifts HTTP/1.1" 200 67822
+03/28/2019 01:45:54 DEBUG: Starting new HTTP connection (1): weeklyads.walmart.com:80
+03/28/2019 01:45:54 DEBUG: http://weeklyads.walmart.com:80 "GET /mobile/walmartusa/flyers HTTP/1.1" 302 None
+03/28/2019 01:45:54 DEBUG: http://weeklyads.walmart.com:80 "GET /mobile/walmartusa/flyers?locale=en-US&type=1 HTTP/1.1" 302 None
+03/28/2019 01:45:55 DEBUG: http://weeklyads.walmart.com:80 "GET /h/m/walmartusa?locale=en-US&type=1 HTTP/1.1" 302 None
+03/28/2019 01:45:55 DEBUG: http://weeklyads.walmart.com:80 "GET /h/m/walmartusa/stores?locale=en-US&type=1 HTTP/1.1" 200 None
+03/28/2019 01:45:55 DEBUG: Starting new HTTPS connection (1): www.walmart.com:443
+03/28/2019 01:45:56 DEBUG: https://www.walmart.com:443 "GET /m/deals/christmas-gifts/20-days-of-deals HTTP/1.1" 200 127516
+03/28/2019 01:45:56 DEBUG: Starting new HTTPS connection (1): corporate.walmart.com:443
+03/28/2019 01:45:57 DEBUG: https://corporate.walmart.com:443 "GET /our-story/our-business HTTP/1.1" 200 None
+03/28/2019 01:45:57 INFO: ============Walmart, FUTURE GOALS feature data collection completed============
+03/28/2019 01:45:57 INFO: ============Walmart, TECH STACK feature data collection started============
+03/28/2019 01:45:57 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:45:57 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:45:57 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:45:57 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Walmart&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:45:58 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:45:58 INFO: =========================Getting search result source code=========================
+03/28/2019 01:45:58 DEBUG: Starting new HTTPS connection (1): futurestoreseast.wbresearch.com:443
+03/28/2019 01:45:58 DEBUG: https://futurestoreseast.wbresearch.com:443 "GET /walmart-harnessing-technology-to-create-next-gen-superstore-ty-u HTTP/1.1" 200 None
+03/28/2019 01:45:58 DEBUG: Starting new HTTPS connection (1): www.retaildive.com:443
+03/28/2019 01:45:59 DEBUG: https://www.retaildive.com:443 "GET /news/7-ways-walmart-is-innovating-with-technology/525154/ HTTP/1.1" 200 None
+03/28/2019 01:45:59 DEBUG: Starting new HTTPS connection (1): careers.walmart.com:443
+03/28/2019 01:46:00 DEBUG: https://careers.walmart.com:443 "GET /technology HTTP/1.1" 200 None
+03/28/2019 01:46:00 DEBUG: Starting new HTTPS connection (1): www.walmart.com:443
+03/28/2019 01:46:01 DEBUG: https://www.walmart.com:443 "GET /cp/technology/9830867 HTTP/1.1" 200 124933
+03/28/2019 01:46:01 DEBUG: Starting new HTTPS connection (1): www.walmart.com:443
+03/28/2019 01:46:01 DEBUG: https://www.walmart.com:443 "GET /cp/office-technology/1070964 HTTP/1.1" 200 61793
+03/28/2019 01:46:02 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/28/2019 01:46:02 DEBUG: https://www.forbes.com:443 "GET /sites/pamdanziger/2018/10/22/walmart-doubles-down-on-its-transformation-into-a-technology-company/ HTTP/1.1" 200 63522
+03/28/2019 01:46:02 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/28/2019 01:46:02 DEBUG: https://www.forbes.com:443 "GET /sites/shephyken/2017/10/15/walmart-moves-from-traditional-retailer-to-high-tech-innovator/ HTTP/1.1" 200 46482
+03/28/2019 01:46:02 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:46:03 DEBUG: https://www.walmart.ca:443 "GET /en/stack-on/N-1275388 HTTP/1.1" 200 2561
+03/28/2019 01:46:03 DEBUG: Starting new HTTP connection (1): fortune.com:80
+03/28/2019 01:46:03 DEBUG: http://fortune.com:80 "GET /2019/01/11/walmart-technology-hiring-amazon-market-share-retail/ HTTP/1.1" 200 None
+03/28/2019 01:46:03 DEBUG: Starting new HTTPS connection (1): www.walmartlabs.com:443
+03/28/2019 01:46:04 DEBUG: https://www.walmartlabs.com:443 "GET / HTTP/1.1" 200 10065
+03/28/2019 01:46:04 INFO: ============Walmart, TECH STACK feature data collection completed============
+03/28/2019 01:46:04 INFO: ============Walmart, PRODUCTS feature data collection started============
+03/28/2019 01:46:04 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:46:04 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:46:04 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:46:05 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Walmart&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:46:05 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:46:05 INFO: =========================Getting search result source code=========================
+03/28/2019 01:46:05 DEBUG: Starting new HTTPS connection (1): www.walmart.com:443
+03/28/2019 01:46:07 DEBUG: https://www.walmart.com:443 "GET /cp/tools/1031899 HTTP/1.1" 200 224001
+03/28/2019 01:46:07 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:46:07 DEBUG: https://www.walmart.ca:443 "GET /en/home/home-improvement/tools/N-1081 HTTP/1.1" 200 2569
+03/28/2019 01:46:07 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:46:08 DEBUG: https://www.walmart.ca:443 "GET /en/home/home-improvement/tools/hand-tools/N-543 HTTP/1.1" 200 2573
+03/28/2019 01:46:08 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:46:08 DEBUG: https://www.walmart.ca:443 "GET /en/electronics/laptops-computers/software/N-1168 HTTP/1.1" 200 2575
+03/28/2019 01:46:08 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:46:09 DEBUG: https://www.walmart.ca:443 "GET /en/financial-services HTTP/1.1" 200 2546
+03/28/2019 01:46:09 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:46:09 DEBUG: https://www.walmart.ca:443 "GET /en/help/products HTTP/1.1" 200 2543
+03/28/2019 01:46:09 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:46:10 DEBUG: https://www.walmart.ca:443 "GET /en/home/home-improvement/tools/mechanic-tools/N-275 HTTP/1.1" 200 2576
+03/28/2019 01:46:10 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:46:10 DEBUG: https://www.walmart.ca:443 "GET /en/electronics/laptops-computers/software/office-software/N-1541 HTTP/1.1" 200 2582
+03/28/2019 01:46:10 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/28/2019 01:46:11 DEBUG: https://www.walmart.ca:443 "GET /en/home/home-improvement/tools/power-tools/N-307 HTTP/1.1" 200 2574
+03/28/2019 01:46:11 DEBUG: Starting new HTTPS connection (1): www.walmartfinancialservices.ca:443
+03/28/2019 01:46:11 DEBUG: https://www.walmartfinancialservices.ca:443 "GET / HTTP/1.1" 200 5503
+03/28/2019 01:46:11 INFO: ============Walmart, PRODUCTS feature data collection completed============
+03/28/2019 01:46:11 INFO: ============Walmart data collection completed============
+03/28/2019 01:46:11 INFO: ============Tech Mahindra data collection started============
+03/28/2019 01:46:11 INFO: ============Tech Mahindra, SIZE feature data collection started============
+03/28/2019 01:46:11 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:46:11 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:46:11 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:46:11 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Tech%20Mahindra&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:46:12 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:46:12 INFO: =========================Getting search result source code=========================
+03/28/2019 01:46:12 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:46:12 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Tech_Mahindra HTTP/1.1" 200 25346
+03/28/2019 01:46:12 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:46:12 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Tech_Mahindra HTTP/1.1" 200 25346
+03/28/2019 01:46:12 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/28/2019 01:46:13 DEBUG: https://www.owler.com:443 "GET /company/techmahindra HTTP/1.1" 405 5780
+03/28/2019 01:46:13 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/28/2019 01:46:13 DEBUG: https://ca.linkedin.com:443 "GET /company/tech-mahindra HTTP/1.1" 999 1461
+03/28/2019 01:46:13 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/28/2019 01:46:14 DEBUG: https://www.forbes.com:443 "GET /companies/tech-mahindra/ HTTP/1.1" 200 42168
+03/28/2019 01:46:14 DEBUG: Starting new HTTPS connection (1): www.glassdoor.com:443
+03/28/2019 01:46:14 DEBUG: https://www.glassdoor.com:443 "GET /Overview/Working-at-Tech-Mahindra-EI_IE135932.11,24.htm HTTP/1.1" 403 None
+03/28/2019 01:46:14 DEBUG: Starting new HTTPS connection (1): www.glassdoor.com:443
+03/28/2019 01:46:14 DEBUG: https://www.glassdoor.com:443 "GET /Salary/Tech-Mahindra-India-Salaries-EI_IE135932.0,13_IL.14,19_IN115.htm HTTP/1.1" 403 None
+03/28/2019 01:46:14 DEBUG: Starting new HTTPS connection (1): ca.indeed.com:443
+03/28/2019 01:46:15 DEBUG: https://ca.indeed.com:443 "GET /cmp/Tech-Mahindra/reviews HTTP/1.1" 200 None
+03/28/2019 01:46:15 DEBUG: Starting new HTTPS connection (1): www.dqindia.com:443
+03/28/2019 01:46:15 DEBUG: https://www.dqindia.com:443 "GET /tech-mahindras-moodometer-gauges-employees-mood-uplift-work-environment/ HTTP/1.1" 403 None
+03/28/2019 01:46:15 DEBUG: Starting new HTTPS connection (1): www.glassdoor.co.in:443
+03/28/2019 01:46:15 DEBUG: https://www.glassdoor.co.in:443 "GET /Benefits/Tech-Mahindra-India-Benefits-EI_IE135932.0,13_IL.14,19_IN115.htm HTTP/1.1" 403 None
+03/28/2019 01:46:15 DEBUG: Starting new HTTPS connection (1): www.glassdoor.co.in:443
+03/28/2019 01:46:15 DEBUG: https://www.glassdoor.co.in:443 "GET /Reviews/Tech-Mahindra-Reviews-E135932.htm HTTP/1.1" 403 None
+03/28/2019 01:46:15 INFO: ============Tech Mahindra, SIZE feature data collection completed============
+03/28/2019 01:46:15 INFO: ============Tech Mahindra, ACQUISITIONS feature data collection started============
+03/28/2019 01:46:15 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:46:15 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:46:15 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:46:16 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Tech%20Mahindra&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:46:17 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:46:17 INFO: =========================Getting search result source code=========================
+03/28/2019 01:46:17 DEBUG: Starting new HTTPS connection (1): m.economictimes.com:443
+03/28/2019 01:46:17 DEBUG: https://m.economictimes.com:443 "GET /tech/ites/tech-mahindra-to-acquire-czech-based-engineering-service-firm-for-rs-8-crore/articleshow/65502739.cms HTTP/1.1" 302 0
+03/28/2019 01:46:17 DEBUG: Starting new HTTPS connection (1): economictimes.indiatimes.com:443
+03/28/2019 01:46:20 DEBUG: https://economictimes.indiatimes.com:443 "GET /tech/ites/tech-mahindra-to-acquire-czech-based-engineering-service-firm-for-rs-8-crore/articleshow/65502739.cms?from=mdr HTTP/1.1" 200 37062
+03/28/2019 01:46:20 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:46:22 DEBUG: https://www.techmahindra.com:443 "GET /investors/acquisition_transcript.aspx HTTP/1.1" 200 39178
+03/28/2019 01:46:22 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:46:25 DEBUG: https://www.techmahindra.com:443 "GET /media/press_releases/TechMahindra-announces-DynaCommerce-acquisition.aspx HTTP/1.1" 200 38509
+03/28/2019 01:46:25 DEBUG: Starting new HTTPS connection (1): tech.economictimes.indiatimes.com:443
+03/28/2019 01:46:27 DEBUG: https://tech.economictimes.indiatimes.com:443 "GET /news/corporate/tech-mahindra-announces-dynacommerce-acquisition/67807285 HTTP/1.1" 200 26840
+03/28/2019 01:46:27 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:46:27 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Tech_Mahindra HTTP/1.1" 200 25346
+03/28/2019 01:46:27 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:46:27 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Mahindra_Satyam HTTP/1.1" 200 21320
+03/28/2019 01:46:27 DEBUG: Starting new HTTPS connection (1): m.economictimes.com:443
+03/28/2019 01:46:27 DEBUG: https://m.economictimes.com:443 "GET /tech/ites/tech-mahindra-to-acquire-czech-based-engineering-service-firm-for-rs-8-crore/articleshow/65502739.cms HTTP/1.1" 302 0
+03/28/2019 01:46:27 DEBUG: Starting new HTTPS connection (1): economictimes.indiatimes.com:443
+03/28/2019 01:46:28 DEBUG: https://economictimes.indiatimes.com:443 "GET /tech/ites/tech-mahindra-to-acquire-czech-based-engineering-service-firm-for-rs-8-crore/articleshow/65502739.cms?from=mdr HTTP/1.1" 200 37020
+03/28/2019 01:46:29 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/28/2019 01:46:29 DEBUG: https://www.crunchbase.com:443 "GET /organization/tech-mahindra HTTP/1.1" 403 None
+03/28/2019 01:46:29 DEBUG: Starting new HTTPS connection (1): www.nearshoreamericas.com:443
+03/28/2019 01:46:29 DEBUG: https://www.nearshoreamericas.com:443 "GET /tech-mahindra-acquires-us-based-healthcare-consulting-firm-cjs-solutions/ HTTP/1.1" 403 None
+03/28/2019 01:46:29 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/28/2019 01:46:30 DEBUG: https://www.forbes.com:443 "GET /sites/anuraghunathan/2016/08/24/indian-it-major-tech-mahindra-uses-acquisitions-to-forge-ahead/ HTTP/1.1" 200 50248
+03/28/2019 01:46:30 DEBUG: Starting new HTTPS connection (1): www.finextra.com:443
+03/28/2019 01:46:31 DEBUG: https://www.finextra.com:443 "GET /newsarticle/28965/tech-mahindra-agrees-112m-target-group-acquisition HTTP/1.1" 200 19651
+03/28/2019 01:46:32 INFO: ============Tech Mahindra, ACQUISITIONS feature data collection completed============
+03/28/2019 01:46:32 INFO: ============Tech Mahindra, FUTURE GOALS feature data collection started============
+03/28/2019 01:46:32 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:46:32 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:46:32 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:46:32 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Tech%20Mahindra&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:46:33 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:46:33 INFO: =========================Getting search result source code=========================
+03/28/2019 01:46:33 DEBUG: Starting new HTTPS connection (1): partners.wsj.com:443
+03/28/2019 01:46:33 DEBUG: https://partners.wsj.com:443 "GET /tech-mahindra/in-the-future/ HTTP/1.1" 200 None
+03/28/2019 01:46:33 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:46:35 DEBUG: https://www.techmahindra.com:443 "GET /services/Enterprises-of-Future/Overview.aspx HTTP/1.1" 200 34294
+03/28/2019 01:46:35 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:46:38 DEBUG: https://www.techmahindra.com:443 "GET /services/Enterprises-of-Future/CRM-Sales-force/Strategy-Offerings/Strategy-Planning-Workshop.aspx HTTP/1.1" 200 37061
+03/28/2019 01:46:39 DEBUG: Starting new HTTPS connection (1): careers.techmahindra.com:443
+03/28/2019 01:46:40 DEBUG: https://careers.techmahindra.com:443 "GET /Forms/FreedomToExplore.aspx HTTP/1.1" 200 7633
+03/28/2019 01:46:40 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/28/2019 01:46:40 DEBUG: https://www.quora.com:443 "GET /What-benefits-do-Tech-Mahindra-offer-that-are-not-usual-in-other-Indian-IT-companies HTTP/1.1" 200 None
+03/28/2019 01:46:41 DEBUG: Starting new HTTPS connection (1): m.moneycontrol.com:443
+03/28/2019 01:46:42 DEBUG: https://m.moneycontrol.com:443 "GET /stock/techmahindra/TM4/india/fnoquote HTTP/1.1" 200 19210
+03/28/2019 01:46:42 DEBUG: Starting new HTTPS connection (1): www.moneycontrol.com:443
+03/28/2019 01:46:45 DEBUG: https://www.moneycontrol.com:443 "GET /india/stockpricequote/computers-software/techmahindra/TM4 HTTP/1.1" 200 None
+03/28/2019 01:46:45 DEBUG: Starting new HTTPS connection (1): www.linkedin.com:443
+03/28/2019 01:46:45 DEBUG: https://www.linkedin.com:443 "GET /in/amit-kumar-78a79423 HTTP/1.1" 999 1461
+03/28/2019 01:46:45 DEBUG: Starting new HTTPS connection (1): m.economictimes.com:443
+03/28/2019 01:46:45 DEBUG: https://m.economictimes.com:443 "GET /tech/ites/tech-mahindra-opens-factory-of-the-future-centre/articleshow/57517657.cms HTTP/1.1" 302 0
+03/28/2019 01:46:45 DEBUG: Starting new HTTPS connection (1): economictimes.indiatimes.com:443
+03/28/2019 01:46:47 DEBUG: https://economictimes.indiatimes.com:443 "GET /tech/ites/tech-mahindra-opens-factory-of-the-future-centre/articleshow/57517657.cms?from=mdr HTTP/1.1" 200 36780
+03/28/2019 01:46:47 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/28/2019 01:46:48 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DcwwSGsGnOKs HTTP/1.1" 503 1798
+03/28/2019 01:46:48 INFO: ============Tech Mahindra, FUTURE GOALS feature data collection completed============
+03/28/2019 01:46:48 INFO: ============Tech Mahindra, TECH STACK feature data collection started============
+03/28/2019 01:46:48 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:46:48 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:46:48 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:46:49 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Tech%20Mahindra&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:46:50 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:46:50 INFO: =========================Getting search result source code=========================
+03/28/2019 01:46:50 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:46:54 DEBUG: https://www.techmahindra.com:443 "GET /industries/Enterprise/technology_media_and_entertainment/overview/overview.aspx HTTP/1.1" 200 49943
+03/28/2019 01:46:54 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:46:58 DEBUG: https://www.techmahindra.com:443 "GET /industries/Enterprise/technology_media_and_entertainment/overview/technology.aspx HTTP/1.1" 200 52814
+03/28/2019 01:46:59 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:47:01 DEBUG: https://www.techmahindra.com:443 "GET /industries/Enterprise/technology_media_and_entertainment/semiconductor_offerings/managed_business_information_technology_services.aspx HTTP/1.1" 200 42095
+03/28/2019 01:47:01 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/28/2019 01:47:02 DEBUG: https://www.quora.com:443 "GET /What-technology-does-tech-mahindra-use HTTP/1.1" 200 None
+03/28/2019 01:47:02 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:47:02 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Tech_Mahindra HTTP/1.1" 200 25346
+03/28/2019 01:47:02 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/28/2019 01:47:02 DEBUG: https://ca.linkedin.com:443 "GET /company/tech-mahindra HTTP/1.1" 999 1461
+03/28/2019 01:47:02 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/28/2019 01:47:03 DEBUG: https://www.forbes.com:443 "GET /companies/tech-mahindra/ HTTP/1.1" 200 42166
+03/28/2019 01:47:03 DEBUG: Starting new HTTPS connection (1): www1.pega.com:443
+03/28/2019 01:47:03 DEBUG: https://www1.pega.com:443 "GET /services/partnerships/tech-mahindra HTTP/1.1" 301 264
+03/28/2019 01:47:03 DEBUG: Starting new HTTPS connection (1): www.pega.com:443
+03/28/2019 01:47:03 DEBUG: https://www.pega.com:443 "GET /services/partnerships/tech-mahindra HTTP/1.1" 200 39325
+03/28/2019 01:47:03 DEBUG: Starting new HTTPS connection (1): www.gartner.com:443
+03/28/2019 01:47:04 DEBUG: https://www.gartner.com:443 "GET /reviews/market/data-center-outsourcing-and-infrastructure-utility-services-emea/compare/dxc-technology-vs-tech-mahindra HTTP/1.1" 200 None
+03/28/2019 01:47:04 INFO: ============Tech Mahindra, TECH STACK feature data collection completed============
+03/28/2019 01:47:04 INFO: ============Tech Mahindra, PRODUCTS feature data collection started============
+03/28/2019 01:47:04 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:47:04 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:47:04 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:47:04 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Tech%20Mahindra&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:47:04 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:47:04 INFO: =========================Getting search result source code=========================
+03/28/2019 01:47:04 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:47:06 DEBUG: https://www.techmahindra.com:443 "GET /services/default.aspx HTTP/1.1" 200 4808
+03/28/2019 01:47:06 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:47:08 DEBUG: https://www.techmahindra.com:443 "GET /services/NextGenSolutions/smart_grid/offerings/default.aspx HTTP/1.1" 200 34849
+03/28/2019 01:47:08 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:47:11 DEBUG: https://www.techmahindra.com:443 "GET /industries/Communication/network_platforms_and_applications/overview.aspx HTTP/1.1" 200 37902
+03/28/2019 01:47:12 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:47:15 DEBUG: https://www.techmahindra.com:443 "GET /solutions/platforms/default.aspx HTTP/1.1" 200 37453
+03/28/2019 01:47:15 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:47:18 DEBUG: https://www.techmahindra.com:443 "GET /industries/Enterprise/energy_and_utilities/utilities/utility_domain_solutions/product_engineering_services.aspx HTTP/1.1" 200 41331
+03/28/2019 01:47:18 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:47:20 DEBUG: https://www.techmahindra.com:443 "GET /services/integrated_engineering_solutions/horizontal_competencies/software_and_applications.aspx HTTP/1.1" 200 38312
+03/28/2019 01:47:21 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:47:23 DEBUG: https://www.techmahindra.com:443 "GET /industries/Enterprise/bfsi/solutions/bfsi_mngd_data_serv.aspx HTTP/1.1" 200 45724
+03/28/2019 01:47:23 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:47:24 DEBUG: https://www.techmahindra.com:443 "GET /services/infrastructure_management_services/offerings/overview.aspx HTTP/1.1" 301 13
+03/28/2019 01:47:26 DEBUG: https://www.techmahindra.com:443 "GET /services/infrastructure-and-cloud-services/offerings/overview.aspx HTTP/1.1" 200 47114
+03/28/2019 01:47:26 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:47:28 DEBUG: https://www.techmahindra.com:443 "GET /industries/Enterprise/technology_media_and_entertainment/technology_offerings/product_engineering_services.aspx HTTP/1.1" 200 42244
+03/28/2019 01:47:28 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/28/2019 01:47:32 DEBUG: https://www.techmahindra.com:443 "GET /services/oracle_solutions/default.aspx HTTP/1.1" 200 47926
+03/28/2019 01:47:32 INFO: ============Tech Mahindra, PRODUCTS feature data collection completed============
+03/28/2019 01:47:32 INFO: ============Tech Mahindra data collection completed============

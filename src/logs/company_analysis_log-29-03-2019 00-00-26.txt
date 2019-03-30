@@ -1,0 +1,145 @@
+03/29/2019 00:00:26 INFO: ============Script execution started============
+03/29/2019 00:00:26 INFO: ============SAP data collection started============
+03/29/2019 00:00:26 INFO: ============SAP, SIZE feature data collection started============
+03/29/2019 00:00:26 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:00:26 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:00:26 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:00:27 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=SAP&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:00:27 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:00:27 INFO: =========================Getting search result source code=========================
+03/29/2019 00:00:27 DEBUG: Starting new HTTPS connection (1): www.sap.com:443
+03/29/2019 00:00:27 DEBUG: https://www.sap.com:443 "GET /corporate/en/company.html HTTP/1.1" 200 28544
+03/29/2019 00:00:27 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:00:28 DEBUG: https://en.wikipedia.org:443 "GET /wiki/SAP_SE HTTP/1.1" 200 53001
+03/29/2019 00:00:28 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/29/2019 00:00:28 DEBUG: https://www.statista.com:443 "GET /statistics/276252/number-of-sap-employees-worldwide-since-2006/ HTTP/1.1" 200 None
+03/29/2019 00:00:28 DEBUG: Starting new HTTPS connection (1): content.eluta.ca:443
+03/29/2019 00:00:28 DEBUG: https://content.eluta.ca:443 "GET /top-employer-sap HTTP/1.1" 200 128398
+03/29/2019 00:00:28 DEBUG: Starting new HTTPS connection (1): www.cdha.nshealth.ca:443
+03/29/2019 00:00:29 DEBUG: https://www.cdha.nshealth.ca:443 "GET /employees/employee-logins HTTP/1.1" 200 None
+03/29/2019 00:00:29 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/29/2019 00:00:29 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DK3GuI5JV6rc HTTP/1.1" 503 1799
+03/29/2019 00:00:29 DEBUG: Starting new HTTPS connection (1): www.businessinsider.com:443
+03/29/2019 00:00:30 DEBUG: https://www.businessinsider.com:443 "GET /sap-restructuring-jobs-2019-1 HTTP/1.1" 200 46995
+03/29/2019 00:00:30 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/29/2019 00:00:30 DEBUG: https://ca.linkedin.com:443 "GET /company/sap HTTP/1.1" 999 1461
+03/29/2019 00:00:30 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/29/2019 00:00:30 DEBUG: https://www.owler.com:443 "GET /company/sap HTTP/1.1" 405 5764
+03/29/2019 00:00:30 INFO: ============SAP, SIZE feature data collection completed============
+03/29/2019 00:00:30 INFO: ============SAP, ACQUISITIONS feature data collection started============
+03/29/2019 00:00:30 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:00:30 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:00:30 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:00:31 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=SAP&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:00:32 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:00:32 INFO: =========================Getting search result source code=========================
+03/29/2019 00:00:32 DEBUG: Starting new HTTPS connection (1): news.sap.com:443
+03/29/2019 00:00:32 DEBUG: https://news.sap.com:443 "GET /2019/01/sap-completes-qualtrics-acquisition/ HTTP/1.1" 403 162
+03/29/2019 00:00:32 DEBUG: Starting new HTTPS connection (1): joshbersin.com:443
+03/29/2019 00:00:34 DEBUG: https://joshbersin.com:443 "GET /2018/11/why-did-sap-pay-8-billion-to-acquire-qualtrics/ HTTP/1.1" 200 None
+03/29/2019 00:00:34 DEBUG: Starting new HTTPS connection (1): news.sap.com:443
+03/29/2019 00:00:35 DEBUG: https://news.sap.com:443 "GET /2019/01/sap-completes-qualtrics-acquisition/ HTTP/1.1" 403 162
+03/29/2019 00:00:35 DEBUG: Starting new HTTPS connection (1): news.sap.com:443
+03/29/2019 00:00:35 DEBUG: https://news.sap.com:443 "GET /2018/11/sap-to-acquire-qualtrics-experience-management/ HTTP/1.1" 403 162
+03/29/2019 00:00:35 DEBUG: Starting new HTTPS connection (1): www.itworldcanada.com:443
+03/29/2019 00:00:36 DEBUG: https://www.itworldcanada.com:443 "GET /article/411701-2/411701 HTTP/1.1" 200 13679
+03/29/2019 00:00:36 DEBUG: Starting new HTTPS connection (1): www.cmswire.com:443
+03/29/2019 00:00:36 DEBUG: https://www.cmswire.com:443 "GET /customer-experience/6-things-to-know-about-saps-8-billion-qualtrics-acquisition/ HTTP/1.1" 200 None
+03/29/2019 00:00:36 DEBUG: Starting new HTTPS connection (1): www.cmo.com.au:443
+03/29/2019 00:00:40 DEBUG: https://www.cmo.com.au:443 "GET /article/649560/analysts-question-long-term-play-sap-acquisition-qualtrics/ HTTP/1.1" 200 None
+03/29/2019 00:00:40 DEBUG: Starting new HTTP connection (1): fortune.com:80
+03/29/2019 00:00:40 DEBUG: http://fortune.com:80 "GET /2018/11/12/sap-qualtrics-acquisition/ HTTP/1.1" 200 None
+03/29/2019 00:00:40 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/29/2019 00:00:41 DEBUG: https://www.cnbc.com:443 "GET /2018/11/11/sap-is-buying-qualtrics-sources-say.html HTTP/1.1" 200 46702
+03/29/2019 00:00:41 DEBUG: Starting new HTTPS connection (1): www.ft.com:443
+03/29/2019 00:00:41 DEBUG: https://www.ft.com:443 "GET /content/3ecfff5e-e613-11e8-8a85-04b8afea6ea3 HTTP/1.1" 200 30598
+03/29/2019 00:00:41 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/29/2019 00:00:41 DEBUG: https://www.crunchbase.com:443 "GET /organization/sap/acquisitions/acquisitions_list HTTP/1.1" 403 None
+03/29/2019 00:00:41 INFO: ============SAP, ACQUISITIONS feature data collection completed============
+03/29/2019 00:00:41 INFO: ============SAP, FUTURE GOALS feature data collection started============
+03/29/2019 00:00:41 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:00:41 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:00:41 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:00:42 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=SAP&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:00:42 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:00:42 INFO: =========================Getting search result source code=========================
+03/29/2019 00:00:42 DEBUG: Starting new HTTPS connection (1): www.sapapplication.com:443
+03/29/2019 00:00:44 DEBUG: https://www.sapapplication.com:443 "GET /sapbusinessgoal.php HTTP/1.1" 200 None
+03/29/2019 00:00:44 DEBUG: Starting new HTTPS connection (1): www.successfactors.com:443
+03/29/2019 00:00:44 DEBUG: https://www.successfactors.com:443 "GET /en/products-services/performance-compensation/performance-goals.html HTTP/1.1" 404 61778
+03/29/2019 00:00:44 DEBUG: Starting new HTTPS connection (1): wiki.scn.sap.com:443
+03/29/2019 00:00:45 DEBUG: https://wiki.scn.sap.com:443 "GET /wiki/pages/viewpage.action%3FpageId%3D462044619 HTTP/1.1" 404 27395
+03/29/2019 00:00:45 DEBUG: Starting new HTTPS connection (1): news.sap.com:443
+03/29/2019 00:00:45 DEBUG: https://news.sap.com:443 "GET /2018/12/future-of-erp-prepare-takeoff/ HTTP/1.1" 403 162
+03/29/2019 00:00:45 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/29/2019 00:00:46 DEBUG: https://www.quora.com:443 "GET /What-is-the-future-of-SAP-consultants HTTP/1.1" 200 None
+03/29/2019 00:00:46 DEBUG: Starting new HTTPS connection (1): hub.packtpub.com:443
+03/29/2019 00:00:47 DEBUG: https://hub.packtpub.com:443 "GET /discussing-sap-past-present-and-future-with-rehan-zaidi-senior-sap-abap-consultant-interview/ HTTP/1.1" 403 162
+03/29/2019 00:00:47 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/29/2019 00:00:47 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DUaKDX76ahNg HTTP/1.1" 503 1799
+03/29/2019 00:00:47 DEBUG: Starting new HTTPS connection (1): www.cio.com:443
+03/29/2019 00:00:50 DEBUG: https://www.cio.com:443 "GET /article/3198410/sap-sets-a-course-for-the-future.html HTTP/1.1" 200 43000
+03/29/2019 00:00:50 DEBUG: Starting new HTTPS connection (1): diginomica.com:443
+03/29/2019 00:00:50 DEBUG: https://diginomica.com:443 "GET /exclusive-sap-on-the-future-of-sap-payroll-including-cloud-payroll/ HTTP/1.1" 403 None
+03/29/2019 00:00:50 DEBUG: Starting new HTTPS connection (1): e3zine.com:443
+03/29/2019 00:00:51 DEBUG: https://e3zine.com:443 "GET /2019/02/18/chaos-theory-saps-future/ HTTP/1.1" 200 None
+03/29/2019 00:00:52 INFO: ============SAP, FUTURE GOALS feature data collection completed============
+03/29/2019 00:00:52 INFO: ============SAP, TECH STACK feature data collection started============
+03/29/2019 00:00:52 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:00:52 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:00:52 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:00:52 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=SAP&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:00:53 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:00:53 INFO: =========================Getting search result source code=========================
+03/29/2019 00:00:53 DEBUG: Starting new HTTPS connection (1): tools.hana.ondemand.com:443
+03/29/2019 00:00:53 DEBUG: https://tools.hana.ondemand.com:443 "GET / HTTP/1.1" 200 36967
+03/29/2019 00:00:53 DEBUG: Starting new HTTPS connection (1): www.sap.com:443
+03/29/2019 00:00:54 DEBUG: https://www.sap.com:443 "GET /canada/trends.html HTTP/1.1" 200 26174
+03/29/2019 00:00:54 DEBUG: Starting new HTTPS connection (1): www.sap.com:443
+03/29/2019 00:00:54 DEBUG: https://www.sap.com:443 "GET /canada/products/technology-platforms.html HTTP/1.1" 200 32484
+03/29/2019 00:00:54 DEBUG: Starting new HTTPS connection (1): searchsap.techtarget.com:443
+03/29/2019 00:00:55 DEBUG: https://searchsap.techtarget.com:443 "GET /definition/SAP HTTP/1.1" 200 None
+03/29/2019 00:00:55 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/29/2019 00:00:57 DEBUG: https://www.youtube.com:443 "GET /user/saptechnology HTTP/1.1" 200 None
+03/29/2019 00:00:57 DEBUG: Starting new HTTPS connection (1): www.soapeople.com:443
+03/29/2019 00:00:57 DEBUG: https://www.soapeople.com:443 "GET /blog/6-reasons-why-sap-leonardo-is-the-future-of-intelligent-erp HTTP/1.1" 200 None
+03/29/2019 00:00:58 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/29/2019 00:01:00 DEBUG: https://www.accenture.com:443 "GET /ca-en/service-technology-sap-overview HTTP/1.1" 200 30061
+03/29/2019 00:01:00 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:01:00 DEBUG: https://en.wikipedia.org:443 "GET /wiki/SAP_SE HTTP/1.1" 200 53001
+03/29/2019 00:01:00 DEBUG: Starting new HTTP connection (1): www.fedem.com:80
+03/29/2019 00:01:01 DEBUG: http://www.fedem.com:80 "GET / HTTP/1.1" 200 3603
+03/29/2019 00:01:01 DEBUG: Starting new HTTPS connection (1): www2.deloitte.com:443
+03/29/2019 00:01:01 DEBUG: https://www2.deloitte.com:443 "GET /global/en/pages/technology/solutions/sap-business-analytics-data-technology.html HTTP/1.1" 200 21138
+03/29/2019 00:01:01 INFO: ============SAP, TECH STACK feature data collection completed============
+03/29/2019 00:01:01 INFO: ============SAP, PRODUCTS feature data collection started============
+03/29/2019 00:01:01 INFO: =====================Setting company variables for Google Search===================
+03/29/2019 00:01:01 INFO: ======================Generating Google Search code==========================
+03/29/2019 00:01:01 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/29/2019 00:01:02 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=SAP&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/29/2019 00:01:02 INFO: =========================Getting search result hyperlinks========================
+03/29/2019 00:01:02 INFO: =========================Getting search result source code=========================
+03/29/2019 00:01:02 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/29/2019 00:01:02 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_SAP_products HTTP/1.1" 200 11363
+03/29/2019 00:01:02 DEBUG: Starting new HTTPS connection (1): www.sap.com:443
+03/29/2019 00:01:03 DEBUG: https://www.sap.com:443 "GET /canada/products.html HTTP/1.1" 200 31373
+03/29/2019 00:01:03 DEBUG: Starting new HTTPS connection (1): www.sap.com:443
+03/29/2019 00:01:03 DEBUG: https://www.sap.com:443 "GET /canada/products-a-z.html HTTP/1.1" 200 53131
+03/29/2019 00:01:03 DEBUG: Starting new HTTPS connection (1): www.sap.com:443
+03/29/2019 00:01:03 DEBUG: https://www.sap.com:443 "GET /canada/index.html HTTP/1.1" 200 32544
+03/29/2019 00:01:03 DEBUG: Starting new HTTPS connection (1): tools.hana.ondemand.com:443
+03/29/2019 00:01:04 DEBUG: https://tools.hana.ondemand.com:443 "GET / HTTP/1.1" 200 36967
+03/29/2019 00:01:04 DEBUG: Starting new HTTPS connection (1): www.guru99.com:443
+03/29/2019 00:01:04 DEBUG: https://www.guru99.com:443 "GET /what-is-sap-definition-of-sap-erp-software.html HTTP/1.1" 200 16637
+03/29/2019 00:01:04 DEBUG: Starting new HTTPS connection (1): searchsap.techtarget.com:443
+03/29/2019 00:01:05 DEBUG: https://searchsap.techtarget.com:443 "GET /definition/SAP HTTP/1.1" 200 None
+03/29/2019 00:01:05 DEBUG: Starting new HTTP connection (1): www.sap-digital-business-services.com:80
+03/29/2019 00:01:05 DEBUG: http://www.sap-digital-business-services.com:80 "GET / HTTP/1.1" 301 348
+03/29/2019 00:01:05 DEBUG: Starting new HTTPS connection (1): www.sap-digital-business-services.com:443
+03/29/2019 00:01:06 DEBUG: https://www.sap-digital-business-services.com:443 "GET / HTTP/1.1" 200 11931
+03/29/2019 00:01:06 DEBUG: Starting new HTTPS connection (1): www.cbronline.com:443
+03/29/2019 00:01:09 DEBUG: https://www.cbronline.com:443 "GET /what-is/what-is-sap-software-4912451/ HTTP/1.1" 200 28539
+03/29/2019 00:01:09 DEBUG: Starting new HTTPS connection (1): www.ibm.com:443
+03/29/2019 00:01:10 DEBUG: https://www.ibm.com:443 "GET /services/sap/managed HTTP/1.1" 200 11005
+03/29/2019 00:01:10 INFO: ============SAP, PRODUCTS feature data collection completed============
+03/29/2019 00:01:10 INFO: ============SAP data collection completed============

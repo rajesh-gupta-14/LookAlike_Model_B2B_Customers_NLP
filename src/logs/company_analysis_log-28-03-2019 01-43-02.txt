@@ -1,0 +1,149 @@
+03/28/2019 01:43:02 INFO: ============Script execution started============
+03/28/2019 01:43:02 INFO: ============Netflix data collection started============
+03/28/2019 01:43:02 INFO: ============Netflix, SIZE feature data collection started============
+03/28/2019 01:43:02 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:43:02 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:43:02 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:43:03 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:43:04 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:43:04 INFO: =========================Getting search result source code=========================
+03/28/2019 01:43:04 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/28/2019 01:43:04 DEBUG: https://www.statista.com:443 "GET /statistics/587671/netflix-employees/ HTTP/1.1" 200 None
+03/28/2019 01:43:04 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/28/2019 01:43:04 DEBUG: https://www.statista.com:443 "GET /topics/842/netflix/ HTTP/1.1" 200 None
+03/28/2019 01:43:04 DEBUG: Starting new HTTPS connection (1): jobs.netflix.com:443
+03/28/2019 01:43:05 DEBUG: https://jobs.netflix.com:443 "GET /culture HTTP/1.1" 200 129539
+03/28/2019 01:43:05 DEBUG: Starting new HTTPS connection (1): craft.co:443
+03/28/2019 01:43:06 DEBUG: https://craft.co:443 "GET /netflix HTTP/1.1" 405 2888
+03/28/2019 01:43:06 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:43:06 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Netflix HTTP/1.1" 200 149227
+03/28/2019 01:43:06 DEBUG: Starting new HTTPS connection (1): www.slashfilm.com:443
+03/28/2019 01:43:06 DEBUG: https://www.slashfilm.com:443 "GET /working-at-netflix/ HTTP/1.1" 200 None
+03/28/2019 01:43:06 DEBUG: Starting new HTTPS connection (1): insights.dice.com:443
+03/28/2019 01:43:07 DEBUG: https://insights.dice.com:443 "GET /2018/10/29/netflix-company-culture-termination/ HTTP/1.1" 403 162
+03/28/2019 01:43:07 DEBUG: Starting new HTTPS connection (1): www.glassdoor.com:443
+03/28/2019 01:43:07 DEBUG: https://www.glassdoor.com:443 "GET /Overview/Working-at-Netflix-EI_IE11891.11,18.htm HTTP/1.1" 403 None
+03/28/2019 01:43:07 DEBUG: Starting new HTTP connection (1): markets.businessinsider.com:80
+03/28/2019 01:43:08 DEBUG: http://markets.businessinsider.com:80 "GET /news/stocks/netflix-stock-price-hits-record-high-2018-5-1025212394 HTTP/1.1" 301 5689
+03/28/2019 01:43:08 DEBUG: Starting new HTTPS connection (1): markets.businessinsider.com:443
+03/28/2019 01:43:08 DEBUG: https://markets.businessinsider.com:443 "GET /news/stocks/netflix-stock-price-hits-record-high-2018-5-1025212394 HTTP/1.1" 200 26210
+03/28/2019 01:43:08 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/28/2019 01:43:08 DEBUG: https://www.forbes.com:443 "GET /companies/netflix/ HTTP/1.1" 200 42829
+03/28/2019 01:43:09 INFO: ============Netflix, SIZE feature data collection completed============
+03/28/2019 01:43:09 INFO: ============Netflix, ACQUISITIONS feature data collection started============
+03/28/2019 01:43:09 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:43:09 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:43:09 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:43:09 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:43:09 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:43:09 INFO: =========================Getting search result source code=========================
+03/28/2019 01:43:09 DEBUG: Starting new HTTPS connection (1): bgr.com:443
+03/28/2019 01:43:10 DEBUG: https://bgr.com:443 "GET /2019/02/04/netflix-vs-apple-tv-shows-acquisition-isnt-happening/ HTTP/1.1" 200 None
+03/28/2019 01:43:11 DEBUG: Starting new HTTP connection (1): fortune.com:80
+03/28/2019 01:43:11 DEBUG: http://fortune.com:80 "GET /2019/02/04/apple-netflix-acquisition/ HTTP/1.1" 200 None
+03/28/2019 01:43:11 DEBUG: Starting new HTTPS connection (1): www.thestreet.com:443
+03/28/2019 01:43:11 DEBUG: https://www.thestreet.com:443 "GET /investing/netflix-acquisition-abq-studios-14746375 HTTP/1.1" 404 421
+03/28/2019 01:43:11 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/28/2019 01:43:12 DEBUG: https://www.forbes.com:443 "GET /sites/enriquedans/2019/02/17/apple-and-netflix-is-there-any-truth-to-the-rumors/ HTTP/1.1" 200 47670
+03/28/2019 01:43:12 DEBUG: Starting new HTTPS connection (1): filmdaily.co:443
+03/28/2019 01:43:12 DEBUG: https://filmdaily.co:443 "GET /obsessions/netflix-aims-to-take-over-the-world/ HTTP/1.1" 403 162
+03/28/2019 01:43:12 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/28/2019 01:43:12 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2019-02-04/apple-acquisition-targets-could-include-netflix-sonos-jpmorgan HTTP/1.1" 307 0
+03/28/2019 01:43:12 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/28/2019 01:43:13 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=fe3dc400-5113-11e9-bf8b-7133b5bde472&url=L25ld3MvYXJ0aWNsZXMvMjAxOS0wMi0wNC9hcHBsZS1hY3F1aXNpdGlvbi10YXJnZXRzLWNvdWxkLWluY2x1ZGUtbmV0ZmxpeC1zb25vcy1qcG1vcmdhbg== HTTP/1.1" 200 4595
+03/28/2019 01:43:13 DEBUG: Starting new HTTPS connection (1): www.fastcompany.com:443
+03/28/2019 01:43:13 DEBUG: https://www.fastcompany.com:443 "GET /90301540/jp-morgan-says-apple-should-acquire-netflix HTTP/1.1" 200 89943
+03/28/2019 01:43:13 DEBUG: Starting new HTTPS connection (1): www.cultofmac.com:443
+03/28/2019 01:43:14 DEBUG: https://www.cultofmac.com:443 "GET /521181/40-percent-netflix/ HTTP/1.1" 200 None
+03/28/2019 01:43:14 DEBUG: Starting new HTTP connection (1): www.bnnbloomberg.ca:80
+03/28/2019 01:43:15 DEBUG: http://www.bnnbloomberg.ca:80 "GET /technology/video/tech-bytes-netflix-reportedly-mulling-threatre-chain-acquisition~1375801 HTTP/1.1" 301 0
+03/28/2019 01:43:15 DEBUG: Starting new HTTPS connection (1): www.bnnbloomberg.ca:443
+03/28/2019 01:43:16 DEBUG: https://www.bnnbloomberg.ca:443 "GET /technology/video/tech-bytes-netflix-reportedly-mulling-threatre-chain-acquisition~1375801 HTTP/1.1" 200 29575
+03/28/2019 01:43:16 DEBUG: Starting new HTTPS connection (1): www.knowyourmobile.com:443
+03/28/2019 01:43:17 DEBUG: https://www.knowyourmobile.com:443 "GET /products/netflix/24826/why-apple-will-never-buy-netflix-three-simple-reasons HTTP/1.1" 200 None
+03/28/2019 01:43:17 INFO: ============Netflix, ACQUISITIONS feature data collection completed============
+03/28/2019 01:43:17 INFO: ============Netflix, FUTURE GOALS feature data collection started============
+03/28/2019 01:43:17 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:43:17 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:43:17 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:43:18 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:43:19 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:43:19 INFO: =========================Getting search result source code=========================
+03/28/2019 01:43:19 DEBUG: Starting new HTTPS connection (1): screenrant.com:443
+03/28/2019 01:43:19 DEBUG: https://screenrant.com:443 "GET /netflix-future-blockbuster-indy-disney-streaming/ HTTP/1.1" 200 None
+03/28/2019 01:43:19 DEBUG: Starting new HTTPS connection (1): www.cnn.com:443
+03/28/2019 01:43:19 DEBUG: https://www.cnn.com:443 "GET /2019/03/04/media/netflix-steven-spielberg/index.html HTTP/1.1" 200 243060
+03/28/2019 01:43:20 DEBUG: Starting new HTTPS connection (1): qz.com:443
+03/28/2019 01:43:20 DEBUG: https://qz.com:443 "GET /1329821/netflix-is-preparing-for-a-future-where-it-has-mostly-originals/ HTTP/1.1" 200 30885
+03/28/2019 01:43:20 DEBUG: Starting new HTTPS connection (1): bgr.com:443
+03/28/2019 01:43:20 DEBUG: https://bgr.com:443 "GET /2019/03/27/the-future-of-netflix-video-game-designers/ HTTP/1.1" 200 None
+03/28/2019 01:43:21 DEBUG: Starting new HTTPS connection (1): www.mediapost.com:443
+03/28/2019 01:43:21 DEBUG: https://www.mediapost.com:443 "GET /publications/article/330756/netflix-positions-itself-for-the-future.html HTTP/1.1" 200 15663
+03/28/2019 01:43:21 DEBUG: Starting new HTTPS connection (1): www.groupon.com:443
+03/28/2019 01:43:21 DEBUG: https://www.groupon.com:443 "GET /coupons/stores/signup.netflix.com HTTP/1.1" 200 56941
+03/28/2019 01:43:22 DEBUG: Starting new HTTPS connection (1): www.thesun.co.uk:443
+03/28/2019 01:43:22 DEBUG: https://www.thesun.co.uk:443 "GET /sun-men/8723392/netflix-back-to-the-future-bizarre-tweet/ HTTP/1.1" 200 29355
+03/28/2019 01:43:22 DEBUG: Starting new HTTPS connection (1): zoutons.com:443
+03/28/2019 01:43:23 DEBUG: https://zoutons.com:443 "GET /us/netflix-coupons HTTP/1.1" 200 None
+03/28/2019 01:43:23 DEBUG: Starting new HTTPS connection (1): www.netflix.com:443
+03/28/2019 01:43:23 DEBUG: https://www.netflix.com:443 "GET /ca/title/80135587 HTTP/1.1" 200 None
+03/28/2019 01:43:24 DEBUG: Starting new HTTPS connection (1): givingassistant.org:443
+03/28/2019 01:43:24 DEBUG: https://givingassistant.org:443 "GET /coupon-codes/netflix.com HTTP/1.1" 200 51168
+03/28/2019 01:43:24 INFO: ============Netflix, FUTURE GOALS feature data collection completed============
+03/28/2019 01:43:24 INFO: ============Netflix, TECH STACK feature data collection started============
+03/28/2019 01:43:24 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:43:24 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:43:24 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:43:25 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:43:25 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:43:25 INFO: =========================Getting search result source code=========================
+03/28/2019 01:43:25 DEBUG: Starting new HTTPS connection (1): forums.redflagdeals.com:443
+03/28/2019 01:43:26 DEBUG: https://forums.redflagdeals.com:443 "GET /stack-prepaid-mastercard-free-1-yr-netflix-spotify-tidal-no-qc-2216455/ HTTP/1.1" 200 41226
+03/28/2019 01:43:26 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/28/2019 01:43:26 DEBUG: https://www.quora.com:443 "GET /What-technology-stack-is-Netflix-built-on HTTP/1.1" 200 None
+03/28/2019 01:43:27 DEBUG: Starting new HTTPS connection (1): stackshare.io:443
+03/28/2019 01:43:28 DEBUG: https://stackshare.io:443 "GET /netflix/netflix HTTP/1.1" 200 None
+03/28/2019 01:43:28 DEBUG: Starting new HTTPS connection (1): www.engadget.com:443
+03/28/2019 01:43:29 DEBUG: https://www.engadget.com:443 "GET /2018/03/10/netflix-streaming-tech-hollywood/ HTTP/1.1" 200 42404
+03/28/2019 01:43:29 DEBUG: Starting new HTTPS connection (1): netflix.github.io:443
+03/28/2019 01:43:29 DEBUG: https://netflix.github.io:443 "GET / HTTP/1.1" 200 8124
+03/28/2019 01:43:29 DEBUG: Starting new HTTPS connection (1): www.theverge.com:443
+03/28/2019 01:43:30 DEBUG: https://www.theverge.com:443 "GET /2019/3/26/18281474/netflix-osmosis-review-french-black-mirror-nanotechnology-romance HTTP/1.1" 200 48812
+03/28/2019 01:43:30 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:43:30 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Technical_details_of_Netflix HTTP/1.1" 200 19897
+03/28/2019 01:43:30 DEBUG: Starting new HTTP connection (1): www2.technologyreview.com:80
+03/28/2019 01:43:31 DEBUG: http://www2.technologyreview.com:80 "GET /tr50/netflix/ HTTP/1.1" 200 40114
+03/28/2019 01:43:31 DEBUG: Starting new HTTPS connection (1): medium.com:443
+03/28/2019 01:43:33 DEBUG: https://medium.com:443 "GET /netflix-techblog HTTP/1.1" 200 None
+03/28/2019 01:43:33 DEBUG: Starting new HTTPS connection (1): medium.com:443
+03/28/2019 01:43:33 DEBUG: https://medium.com:443 "GET /%40NetflixTechBlog HTTP/1.1" 404 None
+03/28/2019 01:43:33 INFO: ============Netflix, TECH STACK feature data collection completed============
+03/28/2019 01:43:33 INFO: ============Netflix, PRODUCTS feature data collection started============
+03/28/2019 01:43:33 INFO: =====================Setting company variables for Google Search===================
+03/28/2019 01:43:33 INFO: ======================Generating Google Search code==========================
+03/28/2019 01:43:33 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/28/2019 01:43:34 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/28/2019 01:43:34 INFO: =========================Getting search result hyperlinks========================
+03/28/2019 01:43:34 INFO: =========================Getting search result source code=========================
+03/28/2019 01:43:34 DEBUG: Starting new HTTPS connection (1): netflix.github.io:443
+03/28/2019 01:43:34 DEBUG: https://netflix.github.io:443 "GET / HTTP/1.1" 200 8124
+03/28/2019 01:43:34 DEBUG: Starting new HTTPS connection (1): help.netflix.com:443
+03/28/2019 01:43:35 DEBUG: https://help.netflix.com:443 "GET /en/node/412 HTTP/1.1" 200 None
+03/28/2019 01:43:35 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/28/2019 01:43:35 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Netflix HTTP/1.1" 200 149227
+03/28/2019 01:43:35 DEBUG: Starting new HTTPS connection (1): firstround.com:443
+03/28/2019 01:43:35 DEBUG: https://firstround.com:443 "GET /review/the-three-tools-netflix-used-to-build-its-world-class-brand/ HTTP/1.1" 200 24252
+03/28/2019 01:43:35 DEBUG: Starting new HTTPS connection (1): www.microsoft.com:443
+03/28/2019 01:43:37 DEBUG: https://www.microsoft.com:443 "GET /en-us/p/netflix/9wzdncrfj3tj HTTP/1.1" 200 None
+03/28/2019 01:43:37 DEBUG: Starting new HTTPS connection (1): www.techhive.com:443
+03/28/2019 01:43:37 DEBUG: https://www.techhive.com:443 "GET /article/3336193/alternative-video-streaming-services-to-netflix-amazon-hulu.html HTTP/1.1" 200 34599
+03/28/2019 01:43:37 DEBUG: Starting new HTTPS connection (1): netflix.en.softonic.com:443
+03/28/2019 01:43:38 DEBUG: https://netflix.en.softonic.com:443 "GET / HTTP/1.1" 200 None
+03/28/2019 01:43:38 DEBUG: Starting new HTTPS connection (1): www.tomsguide.com:443
+03/28/2019 01:43:39 DEBUG: https://www.tomsguide.com:443 "GET /us/best-streaming-video-services,review-2625.html HTTP/1.1" 200 None
+03/28/2019 01:43:39 DEBUG: Starting new HTTPS connection (1): partnerhelp.netflixstudios.com:443
+03/28/2019 01:43:40 DEBUG: https://partnerhelp.netflixstudios.com:443 "GET /hc/en-us/sections/203531958-IMF-Tools HTTP/1.1" 200 None
+03/28/2019 01:43:40 DEBUG: Starting new HTTPS connection (1): www.wkyc.com:443
+03/28/2019 01:43:41 DEBUG: https://www.wkyc.com:443 "GET /article/news/sharing-your-netflix-password-this-software-could-soon-track-you-down/507-1e873ec1-d55a-4f6c-b88e-c04db3b3dea7 HTTP/1.1" 200 16494
+03/28/2019 01:43:41 INFO: ============Netflix, PRODUCTS feature data collection completed============
+03/28/2019 01:43:41 INFO: ============Netflix data collection completed============
