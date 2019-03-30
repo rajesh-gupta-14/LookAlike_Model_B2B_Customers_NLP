@@ -1,0 +1,287 @@
+03/30/2019 15:57:36 INFO: ============Script execution started============
+03/30/2019 15:57:36 INFO: ============Adobe Systems data collection started============
+03/30/2019 15:57:36 INFO: ============Adobe Systems, SIZE feature data collection started============
+03/30/2019 15:57:36 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:57:36 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:57:36 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:57:37 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Adobe%20Systems&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:57:37 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:57:37 INFO: =========================Getting search result source code=========================
+03/30/2019 15:57:37 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:57:37 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Adobe_Inc. HTTP/1.1" 200 53925
+03/30/2019 15:57:37 DEBUG: Starting new HTTPS connection (1): content.eluta.ca:443
+03/30/2019 15:57:37 DEBUG: https://content.eluta.ca:443 "GET /top-employer-adobe-systems-canada HTTP/1.1" 200 107378
+03/30/2019 15:57:38 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 15:57:38 DEBUG: https://www.forbes.com:443 "GET /companies/adobe-systems/ HTTP/1.1" 200 42407
+03/30/2019 15:57:38 DEBUG: Starting new HTTPS connection (1): www.adobe.com:443
+03/30/2019 15:57:38 DEBUG: https://www.adobe.com:443 "GET /leaders.html HTTP/1.1" 301 254
+03/30/2019 15:57:38 DEBUG: https://www.adobe.com:443 "GET /about-adobe/leaders.html HTTP/1.1" 200 20915
+03/30/2019 15:57:38 DEBUG: Starting new HTTPS connection (1): www.adobe.com:443
+03/30/2019 15:57:38 DEBUG: https://www.adobe.com:443 "GET /aboutadobe/pressroom/pdfs/corp_bro_0703.pdf HTTP/1.1" 200 812961
+03/30/2019 15:57:39 DEBUG: SHIFT_JIS Japanese prober hit error at byte 813
+03/30/2019 15:57:39 DEBUG: EUC-JP Japanese prober hit error at byte 795
+03/30/2019 15:57:39 DEBUG: GB2312 Chinese prober hit error at byte 810
+03/30/2019 15:57:39 DEBUG: EUC-KR Korean prober hit error at byte 795
+03/30/2019 15:57:39 DEBUG: CP949 Korean prober hit error at byte 795
+03/30/2019 15:57:39 DEBUG: Big5 Chinese prober hit error at byte 802
+03/30/2019 15:57:39 DEBUG: EUC-TW Taiwan prober hit error at byte 795
+03/30/2019 15:57:39 DEBUG: windows-1251 confidence = 0.03980724344508132, below negative shortcut threshhold 0.05
+03/30/2019 15:57:39 DEBUG: KOI8-R confidence = 0.03475143078951831, below negative shortcut threshhold 0.05
+03/30/2019 15:57:40 DEBUG: ISO-8859-5 confidence = 0.0398161593940702, below negative shortcut threshhold 0.05
+03/30/2019 15:57:40 DEBUG: MacCyrillic confidence = 0.04369074842219022, below negative shortcut threshhold 0.05
+03/30/2019 15:57:40 DEBUG: IBM866 confidence = 0.0394951352104328, below negative shortcut threshhold 0.05
+03/30/2019 15:57:40 DEBUG: IBM855 confidence = 0.04224042068167735, below negative shortcut threshhold 0.05
+03/30/2019 15:57:41 DEBUG: ISO-8859-5 confidence = 0.03873760607791564, below negative shortcut threshhold 0.05
+03/30/2019 15:57:42 DEBUG: windows-1251 confidence = 0.03930181647497624, below negative shortcut threshhold 0.05
+03/30/2019 15:57:42 DEBUG: TIS-620 confidence = 0.04176958879742077, below negative shortcut threshhold 0.05
+03/30/2019 15:57:43 DEBUG: windows-1255 confidence = 0.04768784782161029, below negative shortcut threshhold 0.05
+03/30/2019 15:57:43 DEBUG: windows-1255 confidence = 0.046792265446790327, below negative shortcut threshhold 0.05
+03/30/2019 15:57:44 DEBUG: windows-1251 not active
+03/30/2019 15:57:44 DEBUG: KOI8-R not active
+03/30/2019 15:57:44 DEBUG: ISO-8859-5 not active
+03/30/2019 15:57:44 DEBUG: MacCyrillic not active
+03/30/2019 15:57:44 DEBUG: IBM866 not active
+03/30/2019 15:57:44 DEBUG: IBM855 not active
+03/30/2019 15:57:44 DEBUG: ISO-8859-7 Greek confidence = 0.07550735383656601
+03/30/2019 15:57:44 DEBUG: windows-1253 Greek confidence = 0.07741254523568965
+03/30/2019 15:57:44 DEBUG: ISO-8859-5 not active
+03/30/2019 15:57:44 DEBUG: windows-1251 not active
+03/30/2019 15:57:44 DEBUG: TIS-620 not active
+03/30/2019 15:57:44 DEBUG: ISO-8859-9 Turkish confidence = 0.06632000656729349
+03/30/2019 15:57:44 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:57:44 DEBUG: windows-1255 not active
+03/30/2019 15:57:44 DEBUG: windows-1255 not active
+03/30/2019 15:57:44 DEBUG: no probers hit minimum threshold
+03/30/2019 15:57:44 DEBUG: utf-8  confidence = 0.010000000000000009
+03/30/2019 15:57:44 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/30/2019 15:57:44 DEBUG: EUC-JP Japanese confidence = 0.01
+03/30/2019 15:57:44 DEBUG: GB2312 Chinese confidence = 0.01
+03/30/2019 15:57:44 DEBUG: EUC-KR Korean confidence = 0.01
+03/30/2019 15:57:44 DEBUG: CP949 Korean confidence = 0.01
+03/30/2019 15:57:44 DEBUG: Big5 Chinese confidence = 0.01
+03/30/2019 15:57:44 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/30/2019 15:57:44 DEBUG: windows-1251 Russian confidence = 0.03980724344508132
+03/30/2019 15:57:44 DEBUG: KOI8-R Russian confidence = 0.03475143078951831
+03/30/2019 15:57:44 DEBUG: ISO-8859-5 Russian confidence = 0.0398161593940702
+03/30/2019 15:57:44 DEBUG: MacCyrillic Russian confidence = 0.04369074842219022
+03/30/2019 15:57:44 DEBUG: IBM866 Russian confidence = 0.0394951352104328
+03/30/2019 15:57:44 DEBUG: IBM855 Russian confidence = 0.04224042068167735
+03/30/2019 15:57:44 DEBUG: ISO-8859-7 Greek confidence = 0.07550735383656601
+03/30/2019 15:57:44 DEBUG: windows-1253 Greek confidence = 0.07741254523568965
+03/30/2019 15:57:44 DEBUG: ISO-8859-5 Bulgairan confidence = 0.03873760607791564
+03/30/2019 15:57:44 DEBUG: windows-1251 Bulgarian confidence = 0.03930181647497624
+03/30/2019 15:57:44 DEBUG: TIS-620 Thai confidence = 0.04176958879742077
+03/30/2019 15:57:44 DEBUG: ISO-8859-9 Turkish confidence = 0.06632000656729349
+03/30/2019 15:57:44 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:57:44 DEBUG: windows-1255 Hebrew confidence = 0.04768784782161029
+03/30/2019 15:57:44 DEBUG: windows-1255 Hebrew confidence = 0.046792265446790327
+03/30/2019 15:57:44 DEBUG: windows-1255 Hebrew confidence = 0.046792265446790327
+03/30/2019 15:57:44 DEBUG: Starting new HTTPS connection (1): www.adobe.com:443
+03/30/2019 15:57:44 DEBUG: https://www.adobe.com:443 "GET /ca/ HTTP/1.1" 200 19461
+03/30/2019 15:57:44 DEBUG: Starting new HTTPS connection (1): www.adobe.com:443
+03/30/2019 15:57:44 DEBUG: https://www.adobe.com:443 "GET /ca/about-adobe/leaders.html HTTP/1.1" 200 21105
+03/30/2019 15:57:44 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/30/2019 15:57:45 DEBUG: https://www.crunchbase.com:443 "GET /organization/adobe-systems HTTP/1.1" 403 None
+03/30/2019 15:57:45 DEBUG: Starting new HTTPS connection (1): www.ranker.com:443
+03/30/2019 15:57:45 DEBUG: https://www.ranker.com:443 "GET /list/notable-adobe-systems-employees/reference HTTP/1.1" 200 37910
+03/30/2019 15:57:45 DEBUG: Starting new HTTPS connection (1): www.payscale.com:443
+03/30/2019 15:57:45 DEBUG: https://www.payscale.com:443 "GET /research/CA/Employer%3DAdobe_Systems_Incorporated/Salary HTTP/1.1" 404 None
+03/30/2019 15:57:45 INFO: ============Adobe Systems, SIZE feature data collection completed============
+03/30/2019 15:57:45 INFO: ============Adobe Systems, ACQUISITIONS feature data collection started============
+03/30/2019 15:57:45 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:57:45 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:57:45 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:57:45 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Adobe%20Systems&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:57:46 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:57:46 INFO: =========================Getting search result source code=========================
+03/30/2019 15:57:46 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 15:57:46 DEBUG: https://www.cnbc.com:443 "GET /2018/09/20/adobe-confirms-its-buying-marketo-for-4point75-billion.html HTTP/1.1" 200 45115
+03/30/2019 15:57:46 DEBUG: Starting new HTTPS connection (1): news.adobe.com:443
+03/30/2019 15:57:47 DEBUG: https://news.adobe.com:443 "GET /press-release/corporate/adobe-acquire-magento-commerce HTTP/1.1" 200 9191
+03/30/2019 15:57:47 DEBUG: Starting new HTTPS connection (1): news.adobe.com:443
+03/30/2019 15:57:47 DEBUG: https://news.adobe.com:443 "GET /press-release/corporate/adobe-completes-acquisition-magento-commerce HTTP/1.1" 200 9056
+03/30/2019 15:57:47 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:57:47 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_acquisitions_by_Adobe HTTP/1.1" 200 25800
+03/30/2019 15:57:47 DEBUG: Starting new HTTPS connection (1): www.bizjournals.com:443
+03/30/2019 15:57:48 DEBUG: https://www.bizjournals.com:443 "GET /sanjose/news/2018/09/20/adobe-to-buy-marketo-adbe.html HTTP/1.1" 200 828
+03/30/2019 15:57:48 DEBUG: Starting new HTTPS connection (1): www.investors.com:443
+03/30/2019 15:57:48 DEBUG: https://www.investors.com:443 "GET /news/technology/adobe-systems-marketo-acquisition/ HTTP/1.1" 403 None
+03/30/2019 15:57:48 DEBUG: Starting new HTTPS connection (1): www.streetinsider.com:443
+03/30/2019 15:57:48 DEBUG: https://www.streetinsider.com:443 "GET /Corporate%2BNews/Adobe%2BSystems%2B%2528ADBE%2529%2Bto%2BAcquire%2BMarketo%2Bfor%2B%25244.75B/14629196.html HTTP/1.1" 416 3134
+03/30/2019 15:57:48 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 15:57:48 DEBUG: https://www.cnbc.com:443 "GET /2018/09/20/adobe-confirms-its-buying-marketo-for-4point75-billion.html HTTP/1.1" 200 45115
+03/30/2019 15:57:48 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 15:57:48 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2018-09-20/adobe-systems-is-said-to-be-nearing-5-billion-deal-for-marketo HTTP/1.1" 307 0
+03/30/2019 15:57:48 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 15:57:48 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=b5071cd0-531d-11e9-9040-79782bfd3041&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wOS0yMC9hZG9iZS1zeXN0ZW1zLWlzLXNhaWQtdG8tYmUtbmVhcmluZy01LWJpbGxpb24tZGVhbC1mb3ItbWFya2V0bw== HTTP/1.1" 200 4595
+03/30/2019 15:57:48 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/30/2019 15:57:49 DEBUG: https://techcrunch.com:443 "GET /2018/09/20/adobe-gets-its-company-snaring-marketo-for-4-75-billion/ HTTP/1.1" 200 None
+03/30/2019 15:57:49 DEBUG: Starting new HTTPS connection (1): www.thedrum.com:443
+03/30/2019 15:57:50 DEBUG: https://www.thedrum.com:443 "GET /news/2018/09/15/adobe-systems-reportedly-talks-acquire-marketo HTTP/1.1" 200 None
+03/30/2019 15:57:50 INFO: ============Adobe Systems, ACQUISITIONS feature data collection completed============
+03/30/2019 15:57:50 INFO: ============Adobe Systems, FUTURE GOALS feature data collection started============
+03/30/2019 15:57:50 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:57:50 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:57:50 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:57:50 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Adobe%20Systems&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:57:50 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:57:50 INFO: =========================Getting search result source code=========================
+03/30/2019 15:57:50 DEBUG: Starting new HTTPS connection (1): www.quantumrun.com:443
+03/30/2019 15:57:51 DEBUG: https://www.quantumrun.com:443 "GET /company_profile/future-of-adobe-systems/15818 HTTP/1.1" 200 None
+03/30/2019 15:57:51 DEBUG: Starting new HTTPS connection (1): ca.finance.yahoo.com:443
+03/30/2019 15:57:51 DEBUG: https://ca.finance.yahoo.com:443 "GET /news/know-future-adobe-systems-incorporated-194109139.html HTTP/1.1" 200 None
+03/30/2019 15:57:52 DEBUG: Starting new HTTPS connection (1): simplywall.st:443
+03/30/2019 15:57:52 DEBUG: https://simplywall.st:443 "GET /stocks/us/software/nasdaq-adbe/adobe-systems/news/does-adobe-systems-incorporateds-nasdaqadbe-june-stock-price-reflect-its-future-growth/ HTTP/1.1" 200 None
+03/30/2019 15:57:52 DEBUG: Starting new HTTPS connection (1): simplywall.st:443
+03/30/2019 15:57:53 DEBUG: https://simplywall.st:443 "GET /stocks/us/software/nasdaq-adbe/adobe-systems/news/have-investors-priced-in-adobe-systems-incorporateds-nasdaqadbe-growth/ HTTP/1.1" 200 None
+03/30/2019 15:57:53 DEBUG: Starting new HTTPS connection (1): simplywall.st:443
+03/30/2019 15:57:53 DEBUG: https://simplywall.st:443 "GET /stocks/us/software/nasdaq-adbe/adobe-systems/news/how-adobe-systems-incorporateds-nasdaqadbe-earnings-growth-stacks-up-against-the-industry/ HTTP/1.1" 200 None
+03/30/2019 15:57:53 DEBUG: Starting new HTTPS connection (1): www.adobe.com:443
+03/30/2019 15:57:53 DEBUG: https://www.adobe.com:443 "GET /aboutadobe/pressroom/pdfs/corp_bro_0703.pdf HTTP/1.1" 200 812961
+03/30/2019 15:57:54 DEBUG: SHIFT_JIS Japanese prober hit error at byte 813
+03/30/2019 15:57:54 DEBUG: EUC-JP Japanese prober hit error at byte 795
+03/30/2019 15:57:54 DEBUG: GB2312 Chinese prober hit error at byte 810
+03/30/2019 15:57:54 DEBUG: EUC-KR Korean prober hit error at byte 795
+03/30/2019 15:57:54 DEBUG: CP949 Korean prober hit error at byte 795
+03/30/2019 15:57:54 DEBUG: Big5 Chinese prober hit error at byte 802
+03/30/2019 15:57:54 DEBUG: EUC-TW Taiwan prober hit error at byte 795
+03/30/2019 15:57:54 DEBUG: windows-1251 confidence = 0.03980724344508132, below negative shortcut threshhold 0.05
+03/30/2019 15:57:54 DEBUG: KOI8-R confidence = 0.03475143078951831, below negative shortcut threshhold 0.05
+03/30/2019 15:57:55 DEBUG: ISO-8859-5 confidence = 0.0398161593940702, below negative shortcut threshhold 0.05
+03/30/2019 15:57:55 DEBUG: MacCyrillic confidence = 0.04369074842219022, below negative shortcut threshhold 0.05
+03/30/2019 15:57:55 DEBUG: IBM866 confidence = 0.0394951352104328, below negative shortcut threshhold 0.05
+03/30/2019 15:57:56 DEBUG: IBM855 confidence = 0.04224042068167735, below negative shortcut threshhold 0.05
+03/30/2019 15:57:56 DEBUG: ISO-8859-5 confidence = 0.03873760607791564, below negative shortcut threshhold 0.05
+03/30/2019 15:57:57 DEBUG: windows-1251 confidence = 0.03930181647497624, below negative shortcut threshhold 0.05
+03/30/2019 15:57:57 DEBUG: TIS-620 confidence = 0.04176958879742077, below negative shortcut threshhold 0.05
+03/30/2019 15:57:58 DEBUG: windows-1255 confidence = 0.04768784782161029, below negative shortcut threshhold 0.05
+03/30/2019 15:57:58 DEBUG: windows-1255 confidence = 0.046792265446790327, below negative shortcut threshhold 0.05
+03/30/2019 15:57:58 DEBUG: windows-1251 not active
+03/30/2019 15:57:58 DEBUG: KOI8-R not active
+03/30/2019 15:57:58 DEBUG: ISO-8859-5 not active
+03/30/2019 15:57:58 DEBUG: MacCyrillic not active
+03/30/2019 15:57:58 DEBUG: IBM866 not active
+03/30/2019 15:57:58 DEBUG: IBM855 not active
+03/30/2019 15:57:58 DEBUG: ISO-8859-7 Greek confidence = 0.07550735383656601
+03/30/2019 15:57:58 DEBUG: windows-1253 Greek confidence = 0.07741254523568965
+03/30/2019 15:57:58 DEBUG: ISO-8859-5 not active
+03/30/2019 15:57:58 DEBUG: windows-1251 not active
+03/30/2019 15:57:58 DEBUG: TIS-620 not active
+03/30/2019 15:57:58 DEBUG: ISO-8859-9 Turkish confidence = 0.06632000656729349
+03/30/2019 15:57:58 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:57:58 DEBUG: windows-1255 not active
+03/30/2019 15:57:58 DEBUG: windows-1255 not active
+03/30/2019 15:57:58 DEBUG: no probers hit minimum threshold
+03/30/2019 15:57:58 DEBUG: utf-8  confidence = 0.010000000000000009
+03/30/2019 15:57:58 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/30/2019 15:57:58 DEBUG: EUC-JP Japanese confidence = 0.01
+03/30/2019 15:57:58 DEBUG: GB2312 Chinese confidence = 0.01
+03/30/2019 15:57:58 DEBUG: EUC-KR Korean confidence = 0.01
+03/30/2019 15:57:58 DEBUG: CP949 Korean confidence = 0.01
+03/30/2019 15:57:58 DEBUG: Big5 Chinese confidence = 0.01
+03/30/2019 15:57:58 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/30/2019 15:57:58 DEBUG: windows-1251 Russian confidence = 0.03980724344508132
+03/30/2019 15:57:58 DEBUG: KOI8-R Russian confidence = 0.03475143078951831
+03/30/2019 15:57:58 DEBUG: ISO-8859-5 Russian confidence = 0.0398161593940702
+03/30/2019 15:57:58 DEBUG: MacCyrillic Russian confidence = 0.04369074842219022
+03/30/2019 15:57:58 DEBUG: IBM866 Russian confidence = 0.0394951352104328
+03/30/2019 15:57:58 DEBUG: IBM855 Russian confidence = 0.04224042068167735
+03/30/2019 15:57:58 DEBUG: ISO-8859-7 Greek confidence = 0.07550735383656601
+03/30/2019 15:57:58 DEBUG: windows-1253 Greek confidence = 0.07741254523568965
+03/30/2019 15:57:58 DEBUG: ISO-8859-5 Bulgairan confidence = 0.03873760607791564
+03/30/2019 15:57:58 DEBUG: windows-1251 Bulgarian confidence = 0.03930181647497624
+03/30/2019 15:57:58 DEBUG: TIS-620 Thai confidence = 0.04176958879742077
+03/30/2019 15:57:58 DEBUG: ISO-8859-9 Turkish confidence = 0.06632000656729349
+03/30/2019 15:57:58 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:57:58 DEBUG: windows-1255 Hebrew confidence = 0.04768784782161029
+03/30/2019 15:57:58 DEBUG: windows-1255 Hebrew confidence = 0.046792265446790327
+03/30/2019 15:57:58 DEBUG: windows-1255 Hebrew confidence = 0.046792265446790327
+03/30/2019 15:57:58 DEBUG: Starting new HTTPS connection (1): www.adobe.com:443
+03/30/2019 15:57:59 DEBUG: https://www.adobe.com:443 "GET /ca/ HTTP/1.1" 200 19461
+03/30/2019 15:57:59 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 15:57:59 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2018-09-20/adobe-systems-is-said-to-be-nearing-5-billion-deal-for-marketo HTTP/1.1" 307 0
+03/30/2019 15:57:59 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 15:57:59 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=bb5ecce0-531d-11e9-a08d-b5b91b642d74&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wOS0yMC9hZG9iZS1zeXN0ZW1zLWlzLXNhaWQtdG8tYmUtbmVhcmluZy01LWJpbGxpb24tZGVhbC1mb3ItbWFya2V0bw== HTTP/1.1" 200 4595
+03/30/2019 15:57:59 DEBUG: Starting new HTTPS connection (1): walletinvestor.com:443
+03/30/2019 15:58:00 DEBUG: https://walletinvestor.com:443 "GET /stock-forecast/adbe-stock-prediction HTTP/1.1" 200 17281
+03/30/2019 15:58:00 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 15:58:00 DEBUG: https://www.forbes.com:443 "GET /sites/petercohan/2018/05/22/why-you-should-buy-adobe-stock-despite-high-valuation-before-it-hits-400/ HTTP/1.1" 200 50538
+03/30/2019 15:58:00 INFO: ============Adobe Systems, FUTURE GOALS feature data collection completed============
+03/30/2019 15:58:00 INFO: ============Adobe Systems, TECH STACK feature data collection started============
+03/30/2019 15:58:00 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:58:00 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:58:00 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:58:01 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Adobe%20Systems&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:58:01 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:58:01 INFO: =========================Getting search result source code=========================
+03/30/2019 15:58:01 DEBUG: Starting new HTTPS connection (1): www.adobe.com:443
+03/30/2019 15:58:01 DEBUG: https://www.adobe.com:443 "GET /aboutadobe/pressroom/pdfs/corp_bro_0703.pdf HTTP/1.1" 200 812961
+03/30/2019 15:58:01 DEBUG: SHIFT_JIS Japanese prober hit error at byte 813
+03/30/2019 15:58:01 DEBUG: EUC-JP Japanese prober hit error at byte 795
+03/30/2019 15:58:01 DEBUG: GB2312 Chinese prober hit error at byte 810
+03/30/2019 15:58:01 DEBUG: EUC-KR Korean prober hit error at byte 795
+03/30/2019 15:58:01 DEBUG: CP949 Korean prober hit error at byte 795
+03/30/2019 15:58:01 DEBUG: Big5 Chinese prober hit error at byte 802
+03/30/2019 15:58:01 DEBUG: EUC-TW Taiwan prober hit error at byte 795
+03/30/2019 15:58:02 DEBUG: windows-1251 confidence = 0.03980724344508132, below negative shortcut threshhold 0.05
+03/30/2019 15:58:02 DEBUG: KOI8-R confidence = 0.03475143078951831, below negative shortcut threshhold 0.05
+03/30/2019 15:58:02 DEBUG: ISO-8859-5 confidence = 0.0398161593940702, below negative shortcut threshhold 0.05
+03/30/2019 15:58:02 DEBUG: MacCyrillic confidence = 0.04369074842219022, below negative shortcut threshhold 0.05
+03/30/2019 15:58:03 DEBUG: IBM866 confidence = 0.0394951352104328, below negative shortcut threshhold 0.05
+03/30/2019 15:58:03 DEBUG: IBM855 confidence = 0.04224042068167735, below negative shortcut threshhold 0.05
+03/30/2019 15:58:04 DEBUG: ISO-8859-5 confidence = 0.03873760607791564, below negative shortcut threshhold 0.05
+03/30/2019 15:58:04 DEBUG: windows-1251 confidence = 0.03930181647497624, below negative shortcut threshhold 0.05
+03/30/2019 15:58:05 DEBUG: TIS-620 confidence = 0.04176958879742077, below negative shortcut threshhold 0.05
+03/30/2019 15:58:05 DEBUG: windows-1255 confidence = 0.04768784782161029, below negative shortcut threshhold 0.05
+03/30/2019 15:58:06 DEBUG: windows-1255 confidence = 0.046792265446790327, below negative shortcut threshhold 0.05
+03/30/2019 15:58:06 DEBUG: windows-1251 not active
+03/30/2019 15:58:06 DEBUG: KOI8-R not active
+03/30/2019 15:58:06 DEBUG: ISO-8859-5 not active
+03/30/2019 15:58:06 DEBUG: MacCyrillic not active
+03/30/2019 15:58:06 DEBUG: IBM866 not active
+03/30/2019 15:58:06 DEBUG: IBM855 not active
+03/30/2019 15:58:06 DEBUG: ISO-8859-7 Greek confidence = 0.07550735383656601
+03/30/2019 15:58:06 DEBUG: windows-1253 Greek confidence = 0.07741254523568965
+03/30/2019 15:58:06 DEBUG: ISO-8859-5 not active
+03/30/2019 15:58:06 DEBUG: windows-1251 not active
+03/30/2019 15:58:06 DEBUG: TIS-620 not active
+03/30/2019 15:58:06 DEBUG: ISO-8859-9 Turkish confidence = 0.06632000656729349
+03/30/2019 15:58:06 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:58:06 DEBUG: windows-1255 not active
+03/30/2019 15:58:06 DEBUG: windows-1255 not active
+03/30/2019 15:58:06 DEBUG: no probers hit minimum threshold
+03/30/2019 15:58:06 DEBUG: utf-8  confidence = 0.010000000000000009
+03/30/2019 15:58:06 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/30/2019 15:58:06 DEBUG: EUC-JP Japanese confidence = 0.01
+03/30/2019 15:58:06 DEBUG: GB2312 Chinese confidence = 0.01
+03/30/2019 15:58:06 DEBUG: EUC-KR Korean confidence = 0.01
+03/30/2019 15:58:06 DEBUG: CP949 Korean confidence = 0.01
+03/30/2019 15:58:06 DEBUG: Big5 Chinese confidence = 0.01
+03/30/2019 15:58:06 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/30/2019 15:58:06 DEBUG: windows-1251 Russian confidence = 0.03980724344508132
+03/30/2019 15:58:06 DEBUG: KOI8-R Russian confidence = 0.03475143078951831
+03/30/2019 15:58:06 DEBUG: ISO-8859-5 Russian confidence = 0.0398161593940702
+03/30/2019 15:58:06 DEBUG: MacCyrillic Russian confidence = 0.04369074842219022
+03/30/2019 15:58:06 DEBUG: IBM866 Russian confidence = 0.0394951352104328
+03/30/2019 15:58:06 DEBUG: IBM855 Russian confidence = 0.04224042068167735
+03/30/2019 15:58:06 DEBUG: ISO-8859-7 Greek confidence = 0.07550735383656601
+03/30/2019 15:58:06 DEBUG: windows-1253 Greek confidence = 0.07741254523568965
+03/30/2019 15:58:06 DEBUG: ISO-8859-5 Bulgairan confidence = 0.03873760607791564
+03/30/2019 15:58:06 DEBUG: windows-1251 Bulgarian confidence = 0.03930181647497624
+03/30/2019 15:58:06 DEBUG: TIS-620 Thai confidence = 0.04176958879742077
+03/30/2019 15:58:06 DEBUG: ISO-8859-9 Turkish confidence = 0.06632000656729349
+03/30/2019 15:58:06 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:58:06 DEBUG: windows-1255 Hebrew confidence = 0.04768784782161029
+03/30/2019 15:58:06 DEBUG: windows-1255 Hebrew confidence = 0.046792265446790327
+03/30/2019 15:58:06 DEBUG: windows-1255 Hebrew confidence = 0.046792265446790327
+03/30/2019 15:58:06 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:58:06 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Adobe_Inc. HTTP/1.1" 200 53925
+03/30/2019 15:58:06 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:58:06 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_acquisitions_by_Adobe HTTP/1.1" 200 25800
+03/30/2019 15:58:06 DEBUG: Starting new HTTPS connection (1): dtech.duke.edu:443
+03/30/2019 15:58:07 DEBUG: https://dtech.duke.edu:443 "GET /adobe-systems-inc HTTP/1.1" 200 8744
+03/30/2019 15:58:07 DEBUG: Starting new HTTPS connection (1): www.onetonline.org:443
+03/30/2019 15:58:07 DEBUG: https://www.onetonline.org:443 "GET /search/hot_tech/detail/140 HTTP/1.1" 200 4627
+03/30/2019 15:58:07 DEBUG: Starting new HTTPS connection (1): www.onetonline.org:443
+03/30/2019 15:58:07 DEBUG: https://www.onetonline.org:443 "GET /search/hot_tech/detail/58 HTTP/1.1" 200 4601
+03/30/2019 15:58:07 DEBUG: Starting new HTTPS connection (1): www.zacks.com:443

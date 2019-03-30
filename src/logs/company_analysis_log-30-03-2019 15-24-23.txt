@@ -1,0 +1,262 @@
+03/30/2019 15:24:23 INFO: ============Script execution started============
+03/30/2019 15:24:23 INFO: ============Smartsheet data collection started============
+03/30/2019 15:24:23 INFO: ============Smartsheet, SIZE feature data collection started============
+03/30/2019 15:24:23 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:24:23 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:24:23 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:24:24 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Smartsheet&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:24:24 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:24:24 INFO: =========================Getting search result source code=========================
+03/30/2019 15:24:24 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:24:24 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Smartsheet HTTP/1.1" 200 19626
+03/30/2019 15:24:24 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 15:24:25 DEBUG: https://ca.linkedin.com:443 "GET /company/smartsheet-com HTTP/1.1" 999 1461
+03/30/2019 15:24:25 DEBUG: Starting new HTTPS connection (1): community.smartsheet.com:443
+03/30/2019 15:24:25 DEBUG: https://community.smartsheet.com:443 "GET /discussion/sheet-size HTTP/1.1" 200 None
+03/30/2019 15:24:25 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:24:25 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Smartsheet HTTP/1.1" 200 19626
+03/30/2019 15:24:25 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/30/2019 15:24:26 DEBUG: https://www.glassdoor.ca:443 "GET /Overview/Working-at-Smartsheet-EI_IE438753.11,21.htm HTTP/1.1" 403 None
+03/30/2019 15:24:26 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/30/2019 15:24:26 DEBUG: https://www.glassdoor.ca:443 "GET /Reviews/Smartsheet-Reviews-E438753.htm HTTP/1.1" 403 None
+03/30/2019 15:24:26 DEBUG: Starting new HTTPS connection (1): craft.co:443
+03/30/2019 15:24:26 DEBUG: https://craft.co:443 "GET /smartsheet HTTP/1.1" 405 2885
+03/30/2019 15:24:26 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/30/2019 15:24:26 DEBUG: https://www.owler.com:443 "GET /company/smartsheet HTTP/1.1" 405 5780
+03/30/2019 15:24:26 DEBUG: Starting new HTTPS connection (1): www.geekwire.com:443
+03/30/2019 15:24:28 DEBUG: https://www.geekwire.com:443 "GET /2017/smartsheet-open-office-boston-plans-hire-300-employees-2017/ HTTP/1.1" 200 None
+03/30/2019 15:24:28 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 15:24:28 DEBUG: https://www.forbes.com:443 "GET /sites/kevinkruse/2018/03/05/how-to-build-an-award-winning-culture-from-the-ceo-of-smartsheet/ HTTP/1.1" 200 46655
+03/30/2019 15:24:28 DEBUG: Starting new HTTPS connection (1): www.themuse.com:443
+03/30/2019 15:24:29 DEBUG: https://www.themuse.com:443 "GET /profiles/smartsheet HTTP/1.1" 200 None
+03/30/2019 15:24:29 INFO: ============Smartsheet, SIZE feature data collection completed============
+03/30/2019 15:24:29 INFO: ============Smartsheet, ACQUISITIONS feature data collection started============
+03/30/2019 15:24:29 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:24:29 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:24:29 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:24:29 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Smartsheet&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:24:30 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:24:30 INFO: =========================Getting search result source code=========================
+03/30/2019 15:24:30 DEBUG: Starting new HTTPS connection (1): www.geekwire.com:443
+03/30/2019 15:24:31 DEBUG: https://www.geekwire.com:443 "GET /2019/smartsheet-acquires/ HTTP/1.1" 200 None
+03/30/2019 15:24:31 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/30/2019 15:24:32 DEBUG: https://techcrunch.com:443 "GET /2019/01/15/smartsheet-acquires-slope-to-help-creatives-collaborate/ HTTP/1.1" 200 None
+03/30/2019 15:24:32 DEBUG: Starting new HTTPS connection (1): venturebeat.com:443
+03/30/2019 15:24:32 DEBUG: https://venturebeat.com:443 "GET /2019/01/15/smartsheet-acquires-ternpro-maker-of-collaboration-tool-slope/ HTTP/1.1" 200 None
+03/30/2019 15:24:32 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:33 DEBUG: https://www.smartsheet.com:443 "GET /google-retail/mergers-acquisition HTTP/1.1" 301 None
+03/30/2019 15:24:33 DEBUG: https://www.smartsheet.com:443 "GET /google HTTP/1.1" 200 None
+03/30/2019 15:24:33 DEBUG: Starting new HTTPS connection (1): www.streetinsider.com:443
+03/30/2019 15:24:33 DEBUG: https://www.streetinsider.com:443 "GET /Corporate%2BNews/Smartsheet%2B%2528SMAR%2529%2BReports%2BAcquisition%2Bof%2BSlope/15007693.html HTTP/1.1" 416 3125
+03/30/2019 15:24:33 DEBUG: Starting new HTTPS connection (1): seekingalpha.com:443
+03/30/2019 15:24:34 DEBUG: https://seekingalpha.com:443 "GET /article/4233872-smartsheet-acquiring-bootstrapped-startups-drive-growth HTTP/1.1" 403 1458
+03/30/2019 15:24:34 DEBUG: Starting new HTTPS connection (1): xconomy.com:443
+03/30/2019 15:24:34 DEBUG: https://xconomy.com:443 "GET /seattle/2019/01/15/smartsheet-acquires-ternpro-seattle-developer-of-collaboration-tools/ HTTP/1.1" 200 None
+03/30/2019 15:24:34 DEBUG: Starting new HTTPS connection (1): siliconangle.com:443
+03/30/2019 15:24:35 DEBUG: https://siliconangle.com:443 "GET /2019/01/15/smartsheet-acquires-creative-production-platform-startup-slope/ HTTP/1.1" 200 19757
+03/30/2019 15:24:35 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/30/2019 15:24:35 DEBUG: https://www.crunchbase.com:443 "GET /acquisition/smartsheet-3-acquires-slope--067af3a6 HTTP/1.1" 403 None
+03/30/2019 15:24:35 DEBUG: Starting new HTTPS connection (1): www.bizjournals.com:443
+03/30/2019 15:24:35 DEBUG: https://www.bizjournals.com:443 "GET /seattle/news/2018/01/16/smartsheet-buys-chatbot-startup-converse-ai.html HTTP/1.1" 200 210
+03/30/2019 15:24:35 INFO: ============Smartsheet, ACQUISITIONS feature data collection completed============
+03/30/2019 15:24:35 INFO: ============Smartsheet, FUTURE GOALS feature data collection started============
+03/30/2019 15:24:35 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:24:35 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:24:35 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:24:36 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Smartsheet&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:24:36 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:24:36 INFO: =========================Getting search result source code=========================
+03/30/2019 15:24:36 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:36 DEBUG: https://www.smartsheet.com:443 "GET /blog/essential-guide-writing-smart-goals HTTP/1.1" 200 None
+03/30/2019 15:24:36 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:37 DEBUG: https://www.smartsheet.com:443 "GET /goal-tracking-setting-templates HTTP/1.1" 200 None
+03/30/2019 15:24:37 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:37 DEBUG: https://www.smartsheet.com:443 "GET /how-write-smart-project-objective HTTP/1.1" 200 None
+03/30/2019 15:24:37 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:37 DEBUG: https://www.smartsheet.com:443 "GET /sites/default/files/IC-Project-Goals-and-Objectives-9237-PDF.pdf HTTP/1.1" 200 98955
+03/30/2019 15:24:37 DEBUG: SHIFT_JIS Japanese prober hit error at byte 365
+03/30/2019 15:24:37 DEBUG: EUC-JP Japanese prober hit error at byte 356
+03/30/2019 15:24:37 DEBUG: GB2312 Chinese prober hit error at byte 365
+03/30/2019 15:24:37 DEBUG: EUC-KR Korean prober hit error at byte 356
+03/30/2019 15:24:37 DEBUG: CP949 Korean prober hit error at byte 356
+03/30/2019 15:24:37 DEBUG: Big5 Chinese prober hit error at byte 364
+03/30/2019 15:24:37 DEBUG: EUC-TW Taiwan prober hit error at byte 356
+03/30/2019 15:24:37 DEBUG: windows-1251 confidence = 0.04299238776230138, below negative shortcut threshhold 0.05
+03/30/2019 15:24:37 DEBUG: KOI8-R confidence = 0.04287192097881205, below negative shortcut threshhold 0.05
+03/30/2019 15:24:37 DEBUG: ISO-8859-5 confidence = 0.045256153466136345, below negative shortcut threshhold 0.05
+03/30/2019 15:24:38 DEBUG: MacCyrillic confidence = 0.043174628201374195, below negative shortcut threshhold 0.05
+03/30/2019 15:24:38 DEBUG: IBM866 confidence = 0.047700474929724755, below negative shortcut threshhold 0.05
+03/30/2019 15:24:38 DEBUG: IBM855 confidence = 0.03893881099086275, below negative shortcut threshhold 0.05
+03/30/2019 15:24:38 DEBUG: ISO-8859-5 confidence = 0.04316003175094058, below negative shortcut threshhold 0.05
+03/30/2019 15:24:38 DEBUG: windows-1251 confidence = 0.044380474876598706, below negative shortcut threshhold 0.05
+03/30/2019 15:24:38 DEBUG: TIS-620 confidence = 0.04230588636509715, below negative shortcut threshhold 0.05
+03/30/2019 15:24:38 DEBUG: windows-1255 confidence = 0.04284693208948379, below negative shortcut threshhold 0.05
+03/30/2019 15:24:38 DEBUG: windows-1255 confidence = 0.045917872614668634, below negative shortcut threshhold 0.05
+03/30/2019 15:24:38 DEBUG: windows-1251 not active
+03/30/2019 15:24:38 DEBUG: KOI8-R not active
+03/30/2019 15:24:38 DEBUG: ISO-8859-5 not active
+03/30/2019 15:24:38 DEBUG: MacCyrillic not active
+03/30/2019 15:24:38 DEBUG: IBM866 not active
+03/30/2019 15:24:38 DEBUG: IBM855 not active
+03/30/2019 15:24:38 DEBUG: ISO-8859-7 Greek confidence = 0.06496439624129613
+03/30/2019 15:24:38 DEBUG: windows-1253 Greek confidence = 0.06586966730991632
+03/30/2019 15:24:38 DEBUG: ISO-8859-5 not active
+03/30/2019 15:24:38 DEBUG: windows-1251 not active
+03/30/2019 15:24:38 DEBUG: TIS-620 not active
+03/30/2019 15:24:38 DEBUG: ISO-8859-9 Turkish confidence = 0.11695320336899226
+03/30/2019 15:24:38 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:24:38 DEBUG: windows-1255 not active
+03/30/2019 15:24:38 DEBUG: windows-1255 not active
+03/30/2019 15:24:38 DEBUG: no probers hit minimum threshold
+03/30/2019 15:24:38 DEBUG: utf-8  confidence = 0.010000000000000009
+03/30/2019 15:24:38 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/30/2019 15:24:38 DEBUG: EUC-JP Japanese confidence = 0.01
+03/30/2019 15:24:38 DEBUG: GB2312 Chinese confidence = 0.01
+03/30/2019 15:24:38 DEBUG: EUC-KR Korean confidence = 0.01
+03/30/2019 15:24:38 DEBUG: CP949 Korean confidence = 0.01
+03/30/2019 15:24:38 DEBUG: Big5 Chinese confidence = 0.01
+03/30/2019 15:24:38 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/30/2019 15:24:38 DEBUG: windows-1251 Russian confidence = 0.04299238776230138
+03/30/2019 15:24:38 DEBUG: KOI8-R Russian confidence = 0.04287192097881205
+03/30/2019 15:24:38 DEBUG: ISO-8859-5 Russian confidence = 0.045256153466136345
+03/30/2019 15:24:38 DEBUG: MacCyrillic Russian confidence = 0.043174628201374195
+03/30/2019 15:24:38 DEBUG: IBM866 Russian confidence = 0.047700474929724755
+03/30/2019 15:24:38 DEBUG: IBM855 Russian confidence = 0.03893881099086275
+03/30/2019 15:24:38 DEBUG: ISO-8859-7 Greek confidence = 0.06496439624129613
+03/30/2019 15:24:38 DEBUG: windows-1253 Greek confidence = 0.06586966730991632
+03/30/2019 15:24:38 DEBUG: ISO-8859-5 Bulgairan confidence = 0.04316003175094058
+03/30/2019 15:24:38 DEBUG: windows-1251 Bulgarian confidence = 0.044380474876598706
+03/30/2019 15:24:38 DEBUG: TIS-620 Thai confidence = 0.04230588636509715
+03/30/2019 15:24:38 DEBUG: ISO-8859-9 Turkish confidence = 0.11695320336899226
+03/30/2019 15:24:38 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:24:38 DEBUG: windows-1255 Hebrew confidence = 0.04284693208948379
+03/30/2019 15:24:38 DEBUG: windows-1255 Hebrew confidence = 0.045917872614668634
+03/30/2019 15:24:38 DEBUG: windows-1255 Hebrew confidence = 0.045917872614668634
+03/30/2019 15:24:38 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:40 DEBUG: https://www.smartsheet.com:443 "GET /blog/are-you-ready-future-it HTTP/1.1" 200 None
+03/30/2019 15:24:40 DEBUG: Starting new HTTPS connection (1): community.smartsheet.com:443
+03/30/2019 15:24:41 DEBUG: https://community.smartsheet.com:443 "GET /discussion/objectives-and-key-results-okrs HTTP/1.1" 200 None
+03/30/2019 15:24:41 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:42 DEBUG: https://www.smartsheet.com:443 "GET /solutions/company-goals-tracker HTTP/1.1" 200 None
+03/30/2019 15:24:42 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:42 DEBUG: https://www.smartsheet.com:443 "GET /sites/default/files/IC-SMART-Goals-Worksheet-Template-8542.dotx HTTP/1.1" 200 69336
+03/30/2019 15:24:42 DEBUG: SHIFT_JIS Japanese prober hit error at byte 23
+03/30/2019 15:24:42 DEBUG: EUC-JP Japanese prober hit error at byte 14
+03/30/2019 15:24:42 DEBUG: GB2312 Chinese prober hit error at byte 19
+03/30/2019 15:24:42 DEBUG: EUC-KR Korean prober hit error at byte 14
+03/30/2019 15:24:42 DEBUG: CP949 Korean prober hit error at byte 17
+03/30/2019 15:24:42 DEBUG: Big5 Chinese prober hit error at byte 14
+03/30/2019 15:24:42 DEBUG: EUC-TW Taiwan prober hit error at byte 14
+03/30/2019 15:24:42 DEBUG: windows-1251 confidence = 0.041740212305574544, below negative shortcut threshhold 0.05
+03/30/2019 15:24:42 DEBUG: KOI8-R confidence = 0.03805649352851705, below negative shortcut threshhold 0.05
+03/30/2019 15:24:42 DEBUG: ISO-8859-5 confidence = 0.0382584675951696, below negative shortcut threshhold 0.05
+03/30/2019 15:24:42 DEBUG: MacCyrillic confidence = 0.04096608345425996, below negative shortcut threshhold 0.05
+03/30/2019 15:24:42 DEBUG: IBM866 confidence = 0.04000791716980603, below negative shortcut threshhold 0.05
+03/30/2019 15:24:42 DEBUG: IBM855 confidence = 0.04179431240995575, below negative shortcut threshhold 0.05
+03/30/2019 15:24:42 DEBUG: ISO-8859-5 confidence = 0.036163492435550025, below negative shortcut threshhold 0.05
+03/30/2019 15:24:42 DEBUG: windows-1251 confidence = 0.041314189171256586, below negative shortcut threshhold 0.05
+03/30/2019 15:24:42 DEBUG: TIS-620 confidence = 0.040366957658375974, below negative shortcut threshhold 0.05
+03/30/2019 15:24:43 DEBUG: windows-1255 confidence = 0.045282208768255096, below negative shortcut threshhold 0.05
+03/30/2019 15:24:43 DEBUG: windows-1255 confidence = 0.04781801245927737, below negative shortcut threshhold 0.05
+03/30/2019 15:24:43 DEBUG: windows-1251 not active
+03/30/2019 15:24:43 DEBUG: KOI8-R not active
+03/30/2019 15:24:43 DEBUG: ISO-8859-5 not active
+03/30/2019 15:24:43 DEBUG: MacCyrillic not active
+03/30/2019 15:24:43 DEBUG: IBM866 not active
+03/30/2019 15:24:43 DEBUG: IBM855 not active
+03/30/2019 15:24:43 DEBUG: ISO-8859-7 Greek confidence = 0.07345875617605206
+03/30/2019 15:24:43 DEBUG: windows-1253 Greek confidence = 0.07456162984952563
+03/30/2019 15:24:43 DEBUG: ISO-8859-5 not active
+03/30/2019 15:24:43 DEBUG: windows-1251 not active
+03/30/2019 15:24:43 DEBUG: TIS-620 not active
+03/30/2019 15:24:43 DEBUG: ISO-8859-9 Turkish confidence = 0.10533753815939444
+03/30/2019 15:24:43 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:24:43 DEBUG: windows-1255 not active
+03/30/2019 15:24:43 DEBUG: windows-1255 not active
+03/30/2019 15:24:43 DEBUG: no probers hit minimum threshold
+03/30/2019 15:24:43 DEBUG: utf-8  confidence = 0.010000000000000009
+03/30/2019 15:24:43 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/30/2019 15:24:43 DEBUG: EUC-JP Japanese confidence = 0.01
+03/30/2019 15:24:43 DEBUG: GB2312 Chinese confidence = 0.01
+03/30/2019 15:24:43 DEBUG: EUC-KR Korean confidence = 0.01
+03/30/2019 15:24:43 DEBUG: CP949 Korean confidence = 0.01
+03/30/2019 15:24:43 DEBUG: Big5 Chinese confidence = 0.01
+03/30/2019 15:24:43 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/30/2019 15:24:43 DEBUG: windows-1251 Russian confidence = 0.041740212305574544
+03/30/2019 15:24:43 DEBUG: KOI8-R Russian confidence = 0.03805649352851705
+03/30/2019 15:24:43 DEBUG: ISO-8859-5 Russian confidence = 0.0382584675951696
+03/30/2019 15:24:43 DEBUG: MacCyrillic Russian confidence = 0.04096608345425996
+03/30/2019 15:24:43 DEBUG: IBM866 Russian confidence = 0.04000791716980603
+03/30/2019 15:24:43 DEBUG: IBM855 Russian confidence = 0.04179431240995575
+03/30/2019 15:24:43 DEBUG: ISO-8859-7 Greek confidence = 0.07345875617605206
+03/30/2019 15:24:43 DEBUG: windows-1253 Greek confidence = 0.07456162984952563
+03/30/2019 15:24:43 DEBUG: ISO-8859-5 Bulgairan confidence = 0.036163492435550025
+03/30/2019 15:24:43 DEBUG: windows-1251 Bulgarian confidence = 0.041314189171256586
+03/30/2019 15:24:43 DEBUG: TIS-620 Thai confidence = 0.040366957658375974
+03/30/2019 15:24:43 DEBUG: ISO-8859-9 Turkish confidence = 0.10533753815939444
+03/30/2019 15:24:43 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:24:43 DEBUG: windows-1255 Hebrew confidence = 0.045282208768255096
+03/30/2019 15:24:43 DEBUG: windows-1255 Hebrew confidence = 0.04781801245927737
+03/30/2019 15:24:43 DEBUG: windows-1255 Hebrew confidence = 0.04781801245927737
+03/30/2019 15:24:43 DEBUG: Starting new HTTPS connection (1): community.smartsheet.com:443
+03/30/2019 15:24:44 DEBUG: https://community.smartsheet.com:443 "GET /discussion/smart-objectives-template HTTP/1.1" 200 None
+03/30/2019 15:24:44 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:44 DEBUG: https://www.smartsheet.com:443 "GET /free-strategic-planning-templates HTTP/1.1" 200 None
+03/30/2019 15:24:44 INFO: ============Smartsheet, FUTURE GOALS feature data collection completed============
+03/30/2019 15:24:44 INFO: ============Smartsheet, TECH STACK feature data collection started============
+03/30/2019 15:24:44 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:24:44 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:24:44 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:24:44 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Smartsheet&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:24:45 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:24:45 INFO: =========================Getting search result source code=========================
+03/30/2019 15:24:45 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:45 DEBUG: https://www.smartsheet.com:443 "GET /industries/technology HTTP/1.1" 200 None
+03/30/2019 15:24:45 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:46 DEBUG: https://www.smartsheet.com:443 "GET /careers/position/716154/sde-full-stack HTTP/1.1" 200 None
+03/30/2019 15:24:46 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:47 DEBUG: https://www.smartsheet.com:443 "GET /devops-tools HTTP/1.1" 200 None
+03/30/2019 15:24:47 DEBUG: Starting new HTTPS connection (1): stackshare.io:443
+03/30/2019 15:24:48 DEBUG: https://stackshare.io:443 "GET /smartsheet/smartsheet HTTP/1.1" 200 None
+03/30/2019 15:24:48 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:24:48 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Smartsheet HTTP/1.1" 200 19626
+03/30/2019 15:24:48 DEBUG: Starting new HTTPS connection (1): www.it.northwestern.edu:443
+03/30/2019 15:24:49 DEBUG: https://www.it.northwestern.edu:443 "GET /software/smartsheet/index.html HTTP/1.1" 200 5383
+03/30/2019 15:24:49 DEBUG: Starting new HTTPS connection (1): www.formstack.com:443
+03/30/2019 15:24:49 DEBUG: https://www.formstack.com:443 "GET /integrations/smartsheet HTTP/1.1" 200 None
+03/30/2019 15:24:49 DEBUG: Starting new HTTPS connection (1): stackoverflow.com:443
+03/30/2019 15:24:49 DEBUG: https://stackoverflow.com:443 "GET /questions/tagged/smartsheet-api HTTP/1.1" 200 46617
+03/30/2019 15:24:49 DEBUG: Starting new HTTPS connection (1): www.linkedin.com:443
+03/30/2019 15:24:50 DEBUG: https://www.linkedin.com:443 "GET /jobs/view/senior-software-development-engineer-in-test-tools-frameworks-infrastructure-full-stack-at-smartsheet-1041331076 HTTP/1.1" 200 None
+03/30/2019 15:24:50 DEBUG: Starting new HTTPS connection (1): www.plangrid.com:443
+03/30/2019 15:24:51 DEBUG: https://www.plangrid.com:443 "GET /integrations/smartsheet/ HTTP/1.1" 200 None
+03/30/2019 15:24:51 INFO: ============Smartsheet, TECH STACK feature data collection completed============
+03/30/2019 15:24:51 INFO: ============Smartsheet, PRODUCTS feature data collection started============
+03/30/2019 15:24:51 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:24:51 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:24:51 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:24:51 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Smartsheet&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:24:52 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:24:52 INFO: =========================Getting search result source code=========================
+03/30/2019 15:24:52 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:52 DEBUG: https://www.smartsheet.com:443 "GET /services HTTP/1.1" 200 None
+03/30/2019 15:24:52 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:52 DEBUG: https://www.smartsheet.com:443 "GET /productivity-tools HTTP/1.1" 200 None
+03/30/2019 15:24:52 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:52 DEBUG: https://www.smartsheet.com:443 "GET /product HTTP/1.1" 200 None
+03/30/2019 15:24:52 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:58 DEBUG: https://www.smartsheet.com:443 "GET /resources HTTP/1.1" 200 None
+03/30/2019 15:24:58 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:59 DEBUG: https://www.smartsheet.com:443 "GET /solutions/software-development HTTP/1.1" 200 None
+03/30/2019 15:24:59 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:59 DEBUG: https://www.smartsheet.com:443 "GET / HTTP/1.1" 200 None
+03/30/2019 15:24:59 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:24:59 DEBUG: https://www.smartsheet.com:443 "GET /industries/professional-services HTTP/1.1" 200 None
+03/30/2019 15:24:59 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:25:00 DEBUG: https://www.smartsheet.com:443 "GET /apps HTTP/1.1" 200 None
+03/30/2019 15:25:00 DEBUG: Starting new HTTPS connection (1): www.smartsheet.com:443
+03/30/2019 15:25:00 DEBUG: https://www.smartsheet.com:443 "GET /software-project-management HTTP/1.1" 200 None
+03/30/2019 15:25:00 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:25:00 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Smartsheet HTTP/1.1" 200 19626
+03/30/2019 15:25:00 INFO: ============Smartsheet, PRODUCTS feature data collection completed============
+03/30/2019 15:25:01 INFO: ============Smartsheet data collection completed============

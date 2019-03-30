@@ -1,0 +1,409 @@
+03/30/2019 15:02:45 INFO: ============Script execution started============
+03/30/2019 15:02:45 INFO: ============Accenture data collection started============
+03/30/2019 15:02:45 INFO: ============Accenture, SIZE feature data collection started============
+03/30/2019 15:02:45 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:02:45 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:02:45 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:02:46 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Accenture&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:02:46 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:02:47 INFO: =========================Getting search result source code=========================
+03/30/2019 15:02:47 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 15:02:47 DEBUG: https://www.statista.com:443 "GET /statistics/327466/number-of-employees-of-accenture-plc-worldwide/ HTTP/1.1" 200 None
+03/30/2019 15:02:47 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:02:47 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Accenture HTTP/1.1" 200 33191
+03/30/2019 15:02:47 DEBUG: Starting new HTTPS connection (1): newsroom.accenture.com:443
+03/30/2019 15:02:48 DEBUG: https://newsroom.accenture.com:443 "GET /fact-sheet/ HTTP/1.1" 200 None
+03/30/2019 15:02:48 DEBUG: Starting new HTTPS connection (1): content.eluta.ca:443
+03/30/2019 15:02:48 DEBUG: https://content.eluta.ca:443 "GET /top-employer-accenture HTTP/1.1" 200 19113
+03/30/2019 15:02:48 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 15:02:48 DEBUG: https://www.statista.com:443 "GET /statistics/327466/number-of-employees-of-accenture-plc-worldwide/ HTTP/1.1" 200 None
+03/30/2019 15:02:49 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 15:02:49 DEBUG: https://ca.linkedin.com:443 "GET /company/accenture HTTP/1.1" 999 1461
+03/30/2019 15:02:49 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 15:02:49 DEBUG: https://ca.linkedin.com:443 "GET /company/accenturefederalservices HTTP/1.1" 999 1461
+03/30/2019 15:02:49 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/30/2019 15:02:49 DEBUG: https://www.glassdoor.ca:443 "GET /Overview/Working-at-Accenture-EI_IE4138.11,20.htm HTTP/1.1" 403 None
+03/30/2019 15:02:49 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/30/2019 15:02:50 DEBUG: https://www.owler.com:443 "GET /company/accenture HTTP/1.1" 405 5778
+03/30/2019 15:02:50 DEBUG: Starting new HTTPS connection (1): craft.co:443
+03/30/2019 15:02:50 DEBUG: https://craft.co:443 "GET /accenture HTTP/1.1" 405 2884
+03/30/2019 15:02:50 INFO: ============Accenture, SIZE feature data collection completed============
+03/30/2019 15:02:50 INFO: ============Accenture, ACQUISITIONS feature data collection started============
+03/30/2019 15:02:50 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:02:50 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:02:50 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:02:50 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Accenture&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:02:51 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:02:51 INFO: =========================Getting search result source code=========================
+03/30/2019 15:02:51 DEBUG: Starting new HTTPS connection (1): newsroom.accenture.com:443
+03/30/2019 15:02:51 DEBUG: https://newsroom.accenture.com:443 "GET /subjects/acquisitions/ HTTP/1.1" 200 None
+03/30/2019 15:02:51 DEBUG: Starting new HTTPS connection (1): newsroom.accenture.com:443
+03/30/2019 15:02:52 DEBUG: https://newsroom.accenture.com:443 "GET /subjects/acquisitions/ HTTP/1.1" 200 None
+03/30/2019 15:02:52 DEBUG: Starting new HTTPS connection (1): newsroom.accenture.com:443
+03/30/2019 15:02:52 DEBUG: https://newsroom.accenture.com:443 "GET /news/accenture-completes-acquisition-of-knowledgent.htm HTTP/1.1" 200 None
+03/30/2019 15:02:52 DEBUG: Starting new HTTPS connection (1): newsroom.accenture.com:443
+03/30/2019 15:02:52 DEBUG: https://newsroom.accenture.com:443 "GET /news/accenture-acquires-intrigo-systems-expands-its-capabilities-in-digital-supply-chains.htm HTTP/1.1" 200 None
+03/30/2019 15:02:52 DEBUG: Starting new HTTPS connection (1): newsroom.accenture.com:443
+03/30/2019 15:02:53 DEBUG: https://newsroom.accenture.com:443 "GET /news/accenture-completes-acquisition-of-orbium-a-business-and-technology-consultancy-to-the-financial-services-industry.htm HTTP/1.1" 200 None
+03/30/2019 15:02:53 DEBUG: Starting new HTTPS connection (1): newsroom.accenture.com:443
+03/30/2019 15:02:54 DEBUG: https://newsroom.accenture.com:443 "GET /news/accenture-completes-acquisition-of-adaptly.htm HTTP/1.1" 200 None
+03/30/2019 15:02:54 DEBUG: Starting new HTTPS connection (1): newsroom.accenture.com:443
+03/30/2019 15:02:54 DEBUG: https://newsroom.accenture.com:443 "GET /news/accenture-to-acquire-adaptly-to-bolster-accenture-interactive-programmatic-services-offering.htm HTTP/1.1" 200 None
+03/30/2019 15:02:54 DEBUG: Starting new HTTPS connection (1): newsroom.accenture.com:443
+03/30/2019 15:02:55 DEBUG: https://newsroom.accenture.com:443 "GET /news/accenture-to-form-strategic-alliance-with-and-acquire-select-professional-services-assets-from-financial-software-firm-zafin.htm HTTP/1.1" 200 None
+03/30/2019 15:02:55 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:02:56 DEBUG: https://www.accenture.com:443 "GET /ca-en/accenture-ibb-consulting-group HTTP/1.1" 200 31311
+03/30/2019 15:02:56 DEBUG: Starting new HTTPS connection (1): www.crn.com:443
+03/30/2019 15:02:57 DEBUG: https://www.crn.com:443 "GET /news/channel-programs/accenture-acquisition-spree-grows-with-enaxis-purchase HTTP/1.1" 200 None
+03/30/2019 15:02:57 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/30/2019 15:02:57 DEBUG: https://techcrunch.com:443 "GET /2018/12/12/accenture-acquires-adaptly/ HTTP/1.1" 200 15239
+03/30/2019 15:02:57 INFO: ============Accenture, ACQUISITIONS feature data collection completed============
+03/30/2019 15:02:57 INFO: ============Accenture, FUTURE GOALS feature data collection started============
+03/30/2019 15:02:57 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:02:57 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:02:57 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:02:58 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Accenture&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:02:58 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:02:58 INFO: =========================Getting search result source code=========================
+03/30/2019 15:02:58 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:02:59 DEBUG: https://www.accenture.com:443 "GET /ca-en/future-workforce HTTP/1.1" 200 40537
+03/30/2019 15:02:59 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:03:00 DEBUG: https://www.accenture.com:443 "GET /ca-en/outlook-theme-workforce-of-the-future HTTP/1.1" 200 29628
+03/30/2019 15:03:00 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:03:02 DEBUG: https://www.accenture.com:443 "GET /ca-en/services-future-talent-platform HTTP/1.1" 200 33605
+03/30/2019 15:03:02 DEBUG: Starting new HTTPS connection (1): aim.accenture.com:443
+03/30/2019 15:03:02 DEBUG: https://aim.accenture.com:443 "GET / HTTP/1.1" 302 299
+03/30/2019 15:03:02 DEBUG: Starting new HTTPS connection (1): federation-sts.accenture.com:443
+03/30/2019 15:03:03 DEBUG: https://federation-sts.accenture.com:443 "GET /adfs/ls?wa=wsignin1.0&wtrealm=https%3a%2f%2faim.accenture.com%2f&wctx=rm%3d1%26id%3dpassive%26ru%3d%252f&wct=2019-03-30T18%3a03%3a00Z HTTP/1.1" 200 22341
+03/30/2019 15:03:03 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:03:04 DEBUG: https://www.accenture.com:443 "GET /ca-en/insights/future-workforce-index HTTP/1.1" 200 23173
+03/30/2019 15:03:04 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:03:04 DEBUG: https://www.accenture.com:443 "GET /ca-en/about/company-index HTTP/1.1" 200 23451
+03/30/2019 15:03:04 DEBUG: Starting new HTTPS connection (1): www.futureagenda.org:443
+03/30/2019 15:03:05 DEBUG: https://www.futureagenda.org:443 "GET /partner/accenture HTTP/1.1" 200 7772
+03/30/2019 15:03:05 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 15:03:06 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DAzzHICAKPYk HTTP/1.1" 503 1800
+03/30/2019 15:03:06 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 15:03:06 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DHot0YJhN8nY HTTP/1.1" 503 1800
+03/30/2019 15:03:06 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 15:03:07 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DyneJhgkQLuI HTTP/1.1" 503 1800
+03/30/2019 15:03:07 INFO: ============Accenture, FUTURE GOALS feature data collection completed============
+03/30/2019 15:03:07 INFO: ============Accenture, TECH STACK feature data collection started============
+03/30/2019 15:03:07 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:03:07 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:03:07 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:03:08 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Accenture&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:03:08 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:03:08 INFO: =========================Getting search result source code=========================
+03/30/2019 15:03:08 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:03:11 DEBUG: https://www.accenture.com:443 "GET /ca-en/technology-index HTTP/1.1" 200 52025
+03/30/2019 15:03:11 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:03:11 DEBUG: https://www.accenture.com:443 "GET /ca-en/insights/technology/technology-trends-2019 HTTP/1.1" 200 28880
+03/30/2019 15:03:11 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:03:12 DEBUG: https://www.accenture.com:443 "GET /ca-en/careers/work-we-do-technology HTTP/1.1" 200 37028
+03/30/2019 15:03:12 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:03:13 DEBUG: https://www.accenture.com:443 "GET /ca-en/technology-consulting-index HTTP/1.1" 200 47699
+03/30/2019 15:03:13 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:03:14 DEBUG: https://www.accenture.com:443 "GET /ca-en/insight-technology-trends-2018 HTTP/1.1" 200 36859
+03/30/2019 15:03:14 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:03:14 DEBUG: https://www.accenture.com:443 "GET /t20190304T094157Z__w__/us-en/_acnmedia/PDF-94/Accenture-TechVision-2019-Tech-Trends-Report.pdf HTTP/1.1" 200 None
+03/30/2019 15:03:18 DEBUG: SHIFT_JIS Japanese prober hit error at byte 390
+03/30/2019 15:03:18 DEBUG: EUC-JP Japanese prober hit error at byte 372
+03/30/2019 15:03:18 DEBUG: GB2312 Chinese prober hit error at byte 390
+03/30/2019 15:03:18 DEBUG: EUC-KR Korean prober hit error at byte 372
+03/30/2019 15:03:18 DEBUG: CP949 Korean prober hit error at byte 372
+03/30/2019 15:03:18 DEBUG: Big5 Chinese prober hit error at byte 389
+03/30/2019 15:03:18 DEBUG: EUC-TW Taiwan prober hit error at byte 372
+03/30/2019 15:03:24 DEBUG: windows-1251 confidence = 0.03620422029344261, below negative shortcut threshhold 0.05
+03/30/2019 15:03:31 DEBUG: KOI8-R confidence = 0.04337323516236422, below negative shortcut threshhold 0.05
+03/30/2019 15:03:38 DEBUG: ISO-8859-5 confidence = 0.04060904443580583, below negative shortcut threshhold 0.05
+03/30/2019 15:03:44 DEBUG: MacCyrillic confidence = 0.03635373233693852, below negative shortcut threshhold 0.05
+03/30/2019 15:03:52 DEBUG: IBM866 confidence = 0.042178291617695804, below negative shortcut threshhold 0.05
+03/30/2019 15:03:59 DEBUG: IBM855 confidence = 0.04019582512056305, below negative shortcut threshhold 0.05
+03/30/2019 15:04:19 DEBUG: ISO-8859-5 confidence = 0.03992782174697958, below negative shortcut threshhold 0.05
+03/30/2019 15:04:26 DEBUG: windows-1251 confidence = 0.036450275697909214, below negative shortcut threshhold 0.05
+03/30/2019 15:04:33 DEBUG: TIS-620 confidence = 0.04518860575246153, below negative shortcut threshhold 0.05
+03/30/2019 15:04:49 DEBUG: windows-1255 confidence = 0.037223222125956315, below negative shortcut threshhold 0.05
+03/30/2019 15:04:56 DEBUG: windows-1255 confidence = 0.036737109436485206, below negative shortcut threshhold 0.05
+03/30/2019 15:05:04 DEBUG: windows-1251 not active
+03/30/2019 15:05:04 DEBUG: KOI8-R not active
+03/30/2019 15:05:04 DEBUG: ISO-8859-5 not active
+03/30/2019 15:05:04 DEBUG: MacCyrillic not active
+03/30/2019 15:05:04 DEBUG: IBM866 not active
+03/30/2019 15:05:04 DEBUG: IBM855 not active
+03/30/2019 15:05:04 DEBUG: ISO-8859-7 Greek confidence = 0.06349337268074356
+03/30/2019 15:05:04 DEBUG: windows-1253 Greek confidence = 0.06428978317053097
+03/30/2019 15:05:04 DEBUG: ISO-8859-5 not active
+03/30/2019 15:05:04 DEBUG: windows-1251 not active
+03/30/2019 15:05:04 DEBUG: TIS-620 not active
+03/30/2019 15:05:04 DEBUG: ISO-8859-9 Turkish confidence = 0.13921503861985784
+03/30/2019 15:05:04 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:05:04 DEBUG: windows-1255 not active
+03/30/2019 15:05:04 DEBUG: windows-1255 not active
+03/30/2019 15:05:04 DEBUG: no probers hit minimum threshold
+03/30/2019 15:05:04 DEBUG: utf-8  confidence = 0.010000000000000009
+03/30/2019 15:05:04 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/30/2019 15:05:04 DEBUG: EUC-JP Japanese confidence = 0.01
+03/30/2019 15:05:04 DEBUG: GB2312 Chinese confidence = 0.01
+03/30/2019 15:05:04 DEBUG: EUC-KR Korean confidence = 0.01
+03/30/2019 15:05:04 DEBUG: CP949 Korean confidence = 0.01
+03/30/2019 15:05:04 DEBUG: Big5 Chinese confidence = 0.01
+03/30/2019 15:05:04 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/30/2019 15:05:04 DEBUG: windows-1251 Russian confidence = 0.03620422029344261
+03/30/2019 15:05:04 DEBUG: KOI8-R Russian confidence = 0.04337323516236422
+03/30/2019 15:05:04 DEBUG: ISO-8859-5 Russian confidence = 0.04060904443580583
+03/30/2019 15:05:04 DEBUG: MacCyrillic Russian confidence = 0.03635373233693852
+03/30/2019 15:05:04 DEBUG: IBM866 Russian confidence = 0.042178291617695804
+03/30/2019 15:05:04 DEBUG: IBM855 Russian confidence = 0.04019582512056305
+03/30/2019 15:05:04 DEBUG: ISO-8859-7 Greek confidence = 0.06349337268074356
+03/30/2019 15:05:04 DEBUG: windows-1253 Greek confidence = 0.06428978317053097
+03/30/2019 15:05:04 DEBUG: ISO-8859-5 Bulgairan confidence = 0.03992782174697958
+03/30/2019 15:05:04 DEBUG: windows-1251 Bulgarian confidence = 0.036450275697909214
+03/30/2019 15:05:04 DEBUG: TIS-620 Thai confidence = 0.04518860575246153
+03/30/2019 15:05:04 DEBUG: ISO-8859-9 Turkish confidence = 0.13921503861985784
+03/30/2019 15:05:04 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:05:04 DEBUG: windows-1255 Hebrew confidence = 0.037223222125956315
+03/30/2019 15:05:04 DEBUG: windows-1255 Hebrew confidence = 0.036737109436485206
+03/30/2019 15:05:04 DEBUG: windows-1255 Hebrew confidence = 0.036737109436485206
+03/30/2019 15:05:05 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:05:06 DEBUG: https://www.accenture.com:443 "GET /nl-en/service-products-technology-consulting HTTP/1.1" 200 46727
+03/30/2019 15:05:06 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:05:07 DEBUG: https://www.accenture.com:443 "GET /ca-en/insights/technology/new-emerging-technologies-darq HTTP/1.1" 200 30684
+03/30/2019 15:05:07 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:05:08 DEBUG: https://www.accenture.com:443 "GET /ca-en/careers/technologycareers HTTP/1.1" 200 34426
+03/30/2019 15:05:08 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 15:05:10 DEBUG: https://www.youtube.com:443 "GET /channel/UCD8h3oTfr1CbanGIWnzIP_g HTTP/1.1" 200 None
+03/30/2019 15:05:10 INFO: ============Accenture, TECH STACK feature data collection completed============
+03/30/2019 15:05:10 INFO: ============Accenture, PRODUCTS feature data collection started============
+03/30/2019 15:05:10 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:05:10 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:05:10 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:05:10 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Accenture&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:05:11 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:05:11 INFO: =========================Getting search result source code=========================
+03/30/2019 15:05:11 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:05:11 DEBUG: https://www.accenture.com:443 "GET /ca-en/careers/products HTTP/1.1" 200 32732
+03/30/2019 15:05:11 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:05:12 DEBUG: https://www.accenture.com:443 "GET /us-en/cloud-platform-services-design-and-develop-tools HTTP/1.1" 200 25169
+03/30/2019 15:05:12 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:05:13 DEBUG: https://www.accenture.com:443 "GET /ca-en/service-innovation-product-development-overview HTTP/1.1" 200 26310
+03/30/2019 15:05:13 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:05:14 DEBUG: https://www.accenture.com:443 "GET /ca-en/applications-index HTTP/1.1" 200 43546
+03/30/2019 15:05:14 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:05:15 DEBUG: https://www.accenture.com:443 "GET /ca-en/industries/software-and-platforms-index HTTP/1.1" 200 25840
+03/30/2019 15:05:15 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:05:16 DEBUG: https://www.accenture.com:443 "GET /ca-en/service-application-strategy HTTP/1.1" 200 23918
+03/30/2019 15:05:16 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:05:17 DEBUG: https://www.accenture.com:443 "GET /ca-en/technology-consulting-index HTTP/1.1" 200 47698
+03/30/2019 15:05:17 DEBUG: Starting new HTTPS connection (1): www.accenture.com:443
+03/30/2019 15:05:18 DEBUG: https://www.accenture.com:443 "GET /ca-en/service-devops-services-overview HTTP/1.1" 200 33629
+03/30/2019 15:05:18 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:05:18 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Accenture HTTP/1.1" 200 33191
+03/30/2019 15:05:18 DEBUG: Starting new HTTPS connection (1): zafin.com:443
+03/30/2019 15:05:18 DEBUG: https://zafin.com:443 "GET /our-press-releases/accenture-to-form-strategic-alliance-with-and-acquire-select-professional-services-assets-from-financial-software-firm-zafin/ HTTP/1.1" 403 162
+03/30/2019 15:05:18 INFO: ============Accenture, PRODUCTS feature data collection completed============
+03/30/2019 15:05:19 INFO: ============Accenture data collection completed============
+03/30/2019 15:05:19 INFO: ============Apple data collection started============
+03/30/2019 15:05:19 INFO: ============Apple, SIZE feature data collection started============
+03/30/2019 15:05:19 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:05:19 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:05:19 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:05:19 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Apple&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:05:20 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:05:20 INFO: =========================Getting search result source code=========================
+03/30/2019 15:05:20 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 15:05:20 DEBUG: https://www.statista.com:443 "GET /statistics/273439/number-of-employees-of-apple-since-2005/ HTTP/1.1" 200 None
+03/30/2019 15:05:20 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 15:05:21 DEBUG: https://www.statista.com:443 "GET /statistics/273439/number-of-employees-of-apple-since-2005/ HTTP/1.1" 200 None
+03/30/2019 15:05:21 DEBUG: Starting new HTTPS connection (1): www.macrumors.com:443
+03/30/2019 15:05:21 DEBUG: https://www.macrumors.com:443 "GET /2018/11/05/apple-2018-form-10-k-highlights/ HTTP/1.1" 200 19305
+03/30/2019 15:05:21 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:05:21 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Apple_Inc. HTTP/1.1" 200 218900
+03/30/2019 15:05:21 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 15:05:22 DEBUG: https://www.apple.com:443 "GET /job-creation/ HTTP/1.1" 200 23629
+03/30/2019 15:05:22 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 15:05:22 DEBUG: https://www.apple.com:443 "GET /ca/business/get-started/ HTTP/1.1" 200 8814
+03/30/2019 15:05:22 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 15:05:22 DEBUG: https://www.apple.com:443 "GET /ca/business/ HTTP/1.1" 200 7676
+03/30/2019 15:05:22 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 15:05:22 DEBUG: https://www.apple.com:443 "GET /ca/business/resources/docs/Employee_Choice_Guide_for_IT.pdf HTTP/1.1" 200 6985819
+03/30/2019 15:05:25 DEBUG: SHIFT_JIS Japanese prober hit error at byte 104
+03/30/2019 15:05:25 DEBUG: EUC-JP Japanese prober hit error at byte 17
+03/30/2019 15:05:25 DEBUG: GB2312 Chinese prober hit error at byte 21
+03/30/2019 15:05:25 DEBUG: EUC-KR Korean prober hit error at byte 17
+03/30/2019 15:05:25 DEBUG: CP949 Korean prober hit error at byte 17
+03/30/2019 15:05:25 DEBUG: Big5 Chinese prober hit error at byte 21
+03/30/2019 15:05:25 DEBUG: EUC-TW Taiwan prober hit error at byte 17
+03/30/2019 15:05:30 DEBUG: windows-1251 confidence = 0.04057660835631772, below negative shortcut threshhold 0.05
+03/30/2019 15:05:37 DEBUG: KOI8-R confidence = 0.039347342229455885, below negative shortcut threshhold 0.05
+03/30/2019 15:05:42 DEBUG: ISO-8859-5 confidence = 0.04155215171048032, below negative shortcut threshhold 0.05
+03/30/2019 15:05:48 DEBUG: MacCyrillic confidence = 0.04182732971397864, below negative shortcut threshhold 0.05
+03/30/2019 15:05:54 DEBUG: IBM866 confidence = 0.043789414957013155, below negative shortcut threshhold 0.05
+03/30/2019 15:05:59 DEBUG: IBM855 confidence = 0.040501673514092, below negative shortcut threshhold 0.05
+03/30/2019 15:06:18 DEBUG: ISO-8859-5 confidence = 0.04100993567330253, below negative shortcut threshhold 0.05
+03/30/2019 15:06:23 DEBUG: windows-1251 confidence = 0.04042623840041744, below negative shortcut threshhold 0.05
+03/30/2019 15:06:29 DEBUG: TIS-620 confidence = 0.043283835546542734, below negative shortcut threshhold 0.05
+03/30/2019 15:06:35 DEBUG: ISO-8859-9 confidence = 0.04410082799063842, below negative shortcut threshhold 0.05
+03/30/2019 15:06:46 DEBUG: windows-1255 confidence = 0.04203393628218735, below negative shortcut threshhold 0.05
+03/30/2019 15:06:52 DEBUG: windows-1255 confidence = 0.04177728338990168, below negative shortcut threshhold 0.05
+03/30/2019 15:06:58 DEBUG: windows-1251 not active
+03/30/2019 15:06:58 DEBUG: KOI8-R not active
+03/30/2019 15:06:58 DEBUG: ISO-8859-5 not active
+03/30/2019 15:06:58 DEBUG: MacCyrillic not active
+03/30/2019 15:06:58 DEBUG: IBM866 not active
+03/30/2019 15:06:58 DEBUG: IBM855 not active
+03/30/2019 15:06:58 DEBUG: ISO-8859-7 Greek confidence = 0.0700619711988003
+03/30/2019 15:06:58 DEBUG: windows-1253 Greek confidence = 0.07157849916915575
+03/30/2019 15:06:58 DEBUG: ISO-8859-5 not active
+03/30/2019 15:06:58 DEBUG: windows-1251 not active
+03/30/2019 15:06:58 DEBUG: TIS-620 not active
+03/30/2019 15:06:58 DEBUG: ISO-8859-9 not active
+03/30/2019 15:06:58 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:06:58 DEBUG: windows-1255 not active
+03/30/2019 15:06:58 DEBUG: windows-1255 not active
+03/30/2019 15:06:58 DEBUG: no probers hit minimum threshold
+03/30/2019 15:06:58 DEBUG: utf-8  confidence = 0.010000000000000009
+03/30/2019 15:06:58 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/30/2019 15:06:58 DEBUG: EUC-JP Japanese confidence = 0.01
+03/30/2019 15:06:58 DEBUG: GB2312 Chinese confidence = 0.01
+03/30/2019 15:06:58 DEBUG: EUC-KR Korean confidence = 0.01
+03/30/2019 15:06:58 DEBUG: CP949 Korean confidence = 0.01
+03/30/2019 15:06:58 DEBUG: Big5 Chinese confidence = 0.01
+03/30/2019 15:06:58 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/30/2019 15:06:58 DEBUG: windows-1251 Russian confidence = 0.04057660835631772
+03/30/2019 15:06:58 DEBUG: KOI8-R Russian confidence = 0.039347342229455885
+03/30/2019 15:06:58 DEBUG: ISO-8859-5 Russian confidence = 0.04155215171048032
+03/30/2019 15:06:58 DEBUG: MacCyrillic Russian confidence = 0.04182732971397864
+03/30/2019 15:06:58 DEBUG: IBM866 Russian confidence = 0.043789414957013155
+03/30/2019 15:06:58 DEBUG: IBM855 Russian confidence = 0.040501673514092
+03/30/2019 15:06:58 DEBUG: ISO-8859-7 Greek confidence = 0.0700619711988003
+03/30/2019 15:06:58 DEBUG: windows-1253 Greek confidence = 0.07157849916915575
+03/30/2019 15:06:58 DEBUG: ISO-8859-5 Bulgairan confidence = 0.04100993567330253
+03/30/2019 15:06:58 DEBUG: windows-1251 Bulgarian confidence = 0.04042623840041744
+03/30/2019 15:06:58 DEBUG: TIS-620 Thai confidence = 0.043283835546542734
+03/30/2019 15:06:58 DEBUG: ISO-8859-9 Turkish confidence = 0.04410082799063842
+03/30/2019 15:06:58 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:06:58 DEBUG: windows-1255 Hebrew confidence = 0.04203393628218735
+03/30/2019 15:06:58 DEBUG: windows-1255 Hebrew confidence = 0.04177728338990168
+03/30/2019 15:06:58 DEBUG: windows-1255 Hebrew confidence = 0.04177728338990168
+03/30/2019 15:06:58 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 15:06:58 DEBUG: https://www.apple.com:443 "GET /jobs/us/ HTTP/1.1" 200 8782
+03/30/2019 15:06:58 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 15:06:59 DEBUG: https://www.apple.com:443 "GET /ca/shop/browse/open/shopping_agreement/partner HTTP/1.1" 200 8480
+03/30/2019 15:06:59 DEBUG: Starting new HTTPS connection (1): developer.apple.com:443
+03/30/2019 15:06:59 DEBUG: https://developer.apple.com:443 "GET /design/human-interface-guidelines/ios/icons-and-images/image-size-and-resolution/ HTTP/1.1" 200 None
+03/30/2019 15:06:59 INFO: ============Apple, SIZE feature data collection completed============
+03/30/2019 15:06:59 INFO: ============Apple, ACQUISITIONS feature data collection started============
+03/30/2019 15:06:59 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:06:59 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:06:59 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:07:00 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Apple&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:07:00 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:07:00 INFO: =========================Getting search result source code=========================
+03/30/2019 15:07:00 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:07:00 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_mergers_and_acquisitions_by_Apple HTTP/1.1" 200 50547
+03/30/2019 15:07:00 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:07:00 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_mergers_and_acquisitions_by_Apple HTTP/1.1" 200 50547
+03/30/2019 15:07:00 DEBUG: Starting new HTTPS connection (1): www.macrumors.com:443
+03/30/2019 15:07:01 DEBUG: https://www.macrumors.com:443 "GET /roundup/apple-acquisition/ HTTP/1.1" 200 29001
+03/30/2019 15:07:01 DEBUG: Starting new HTTPS connection (1): 9to5mac.com:443
+03/30/2019 15:07:01 DEBUG: https://9to5mac.com:443 "GET /2018/12/22/year-in-review-all-of-the-companies-apple-acquired-in-2018-that-we-know-of/ HTTP/1.1" 200 None
+03/30/2019 15:07:01 DEBUG: Starting new HTTPS connection (1): www.investopedia.com:443
+03/30/2019 15:07:01 DEBUG: https://www.investopedia.com:443 "GET /investing/top-companies-owned-apple/ HTTP/1.1" 200 None
+03/30/2019 15:07:01 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 15:07:02 DEBUG: https://www.cnbc.com:443 "GET /2019/01/04/what-wall-street-bankers-think-apple-should-buy.html HTTP/1.1" 200 47960
+03/30/2019 15:07:02 DEBUG: Starting new HTTP connection (1): fortune.com:80
+03/30/2019 15:07:02 DEBUG: http://fortune.com:80 "GET /2019/02/04/apple-netflix-acquisition/ HTTP/1.1" 200 None
+03/30/2019 15:07:02 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/30/2019 15:07:02 DEBUG: https://techcrunch.com:443 "GET /2018/12/07/apple-platoon/ HTTP/1.1" 200 None
+03/30/2019 15:07:02 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 15:07:03 DEBUG: https://www.bloomberg.com:443 "GET /news/videos/2019-01-30/apple-may-acquire-a-film-studio-in-2019-wedbush-s-ives-says-video HTTP/1.1" 307 0
+03/30/2019 15:07:03 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 15:07:03 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=9d9b7e30-5316-11e9-b321-9df8526e116d&url=L25ld3MvdmlkZW9zLzIwMTktMDEtMzAvYXBwbGUtbWF5LWFjcXVpcmUtYS1maWxtLXN0dWRpby1pbi0yMDE5LXdlZGJ1c2gtcy1pdmVzLXNheXMtdmlkZW8= HTTP/1.1" 200 4595
+03/30/2019 15:07:03 DEBUG: Starting new HTTPS connection (1): www.lassonde.com:443
+03/30/2019 15:07:03 DEBUG: https://www.lassonde.com:443 "GET /en/communications/lassonde-industries-inc-acquire-u-s-branded-juice-company-apple-eve-llc-port-washington-new-york-us150-0-million-transaction/ HTTP/1.1" 200 None
+03/30/2019 15:07:03 DEBUG: Starting new HTTPS connection (1): www.iphoneincanada.ca:443
+03/30/2019 15:07:04 DEBUG: https://www.iphoneincanada.ca:443 "GET /news/apple-confirms-acquisition-shazam/ HTTP/1.1" 200 None
+03/30/2019 15:07:04 INFO: ============Apple, ACQUISITIONS feature data collection completed============
+03/30/2019 15:07:04 INFO: ============Apple, FUTURE GOALS feature data collection started============
+03/30/2019 15:07:04 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:07:04 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:07:04 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:07:04 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Apple&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:07:04 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:07:04 INFO: =========================Getting search result source code=========================
+03/30/2019 15:07:04 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 15:07:04 DEBUG: https://www.apple.com:443 "GET /procurement/ HTTP/1.1" 200 7908
+03/30/2019 15:07:04 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 15:07:04 DEBUG: https://www.bloomberg.com:443 "GET /opinion/articles/2019-01-09/time-to-start-imagining-a-post-iphone-apple HTTP/1.1" 307 0
+03/30/2019 15:07:04 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 15:07:05 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=9ebe7a60-5316-11e9-b685-438ac4ca76f2&url=L29waW5pb24vYXJ0aWNsZXMvMjAxOS0wMS0wOS90aW1lLXRvLXN0YXJ0LWltYWdpbmluZy1hLXBvc3QtaXBob25lLWFwcGxl HTTP/1.1" 200 4595
+03/30/2019 15:07:05 DEBUG: Starting new HTTPS connection (1): www.tomsguide.com:443
+03/30/2019 15:07:05 DEBUG: https://www.tomsguide.com:443 "GET /us/best-apple-deals,news-29273.html HTTP/1.1" 403 146
+03/30/2019 15:07:05 DEBUG: Starting new HTTPS connection (1): www.macrumors.com:443
+03/30/2019 15:07:05 DEBUG: https://www.macrumors.com:443 "GET /roundup/best-apple-deals/ HTTP/1.1" 200 74935
+03/30/2019 15:07:05 DEBUG: Starting new HTTPS connection (1): www.bestbuy.com:443
+03/30/2019 15:07:06 DEBUG: https://www.bestbuy.com:443 "GET /site/apple/apple-shopping-event/pcmcat748301171883.c%3Fid%3Dpcmcat748301171883 HTTP/1.1" 403 375
+03/30/2019 15:07:06 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/30/2019 15:07:06 DEBUG: https://www.quora.com:443 "GET /What-is-the-future-of-Apple HTTP/1.1" 200 None
+03/30/2019 15:07:06 DEBUG: Starting new HTTPS connection (1): www.macworld.com:443
+03/30/2019 15:07:06 DEBUG: https://www.macworld.com:443 "GET /article/3330739/future-shlock-apple-s-prospects-never-look-good.html HTTP/1.1" 200 30401
+03/30/2019 15:07:06 DEBUG: Starting new HTTPS connection (1): hackernoon.com:443
+03/30/2019 15:07:07 DEBUG: https://hackernoon.com:443 "GET /the-future-of-apple-as-a-tech-leader-8b394068cda7 HTTP/1.1" 302 154
+03/30/2019 15:07:07 DEBUG: Starting new HTTPS connection (1): medium.com:443
+03/30/2019 15:07:07 DEBUG: https://medium.com:443 "GET /m/global-identity?redirectUrl=https%3A%2F%2Fhackernoon.com%2Fthe-future-of-apple-as-a-tech-leader-8b394068cda7 HTTP/1.1" 302 None
+03/30/2019 15:07:08 DEBUG: https://hackernoon.com:443 "GET /the-future-of-apple-as-a-tech-leader-8b394068cda7?gi=11f0d790f07c HTTP/1.1" 200 None
+03/30/2019 15:07:08 DEBUG: Starting new HTTPS connection (1): www.bestbuy.ca:443
+03/30/2019 15:07:09 DEBUG: https://www.bestbuy.ca:443 "GET /en-CA/apple-store.aspx HTTP/1.1" 200 42419
+03/30/2019 15:07:09 DEBUG: Starting new HTTPS connection (1): gizmodo.com:443
+03/30/2019 15:07:09 DEBUG: https://gizmodo.com:443 "GET /apples-future-looks-rotten-1831041372 HTTP/1.1" 200 126311
+03/30/2019 15:07:09 INFO: ============Apple, FUTURE GOALS feature data collection completed============
+03/30/2019 15:07:09 INFO: ============Apple, TECH STACK feature data collection started============
+03/30/2019 15:07:09 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:07:09 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:07:09 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:07:09 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Apple&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:07:09 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:07:10 INFO: =========================Getting search result source code=========================
+03/30/2019 15:07:10 DEBUG: Starting new HTTPS connection (1): itunes.apple.com:443
+03/30/2019 15:07:10 DEBUG: https://itunes.apple.com:443 "GET /ca/app/stack-finance/id1305820272%3Fmt%3D8 HTTP/1.1" 404 0
+03/30/2019 15:07:10 DEBUG: Starting new HTTPS connection (1): support.apple.com:443
+03/30/2019 15:07:10 DEBUG: https://support.apple.com:443 "GET /en-ca/HT209101 HTTP/1.1" 200 9937
+03/30/2019 15:07:10 DEBUG: Starting new HTTPS connection (1): developer.apple.com:443
+03/30/2019 15:07:10 DEBUG: https://developer.apple.com:443 "GET /discover/ HTTP/1.1" 200 None
+03/30/2019 15:07:10 DEBUG: Starting new HTTPS connection (1): apple.stackexchange.com:443
+03/30/2019 15:07:11 DEBUG: https://apple.stackexchange.com:443 "GET / HTTP/1.1" 200 26839
+03/30/2019 15:07:11 DEBUG: Starting new HTTPS connection (1): www.cornellstore.com:443
+03/30/2019 15:07:11 DEBUG: https://www.cornellstore.com:443 "GET /technology/apple HTTP/1.1" 200 None
+03/30/2019 15:07:11 DEBUG: Starting new HTTPS connection (1): www.cultofmac.com:443
+03/30/2019 15:07:13 DEBUG: https://www.cultofmac.com:443 "GET /103454/apples-products-cant-be-beaten-because-they-use-tech-from-the-future/ HTTP/1.1" 200 None
+03/30/2019 15:07:13 DEBUG: Starting new HTTPS connection (1): www.theguardian.com:443
+03/30/2019 15:07:13 DEBUG: https://www.theguardian.com:443 "GET /technology/2018/aug/02/macs-ipods-apps-how-apple-revolutionised-technology HTTP/1.1" 200 167102
+03/30/2019 15:07:13 DEBUG: Starting new HTTPS connection (1): www.theguardian.com:443
+03/30/2019 15:07:14 DEBUG: https://www.theguardian.com:443 "GET /technology/apple HTTP/1.1" 200 121646
+03/30/2019 15:07:14 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:07:14 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Apple_Inc. HTTP/1.1" 200 218900
+03/30/2019 15:07:14 DEBUG: Starting new HTTPS connection (1): www.indiegogo.com:443
+03/30/2019 15:07:16 DEBUG: https://www.indiegogo.com:443 "GET /projects/bento-stack-for-apple-accessories HTTP/1.1" 200 None
+03/30/2019 15:07:16 INFO: ============Apple, TECH STACK feature data collection completed============
+03/30/2019 15:07:16 INFO: ============Apple, PRODUCTS feature data collection started============
+03/30/2019 15:07:16 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:07:16 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:07:16 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:07:16 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Apple&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:07:16 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:07:16 INFO: =========================Getting search result source code=========================
+03/30/2019 15:07:16 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 15:07:17 DEBUG: https://www.apple.com:443 "GET /ca/shop/mac/mac-accessories/software HTTP/1.1" 200 21519
+03/30/2019 15:07:17 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 15:07:17 DEBUG: https://www.apple.com:443 "GET /ca/shop/help/downloadable_software HTTP/1.1" 200 16951
+03/30/2019 15:07:17 DEBUG: Starting new HTTPS connection (1): support.apple.com:443
+03/30/2019 15:07:17 DEBUG: https://support.apple.com:443 "GET /downloads HTTP/1.1" 200 6409
+03/30/2019 15:07:17 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 15:07:17 DEBUG: https://www.apple.com:443 "GET /ca/downloads/index.html HTTP/1.1" 200 6150
+03/30/2019 15:07:17 DEBUG: Starting new HTTPS connection (1): tools.applemusic.com:443
+03/30/2019 15:07:17 DEBUG: https://tools.applemusic.com:443 "GET / HTTP/1.1" 302 111
+03/30/2019 15:07:18 DEBUG: https://tools.applemusic.com:443 "GET /en-us HTTP/1.1" 200 10747
+03/30/2019 15:07:18 DEBUG: Starting new HTTPS connection (1): www.bestbuy.ca:443
+03/30/2019 15:07:18 DEBUG: https://www.bestbuy.ca:443 "GET /en-CA/apple-store.aspx HTTP/1.1" 200 42408
+03/30/2019 15:07:18 DEBUG: Starting new HTTPS connection (1): www.costco.ca:443
