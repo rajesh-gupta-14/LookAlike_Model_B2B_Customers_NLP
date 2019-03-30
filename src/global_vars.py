@@ -2,7 +2,7 @@
 import os
 
 # Company names
-COMPANIES = ["SAP"]
+COMPANIES = ["Samsung", "Oracle", "IBM", "Intuit", "OpenText","ICBC", "MicroStrategy", "Appian", "Symantec", "Pfizer", "Goldman Sachs"]
 
 # Features
 FEATURES = {

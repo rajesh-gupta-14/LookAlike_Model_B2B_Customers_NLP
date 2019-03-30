@@ -1,0 +1,683 @@
+03/30/2019 12:40:29 INFO: ============Script execution started============
+03/30/2019 12:40:29 INFO: ============Appian data collection started============
+03/30/2019 12:40:29 INFO: ============Appian, SIZE feature data collection started============
+03/30/2019 12:40:29 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:40:29 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:40:29 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:40:30 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Appian&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:40:31 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:40:31 INFO: =========================Getting search result source code=========================
+03/30/2019 12:40:31 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:40:31 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Appian_Corporation HTTP/1.1" 200 13180
+03/30/2019 12:40:31 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/30/2019 12:40:32 DEBUG: https://www.owler.com:443 "GET /company/appian HTTP/1.1" 405 5770
+03/30/2019 12:40:32 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 12:40:32 DEBUG: https://www.bloomberg.com:443 "GET /research/stocks/private/snapshot.asp%3FprivcapId%3D6512739 HTTP/1.1" 307 0
+03/30/2019 12:40:32 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 12:40:32 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=26bdbe40-5302-11e9-a770-5f5685c47dc8&url=L3Jlc2VhcmNoL3N0b2Nrcy9wcml2YXRlL3NuYXBzaG90LmFzcCUzRnByaXZjYXBJZCUzRDY1MTI3Mzk= HTTP/1.1" 200 4595
+03/30/2019 12:40:32 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:40:33 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Appian_Corporation HTTP/1.1" 200 13180
+03/30/2019 12:40:33 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 12:40:33 DEBUG: https://ca.linkedin.com:443 "GET /company/appian-corporation HTTP/1.1" 999 1461
+03/30/2019 12:40:33 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/30/2019 12:40:34 DEBUG: https://www.glassdoor.ca:443 "GET /Overview/Working-at-Appian-EI_IE27819.11,17.htm HTTP/1.1" 403 None
+03/30/2019 12:40:34 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:35 DEBUG: https://www.appian.com:443 "GET /news/news-item/washington-post-names-appian-2017-top-workplace/ HTTP/1.1" 200 10627
+03/30/2019 12:40:35 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:36 DEBUG: https://www.appian.com:443 "GET /careers/corporate/ HTTP/1.1" 200 10385
+03/30/2019 12:40:36 DEBUG: Starting new HTTPS connection (1): community.appian.com:443
+03/30/2019 12:40:36 DEBUG: https://community.appian.com:443 "GET /discussions/f/general/8806/document-size HTTP/1.1" 200 132716
+03/30/2019 12:40:36 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/30/2019 12:40:37 DEBUG: https://www.crunchbase.com:443 "GET /organization/appian HTTP/1.1" 403 None
+03/30/2019 12:40:37 DEBUG: Starting new HTTP connection (1): www.nasdaq.com:80
+03/30/2019 12:40:37 DEBUG: http://www.nasdaq.com:80 "GET /markets/ipos/company/appian-corp-784471-83524 HTTP/1.1" 301 0
+03/30/2019 12:40:37 DEBUG: Starting new HTTPS connection (1): www.nasdaq.com:443
+03/30/2019 12:40:38 DEBUG: https://www.nasdaq.com:443 "GET /markets/ipos/company/appian-corp-784471-83524 HTTP/1.1" 200 45163
+03/30/2019 12:40:38 INFO: ============Appian, SIZE feature data collection completed============
+03/30/2019 12:40:38 INFO: ============Appian, ACQUISITIONS feature data collection started============
+03/30/2019 12:40:38 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:40:38 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:40:38 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:40:38 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Appian&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:40:38 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:40:38 INFO: =========================Getting search result source code=========================
+03/30/2019 12:40:38 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:39 DEBUG: https://www.appian.com:443 "GET /industries/public-sector/acquisition-management/ HTTP/1.1" 200 9863
+03/30/2019 12:40:39 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:40 DEBUG: https://www.appian.com:443 "GET /news/news-item/u-s-air-force-transforms-acquisition-with-appian/ HTTP/1.1" 200 11050
+03/30/2019 12:40:40 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:41 DEBUG: https://www.appian.com:443 "GET /blog/acquisition/ HTTP/1.1" 200 9473
+03/30/2019 12:40:41 DEBUG: Starting new HTTPS connection (1): globenewswire.com:443
+03/30/2019 12:40:41 DEBUG: https://globenewswire.com:443 "GET /news-release/2018/06/28/1531214/0/en/U-S-Air-Force-Transforms-Acquisition-with-Appian-in-Impact-Level-4-IL-4-Cloud.html HTTP/1.1" 301 0
+03/30/2019 12:40:41 DEBUG: Starting new HTTPS connection (1): www.globenewswire.com:443
+03/30/2019 12:40:41 DEBUG: https://www.globenewswire.com:443 "GET /news-release/2018/06/28/1531214/0/en/U-S-Air-Force-Transforms-Acquisition-with-Appian-in-Impact-Level-4-IL-4-Cloud.html HTTP/1.1" 200 None
+03/30/2019 12:40:41 DEBUG: Starting new HTTPS connection (1): www.newswire.ca:443
+03/30/2019 12:40:44 DEBUG: https://www.newswire.ca:443 "GET /news-releases/appian-acquires-shares-of-roxgold-inc-516093001.html HTTP/1.1" 200 None
+03/30/2019 12:40:44 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 12:40:45 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DlO7aHmk2GOM HTTP/1.1" 503 1799
+03/30/2019 12:40:45 DEBUG: Starting new HTTPS connection (1): seekingalpha.com:443
+03/30/2019 12:40:45 DEBUG: https://seekingalpha.com:443 "GET /article/4194163-appian-corp-appn-ceo-matt-calkins-q2-2018-results-earnings-call-transcript HTTP/1.1" 403 1458
+03/30/2019 12:40:45 DEBUG: Starting new HTTPS connection (1): www.linkedin.com:443
+03/30/2019 12:40:45 DEBUG: https://www.linkedin.com:443 "GET /in/katejerdensmith HTTP/1.1" 999 1461
+03/30/2019 12:40:45 DEBUG: Starting new HTTPS connection (1): www.mccarthy.ca:443
+03/30/2019 12:40:46 DEBUG: https://www.mccarthy.ca:443 "GET /en/work/cases/appian-natural-resources-announces-strategic-investment-harte-gold HTTP/1.1" 200 None
+03/30/2019 12:40:46 DEBUG: Starting new HTTPS connection (1): www.glassdoor.com:443
+03/30/2019 12:40:46 DEBUG: https://www.glassdoor.com:443 "GET /Jobs/Appian-acquisition-Kensington-Jobs-EI_IE27819.0,6_KO7,18_IL.19,29_IC1153866.htm HTTP/1.1" 403 None
+03/30/2019 12:40:46 INFO: ============Appian, ACQUISITIONS feature data collection completed============
+03/30/2019 12:40:46 INFO: ============Appian, FUTURE GOALS feature data collection started============
+03/30/2019 12:40:46 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:40:46 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:40:46 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:40:46 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Appian&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:40:47 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:40:47 INFO: =========================Getting search result source code=========================
+03/30/2019 12:40:47 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:48 DEBUG: https://www.appian.com:443 "GET /customer/aim-specialty-health/ HTTP/1.1" 200 9191
+03/30/2019 12:40:48 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:48 DEBUG: https://www.appian.com:443 "GET /future-of-work/ HTTP/1.1" 200 9804
+03/30/2019 12:40:48 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:49 DEBUG: https://www.appian.com:443 "GET / HTTP/1.1" 200 10299
+03/30/2019 12:40:49 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:50 DEBUG: https://www.appian.com:443 "GET /future-of-work-part-3/ HTTP/1.1" 200 10063
+03/30/2019 12:40:50 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:51 DEBUG: https://www.appian.com:443 "GET /news/news-item/future-of-work-survey-it-culture-and-business-alignment-most-significant-barriers-for-digital-transformation/ HTTP/1.1" 200 10558
+03/30/2019 12:40:51 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:52 DEBUG: https://www.appian.com:443 "GET /blog/low-code-fastbreak-slam-dunk-digital-transformation-goals/blog-run-goals/ HTTP/1.1" 200 7082
+03/30/2019 12:40:52 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:53 DEBUG: https://www.appian.com:443 "GET /financial-services-future/ HTTP/1.1" 200 10242
+03/30/2019 12:40:53 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/30/2019 12:40:53 DEBUG: https://www.quora.com:443 "GET /Should-I-leave-my-current-field-of-Website-Development-for-Business-Process-Management-What-are-the-future-growth-prospects-for-Appian-in-India-Will-it-restrict-my-career-options-in-future HTTP/1.1" 200 None
+03/30/2019 12:40:54 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 12:40:54 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DYpWC7RoKdEI HTTP/1.1" 503 1799
+03/30/2019 12:40:54 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 12:40:55 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DURimrHPBfeU HTTP/1.1" 503 1799
+03/30/2019 12:40:55 INFO: ============Appian, FUTURE GOALS feature data collection completed============
+03/30/2019 12:40:55 INFO: ============Appian, TECH STACK feature data collection started============
+03/30/2019 12:40:55 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:40:55 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:40:55 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:40:55 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Appian&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:40:55 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:40:55 INFO: =========================Getting search result source code=========================
+03/30/2019 12:40:55 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:56 DEBUG: https://www.appian.com:443 "GET / HTTP/1.1" 200 10298
+03/30/2019 12:40:56 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:57 DEBUG: https://www.appian.com:443 "GET /bpm/keeping-technology-bpm-company/ HTTP/1.1" 200 9799
+03/30/2019 12:40:57 DEBUG: Starting new HTTPS connection (1): community.appian.com:443
+03/30/2019 12:40:58 DEBUG: https://community.appian.com:443 "GET /discussions/f/general/12064/appian-tool-is-developed-on-which-technology HTTP/1.1" 200 152125
+03/30/2019 12:40:58 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:40:59 DEBUG: https://www.appian.com:443 "GET /bpm/ HTTP/1.1" 200 10648
+03/30/2019 12:40:59 DEBUG: Starting new HTTPS connection (1): stackshare.io:443
+03/30/2019 12:41:01 DEBUG: https://stackshare.io:443 "GET /appian/appian HTTP/1.1" 200 None
+03/30/2019 12:41:02 DEBUG: Starting new HTTPS connection (1): stackshare.io:443
+03/30/2019 12:41:04 DEBUG: https://stackshare.io:443 "GET /appian HTTP/1.1" 200 None
+03/30/2019 12:41:04 DEBUG: Starting new HTTPS connection (1): medium.com:443
+03/30/2019 12:41:05 DEBUG: https://medium.com:443 "GET /appian-engineering/appian-technology-dc3203ecdcb5 HTTP/1.1" 200 None
+03/30/2019 12:41:05 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:41:05 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Appian_Technology HTTP/1.1" 200 8536
+03/30/2019 12:41:05 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:41:05 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Appian_Corporation HTTP/1.1" 200 13180
+03/30/2019 12:41:05 DEBUG: Starting new HTTPS connection (1): reviews.financesonline.com:443
+03/30/2019 12:41:06 DEBUG: https://reviews.financesonline.com:443 "GET /p/appian-bpm/ HTTP/1.1" 403 None
+03/30/2019 12:41:06 INFO: ============Appian, TECH STACK feature data collection completed============
+03/30/2019 12:41:06 INFO: ============Appian, PRODUCTS feature data collection started============
+03/30/2019 12:41:06 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:41:06 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:41:06 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:41:06 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Appian&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:41:07 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:41:07 INFO: =========================Getting search result source code=========================
+03/30/2019 12:41:07 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:41:07 DEBUG: https://www.appian.com:443 "GET / HTTP/1.1" 200 10298
+03/30/2019 12:41:07 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:41:09 DEBUG: https://www.appian.com:443 "GET /platform/ HTTP/1.1" 200 13747
+03/30/2019 12:41:09 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:41:10 DEBUG: https://www.appian.com:443 "GET /platform/bpm-suite/ HTTP/1.1" 200 12008
+03/30/2019 12:41:10 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:41:12 DEBUG: https://www.appian.com:443 "GET /bpm/bpm-tools-now/ HTTP/1.1" 200 9741
+03/30/2019 12:41:12 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:41:12 DEBUG: https://www.appian.com:443 "GET /customer-success/professional-services/ HTTP/1.1" 200 9366
+03/30/2019 12:41:12 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:41:13 DEBUG: https://www.appian.com:443 "GET /bpm/ HTTP/1.1" 200 10648
+03/30/2019 12:41:13 DEBUG: Starting new HTTPS connection (1): www.appian.com:443
+03/30/2019 12:41:14 DEBUG: https://www.appian.com:443 "GET /bpm/business-process-management-software/ HTTP/1.1" 200 10335
+03/30/2019 12:41:14 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:41:15 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Appian_Corporation HTTP/1.1" 200 13180
+03/30/2019 12:41:15 DEBUG: Starting new HTTPS connection (1): www.softwareadvice.com:443
+03/30/2019 12:41:15 DEBUG: https://www.softwareadvice.com:443 "GET /ie/app-development/appian-profile/ HTTP/1.1" 200 177440
+03/30/2019 12:41:16 DEBUG: Starting new HTTPS connection (1): reviews.financesonline.com:443
+03/30/2019 12:41:16 DEBUG: https://reviews.financesonline.com:443 "GET /p/appian-bpm/ HTTP/1.1" 403 None
+03/30/2019 12:41:16 DEBUG: Starting new HTTPS connection (1): www.gartner.com:443
+03/30/2019 12:41:17 DEBUG: https://www.gartner.com:443 "GET /reviews/market/business-process-management-platforms/vendor/appian HTTP/1.1" 200 None
+03/30/2019 12:41:17 DEBUG: Starting new HTTPS connection (1): www.gartner.com:443
+03/30/2019 12:41:17 DEBUG: https://www.gartner.com:443 "GET /reviews/market/business-process-management-platforms/compare/tibco-vs-appian HTTP/1.1" 200 None
+03/30/2019 12:41:17 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 12:41:19 DEBUG: https://www.youtube.com:443 "GET /channel/UCLjNp0gYJrXnYHhKD2xoQHQ HTTP/1.1" 200 None
+03/30/2019 12:41:19 INFO: ============Appian, PRODUCTS feature data collection completed============
+03/30/2019 12:41:19 INFO: ============Appian data collection completed============
+03/30/2019 12:41:19 INFO: ============Symantec data collection started============
+03/30/2019 12:41:19 INFO: ============Symantec, SIZE feature data collection started============
+03/30/2019 12:41:19 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:41:19 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:41:19 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:41:20 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Symantec&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:41:20 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:41:20 INFO: =========================Getting search result source code=========================
+03/30/2019 12:41:20 DEBUG: Starting new HTTPS connection (1): www.symantec.com:443
+03/30/2019 12:41:21 DEBUG: https://www.symantec.com:443 "GET /about/corporate-profile HTTP/1.1" 200 21079
+03/30/2019 12:41:21 DEBUG: Starting new HTTPS connection (1): www.symantec.com:443
+03/30/2019 12:41:21 DEBUG: https://www.symantec.com:443 "GET /about/corporate-profile HTTP/1.1" 200 21079
+03/30/2019 12:41:21 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:41:21 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Symantec HTTP/1.1" 200 None
+03/30/2019 12:41:21 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/30/2019 12:41:23 DEBUG: https://www.owler.com:443 "GET /company/symantec HTTP/1.1" 405 5774
+03/30/2019 12:41:23 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/30/2019 12:41:23 DEBUG: https://www.glassdoor.ca:443 "GET /Overview/Working-at-Symantec-EI_IE1931.11,19.htm HTTP/1.1" 403 None
+03/30/2019 12:41:23 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 12:41:24 DEBUG: https://ca.linkedin.com:443 "GET /company/symantec HTTP/1.1" 999 1461
+03/30/2019 12:41:24 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 12:41:24 DEBUG: https://www.statista.com:443 "GET /statistics/497094/symantec-employee-figures/ HTTP/1.1" 200 None
+03/30/2019 12:41:24 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 12:41:25 DEBUG: https://www.forbes.com:443 "GET /companies/symantec/ HTTP/1.1" 200 41498
+03/30/2019 12:41:25 DEBUG: Starting new HTTPS connection (1): ca.indeed.com:443
+03/30/2019 12:41:25 DEBUG: https://ca.indeed.com:443 "GET /cmp/Symantec/reviews HTTP/1.1" 200 None
+03/30/2019 12:41:25 DEBUG: Starting new HTTP connection (1): fortune.com:80
+03/30/2019 12:41:26 DEBUG: http://fortune.com:80 "GET /2018/08/03/symantec-layoffs-stock/ HTTP/1.1" 200 None
+03/30/2019 12:41:26 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 12:41:27 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DwkBq_xJVAUk HTTP/1.1" 503 1799
+03/30/2019 12:41:27 INFO: ============Symantec, SIZE feature data collection completed============
+03/30/2019 12:41:27 INFO: ============Symantec, ACQUISITIONS feature data collection started============
+03/30/2019 12:41:27 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:41:27 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:41:27 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:41:28 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Symantec&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:41:28 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:41:28 INFO: =========================Getting search result source code=========================
+03/30/2019 12:41:28 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:41:28 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_mergers_and_acquisitions_by_Symantec HTTP/1.1" 200 37632
+03/30/2019 12:41:28 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:41:29 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_mergers_and_acquisitions_by_Symantec HTTP/1.1" 200 37632
+03/30/2019 12:41:29 DEBUG: Starting new HTTPS connection (1): www.reuters.com:443
+03/30/2019 12:41:29 DEBUG: https://www.reuters.com:443 "GET /article/us-symantec-m-a-thomabravo-exclusive/exclusive-buyout-firm-thoma-bravo-approaches-symantec-about-acquisition-sources-idUSKCN1NB26O HTTP/1.1" 200 None
+03/30/2019 12:41:29 DEBUG: Starting new HTTPS connection (1): venturebeat.com:443
+03/30/2019 12:41:30 DEBUG: https://venturebeat.com:443 "GET /2018/11/05/symantec-acquires-appthority-and-javelin-networks-to-bolster-its-mobile-and-enterprise-security-products/ HTTP/1.1" 200 None
+03/30/2019 12:41:30 DEBUG: Starting new HTTPS connection (1): www.crn.com:443
+03/30/2019 12:41:31 DEBUG: https://www.crn.com:443 "GET /news/security/thoma-bravo-approaches-symantec-about-a-takeover-report HTTP/1.1" 200 None
+03/30/2019 12:41:31 DEBUG: Starting new HTTPS connection (1): www.channelpartnersonline.com:443
+03/30/2019 12:41:33 DEBUG: https://www.channelpartnersonline.com:443 "GET /2018/11/07/symantec-said-to-be-a-thoma-bravo-acquisition-target/ HTTP/1.1" 200 17532
+03/30/2019 12:41:33 DEBUG: Starting new HTTP connection (1): investor.symantec.com:80
+03/30/2019 12:41:33 DEBUG: http://investor.symantec.com:80 "GET /About/Investors/press-releases/press-release-details/2018/Symantec-Acquires-Appthority-to-Enhance-Protection-From-Mobile-Application-Vulnerabilities/default.aspx HTTP/1.1" 301 178
+03/30/2019 12:41:33 DEBUG: Starting new HTTPS connection (1): investor.symantec.com:443
+03/30/2019 12:41:34 DEBUG: https://investor.symantec.com:443 "GET /About/Investors/press-releases/press-release-details/2018/Symantec-Acquires-Appthority-to-Enhance-Protection-From-Mobile-Application-Vulnerabilities/default.aspx HTTP/1.1" 200 None
+03/30/2019 12:41:34 DEBUG: Starting new HTTPS connection (1): investor.symantec.com:443
+03/30/2019 12:41:36 DEBUG: https://investor.symantec.com:443 "GET /About/Investors/press-releases/press-release-details/2019/Symantec-Acquires-Software-Defined-Perimeter-and-Zero-Trust-Innovator-Luminate-Security-to-Extend-the-Power-of-Integrated-Cyber-Defense-in-the-Cloud-Generation/default.aspx HTTP/1.1" 200 None
+03/30/2019 12:41:36 DEBUG: Starting new HTTPS connection (1): www.investors.com:443
+03/30/2019 12:41:36 DEBUG: https://www.investors.com:443 "GET /news/technology/symantec-stock-thoma-bravo/ HTTP/1.1" 403 None
+03/30/2019 12:41:36 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/30/2019 12:41:36 DEBUG: https://www.crunchbase.com:443 "GET /organization/symantec/acquisitions/acquisitions_list HTTP/1.1" 403 None
+03/30/2019 12:41:36 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 12:41:37 DEBUG: https://www.cnbc.com:443 "GET /2018/11/06/symantec-spikes-after-reportedly-being-approached-about-acquisition.html HTTP/1.1" 200 40167
+03/30/2019 12:41:37 INFO: ============Symantec, ACQUISITIONS feature data collection completed============
+03/30/2019 12:41:37 INFO: ============Symantec, FUTURE GOALS feature data collection started============
+03/30/2019 12:41:37 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:41:37 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:41:37 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:41:37 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Symantec&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:41:37 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:41:37 INFO: =========================Getting search result source code=========================
+03/30/2019 12:41:37 DEBUG: Starting new HTTPS connection (1): simplywall.st:443
+03/30/2019 12:41:38 DEBUG: https://simplywall.st:443 "GET /stocks/us/software/nasdaq-symc/symantec HTTP/1.1" 200 None
+03/30/2019 12:41:38 DEBUG: Starting new HTTPS connection (1): www.quantumrun.com:443
+03/30/2019 12:41:41 DEBUG: https://www.quantumrun.com:443 "GET /company_profile/future-of-symantec/16576 HTTP/1.1" 200 None
+03/30/2019 12:41:41 DEBUG: Starting new HTTPS connection (1): www.symantec.com:443
+03/30/2019 12:41:41 DEBUG: https://www.symantec.com:443 "GET /about/careers/what-we-stand-for HTTP/1.1" 200 19600
+03/30/2019 12:41:41 DEBUG: Starting new HTTPS connection (1): finance.yahoo.com:443
+03/30/2019 12:41:42 DEBUG: https://finance.yahoo.com:443 "GET /news/investors-know-symantec-corporation-nasdaq-172439343.html HTTP/1.1" 200 None
+03/30/2019 12:41:42 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 12:41:43 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DefcLk7AhfIk HTTP/1.1" 503 1799
+03/30/2019 12:41:43 DEBUG: Starting new HTTPS connection (1): www.crn.com:443
+03/30/2019 12:41:44 DEBUG: https://www.crn.com:443 "GET /meet-the-five-people-starboard-value-wants-to-put-on-symantec-s-board HTTP/1.1" 200 None
+03/30/2019 12:41:44 DEBUG: Starting new HTTPS connection (1): www.bnnbloomberg.ca:443
+03/30/2019 12:41:45 DEBUG: https://www.bnnbloomberg.ca:443 "GET /amazon-wins-us-1b-in-sap-symantec-cloud-deals-memo-1.1149718 HTTP/1.1" 200 31916
+03/30/2019 12:41:45 DEBUG: Starting new HTTPS connection (1): www.marketwatch.com:443
+03/30/2019 12:41:45 DEBUG: https://www.marketwatch.com:443 "GET /investing/stock/symc HTTP/1.1" 200 None
+03/30/2019 12:41:45 DEBUG: Starting new HTTPS connection (1): www.zdnet.com:443
+03/30/2019 12:41:47 DEBUG: https://www.zdnet.com:443 "GET /article/symantec-moves-to-allay-concerns-about-accounting-investigation-future-outlook/ HTTP/1.1" 200 None
+03/30/2019 12:41:47 DEBUG: Starting new HTTPS connection (1): slickdeals.net:443
+03/30/2019 12:41:47 DEBUG: https://slickdeals.net:443 "GET /coupons/symantec/ HTTP/1.1" 200 72409
+03/30/2019 12:41:48 INFO: ============Symantec, FUTURE GOALS feature data collection completed============
+03/30/2019 12:41:48 INFO: ============Symantec, TECH STACK feature data collection started============
+03/30/2019 12:41:48 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:41:48 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:41:48 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:41:48 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Symantec&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:41:48 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:41:48 INFO: =========================Getting search result source code=========================
+03/30/2019 12:41:48 DEBUG: Starting new HTTPS connection (1): www.symantec.com:443
+03/30/2019 12:41:49 DEBUG: https://www.symantec.com:443 "GET /about/corporate-profile/technology HTTP/1.1" 200 24980
+03/30/2019 12:41:49 DEBUG: Starting new HTTPS connection (1): www.symantec.com:443
+03/30/2019 12:41:50 DEBUG: https://www.symantec.com:443 "GET /en/ca/partners/programs/technology-integration-partners/identity HTTP/1.1" 200 24135
+03/30/2019 12:41:50 DEBUG: Starting new HTTP connection (1): www.symantecbd.com:80
+03/30/2019 12:41:51 DEBUG: http://www.symantecbd.com:80 "GET / HTTP/1.1" 200 16474
+03/30/2019 12:41:51 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/30/2019 12:41:52 DEBUG: https://www.quora.com:443 "GET /What-is-Symantecs-technology-stack HTTP/1.1" 200 None
+03/30/2019 12:41:52 DEBUG: Starting new HTTPS connection (1): www.fortinet.com:443
+03/30/2019 12:41:53 DEBUG: https://www.fortinet.com:443 "GET /blog/business-and-technology/fortinet-and-symantec-join-forces-to-help-organizations-move-the.html HTTP/1.1" 200 7780
+03/30/2019 12:41:53 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:41:53 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Symantec HTTP/1.1" 200 55805
+03/30/2019 12:41:53 DEBUG: Starting new HTTPS connection (1): www.indeed.com:443
+03/30/2019 12:41:54 DEBUG: https://www.indeed.com:443 "GET /q-Anti-Technology-Symantec-Attention-jobs.html HTTP/1.1" 200 None
+03/30/2019 12:41:54 DEBUG: Starting new HTTPS connection (1): www.strategy-business.com:443
+03/30/2019 12:41:55 DEBUG: https://www.strategy-business.com:443 "GET /article/Inside-Symantecs-Tech-Transformation%3Fgko%3D54f76 HTTP/1.1" 404 None
+03/30/2019 12:41:55 DEBUG: Starting new HTTPS connection (1): www.corsa.com:443
+03/30/2019 12:41:58 DEBUG: https://www.corsa.com:443 "GET /2018/10/23/corsa-technology-joins-symantec-technology-integration-partner-program/ HTTP/1.1" 200 11741
+03/30/2019 12:41:58 DEBUG: Starting new HTTPS connection (1): www.networkworld.com:443
+03/30/2019 12:42:01 DEBUG: https://www.networkworld.com:443 "GET /article/2338095/symantec-on-technology-merger-missing-professional-services-element.html HTTP/1.1" 200 32585
+03/30/2019 12:42:01 INFO: ============Symantec, TECH STACK feature data collection completed============
+03/30/2019 12:42:01 INFO: ============Symantec, PRODUCTS feature data collection started============
+03/30/2019 12:42:01 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:42:01 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:42:01 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:42:01 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Symantec&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:42:01 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:42:01 INFO: =========================Getting search result source code=========================
+03/30/2019 12:42:01 DEBUG: Starting new HTTPS connection (1): www.symantec.com:443
+03/30/2019 12:42:02 DEBUG: https://www.symantec.com:443 "GET /products HTTP/1.1" 200 26840
+03/30/2019 12:42:02 DEBUG: Starting new HTTPS connection (1): www.symantec.com:443
+03/30/2019 12:42:02 DEBUG: https://www.symantec.com:443 "GET /products HTTP/1.1" 200 26840
+03/30/2019 12:42:02 DEBUG: Starting new HTTPS connection (1): support.symantec.com:443
+03/30/2019 12:42:03 DEBUG: https://support.symantec.com:443 "GET /en_US/product-a-z.html HTTP/1.1" 200 28117
+03/30/2019 12:42:03 DEBUG: Starting new HTTPS connection (1): www.symantec.com:443
+03/30/2019 12:42:03 DEBUG: https://www.symantec.com:443 "GET /en/sg/products HTTP/1.1" 200 26313
+03/30/2019 12:42:03 DEBUG: Starting new HTTPS connection (1): support.symantec.com:443
+03/30/2019 12:42:04 DEBUG: https://support.symantec.com:443 "GET /en_US/article.TECH248509.html HTTP/1.1" 200 31075
+03/30/2019 12:42:04 DEBUG: Starting new HTTPS connection (1): www.symantec.com:443
+03/30/2019 12:42:04 DEBUG: https://www.symantec.com:443 "GET / HTTP/1.1" 200 26274
+03/30/2019 12:42:05 DEBUG: Starting new HTTPS connection (1): support.symantec.com:443
+03/30/2019 12:42:05 DEBUG: https://support.symantec.com:443 "GET /en_US/article.HOWTO123990.html HTTP/1.1" 200 35865
+03/30/2019 12:42:05 DEBUG: Starting new HTTPS connection (1): www.symantec.com:443
+03/30/2019 12:42:06 DEBUG: https://www.symantec.com:443 "GET /services HTTP/1.1" 200 21954
+03/30/2019 12:42:06 DEBUG: Starting new HTTPS connection (1): www.symantec.com:443
+03/30/2019 12:42:07 DEBUG: https://www.symantec.com:443 "GET /business/products HTTP/1.1" 200 13368
+03/30/2019 12:42:07 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:42:07 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Symantec HTTP/1.1" 200 55805
+03/30/2019 12:42:07 DEBUG: Starting new HTTPS connection (1): www.insight.com:443
+03/30/2019 12:42:07 DEBUG: https://www.insight.com:443 "GET /en_US/buy/partner/symantec/store.html HTTP/1.1" 200 None
+03/30/2019 12:42:08 INFO: ============Symantec, PRODUCTS feature data collection completed============
+03/30/2019 12:42:08 INFO: ============Symantec data collection completed============
+03/30/2019 12:42:08 INFO: ============Pfizer data collection started============
+03/30/2019 12:42:08 INFO: ============Pfizer, SIZE feature data collection started============
+03/30/2019 12:42:08 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:42:08 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:42:08 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:42:09 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pfizer&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:42:09 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:42:09 INFO: =========================Getting search result source code=========================
+03/30/2019 12:42:09 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 12:42:10 DEBUG: https://www.statista.com:443 "GET /statistics/281387/number-of-employees-at-pfizer-since-2006/ HTTP/1.1" 200 None
+03/30/2019 12:42:10 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 12:42:10 DEBUG: https://www.statista.com:443 "GET /statistics/281387/number-of-employees-at-pfizer-since-2006/ HTTP/1.1" 200 None
+03/30/2019 12:42:10 DEBUG: Starting new HTTPS connection (1): content.eluta.ca:443
+03/30/2019 12:42:11 DEBUG: https://content.eluta.ca:443 "GET /top-employer-pfizer-canada HTTP/1.1" 200 133381
+03/30/2019 12:42:11 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:42:11 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Pfizer HTTP/1.1" 200 74788
+03/30/2019 12:42:11 DEBUG: Starting new HTTPS connection (1): www.pfizer.ca:443
+03/30/2019 12:42:12 DEBUG: https://www.pfizer.ca:443 "GET /corporate-profile HTTP/1.1" 200 None
+03/30/2019 12:42:12 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/30/2019 12:42:13 DEBUG: https://www.owler.com:443 "GET /company/pfizer HTTP/1.1" 405 5770
+03/30/2019 12:42:13 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 12:42:14 DEBUG: https://ca.linkedin.com:443 "GET /company/pfizer HTTP/1.1" 999 1461
+03/30/2019 12:42:14 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/30/2019 12:42:14 DEBUG: https://www.glassdoor.ca:443 "GET /Overview/Working-at-Pfizer-EI_IE525.11,17.htm HTTP/1.1" 403 None
+03/30/2019 12:42:14 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 12:42:15 DEBUG: https://www.forbes.com:443 "GET /companies/pfizer/ HTTP/1.1" 200 43138
+03/30/2019 12:42:15 DEBUG: Starting new HTTPS connection (1): ca.indeed.com:443
+03/30/2019 12:42:15 DEBUG: https://ca.indeed.com:443 "GET /cmp/Pfizer-Inc./reviews HTTP/1.1" 200 None
+03/30/2019 12:42:15 DEBUG: Starting new HTTPS connection (1): www.pfizer.com:443
+03/30/2019 12:42:16 DEBUG: https://www.pfizer.com:443 "GET /files/investors/financial_reports/annual_reports/2016/assets/pdfs/pfi2016ar-full-report.pdf HTTP/1.1" 200 None
+03/30/2019 12:42:18 DEBUG: SHIFT_JIS Japanese prober hit error at byte 391
+03/30/2019 12:42:18 DEBUG: EUC-JP Japanese prober hit error at byte 367
+03/30/2019 12:42:18 DEBUG: GB2312 Chinese prober hit error at byte 383
+03/30/2019 12:42:18 DEBUG: EUC-KR Korean prober hit error at byte 367
+03/30/2019 12:42:18 DEBUG: CP949 Korean prober hit error at byte 367
+03/30/2019 12:42:18 DEBUG: Big5 Chinese prober hit error at byte 383
+03/30/2019 12:42:18 DEBUG: EUC-TW Taiwan prober hit error at byte 367
+03/30/2019 12:42:21 DEBUG: windows-1251 confidence = 0.036470490144629095, below negative shortcut threshhold 0.05
+03/30/2019 12:42:23 DEBUG: KOI8-R confidence = 0.044786238452863, below negative shortcut threshhold 0.05
+03/30/2019 12:42:25 DEBUG: ISO-8859-5 confidence = 0.04186432337491668, below negative shortcut threshhold 0.05
+03/30/2019 12:42:27 DEBUG: MacCyrillic confidence = 0.037285677911968886, below negative shortcut threshhold 0.05
+03/30/2019 12:42:30 DEBUG: IBM866 confidence = 0.04487132471348942, below negative shortcut threshhold 0.05
+03/30/2019 12:42:33 DEBUG: IBM855 confidence = 0.040464697111388497, below negative shortcut threshhold 0.05
+03/30/2019 12:42:40 DEBUG: ISO-8859-5 confidence = 0.04184146766988606, below negative shortcut threshhold 0.05
+03/30/2019 12:42:42 DEBUG: windows-1251 confidence = 0.03737251649369852, below negative shortcut threshhold 0.05
+03/30/2019 12:42:44 DEBUG: TIS-620 confidence = 0.04460069052475081, below negative shortcut threshhold 0.05
+03/30/2019 12:42:50 DEBUG: windows-1255 confidence = 0.0398935115711883, below negative shortcut threshhold 0.05
+03/30/2019 12:42:52 DEBUG: windows-1255 confidence = 0.039878303421405775, below negative shortcut threshhold 0.05
+03/30/2019 12:42:56 DEBUG: windows-1251 not active
+03/30/2019 12:42:56 DEBUG: KOI8-R not active
+03/30/2019 12:42:56 DEBUG: ISO-8859-5 not active
+03/30/2019 12:42:56 DEBUG: MacCyrillic not active
+03/30/2019 12:42:56 DEBUG: IBM866 not active
+03/30/2019 12:42:56 DEBUG: IBM855 not active
+03/30/2019 12:42:56 DEBUG: ISO-8859-7 Greek confidence = 0.06252349569033618
+03/30/2019 12:42:56 DEBUG: windows-1253 Greek confidence = 0.06381911942002738
+03/30/2019 12:42:56 DEBUG: ISO-8859-5 not active
+03/30/2019 12:42:56 DEBUG: windows-1251 not active
+03/30/2019 12:42:56 DEBUG: TIS-620 not active
+03/30/2019 12:42:56 DEBUG: ISO-8859-9 Turkish confidence = 0.18895653659598274
+03/30/2019 12:42:56 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 12:42:56 DEBUG: windows-1255 not active
+03/30/2019 12:42:56 DEBUG: windows-1255 not active
+03/30/2019 12:42:56 DEBUG: no probers hit minimum threshold
+03/30/2019 12:42:56 DEBUG: utf-8  confidence = 0.010000000000000009
+03/30/2019 12:42:56 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/30/2019 12:42:56 DEBUG: EUC-JP Japanese confidence = 0.01
+03/30/2019 12:42:56 DEBUG: GB2312 Chinese confidence = 0.01
+03/30/2019 12:42:56 DEBUG: EUC-KR Korean confidence = 0.01
+03/30/2019 12:42:56 DEBUG: CP949 Korean confidence = 0.01
+03/30/2019 12:42:56 DEBUG: Big5 Chinese confidence = 0.01
+03/30/2019 12:42:56 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/30/2019 12:42:56 DEBUG: windows-1251 Russian confidence = 0.036470490144629095
+03/30/2019 12:42:56 DEBUG: KOI8-R Russian confidence = 0.044786238452863
+03/30/2019 12:42:56 DEBUG: ISO-8859-5 Russian confidence = 0.04186432337491668
+03/30/2019 12:42:56 DEBUG: MacCyrillic Russian confidence = 0.037285677911968886
+03/30/2019 12:42:56 DEBUG: IBM866 Russian confidence = 0.04487132471348942
+03/30/2019 12:42:56 DEBUG: IBM855 Russian confidence = 0.040464697111388497
+03/30/2019 12:42:56 DEBUG: ISO-8859-7 Greek confidence = 0.06252349569033618
+03/30/2019 12:42:56 DEBUG: windows-1253 Greek confidence = 0.06381911942002738
+03/30/2019 12:42:56 DEBUG: ISO-8859-5 Bulgairan confidence = 0.04184146766988606
+03/30/2019 12:42:56 DEBUG: windows-1251 Bulgarian confidence = 0.03737251649369852
+03/30/2019 12:42:56 DEBUG: TIS-620 Thai confidence = 0.04460069052475081
+03/30/2019 12:42:56 DEBUG: ISO-8859-9 Turkish confidence = 0.18895653659598274
+03/30/2019 12:42:56 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 12:42:56 DEBUG: windows-1255 Hebrew confidence = 0.0398935115711883
+03/30/2019 12:42:56 DEBUG: windows-1255 Hebrew confidence = 0.039878303421405775
+03/30/2019 12:42:56 DEBUG: windows-1255 Hebrew confidence = 0.039878303421405775
+03/30/2019 12:42:56 INFO: ============Pfizer, SIZE feature data collection completed============
+03/30/2019 12:42:56 INFO: ============Pfizer, ACQUISITIONS feature data collection started============
+03/30/2019 12:42:56 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:42:56 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:42:56 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:42:56 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pfizer&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:42:56 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:42:57 INFO: =========================Getting search result source code=========================
+03/30/2019 12:42:57 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:42:57 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Pfizer HTTP/1.1" 200 74788
+03/30/2019 12:42:57 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:42:57 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Pfizer HTTP/1.1" 200 74788
+03/30/2019 12:42:57 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/30/2019 12:42:58 DEBUG: https://www.crunchbase.com:443 "GET /organization/pfizer/acquisitions/acquisitions_list HTTP/1.1" 403 None
+03/30/2019 12:42:58 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 12:42:58 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2019-01-07/gilead-pfizer-execs-suggest-even-more-pharma-m-a-is-on-the-way HTTP/1.1" 307 0
+03/30/2019 12:42:58 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 12:42:58 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=7db64cd0-5302-11e9-8d8c-e9e97b6a05fb&url=L25ld3MvYXJ0aWNsZXMvMjAxOS0wMS0wNy9naWxlYWQtcGZpemVyLWV4ZWNzLXN1Z2dlc3QtZXZlbi1tb3JlLXBoYXJtYS1tLWEtaXMtb24tdGhlLXdheQ== HTTP/1.1" 200 4595
+03/30/2019 12:42:58 DEBUG: Starting new HTTPS connection (1): www.fool.com:443
+03/30/2019 12:42:59 DEBUG: https://www.fool.com:443 "GET /investing/2018/02/22/would-pfizer-investors-win-with-a-bristol-myers-sq.aspx HTTP/1.1" 200 None
+03/30/2019 12:42:59 DEBUG: Starting new HTTPS connection (1): www.fool.com:443
+03/30/2019 12:43:00 DEBUG: https://www.fool.com:443 "GET /investing/2018/01/22/whom-will-pfizer-buy-in-2018.aspx HTTP/1.1" 200 None
+03/30/2019 12:43:00 DEBUG: Starting new HTTPS connection (1): www.businesswire.com:443
+03/30/2019 12:43:01 DEBUG: https://www.businesswire.com:443 "GET /news/home/20150205005368/en/Pfizer-Acquire-Hospira HTTP/1.1" 200 19847
+03/30/2019 12:43:01 DEBUG: Starting new HTTPS connection (1): seekingalpha.com:443
+03/30/2019 12:43:02 DEBUG: https://seekingalpha.com:443 "GET /article/4233743-amarin-evaluating-merits-potential-pfizer-acquisition HTTP/1.1" 403 1457
+03/30/2019 12:43:02 DEBUG: Starting new HTTPS connection (1): www.nytimes.com:443
+03/30/2019 12:43:04 DEBUG: https://www.nytimes.com:443 "GET /2009/01/26/business/worldbusiness/26iht-drug.4.19689943.html HTTP/1.1" 200 19363
+03/30/2019 12:43:04 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 12:43:05 DEBUG: https://www.forbes.com:443 "GET /sites/greatspeculations/2014/12/16/pfizers-acquisition-strategy-will-pfizer-still-go-for-a-big-acquisition-part-1-of-2/ HTTP/1.1" 200 50375
+03/30/2019 12:43:05 DEBUG: Starting new HTTP connection (1): fortune.com:80
+03/30/2019 12:43:05 DEBUG: http://fortune.com:80 "GET /2018/12/19/glaxo-split-pfizer-deal/ HTTP/1.1" 200 None
+03/30/2019 12:43:05 INFO: ============Pfizer, ACQUISITIONS feature data collection completed============
+03/30/2019 12:43:05 INFO: ============Pfizer, FUTURE GOALS feature data collection started============
+03/30/2019 12:43:05 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:43:05 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:43:05 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:43:06 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pfizer&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:43:06 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:43:06 INFO: =========================Getting search result source code=========================
+03/30/2019 12:43:06 DEBUG: Starting new HTTPS connection (1): www.fool.com:443
+03/30/2019 12:43:07 DEBUG: https://www.fool.com:443 "GET /investing/2018/08/02/5-things-youll-want-to-know-about-pfizers-future.aspx HTTP/1.1" 200 None
+03/30/2019 12:43:07 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 12:43:08 DEBUG: https://www.forbes.com:443 "GET /sites/greatspeculations/2018/09/10/a-look-at-pfizers-business-and-outlook/ HTTP/1.1" 200 48668
+03/30/2019 12:43:08 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 12:43:09 DEBUG: https://www.bloomberg.com:443 "GET /opinion/articles/2018-10-01/pfizer-incoming-ceo-albert-boula-should-consider-acquisitions HTTP/1.1" 307 0
+03/30/2019 12:43:09 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 12:43:09 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=84342280-5302-11e9-b152-fda255cc6c03&url=L29waW5pb24vYXJ0aWNsZXMvMjAxOC0xMC0wMS9wZml6ZXItaW5jb21pbmctY2VvLWFsYmVydC1ib3VsYS1zaG91bGQtY29uc2lkZXItYWNxdWlzaXRpb25z HTTP/1.1" 200 4595
+03/30/2019 12:43:09 DEBUG: Starting new HTTPS connection (1): www.pfizer.com:443
+03/30/2019 12:43:11 DEBUG: https://www.pfizer.com:443 "GET /purpose HTTP/1.1" 200 None
+03/30/2019 12:43:11 DEBUG: Starting new HTTPS connection (1): www.businesswire.com:443
+03/30/2019 12:43:12 DEBUG: https://www.businesswire.com:443 "GET /news/home/20180711005374/en/Pfizer-Organize-Future-Growth HTTP/1.1" 200 18970
+03/30/2019 12:43:12 DEBUG: Starting new HTTPS connection (1): www.pharmaceutical-journal.com:443
+03/30/2019 12:43:13 DEBUG: https://www.pharmaceutical-journal.com:443 "GET /opinion/blogs/pfizer-and-the-future/11072497.blog HTTP/1.1" 504 0
+03/30/2019 12:43:13 DEBUG: Starting new HTTPS connection (1): www.quantumrun.com:443
+03/30/2019 12:43:13 DEBUG: https://www.quantumrun.com:443 "GET /company_profile/future-of-pfizer/16433 HTTP/1.1" 200 None
+03/30/2019 12:43:13 DEBUG: Starting new HTTPS connection (1): simplywall.st:443
+03/30/2019 12:43:14 DEBUG: https://simplywall.st:443 "GET /stocks/us/pharmaceuticals-biotech/nyse-pfe/pfizer/news/pfizer-inc-nysepfe-what-are-the-future-prospects/ HTTP/1.1" 200 None
+03/30/2019 12:43:14 DEBUG: Starting new HTTPS connection (1): seekingalpha.com:443
+03/30/2019 12:43:14 DEBUG: https://seekingalpha.com:443 "GET /article/4209467-pfizer-stay-course HTTP/1.1" 403 1458
+03/30/2019 12:43:14 DEBUG: Starting new HTTPS connection (1): www.nytimes.com:443
+03/30/2019 12:43:15 DEBUG: https://www.nytimes.com:443 "GET /2018/10/01/business/dealbook/ian-read-pfizer.html HTTP/1.1" 200 64991
+03/30/2019 12:43:15 INFO: ============Pfizer, FUTURE GOALS feature data collection completed============
+03/30/2019 12:43:15 INFO: ============Pfizer, TECH STACK feature data collection started============
+03/30/2019 12:43:15 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:43:15 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:43:15 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:43:15 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pfizer&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:43:15 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:43:16 INFO: =========================Getting search result source code=========================
+03/30/2019 12:43:16 DEBUG: Starting new HTTPS connection (1): www.pfizer.com:443
+03/30/2019 12:43:16 DEBUG: https://www.pfizer.com:443 "GET /files/investors/financial_reports/annual_reports/2016/using-the-power-of-technology-and-innovative-science-to-advance-patient-care/index.html HTTP/1.1" 200 None
+03/30/2019 12:43:16 DEBUG: Starting new HTTPS connection (1): www.pfizer.com:443
+03/30/2019 12:43:18 DEBUG: https://www.pfizer.com:443 "GET /science/research-development HTTP/1.1" 200 None
+03/30/2019 12:43:18 DEBUG: Starting new HTTP connection (1): www.pfizer.com:80
+03/30/2019 12:43:18 DEBUG: http://www.pfizer.com:80 "GET /careers/en/information-technology-rotational-program HTTP/1.1" 200 None
+03/30/2019 12:43:19 DEBUG: Starting new HTTPS connection (1): www.aspentech.com:443
+03/30/2019 12:43:20 DEBUG: https://www.aspentech.com:443 "GET /en/blog/blog/Pfizer_on_Efficient_Process_Development HTTP/1.1" 200 19577
+03/30/2019 12:43:20 DEBUG: Starting new HTTPS connection (1): blogs.perficient.com:443
+03/30/2019 12:43:21 DEBUG: https://blogs.perficient.com:443 "GET /2016/03/07/pfizers-cio-outlines-5-it-strategies-for-success/ HTTP/1.1" 200 None
+03/30/2019 12:43:21 DEBUG: Starting new HTTPS connection (1): www.pharmaceutical-technology.com:443
+03/30/2019 12:43:23 DEBUG: https://www.pharmaceutical-technology.com:443 "GET /projects/pfizernewfacilitylon/ HTTP/1.1" 200 None
+03/30/2019 12:43:23 DEBUG: Starting new HTTP connection (1): sta.ie:80
+03/30/2019 12:43:23 DEBUG: http://sta.ie:80 "GET /partner/pfizer HTTP/1.1" 200 None
+03/30/2019 12:43:24 DEBUG: Starting new HTTPS connection (1): www.pfizerbiosimilars.com:443
+03/30/2019 12:43:25 DEBUG: https://www.pfizerbiosimilars.com:443 "GET /technology-and-manufacturing-biosimilars HTTP/1.1" 200 None
+03/30/2019 12:43:25 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 12:43:26 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DdOaJk9SHKQg HTTP/1.1" 503 1799
+03/30/2019 12:43:26 DEBUG: Starting new HTTPS connection (1): www.bcg.com:443
+03/30/2019 12:43:28 DEBUG: https://www.bcg.com:443 "GET /en-ca/publications/2018/jeff-keisling-successful-transformation-pfizer-it-organization.aspx HTTP/1.1" 200 41230
+03/30/2019 12:43:28 INFO: ============Pfizer, TECH STACK feature data collection completed============
+03/30/2019 12:43:28 INFO: ============Pfizer, PRODUCTS feature data collection started============
+03/30/2019 12:43:28 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:43:28 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:43:28 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:43:28 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pfizer&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:43:28 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:43:29 INFO: =========================Getting search result source code=========================
+03/30/2019 12:43:29 DEBUG: Starting new HTTPS connection (1): www.pfizer.ca:443
+03/30/2019 12:43:30 DEBUG: https://www.pfizer.ca:443 "GET /our-products HTTP/1.1" 200 None
+03/30/2019 12:43:30 DEBUG: Starting new HTTPS connection (1): www.pfizer.ca:443
+03/30/2019 12:43:31 DEBUG: https://www.pfizer.ca:443 "GET /non-prescription-products HTTP/1.1" 200 None
+03/30/2019 12:43:31 DEBUG: Starting new HTTPS connection (1): www.pfizer.ca:443
+03/30/2019 12:43:32 DEBUG: https://www.pfizer.ca:443 "GET / HTTP/1.1" 200 None
+03/30/2019 12:43:32 DEBUG: Starting new HTTPS connection (1): www.pfizer.com:443
+03/30/2019 12:43:32 DEBUG: https://www.pfizer.com:443 "GET /products HTTP/1.1" 200 None
+03/30/2019 12:43:32 DEBUG: Starting new HTTPS connection (1): www.pfizer.com:443
+03/30/2019 12:43:32 DEBUG: https://www.pfizer.com:443 "GET /products-list HTTP/1.1" 200 None
+03/30/2019 12:43:32 DEBUG: Starting new HTTPS connection (1): www.pfizer.com:443
+03/30/2019 12:43:33 DEBUG: https://www.pfizer.com:443 "GET / HTTP/1.1" 200 None
+03/30/2019 12:43:33 DEBUG: Starting new HTTP connection (1): www.pfizer.com:80
+03/30/2019 12:43:33 DEBUG: http://www.pfizer.com:80 "GET /careers/en-ca/ HTTP/1.1" 200 None
+03/30/2019 12:43:33 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:43:33 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Pfizer HTTP/1.1" 200 74788
+03/30/2019 12:43:33 DEBUG: Starting new HTTPS connection (1): www.ranker.com:443
+03/30/2019 12:43:33 DEBUG: https://www.ranker.com:443 "GET /list/all-pfizer-brands/werner-brandes HTTP/1.1" 200 41894
+03/30/2019 12:43:34 DEBUG: Starting new HTTPS connection (1): www.pfizerpro.com:443
+03/30/2019 12:43:35 DEBUG: https://www.pfizerpro.com:443 "GET /product/somavert/acromegaly/support/tools-and-resources HTTP/1.1" 200 None
+03/30/2019 12:43:35 INFO: ============Pfizer, PRODUCTS feature data collection completed============
+03/30/2019 12:43:35 INFO: ============Pfizer data collection completed============
+03/30/2019 12:43:35 INFO: ============Goldman Sachs data collection started============
+03/30/2019 12:43:35 INFO: ============Goldman Sachs, SIZE feature data collection started============
+03/30/2019 12:43:35 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:43:35 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:43:35 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:43:35 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Goldman%20Sachs&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:43:36 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:43:36 INFO: =========================Getting search result source code=========================
+03/30/2019 12:43:36 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:43:36 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Goldman_Sachs HTTP/1.1" 200 109167
+03/30/2019 12:43:36 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 12:43:37 DEBUG: https://www.statista.com:443 "GET /statistics/250641/number-of-employees-at-goldman-sachs/ HTTP/1.1" 200 None
+03/30/2019 12:43:37 DEBUG: Starting new HTTP connection (1): www.goldmansachs.com:80
+03/30/2019 12:43:37 DEBUG: http://www.goldmansachs.com:80 "GET /careers/meet-our-people/ HTTP/1.1" 301 0
+03/30/2019 12:43:37 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:43:38 DEBUG: https://www.goldmansachs.com:443 "GET /careers/meet-our-people/ HTTP/1.1" 200 8278
+03/30/2019 12:43:38 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 12:43:38 DEBUG: https://www.forbes.com:443 "GET /companies/goldman-sachs-group/ HTTP/1.1" 200 43734
+03/30/2019 12:43:38 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 12:43:39 DEBUG: https://ca.linkedin.com:443 "GET /company/goldman-sachs HTTP/1.1" 999 1461
+03/30/2019 12:43:39 DEBUG: Starting new HTTPS connection (1): www.glassdoor.com:443
+03/30/2019 12:43:39 DEBUG: https://www.glassdoor.com:443 "GET /Overview/Working-at-Goldman-Sachs-EI_IE2800.11,24.htm HTTP/1.1" 403 None
+03/30/2019 12:43:39 DEBUG: Starting new HTTPS connection (1): www.reuters.com:443
+03/30/2019 12:43:40 DEBUG: https://www.reuters.com:443 "GET /article/us-goldman-sachs-1mdb/goldman-sachs-ceo-to-employees-our-compliance-is-strong-idUSKCN1OK28I HTTP/1.1" 200 None
+03/30/2019 12:43:40 DEBUG: Starting new HTTPS connection (1): www.bbc.com:443
+03/30/2019 12:43:41 DEBUG: https://www.bbc.com:443 "GET /news/business-47464681 HTTP/1.1" 200 36752
+03/30/2019 12:43:41 DEBUG: Starting new HTTPS connection (1): qz.com:443
+03/30/2019 12:43:42 DEBUG: https://qz.com:443 "GET /875026/almost-70-of-goldman-sachs-employees-are-millennials/ HTTP/1.1" 200 30408
+03/30/2019 12:43:42 INFO: ============Goldman Sachs, SIZE feature data collection completed============
+03/30/2019 12:43:42 INFO: ============Goldman Sachs, ACQUISITIONS feature data collection started============
+03/30/2019 12:43:42 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:43:42 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:43:42 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:43:43 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Goldman%20Sachs&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:43:43 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:43:43 INFO: =========================Getting search result source code=========================
+03/30/2019 12:43:43 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/30/2019 12:43:43 DEBUG: https://www.crunchbase.com:443 "GET /organization/goldman-sachs/acquisitions/acquisitions_list HTTP/1.1" 403 None
+03/30/2019 12:43:43 DEBUG: Starting new HTTPS connection (1): www.gsacquisition.com:443
+03/30/2019 12:43:44 DEBUG: https://www.gsacquisition.com:443 "GET / HTTP/1.1" 302 251
+03/30/2019 12:43:44 DEBUG: https://www.gsacquisition.com:443 "GET /content/gsam/us/en/spac/homepage.html HTTP/1.1" 200 15014
+03/30/2019 12:43:44 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:43:44 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Goldman_Sachs HTTP/1.1" 200 109167
+03/30/2019 12:43:45 DEBUG: Starting new HTTPS connection (1): www.benefitscanada.com:443
+03/30/2019 12:43:46 DEBUG: https://www.benefitscanada.com:443 "GET /investments/other-investments/goldman-sachs-asset-management-to-acquire-u-s-institutional-advisory-firm-121477 HTTP/1.1" 200 None
+03/30/2019 12:43:46 DEBUG: Starting new HTTPS connection (1): www.thestreet.com:443
+03/30/2019 12:43:46 DEBUG: https://www.thestreet.com:443 "GET /video/goldman-sachs-should-be-berkshire-acquisition-14876772 HTTP/1.1" 404 420
+03/30/2019 12:43:46 DEBUG: Starting new HTTPS connection (1): www.cbinsights.com:443
+03/30/2019 12:43:49 DEBUG: https://www.cbinsights.com:443 "GET /research/goldman-sachs-fintech-acquisitions/ HTTP/1.1" 200 12715
+03/30/2019 12:43:49 DEBUG: Starting new HTTP connection (1): www.goldmansachs.com:80
+03/30/2019 12:43:49 DEBUG: http://www.goldmansachs.com:80 "GET /what-we-do/investment-banking/ HTTP/1.1" 301 0
+03/30/2019 12:43:49 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:43:50 DEBUG: https://www.goldmansachs.com:443 "GET /what-we-do/investment-banking/ HTTP/1.1" 200 9294
+03/30/2019 12:43:50 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 12:43:50 DEBUG: https://www.cnbc.com:443 "GET /2018/04/17/at-goldman-acquisitions-seen-as-way-to-boost-consumer-lending.html HTTP/1.1" 200 42316
+03/30/2019 12:43:51 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 12:43:51 DEBUG: https://www.cnbc.com:443 "GET /2019/01/30/reuters-america-united-natural-foods-sues-goldman-sachs-bank-of-america-over-acquisition-advice.html HTTP/1.1" 200 39322
+03/30/2019 12:43:51 DEBUG: Starting new HTTPS connection (1): www.gsam.com:443
+03/30/2019 12:43:52 DEBUG: https://www.gsam.com:443 "GET /content/gsam/us/en/institutions/about-gsam/news-and-media/2018/Goldman-Sachs-Asset-Management-to-Acquire-Aptitude-Investment-Management.html HTTP/1.1" 200 21342
+03/30/2019 12:43:53 INFO: ============Goldman Sachs, ACQUISITIONS feature data collection completed============
+03/30/2019 12:43:53 INFO: ============Goldman Sachs, FUTURE GOALS feature data collection started============
+03/30/2019 12:43:53 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:43:53 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:43:53 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:43:53 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Goldman%20Sachs&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:43:53 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:43:53 INFO: =========================Getting search result source code=========================
+03/30/2019 12:43:53 DEBUG: Starting new HTTP connection (1): www.goldmansachs.com:80
+03/30/2019 12:43:54 DEBUG: http://www.goldmansachs.com:80 "GET /insights/pages/bank-of-the-future.html HTTP/1.1" 301 0
+03/30/2019 12:43:54 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:43:54 DEBUG: https://www.goldmansachs.com:443 "GET /insights/pages/bank-of-the-future.html HTTP/1.1" 200 5291
+03/30/2019 12:43:54 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:43:54 DEBUG: https://www.goldmansachs.com:443 "GET /what-we-do/revise/index.html HTTP/1.1" 200 6548
+03/30/2019 12:43:54 DEBUG: Starting new HTTP connection (1): www.goldmansachs.com:80
+03/30/2019 12:43:55 DEBUG: http://www.goldmansachs.com:80 "GET /insights/archive/goal.html HTTP/1.1" 301 0
+03/30/2019 12:43:55 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:43:55 DEBUG: https://www.goldmansachs.com:443 "GET /insights/archive/goal.html HTTP/1.1" 200 5377
+03/30/2019 12:43:55 DEBUG: Starting new HTTPS connection (1): qz.com:443
+03/30/2019 12:43:56 DEBUG: https://qz.com:443 "GET /guide/goldman-sachs/ HTTP/1.1" 200 29401
+03/30/2019 12:43:56 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 12:43:56 DEBUG: https://www.cnbc.com:443 "GET /id/27599929 HTTP/1.1" 301 0
+03/30/2019 12:43:57 DEBUG: https://www.cnbc.com:443 "GET /video/2008/11/07/future-of-goldman-sachs.html HTTP/1.1" 200 60160
+03/30/2019 12:43:57 DEBUG: Starting new HTTPS connection (1): www.ft.com:443
+03/30/2019 12:43:58 DEBUG: https://www.ft.com:443 "GET /stream/980562d6-2db0-4b25-a349-b83d4b86bea7 HTTP/1.1" 200 48860
+03/30/2019 12:43:58 DEBUG: Starting new HTTPS connection (1): www.reuters.com:443
+03/30/2019 12:43:58 DEBUG: https://www.reuters.com:443 "GET /article/us-goldman-sachs-deals/goldman-sachs-mega-ma-purveyor-looks-for-smaller-deals-idUSKCN1NA1DE HTTP/1.1" 200 None
+03/30/2019 12:43:59 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:43:59 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Goldman_Sachs HTTP/1.1" 200 109167
+03/30/2019 12:43:59 DEBUG: Starting new HTTPS connection (1): www.cbsnews.com:443
+03/30/2019 12:43:59 DEBUG: https://www.cbsnews.com:443 "GET /news/at-goldman-sachs-the-future-is-half-female/ HTTP/1.1" 200 53806
+03/30/2019 12:43:59 DEBUG: Starting new HTTPS connection (1): www.paragkhanna.com:443
+03/30/2019 12:44:01 DEBUG: https://www.paragkhanna.com:443 "GET /home/2019/2/7/presenting-the-future-is-asian-at-goldman-sachs HTTP/1.1" 200 None
+03/30/2019 12:44:01 INFO: ============Goldman Sachs, FUTURE GOALS feature data collection completed============
+03/30/2019 12:44:01 INFO: ============Goldman Sachs, TECH STACK feature data collection started============
+03/30/2019 12:44:01 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:44:01 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:44:01 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:44:01 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Goldman%20Sachs&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:44:01 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:44:01 INFO: =========================Getting search result source code=========================
+03/30/2019 12:44:01 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:44:02 DEBUG: https://www.goldmansachs.com:443 "GET /Engineering/ HTTP/1.1" 200 144
+03/30/2019 12:44:02 DEBUG: Starting new HTTP connection (1): www.goldmansachs.com:80
+03/30/2019 12:44:02 DEBUG: http://www.goldmansachs.com:80 "GET /insights/topics/technology-driving-innovation.html HTTP/1.1" 301 0
+03/30/2019 12:44:02 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:44:02 DEBUG: https://www.goldmansachs.com:443 "GET /insights/topics/technology-driving-innovation.html HTTP/1.1" 200 14513
+03/30/2019 12:44:02 DEBUG: Starting new HTTP connection (1): www.goldmansachs.com:80
+03/30/2019 12:44:02 DEBUG: http://www.goldmansachs.com:80 "GET /insights/pages/joanne-hannaford-harnessing-technology.html HTTP/1.1" 301 0
+03/30/2019 12:44:02 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:44:03 DEBUG: https://www.goldmansachs.com:443 "GET /insights/pages/joanne-hannaford-harnessing-technology.html HTTP/1.1" 200 4851
+03/30/2019 12:44:03 DEBUG: Starting new HTTPS connection (1): digit.hbs.org:443
+03/30/2019 12:44:03 DEBUG: https://digit.hbs.org:443 "GET /submission/goldman-sachs-a-technology-company/ HTTP/1.1" 403 162
+03/30/2019 12:44:03 DEBUG: Starting new HTTPS connection (1): news.efinancialcareers.com:443
+03/30/2019 12:44:04 DEBUG: https://news.efinancialcareers.com:443 "GET /ca-en/332486/goldman-sachs-technology-salaries HTTP/1.1" 200 None
+03/30/2019 12:44:04 DEBUG: Starting new HTTPS connection (1): news.efinancialcareers.com:443
+03/30/2019 12:44:05 DEBUG: https://news.efinancialcareers.com:443 "GET /ca-en/323955/technology-analyst-goldman-sachs-really-like HTTP/1.1" 200 12308
+03/30/2019 12:44:05 DEBUG: Starting new HTTPS connection (1): www.weavee.co.uk:443
+03/30/2019 12:44:06 DEBUG: https://www.weavee.co.uk:443 "GET /articles/technology/technology-at-a-bank/why-i-became-an-engineer-at-goldman-sachs%3Futm_source%3Dthegateway HTTP/1.1" 200 None
+03/30/2019 12:44:06 DEBUG: Starting new HTTPS connection (1): www.glassdoor.com:443
+03/30/2019 12:44:06 DEBUG: https://www.glassdoor.com:443 "GET /Reviews/Goldman-Sachs-Technology-Analyst-Reviews-EI_IE2800.0,13_KO14,32.htm HTTP/1.1" 403 None
+03/30/2019 12:44:06 DEBUG: Starting new HTTPS connection (1): www.indeed.com:443
+03/30/2019 12:44:06 DEBUG: https://www.indeed.com:443 "GET /cmp/Goldman-Sachs/reviews%3Ffcountry%3DALL%26fjobtitle%3DTechnology%2BAnalyst HTTP/1.1" 404 None
+03/30/2019 12:44:06 DEBUG: Starting new HTTP connection (1): fortune.com:80
+03/30/2019 12:44:07 DEBUG: http://fortune.com:80 "GET /2018/09/25/goldman-sachs-slack-disruption/ HTTP/1.1" 200 None
+03/30/2019 12:44:07 INFO: ============Goldman Sachs, TECH STACK feature data collection completed============
+03/30/2019 12:44:07 INFO: ============Goldman Sachs, PRODUCTS feature data collection started============
+03/30/2019 12:44:07 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:44:07 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:44:07 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:44:07 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Goldman%20Sachs&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:44:08 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:44:08 INFO: =========================Getting search result source code=========================
+03/30/2019 12:44:08 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:44:08 DEBUG: https://www.goldmansachs.com:443 "GET /Engineering/ HTTP/1.1" 200 144
+03/30/2019 12:44:08 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:44:08 DEBUG: https://www.goldmansachs.com:443 "GET /Engineering/ HTTP/1.1" 200 144
+03/30/2019 12:44:08 DEBUG: Starting new HTTP connection (1): www.goldmansachs.com:80
+03/30/2019 12:44:08 DEBUG: http://www.goldmansachs.com:80 "GET /careers/divisions/services/ HTTP/1.1" 301 0
+03/30/2019 12:44:08 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:44:09 DEBUG: https://www.goldmansachs.com:443 "GET /careers/divisions/services/ HTTP/1.1" 200 7020
+03/30/2019 12:44:09 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:44:09 DEBUG: https://www.goldmansachs.com:443 "GET /what-we-do/revise/index.html HTTP/1.1" 200 6548
+03/30/2019 12:44:09 DEBUG: Starting new HTTP connection (1): www.goldmansachs.com:80
+03/30/2019 12:44:09 DEBUG: http://www.goldmansachs.com:80 "GET /careers/ HTTP/1.1" 301 0
+03/30/2019 12:44:09 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:44:10 DEBUG: https://www.goldmansachs.com:443 "GET /careers/ HTTP/1.1" 200 8233
+03/30/2019 12:44:10 DEBUG: Starting new HTTP connection (1): www.goldmansachs.com:80
+03/30/2019 12:44:10 DEBUG: http://www.goldmansachs.com:80 "GET /careers/divisions/ HTTP/1.1" 301 0
+03/30/2019 12:44:10 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:44:10 DEBUG: https://www.goldmansachs.com:443 "GET /careers/divisions/ HTTP/1.1" 200 5743
+03/30/2019 12:44:10 DEBUG: Starting new HTTP connection (1): www.goldmansachs.com:80
+03/30/2019 12:44:10 DEBUG: http://www.goldmansachs.com:80 "GET / HTTP/1.1" 301 0
+03/30/2019 12:44:10 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:44:10 DEBUG: https://www.goldmansachs.com:443 "GET / HTTP/1.1" 200 7234
+03/30/2019 12:44:10 DEBUG: Starting new HTTP connection (1): www.goldmansachs.com:80
+03/30/2019 12:44:11 DEBUG: http://www.goldmansachs.com:80 "GET /investor-relations/presentations/ HTTP/1.1" 301 0
+03/30/2019 12:44:11 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:44:11 DEBUG: https://www.goldmansachs.com:443 "GET /investor-relations/presentations/ HTTP/1.1" 200 3765
+03/30/2019 12:44:11 DEBUG: Starting new HTTP connection (1): www.goldmansachs.com:80
+03/30/2019 12:44:11 DEBUG: http://www.goldmansachs.com:80 "GET /what-we-do/consumer-and-investment-management/consumer-banking/ HTTP/1.1" 301 0
+03/30/2019 12:44:11 DEBUG: Starting new HTTPS connection (1): www.goldmansachs.com:443
+03/30/2019 12:44:12 DEBUG: https://www.goldmansachs.com:443 "GET /what-we-do/consumer-and-investment-management/consumer-banking/ HTTP/1.1" 200 5141
+03/30/2019 12:44:12 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:44:12 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Goldman_Sachs HTTP/1.1" 200 109167
+03/30/2019 12:44:12 DEBUG: Starting new HTTPS connection (1): www.marcus.com:443
+03/30/2019 12:44:12 DEBUG: https://www.marcus.com:443 "GET /us/en/savings HTTP/1.1" 200 None
+03/30/2019 12:44:12 INFO: ============Goldman Sachs, PRODUCTS feature data collection completed============
+03/30/2019 12:44:14 INFO: ============Goldman Sachs data collection completed============

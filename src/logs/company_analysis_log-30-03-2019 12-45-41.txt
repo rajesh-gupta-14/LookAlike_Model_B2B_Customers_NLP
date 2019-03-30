@@ -1,0 +1,143 @@
+03/30/2019 12:45:41 INFO: ============Script execution started============
+03/30/2019 12:45:41 INFO: ============Pepsi data collection started============
+03/30/2019 12:45:41 INFO: ============Pepsi, SIZE feature data collection started============
+03/30/2019 12:45:41 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:45:41 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:45:41 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:45:42 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pepsi&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:45:42 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:45:42 INFO: =========================Getting search result source code=========================
+03/30/2019 12:45:42 DEBUG: Starting new HTTPS connection (1): content.eluta.ca:443
+03/30/2019 12:45:42 DEBUG: https://content.eluta.ca:443 "GET /top-employer-pepsico-canada HTTP/1.1" 200 140598
+03/30/2019 12:45:43 DEBUG: Starting new HTTP connection (1): www.pepsicobeveragefacts.com:80
+03/30/2019 12:45:43 DEBUG: http://www.pepsicobeveragefacts.com:80 "GET /Home/product%3Fformula%3D35005*26*01-01%26form%3DRTD%26size%3D7.5 HTTP/1.1" 403 827
+03/30/2019 12:45:43 DEBUG: Starting new HTTP connection (1): www.pepsicobeveragefacts.com:80
+03/30/2019 12:45:43 DEBUG: http://www.pepsicobeveragefacts.com:80 "GET /mobile/Product%3Fformula%3D35005*26*01-01%26form%3DRTD%26size%3D20 HTTP/1.1" 403 828
+03/30/2019 12:45:43 DEBUG: Starting new HTTPS connection (1): www.pepsi.ca:443
+03/30/2019 12:45:43 DEBUG: https://www.pepsi.ca:443 "GET /products/pepsi-591ml HTTP/1.1" 200 None
+03/30/2019 12:45:43 DEBUG: Starting new HTTPS connection (1): www.pepsico.com:443
+03/30/2019 12:45:44 DEBUG: https://www.pepsico.com:443 "GET /about/about-the-company HTTP/1.1" 403 826
+03/30/2019 12:45:44 DEBUG: Starting new HTTPS connection (1): www.pepsico.com:443
+03/30/2019 12:45:44 DEBUG: https://www.pepsico.com:443 "GET /sustainability/talent HTTP/1.1" 403 831
+03/30/2019 12:45:44 DEBUG: Starting new HTTPS connection (1): money.cnn.com:443
+03/30/2019 12:45:44 DEBUG: https://money.cnn.com:443 "GET /2018/02/20/news/companies/cola-wars-coke-pepsi/index.html HTTP/1.1" 200 23506
+03/30/2019 12:45:44 DEBUG: Starting new HTTP connection (1): www.pepsico.ca:80
+03/30/2019 12:45:45 DEBUG: http://www.pepsico.ca:80 "GET /en/Company.html HTTP/1.1" 200 None
+03/30/2019 12:45:45 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 12:45:45 DEBUG: https://www.forbes.com:443 "GET /sites/panosmourdoukoutas/2018/07/14/pepsi-beats-coke/ HTTP/1.1" 200 54882
+03/30/2019 12:45:45 INFO: ============Pepsi, SIZE feature data collection completed============
+03/30/2019 12:45:45 INFO: ============Pepsi, ACQUISITIONS feature data collection started============
+03/30/2019 12:45:45 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:45:45 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:45:45 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:45:45 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pepsi&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:45:46 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:45:46 INFO: =========================Getting search result source code=========================
+03/30/2019 12:45:46 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 12:45:46 DEBUG: https://www.cnbc.com:443 "GET /video/2018/08/20/pepsico-sodastream-acquisition.html HTTP/1.1" 200 61072
+03/30/2019 12:45:46 DEBUG: Starting new HTTPS connection (1): www.recode.net:443
+03/30/2019 12:45:47 DEBUG: https://www.recode.net:443 "GET /2018/8/20/17760122/sodastream-pepsi-billion-acquisition HTTP/1.1" 200 42238
+03/30/2019 12:45:47 DEBUG: Starting new HTTPS connection (1): digiday.com:443
+03/30/2019 12:45:48 DEBUG: https://digiday.com:443 "GET /retail/pepsi-can-use-sodastream-acquisition-grow-e-commerce-business/ HTTP/1.1" 200 15589
+03/30/2019 12:45:48 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 12:45:48 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2018-08-20/pepsi-analysts-question-sodastream-synergies-strategic-fit HTTP/1.1" 307 0
+03/30/2019 12:45:48 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 12:45:49 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=e34ee7f0-5302-11e9-b48a-11d240b48d31&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wOC0yMC9wZXBzaS1hbmFseXN0cy1xdWVzdGlvbi1zb2Rhc3RyZWFtLXN5bmVyZ2llcy1zdHJhdGVnaWMtZml0 HTTP/1.1" 200 4595
+03/30/2019 12:45:49 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 12:45:49 DEBUG: https://www.cnbc.com:443 "GET /video/2018/08/20/pepsico-sodastream-acquisition.html HTTP/1.1" 200 61072
+03/30/2019 12:45:49 DEBUG: Starting new HTTPS connection (1): www.marketwatch.com:443
+03/30/2019 12:45:49 DEBUG: https://www.marketwatch.com:443 "GET /story/pepsis-sodastream-acquisition-wont-solve-its-biggest-problem-fewer-people-are-drinking-soda-2018-08-20 HTTP/1.1" 200 26648
+03/30/2019 12:45:49 DEBUG: Starting new HTTPS connection (1): slate.com:443
+03/30/2019 12:45:50 DEBUG: https://slate.com:443 "GET /business/2018/08/pepsi-to-buy-sodastream-for-usd3-2-billion-highlighting-the-companys-major-dilemma.html HTTP/1.1" 200 106983
+03/30/2019 12:45:50 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:45:50 DEBUG: https://en.wikipedia.org:443 "GET /wiki/PepsiCo HTTP/1.1" 200 67977
+03/30/2019 12:45:50 DEBUG: Starting new HTTPS connection (1): www.wsj.com:443
+03/30/2019 12:45:51 DEBUG: https://www.wsj.com:443 "GET /articles/pepsi-continues-move-away-from-sugary-drinks-with-sodastream-deal-1534749310 HTTP/1.1" 200 None
+03/30/2019 12:45:51 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 12:45:51 DEBUG: https://www.forbes.com:443 "GET /sites/willburns/2018/08/21/will-buying-sodastream-make-pepsi-the-choice-of-a-new-generation/ HTTP/1.1" 200 47900
+03/30/2019 12:45:51 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/30/2019 12:45:52 DEBUG: https://techcrunch.com:443 "GET /2018/08/20/pepsi-is-buying-sodastream/ HTTP/1.1" 200 None
+03/30/2019 12:45:52 INFO: ============Pepsi, ACQUISITIONS feature data collection completed============
+03/30/2019 12:45:52 INFO: ============Pepsi, FUTURE GOALS feature data collection started============
+03/30/2019 12:45:52 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:45:52 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:45:52 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:45:52 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pepsi&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:45:53 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:45:53 INFO: =========================Getting search result source code=========================
+03/30/2019 12:45:53 DEBUG: Starting new HTTPS connection (1): essaybasics.com:443
+03/30/2019 12:45:54 DEBUG: https://essaybasics.com:443 "GET /blog/goals-and-objectives-of-pepsi-company-essay-sample/ HTTP/1.1" 200 None
+03/30/2019 12:45:54 DEBUG: Starting new HTTPS connection (1): www.pepsico.com:443
+03/30/2019 12:45:55 DEBUG: https://www.pepsico.com:443 "GET /sustainability/performance-with-purpose/our-goals HTTP/1.1" 403 823
+03/30/2019 12:45:55 DEBUG: Starting new HTTPS connection (1): www.redflagdeals.com:443
+03/30/2019 12:45:55 DEBUG: https://www.redflagdeals.com:443 "GET /flyers/pepsi-sales/ HTTP/1.1" 200 20146
+03/30/2019 12:45:55 DEBUG: Starting new HTTPS connection (1): backtothefuture.fandom.com:443
+03/30/2019 12:45:55 DEBUG: https://backtothefuture.fandom.com:443 "GET /wiki/Pepsi HTTP/1.1" 200 33449
+03/30/2019 12:45:55 DEBUG: Starting new HTTPS connection (1): www.salewhale.ca:443
+03/30/2019 12:45:56 DEBUG: https://www.salewhale.ca:443 "GET /en/brands-directory/Pepsi HTTP/1.1" 200 16820
+03/30/2019 12:45:56 DEBUG: Starting new HTTPS connection (1): www.eonline.com:443
+03/30/2019 12:45:58 DEBUG: https://www.eonline.com:443 "GET /de/news/703241/the-future-is-now-pepsi-will-release-limited-edition-back-to-the-future-part-ii-soda HTTP/1.1" 200 17981
+03/30/2019 12:45:58 DEBUG: Starting new HTTPS connection (1): www.businessinsider.com:443
+03/30/2019 12:45:58 DEBUG: https://www.businessinsider.com:443 "GET /coca-cola-pepsis-future-in-water-2016-4 HTTP/1.1" 200 47348
+03/30/2019 12:45:58 DEBUG: Starting new HTTPS connection (1): thekrazycouponlady.com:443
+03/30/2019 12:45:59 DEBUG: https://thekrazycouponlady.com:443 "GET /coupons/pepsi HTTP/1.1" 200 4154
+03/30/2019 12:45:59 DEBUG: Starting new HTTPS connection (1): nypost.com:443
+03/30/2019 12:46:00 DEBUG: https://nypost.com:443 "GET /2015/10/21/pepsis-back-to-the-future-throwback-bottle-falls-flat/ HTTP/1.1" 200 None
+03/30/2019 12:46:00 INFO: ============Pepsi, FUTURE GOALS feature data collection completed============
+03/30/2019 12:46:00 INFO: ============Pepsi, TECH STACK feature data collection started============
+03/30/2019 12:46:00 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:46:00 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:46:00 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:46:01 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pepsi&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:46:01 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:46:01 INFO: =========================Getting search result source code=========================
+03/30/2019 12:46:01 DEBUG: Starting new HTTPS connection (1): www.referralcandy.com:443
+03/30/2019 12:46:05 DEBUG: https://www.referralcandy.com:443 "GET /blog/pepsi-marketing-strategy/ HTTP/1.1" 200 None
+03/30/2019 12:46:05 DEBUG: Starting new HTTPS connection (1): augmentedpixels.com:443
+03/30/2019 12:46:07 DEBUG: https://augmentedpixels.com:443 "GET /pepsi-and-coca-cola-embrace-new-technology/ HTTP/1.1" 200 None
+03/30/2019 12:46:07 DEBUG: Starting new HTTPS connection (1): www.mobilemarketer.com:443
+03/30/2019 12:46:07 DEBUG: https://www.mobilemarketer.com:443 "GET /ex/mobilemarketer/cms/news/software-technology/17493.html HTTP/1.1" 200 None
+03/30/2019 12:46:07 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 12:46:08 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DCVD1Onl1zbY HTTP/1.1" 503 1799
+03/30/2019 12:46:08 DEBUG: Starting new HTTPS connection (1): rctom.hbs.org:443
+03/30/2019 12:46:08 DEBUG: https://rctom.hbs.org:443 "GET /submission/is-pepsi-thirsty/ HTTP/1.1" 403 162
+03/30/2019 12:46:08 DEBUG: Starting new HTTPS connection (1): www.theatlantic.com:443
+03/30/2019 12:46:09 DEBUG: https://www.theatlantic.com:443 "GET /technology/archive/2017/04/pepsi-ad-success/522021/ HTTP/1.1" 200 None
+03/30/2019 12:46:09 DEBUG: Starting new HTTPS connection (1): www.marketingdive.com:443
+03/30/2019 12:46:10 DEBUG: https://www.marketingdive.com:443 "GET /news/pepsi-targets-taste-testers-through-digital-ooh-campaign/542060/ HTTP/1.1" 200 None
+03/30/2019 12:46:10 DEBUG: Starting new HTTPS connection (1): www.pepsico.com:443
+03/30/2019 12:46:10 DEBUG: https://www.pepsico.com:443 "GET /news/press-release/pepsicos-hello-goodness-snackbot-is-off-to-college01032019 HTTP/1.1" 403 831
+03/30/2019 12:46:10 DEBUG: Starting new HTTP connection (1): design.pepsico.com:80
+03/30/2019 12:46:11 DEBUG: http://design.pepsico.com:80 "GET /spire.php%3Fv%3D91 HTTP/1.1" 404 None
+03/30/2019 12:46:11 INFO: ============Pepsi, TECH STACK feature data collection completed============
+03/30/2019 12:46:11 INFO: ============Pepsi, PRODUCTS feature data collection started============
+03/30/2019 12:46:11 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 12:46:11 INFO: ======================Generating Google Search code==========================
+03/30/2019 12:46:11 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 12:46:11 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pepsi&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 12:46:11 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 12:46:11 INFO: =========================Getting search result source code=========================
+03/30/2019 12:46:11 DEBUG: Starting new HTTP connection (1): www.pepsico.ca:80
+03/30/2019 12:46:12 DEBUG: http://www.pepsico.ca:80 "GET /en/Brands/Pepsi_Cola-Brands.html HTTP/1.1" 200 None
+03/30/2019 12:46:12 DEBUG: Starting new HTTP connection (1): www.pepsico.ca:80
+03/30/2019 12:46:12 DEBUG: http://www.pepsico.ca:80 "GET /en/Brands.html HTTP/1.1" 200 None
+03/30/2019 12:46:12 DEBUG: Starting new HTTPS connection (1): www.pepsico.com:443
+03/30/2019 12:46:12 DEBUG: https://www.pepsico.com:443 "GET /brands/product-information HTTP/1.1" 403 825
+03/30/2019 12:46:12 DEBUG: Starting new HTTPS connection (1): www.pepsi.ca:443
+03/30/2019 12:46:13 DEBUG: https://www.pepsi.ca:443 "GET /products HTTP/1.1" 200 None
+03/30/2019 12:46:13 DEBUG: Starting new HTTPS connection (1): www.pepsi.ca:443
+03/30/2019 12:46:13 DEBUG: https://www.pepsi.ca:443 "GET / HTTP/1.1" 200 5913
+03/30/2019 12:46:13 DEBUG: Starting new HTTP connection (1): www.pepsicobeveragefacts.com:80
+03/30/2019 12:46:13 DEBUG: http://www.pepsicobeveragefacts.com:80 "GET / HTTP/1.1" 403 820
+03/30/2019 12:46:13 DEBUG: Starting new HTTPS connection (1): www.pepsicobeveragefacts.com:443
+03/30/2019 12:46:13 DEBUG: https://www.pepsicobeveragefacts.com:443 "GET /home/find HTTP/1.1" 403 830
+03/30/2019 12:46:13 DEBUG: Starting new HTTPS connection (1): www.pepsiequipmentservice.com:443
+03/30/2019 12:46:14 DEBUG: https://www.pepsiequipmentservice.com:443 "GET /support/home HTTP/1.1" 200 None
+03/30/2019 12:46:14 DEBUG: Starting new HTTPS connection (1): www.pepsi.com:443
+03/30/2019 12:46:14 DEBUG: https://www.pepsi.com:443 "GET / HTTP/1.1" 301 0
+03/30/2019 12:46:14 DEBUG: Resetting dropped connection: www.pepsi.com
+03/30/2019 12:46:14 DEBUG: https://www.pepsi.com:443 "GET /en-us/ HTTP/1.1" 403 824
+03/30/2019 12:46:14 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 12:46:14 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_assets_owned_by_PepsiCo HTTP/1.1" 200 16500
+03/30/2019 12:46:15 INFO: ============Pepsi, PRODUCTS feature data collection completed============
+03/30/2019 12:46:15 INFO: ============Pepsi data collection completed============
