@@ -2,7 +2,11 @@
 import os
 
 # Company names
+<<<<<<< HEAD
 COMPANIES = ["Amazon", "China Construction Bank", "Microsoft", "Accenture", "Apple", "Smartsheet", "Tech Mahindra", "Adobe Systems", "Walmart", "Netflix"]
+=======
+COMPANIES = ["Samsung", "Oracle", "IBM", "Intuit", "OpenText","ICBC", "MicroStrategy", "Appian", "Symantec", "Pfizer", "Goldman Sachs"]
+>>>>>>> develop
 
 # Features
 FEATURES = {
