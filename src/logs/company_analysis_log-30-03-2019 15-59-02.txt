@@ -1,0 +1,297 @@
+03/30/2019 15:59:02 INFO: ============Script execution started============
+03/30/2019 15:59:02 INFO: ============Walmart data collection started============
+03/30/2019 15:59:02 INFO: ============Walmart, SIZE feature data collection started============
+03/30/2019 15:59:02 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:59:02 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:59:02 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:59:02 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Walmart&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:59:03 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:59:03 INFO: =========================Getting search result source code=========================
+03/30/2019 15:59:03 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:59:04 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Walmart HTTP/1.1" 200 144313
+03/30/2019 15:59:04 DEBUG: Starting new HTTPS connection (1): help.walmart.com:443
+03/30/2019 15:59:05 DEBUG: https://help.walmart.com:443 "GET /app/answers/detail/a_id/43/~/clothing-size-charts HTTP/1.1" 200 None
+03/30/2019 15:59:05 DEBUG: Starting new HTTPS connection (1): corporate.walmart.com:443
+03/30/2019 15:59:05 DEBUG: https://corporate.walmart.com:443 "GET /our-story/our-business HTTP/1.1" 200 None
+03/30/2019 15:59:05 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:59:05 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Walmart HTTP/1.1" 200 144313
+03/30/2019 15:59:06 DEBUG: Starting new HTTPS connection (1): www.businessinsider.com:443
+03/30/2019 15:59:06 DEBUG: https://www.businessinsider.com:443 "GET /walmart-employees-pay HTTP/1.1" 200 48083
+03/30/2019 15:59:06 DEBUG: Starting new HTTPS connection (1): www.businessinsider.com:443
+03/30/2019 15:59:06 DEBUG: https://www.businessinsider.com:443 "GET /walmart-store-employees-want-to-say-2018-6 HTTP/1.1" 200 47724
+03/30/2019 15:59:06 DEBUG: Starting new HTTPS connection (1): ca.indeed.com:443
+03/30/2019 15:59:07 DEBUG: https://ca.indeed.com:443 "GET /cmp/Walmart/reviews HTTP/1.1" 200 None
+03/30/2019 15:59:08 DEBUG: Starting new HTTPS connection (1): www.theverge.com:443
+03/30/2019 15:59:09 DEBUG: https://www.theverge.com:443 "GET /2018/12/21/18151738/walmart-eavesdrop-patent-customer-employee-privacy HTTP/1.1" 200 41175
+03/30/2019 15:59:09 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:10 DEBUG: https://www.walmart.ca:443 "GET /en/ip/pampers-baby-dry-diapers-super-pack-size-1/6000198663460 HTTP/1.1" 200 55460
+03/30/2019 15:59:10 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:11 DEBUG: https://www.walmart.ca:443 "GET /en/ip/pampers-swaddlers-diapers-super-econo-pack-size-6/6000198332105 HTTP/1.1" 200 56617
+03/30/2019 15:59:11 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:11 DEBUG: https://www.walmart.ca:443 "GET /en/ip/huggies-little-snugglers-diapers-economy-pack-size-4/6000196801627 HTTP/1.1" 200 51601
+03/30/2019 15:59:11 INFO: ============Walmart, SIZE feature data collection completed============
+03/30/2019 15:59:11 INFO: ============Walmart, ACQUISITIONS feature data collection started============
+03/30/2019 15:59:11 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:59:11 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:59:11 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:59:12 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Walmart&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:59:12 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:59:12 INFO: =========================Getting search result source code=========================
+03/30/2019 15:59:12 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/30/2019 15:59:13 DEBUG: https://techcrunch.com:443 "GET /2018/10/12/walmart-continues-ma-spree-with-acquisition-of-lingerie-retailer-bare-necessities/ HTTP/1.1" 200 None
+03/30/2019 15:59:13 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/30/2019 15:59:13 DEBUG: https://techcrunch.com:443 "GET /2018/10/12/walmart-continues-ma-spree-with-acquisition-of-lingerie-retailer-bare-necessities/ HTTP/1.1" 200 16800
+03/30/2019 15:59:13 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/30/2019 15:59:13 DEBUG: https://techcrunch.com:443 "GET /2018/08/20/walmart-flipkart-deal-done/ HTTP/1.1" 200 None
+03/30/2019 15:59:14 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/30/2019 15:59:14 DEBUG: https://www.crunchbase.com:443 "GET /organization/walmart/acquisitions/acquisitions_list HTTP/1.1" 403 None
+03/30/2019 15:59:14 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 15:59:14 DEBUG: https://www.forbes.com:443 "GET /sites/walterloeb/2018/12/17/why-walmarts-new-acquisition-is-puzzling/ HTTP/1.1" 200 44216
+03/30/2019 15:59:14 DEBUG: Starting new HTTPS connection (1): www.recode.net:443
+03/30/2019 15:59:15 DEBUG: https://www.recode.net:443 "GET /2018/10/2/17924862/walmart-eloquii-acquisition-100-million-plus-sized-fashion HTTP/1.1" 200 41603
+03/30/2019 15:59:15 DEBUG: Starting new HTTPS connection (1): www.fool.com:443
+03/30/2019 15:59:16 DEBUG: https://www.fool.com:443 "GET /investing/2018/12/10/walmarts-latest-acquisition-could-add-300-million.aspx HTTP/1.1" 200 None
+03/30/2019 15:59:16 DEBUG: Starting new HTTPS connection (1): www.cbinsights.com:443
+03/30/2019 15:59:16 DEBUG: https://www.cbinsights.com:443 "GET /research/walmart-acquisition-targets/ HTTP/1.1" 200 21259
+03/30/2019 15:59:16 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 15:59:17 DEBUG: https://www.cnbc.com:443 "GET /2018/12/06/walmart-to-acquire-online-home-decor-retailer-artcom.html HTTP/1.1" 200 44927
+03/30/2019 15:59:17 DEBUG: Starting new HTTPS connection (1): www.investopedia.com:443
+03/30/2019 15:59:17 DEBUG: https://www.investopedia.com:443 "GET /articles/markets/102315/top-4-companies-owned-walmart.asp HTTP/1.1" 200 None
+03/30/2019 15:59:17 DEBUG: Starting new HTTPS connection (1): www.wsj.com:443
+03/30/2019 15:59:17 DEBUG: https://www.wsj.com:443 "GET /articles/walmart-cuts-earnings-forecast-on-flipkart-deal-1539688690 HTTP/1.1" 200 None
+03/30/2019 15:59:18 INFO: ============Walmart, ACQUISITIONS feature data collection completed============
+03/30/2019 15:59:18 INFO: ============Walmart, FUTURE GOALS feature data collection started============
+03/30/2019 15:59:18 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:59:18 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:59:18 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:59:18 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Walmart&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:59:18 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:59:18 INFO: =========================Getting search result source code=========================
+03/30/2019 15:59:18 DEBUG: Starting new HTTPS connection (1): www.redflagdeals.com:443
+03/30/2019 15:59:19 DEBUG: https://www.redflagdeals.com:443 "GET /canada/walmart-deals-coupons-sales/ HTTP/1.1" 200 27649
+03/30/2019 15:59:19 DEBUG: Starting new HTTPS connection (1): thekrazycouponlady.com:443
+03/30/2019 15:59:20 DEBUG: https://thekrazycouponlady.com:443 "GET /coupons-for/walmart HTTP/1.1" 200 4054
+03/30/2019 15:59:20 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:20 DEBUG: https://www.walmart.ca:443 "GET /en/N-33913 HTTP/1.1" 200 2386
+03/30/2019 15:59:20 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:21 DEBUG: https://www.walmart.ca:443 "GET /flyer HTTP/1.1" 200 30921
+03/30/2019 15:59:21 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 15:59:21 DEBUG: https://www.cnbc.com:443 "GET /2018/05/30/walmart-patents-show-future-vision.html HTTP/1.1" 200 43997
+03/30/2019 15:59:21 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 15:59:21 DEBUG: https://www.cnbc.com:443 "GET /video/2018/12/06/walmart-ceo-doug-mcmillon-on-the-future-of-the-retail-industry.html HTTP/1.1" 200 60593
+03/30/2019 15:59:21 DEBUG: Starting new HTTP connection (1): news.walmart.com:80
+03/30/2019 15:59:21 DEBUG: http://news.walmart.com:80 "GET /2018/04/23/walmart-highlights-economic-societal-and-environmental-progress-in-2018-global-responsibility-report-summary HTTP/1.1" 301 352
+03/30/2019 15:59:21 DEBUG: Starting new HTTPS connection (1): news.walmart.com:443
+03/30/2019 15:59:22 DEBUG: https://news.walmart.com:443 "GET /2018/04/23/walmart-highlights-economic-societal-and-environmental-progress-in-2018-global-responsibility-report-summary HTTP/1.1" 200 None
+03/30/2019 15:59:22 DEBUG: Starting new HTTPS connection (1): www.walmart.com:443
+03/30/2019 15:59:23 DEBUG: https://www.walmart.com:443 "GET /m/deals/christmas-gifts HTTP/1.1" 200 137408
+03/30/2019 15:59:24 DEBUG: Starting new HTTPS connection (1): corporate.walmart.com:443
+03/30/2019 15:59:24 DEBUG: https://corporate.walmart.com:443 "GET /our-story/our-business HTTP/1.1" 200 None
+03/30/2019 15:59:24 INFO: ============Walmart, FUTURE GOALS feature data collection completed============
+03/30/2019 15:59:24 INFO: ============Walmart, TECH STACK feature data collection started============
+03/30/2019 15:59:24 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:59:24 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:59:24 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:59:25 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Walmart&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:59:25 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:59:25 INFO: =========================Getting search result source code=========================
+03/30/2019 15:59:25 DEBUG: Starting new HTTPS connection (1): futurestoreseast.wbresearch.com:443
+03/30/2019 15:59:25 DEBUG: https://futurestoreseast.wbresearch.com:443 "GET /walmart-harnessing-technology-to-create-next-gen-superstore-ty-u HTTP/1.1" 200 None
+03/30/2019 15:59:25 DEBUG: Starting new HTTPS connection (1): careers.walmart.com:443
+03/30/2019 15:59:26 DEBUG: https://careers.walmart.com:443 "GET /technology HTTP/1.1" 200 None
+03/30/2019 15:59:26 DEBUG: Starting new HTTPS connection (1): www.walmart.com:443
+03/30/2019 15:59:27 DEBUG: https://www.walmart.com:443 "GET /cp/technology/9830867 HTTP/1.1" 200 122849
+03/30/2019 15:59:27 DEBUG: Starting new HTTPS connection (1): www.walmart.com:443
+03/30/2019 15:59:27 DEBUG: https://www.walmart.com:443 "GET /cp/office-technology/1070964 HTTP/1.1" 200 127139
+03/30/2019 15:59:27 DEBUG: Starting new HTTPS connection (1): www.retaildive.com:443
+03/30/2019 15:59:28 DEBUG: https://www.retaildive.com:443 "GET /news/7-ways-walmart-is-innovating-with-technology/525154/ HTTP/1.1" 200 None
+03/30/2019 15:59:28 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 15:59:29 DEBUG: https://www.forbes.com:443 "GET /sites/pamdanziger/2018/10/22/walmart-doubles-down-on-its-transformation-into-a-technology-company/ HTTP/1.1" 200 63474
+03/30/2019 15:59:29 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:29 DEBUG: https://www.walmart.ca:443 "GET /en/stack-on/N-1275388 HTTP/1.1" 200 2561
+03/30/2019 15:59:29 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:30 DEBUG: https://www.walmart.ca:443 "GET /en/ip/blue-orange-maki-stack/6000198507004 HTTP/1.1" 200 53436
+03/30/2019 15:59:30 DEBUG: Starting new HTTPS connection (1): www.walmartlabs.com:443
+03/30/2019 15:59:30 DEBUG: https://www.walmartlabs.com:443 "GET / HTTP/1.1" 200 9982
+03/30/2019 15:59:30 DEBUG: Starting new HTTPS connection (1): www.ciodive.com:443
+03/30/2019 15:59:31 DEBUG: https://www.ciodive.com:443 "GET /news/walmart-expects-technology-to-enable-faster-change-over-next-5-years/548885/ HTTP/1.1" 200 None
+03/30/2019 15:59:31 INFO: ============Walmart, TECH STACK feature data collection completed============
+03/30/2019 15:59:31 INFO: ============Walmart, PRODUCTS feature data collection started============
+03/30/2019 15:59:31 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:59:31 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:59:31 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:59:31 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Walmart&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:59:32 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:59:32 INFO: =========================Getting search result source code=========================
+03/30/2019 15:59:32 DEBUG: Starting new HTTPS connection (1): www.walmart.com:443
+03/30/2019 15:59:34 DEBUG: https://www.walmart.com:443 "GET /cp/tools/1031899 HTTP/1.1" 200 236434
+03/30/2019 15:59:34 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:34 DEBUG: https://www.walmart.ca:443 "GET /en/home/home-improvement/tools/N-1081 HTTP/1.1" 200 2569
+03/30/2019 15:59:34 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:35 DEBUG: https://www.walmart.ca:443 "GET /en/home/home-improvement/tools/hand-tools/N-543 HTTP/1.1" 200 2573
+03/30/2019 15:59:35 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:35 DEBUG: https://www.walmart.ca:443 "GET /en/electronics/laptops-computers/software/N-1168 HTTP/1.1" 200 2575
+03/30/2019 15:59:35 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:35 DEBUG: https://www.walmart.ca:443 "GET /en/financial-services HTTP/1.1" 200 2546
+03/30/2019 15:59:35 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:36 DEBUG: https://www.walmart.ca:443 "GET /en/help/products HTTP/1.1" 200 2543
+03/30/2019 15:59:36 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:36 DEBUG: https://www.walmart.ca:443 "GET /en/home/home-improvement/tools/power-tools/N-307 HTTP/1.1" 200 2574
+03/30/2019 15:59:36 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:36 DEBUG: https://www.walmart.ca:443 "GET /en/electronics/laptops-computers/software/office-software/N-1541 HTTP/1.1" 200 2582
+03/30/2019 15:59:36 DEBUG: Starting new HTTPS connection (1): www.walmart.ca:443
+03/30/2019 15:59:37 DEBUG: https://www.walmart.ca:443 "GET /en/home/home-improvement/tools/power-tools-accessories/N-308 HTTP/1.1" 200 2582
+03/30/2019 15:59:37 DEBUG: Starting new HTTPS connection (1): www.walmartfinancialservices.ca:443
+03/30/2019 15:59:37 DEBUG: https://www.walmartfinancialservices.ca:443 "GET / HTTP/1.1" 200 6220
+03/30/2019 15:59:37 INFO: ============Walmart, PRODUCTS feature data collection completed============
+03/30/2019 15:59:37 INFO: ============Walmart data collection completed============
+03/30/2019 15:59:37 INFO: ============Netflix data collection started============
+03/30/2019 15:59:37 INFO: ============Netflix, SIZE feature data collection started============
+03/30/2019 15:59:37 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:59:37 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:59:37 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:59:38 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:59:38 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:59:38 INFO: =========================Getting search result source code=========================
+03/30/2019 15:59:38 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 15:59:39 DEBUG: https://www.statista.com:443 "GET /statistics/587671/netflix-employees/ HTTP/1.1" 200 None
+03/30/2019 15:59:39 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 15:59:39 DEBUG: https://www.statista.com:443 "GET /topics/842/netflix/ HTTP/1.1" 200 None
+03/30/2019 15:59:39 DEBUG: Starting new HTTPS connection (1): craft.co:443
+03/30/2019 15:59:40 DEBUG: https://craft.co:443 "GET /netflix HTTP/1.1" 405 2890
+03/30/2019 15:59:40 DEBUG: Starting new HTTPS connection (1): www.slashfilm.com:443
+03/30/2019 15:59:40 DEBUG: https://www.slashfilm.com:443 "GET /working-at-netflix/ HTTP/1.1" 200 None
+03/30/2019 15:59:40 DEBUG: Starting new HTTPS connection (1): jobs.netflix.com:443
+03/30/2019 15:59:41 DEBUG: https://jobs.netflix.com:443 "GET /culture HTTP/1.1" 200 98872
+03/30/2019 15:59:41 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:59:41 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Netflix HTTP/1.1" 200 149366
+03/30/2019 15:59:41 DEBUG: Starting new HTTPS connection (1): www.glassdoor.com:443
+03/30/2019 15:59:41 DEBUG: https://www.glassdoor.com:443 "GET /Overview/Working-at-Netflix-EI_IE11891.11,18.htm HTTP/1.1" 403 None
+03/30/2019 15:59:41 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 15:59:42 DEBUG: https://www.forbes.com:443 "GET /companies/netflix/ HTTP/1.1" 200 43011
+03/30/2019 15:59:42 DEBUG: Starting new HTTP connection (1): markets.businessinsider.com:80
+03/30/2019 15:59:42 DEBUG: http://markets.businessinsider.com:80 "GET /news/stocks/netflix-stock-price-hits-record-high-2018-5-1025212394 HTTP/1.1" 301 5689
+03/30/2019 15:59:42 DEBUG: Starting new HTTPS connection (1): markets.businessinsider.com:443
+03/30/2019 15:59:44 DEBUG: https://markets.businessinsider.com:443 "GET /news/stocks/netflix-stock-price-hits-record-high-2018-5-1025212394 HTTP/1.1" 200 26316
+03/30/2019 15:59:44 DEBUG: Starting new HTTPS connection (1): www.comparitech.com:443
+03/30/2019 15:59:44 DEBUG: https://www.comparitech.com:443 "GET /blog/vpn-privacy/netflix-statistics-facts-figures/ HTTP/1.1" 200 None
+03/30/2019 15:59:44 INFO: ============Netflix, SIZE feature data collection completed============
+03/30/2019 15:59:44 INFO: ============Netflix, ACQUISITIONS feature data collection started============
+03/30/2019 15:59:44 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:59:44 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:59:44 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:59:45 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:59:45 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:59:45 INFO: =========================Getting search result source code=========================
+03/30/2019 15:59:45 DEBUG: Starting new HTTPS connection (1): bgr.com:443
+03/30/2019 15:59:46 DEBUG: https://bgr.com:443 "GET /2019/02/04/netflix-vs-apple-tv-shows-acquisition-isnt-happening/ HTTP/1.1" 200 None
+03/30/2019 15:59:46 DEBUG: Starting new HTTP connection (1): fortune.com:80
+03/30/2019 15:59:47 DEBUG: http://fortune.com:80 "GET /2019/02/04/apple-netflix-acquisition/ HTTP/1.1" 200 None
+03/30/2019 15:59:47 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 15:59:47 DEBUG: https://www.forbes.com:443 "GET /sites/enriquedans/2019/02/17/apple-and-netflix-is-there-any-truth-to-the-rumors/ HTTP/1.1" 200 47630
+03/30/2019 15:59:47 DEBUG: Starting new HTTPS connection (1): www.thestreet.com:443
+03/30/2019 15:59:47 DEBUG: https://www.thestreet.com:443 "GET /investing/netflix-acquisition-abq-studios-14746375 HTTP/1.1" 404 421
+03/30/2019 15:59:47 DEBUG: Starting new HTTPS connection (1): filmdaily.co:443
+03/30/2019 15:59:48 DEBUG: https://filmdaily.co:443 "GET /obsessions/netflix-aims-to-take-over-the-world/ HTTP/1.1" 403 162
+03/30/2019 15:59:48 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 15:59:48 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2019-02-04/apple-acquisition-targets-could-include-netflix-sonos-jpmorgan HTTP/1.1" 307 0
+03/30/2019 15:59:48 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 15:59:48 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=fc5a63d0-531d-11e9-b5f8-0fcf8485195d&url=L25ld3MvYXJ0aWNsZXMvMjAxOS0wMi0wNC9hcHBsZS1hY3F1aXNpdGlvbi10YXJnZXRzLWNvdWxkLWluY2x1ZGUtbmV0ZmxpeC1zb25vcy1qcG1vcmdhbg== HTTP/1.1" 200 4595
+03/30/2019 15:59:48 DEBUG: Starting new HTTPS connection (1): www.cultofmac.com:443
+03/30/2019 15:59:50 DEBUG: https://www.cultofmac.com:443 "GET /521181/40-percent-netflix/ HTTP/1.1" 200 None
+03/30/2019 15:59:50 DEBUG: Starting new HTTP connection (1): www.bnnbloomberg.ca:80
+03/30/2019 15:59:50 DEBUG: http://www.bnnbloomberg.ca:80 "GET /technology/video/tech-bytes-netflix-reportedly-mulling-threatre-chain-acquisition~1375801 HTTP/1.1" 301 0
+03/30/2019 15:59:50 DEBUG: Starting new HTTPS connection (1): www.bnnbloomberg.ca:443
+03/30/2019 15:59:51 DEBUG: https://www.bnnbloomberg.ca:443 "GET /technology/video/tech-bytes-netflix-reportedly-mulling-threatre-chain-acquisition~1375801 HTTP/1.1" 200 28811
+03/30/2019 15:59:51 DEBUG: Starting new HTTPS connection (1): www.knowyourmobile.com:443
+03/30/2019 15:59:53 DEBUG: https://www.knowyourmobile.com:443 "GET /products/netflix/24826/why-apple-will-never-buy-netflix-three-simple-reasons HTTP/1.1" 200 None
+03/30/2019 15:59:53 DEBUG: Starting new HTTPS connection (1): www.fastcompany.com:443
+03/30/2019 15:59:53 DEBUG: https://www.fastcompany.com:443 "GET /90301540/jp-morgan-says-apple-should-acquire-netflix HTTP/1.1" 200 88368
+03/30/2019 15:59:53 INFO: ============Netflix, ACQUISITIONS feature data collection completed============
+03/30/2019 15:59:53 INFO: ============Netflix, FUTURE GOALS feature data collection started============
+03/30/2019 15:59:53 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:59:53 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:59:53 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:59:54 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:59:54 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:59:54 INFO: =========================Getting search result source code=========================
+03/30/2019 15:59:54 DEBUG: Starting new HTTPS connection (1): screenrant.com:443
+03/30/2019 15:59:54 DEBUG: https://screenrant.com:443 "GET /netflix-future-blockbuster-indy-disney-streaming/ HTTP/1.1" 200 None
+03/30/2019 15:59:54 DEBUG: Starting new HTTPS connection (1): www.mediapost.com:443
+03/30/2019 15:59:55 DEBUG: https://www.mediapost.com:443 "GET /publications/article/330756/netflix-positions-itself-for-the-future.html HTTP/1.1" 200 15664
+03/30/2019 15:59:55 DEBUG: Starting new HTTPS connection (1): www.androidpit.com:443
+03/30/2019 15:59:55 DEBUG: https://www.androidpit.com:443 "GET /is-netflix-finished HTTP/1.1" 200 None
+03/30/2019 15:59:55 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/30/2019 15:59:56 DEBUG: https://www.quora.com:443 "GET /What-is-the-future-of-Netflix HTTP/1.1" 200 None
+03/30/2019 15:59:56 DEBUG: Starting new HTTPS connection (1): www.fastcompany.com:443
+03/30/2019 15:59:56 DEBUG: https://www.fastcompany.com:443 "GET /90285179/in-2018-the-best-streaming-drama-took-place-offscreen HTTP/1.1" 200 103725
+03/30/2019 15:59:57 DEBUG: Starting new HTTPS connection (1): www.cnn.com:443
+03/30/2019 15:59:57 DEBUG: https://www.cnn.com:443 "GET /2019/03/04/media/netflix-steven-spielberg/index.html HTTP/1.1" 200 243061
+03/30/2019 15:59:57 DEBUG: Starting new HTTPS connection (1): www.businessinsider.com:443
+03/30/2019 15:59:57 DEBUG: https://www.businessinsider.com:443 "GET /netflix-stock-price-analyst-weighs-in-on-the-future-of-streaming-2019-1 HTTP/1.1" 308 None
+03/30/2019 15:59:57 DEBUG: Starting new HTTPS connection (1): markets.businessinsider.com:443
+03/30/2019 15:59:58 DEBUG: https://markets.businessinsider.com:443 "GET /news/stocks/netflix-stock-price-analyst-weighs-in-on-the-future-of-streaming-2019-1-1027862862 HTTP/1.1" 200 27543
+03/30/2019 15:59:58 DEBUG: Starting new HTTPS connection (1): www.groupon.com:443
+03/30/2019 15:59:58 DEBUG: https://www.groupon.com:443 "GET /coupons/stores/signup.netflix.com HTTP/1.1" 200 55596
+03/30/2019 15:59:58 DEBUG: Starting new HTTPS connection (1): www.netflix.com:443
+03/30/2019 15:59:59 DEBUG: https://www.netflix.com:443 "GET /ca/title/60010110 HTTP/1.1" 200 None
+03/30/2019 15:59:59 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 16:00:00 DEBUG: https://www.forbes.com:443 "GET /sites/quora/2018/02/09/will-netflix-continue-dominating-its-space-long-term/ HTTP/1.1" 200 49030
+03/30/2019 16:00:00 INFO: ============Netflix, FUTURE GOALS feature data collection completed============
+03/30/2019 16:00:00 INFO: ============Netflix, TECH STACK feature data collection started============
+03/30/2019 16:00:00 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 16:00:00 INFO: ======================Generating Google Search code==========================
+03/30/2019 16:00:00 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 16:00:00 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 16:00:01 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 16:00:01 INFO: =========================Getting search result source code=========================
+03/30/2019 16:00:01 DEBUG: Starting new HTTPS connection (1): forums.redflagdeals.com:443
+03/30/2019 16:00:02 DEBUG: https://forums.redflagdeals.com:443 "GET /stack-prepaid-mastercard-free-1-yr-netflix-spotify-tidal-no-qc-2216455/ HTTP/1.1" 200 41221
+03/30/2019 16:00:02 DEBUG: Starting new HTTPS connection (1): stackshare.io:443
+03/30/2019 16:00:04 DEBUG: https://stackshare.io:443 "GET /netflix/netflix HTTP/1.1" 200 None
+03/30/2019 16:00:04 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/30/2019 16:00:04 DEBUG: https://www.quora.com:443 "GET /What-technology-stack-is-Netflix-built-on HTTP/1.1" 200 None
+03/30/2019 16:00:05 DEBUG: Starting new HTTPS connection (1): www.engadget.com:443
+03/30/2019 16:00:06 DEBUG: https://www.engadget.com:443 "GET /2018/03/10/netflix-streaming-tech-hollywood/ HTTP/1.1" 200 42530
+03/30/2019 16:00:06 DEBUG: Starting new HTTPS connection (1): netflix.github.io:443
+03/30/2019 16:00:06 DEBUG: https://netflix.github.io:443 "GET / HTTP/1.1" 200 8124
+03/30/2019 16:00:06 DEBUG: Starting new HTTPS connection (1): medium.com:443
+03/30/2019 16:00:06 DEBUG: https://medium.com:443 "GET /netflix-techblog/netflixs-production-technology-voltron-ab0e091d232d HTTP/1.1" 200 None
+03/30/2019 16:00:07 DEBUG: Starting new HTTPS connection (1): medium.com:443
+03/30/2019 16:00:07 DEBUG: https://medium.com:443 "GET /netflix-techblog HTTP/1.1" 200 None
+03/30/2019 16:00:07 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 16:00:07 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Technical_details_of_Netflix HTTP/1.1" 200 19898
+03/30/2019 16:00:07 DEBUG: Starting new HTTP connection (1): www2.technologyreview.com:80
+03/30/2019 16:00:08 DEBUG: http://www2.technologyreview.com:80 "GET /tr50/netflix/ HTTP/1.1" 200 40114
+03/30/2019 16:00:08 DEBUG: Starting new HTTPS connection (1): www.techworld.com:443
+03/30/2019 16:00:08 DEBUG: https://www.techworld.com:443 "GET /picture-gallery/apps-wearables/best-tv-shows-about-technology-on-streaming-services-3659757/ HTTP/1.1" 200 None
+03/30/2019 16:00:09 INFO: ============Netflix, TECH STACK feature data collection completed============
+03/30/2019 16:00:09 INFO: ============Netflix, PRODUCTS feature data collection started============
+03/30/2019 16:00:09 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 16:00:09 INFO: ======================Generating Google Search code==========================
+03/30/2019 16:00:09 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 16:00:09 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Netflix&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 16:00:09 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 16:00:09 INFO: =========================Getting search result source code=========================
+03/30/2019 16:00:09 DEBUG: Starting new HTTPS connection (1): netflix.github.io:443
+03/30/2019 16:00:09 DEBUG: https://netflix.github.io:443 "GET / HTTP/1.1" 200 8124
+03/30/2019 16:00:09 DEBUG: Starting new HTTPS connection (1): help.netflix.com:443
+03/30/2019 16:00:10 DEBUG: https://help.netflix.com:443 "GET /en/node/412 HTTP/1.1" 200 None
+03/30/2019 16:00:10 DEBUG: Starting new HTTPS connection (1): firstround.com:443
+03/30/2019 16:00:10 DEBUG: https://firstround.com:443 "GET /review/the-three-tools-netflix-used-to-build-its-world-class-brand/ HTTP/1.1" 200 24252
+03/30/2019 16:00:10 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 16:00:11 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Netflix HTTP/1.1" 200 149366
+03/30/2019 16:00:11 DEBUG: Starting new HTTPS connection (1): www.wkyc.com:443
+03/30/2019 16:00:11 DEBUG: https://www.wkyc.com:443 "GET /article/news/sharing-your-netflix-password-this-software-could-soon-track-you-down/507-1e873ec1-d55a-4f6c-b88e-c04db3b3dea7 HTTP/1.1" 200 16489
+03/30/2019 16:00:11 DEBUG: Starting new HTTPS connection (1): www.cnn.com:443
+03/30/2019 16:00:12 DEBUG: https://www.cnn.com:443 "GET /2019/01/11/media/tv-streaming-2019-netflix-disney-apple/index.html HTTP/1.1" 200 240746
+03/30/2019 16:00:13 DEBUG: Starting new HTTPS connection (1): netflix.en.softonic.com:443
+03/30/2019 16:00:13 DEBUG: https://netflix.en.softonic.com:443 "GET / HTTP/1.1" 200 None
+03/30/2019 16:00:13 DEBUG: Starting new HTTPS connection (1): www.microsoft.com:443
+03/30/2019 16:00:15 DEBUG: https://www.microsoft.com:443 "GET /en-us/p/netflix/9wzdncrfj3tj HTTP/1.1" 200 None
+03/30/2019 16:00:15 DEBUG: Starting new HTTPS connection (1): www.tomsguide.com:443
+03/30/2019 16:00:15 DEBUG: https://www.tomsguide.com:443 "GET /us/best-streaming-video-services,review-2625.html HTTP/1.1" 403 146
+03/30/2019 16:00:16 DEBUG: Starting new HTTPS connection (1): globalnews.ca:443
+03/30/2019 16:00:16 DEBUG: https://globalnews.ca:443 "GET /news/4818817/netflix-competition-2019-disney/ HTTP/1.1" 200 None
+03/30/2019 16:00:16 INFO: ============Netflix, PRODUCTS feature data collection completed============
+03/30/2019 16:00:17 INFO: ============Netflix data collection completed============

@@ -1,0 +1,189 @@
+03/30/2019 02:27:10 INFO: ============Script execution started============
+03/30/2019 02:27:10 INFO: ============Appian data collection started============
+03/30/2019 02:27:10 INFO: ============Appian, SIZE feature data collection started============
+03/30/2019 02:27:10 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:10 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:10 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:11 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Appian&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 729
+03/30/2019 02:27:11 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DAppian%26as_oq%3D%2522size%2522%2520%2522number%2520of%2520employees%2522%2520%2522employees%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGK_8--QFIhkA8aeDS-JBkQndQIWn30JLIuztv9AOFPyKMgFy HTTP/1.1" 503 3794
+03/30/2019 02:27:11 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:11 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:11 INFO: ============Appian, SIZE feature data collection completed============
+03/30/2019 02:27:11 INFO: ============Appian, ACQUISITIONS feature data collection started============
+03/30/2019 02:27:11 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:11 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:11 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:12 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Appian&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 748
+03/30/2019 02:27:12 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DAppian%26as_oq%3D%2522acquire%2522%2520%2522take%2520over%2522%2520%2522took%2520over%2522%2520%2522acquisition%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGLD8--QFIhkA8aeDS9VggMKga0PPcBFXrcVG2j_GcC8FMgFy HTTP/1.1" 503 3833
+03/30/2019 02:27:12 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:12 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:12 INFO: ============Appian, ACQUISITIONS feature data collection completed============
+03/30/2019 02:27:12 INFO: ============Appian, FUTURE GOALS feature data collection started============
+03/30/2019 02:27:12 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:12 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:12 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:13 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Appian&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 802
+03/30/2019 02:27:13 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DAppian%26as_oq%3D%2522future%2522%2520%2522goals%2522%2520%2522future%2520goals%2522%2520%2522aim%2522%2520%2522ambition%2522%2520%2522objectives%2522%2520%2522deals%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGLH8--QFIhkA8aeDS6RU46pXdHy8lcAz6AIIt6IMaCqKMgFy HTTP/1.1" 503 3947
+03/30/2019 02:27:13 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:13 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:14 INFO: ============Appian, FUTURE GOALS feature data collection completed============
+03/30/2019 02:27:14 INFO: ============Appian, TECH STACK feature data collection started============
+03/30/2019 02:27:14 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:14 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:14 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:15 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Appian&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 745
+03/30/2019 02:27:15 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DAppian%26as_oq%3D%2522technology%2522%2520%2522stack%2522%2520%2522stack%2522%2520%2522development%2520tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGLL8--QFIhkA8aeDSwW-H5iHLER3v0kXNtLvUWtv6n-RMgFy HTTP/1.1" 503 3830
+03/30/2019 02:27:15 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:15 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:15 INFO: ============Appian, TECH STACK feature data collection completed============
+03/30/2019 02:27:15 INFO: ============Appian, PRODUCTS feature data collection started============
+03/30/2019 02:27:15 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:15 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:15 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:16 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Appian&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 760
+03/30/2019 02:27:16 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DAppian%26as_oq%3D%2522products%2522%2520%2522services%2522%2520%2522applications%2522%2520%2522software%2522%2520%2522tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGLP8--QFIhkA8aeDSzkdfTVdiZ3kpVwZKiCdOQ3ntwN2MgFy HTTP/1.1" 503 3863
+03/30/2019 02:27:16 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:16 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:16 INFO: ============Appian, PRODUCTS feature data collection completed============
+03/30/2019 02:27:16 INFO: ============Appian data collection completed============
+03/30/2019 02:27:16 INFO: ============Symantec data collection started============
+03/30/2019 02:27:16 INFO: ============Symantec, SIZE feature data collection started============
+03/30/2019 02:27:16 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:16 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:16 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:17 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Symantec&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 731
+03/30/2019 02:27:17 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DSymantec%26as_oq%3D%2522size%2522%2520%2522number%2520of%2520employees%2522%2520%2522employees%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGLX8--QFIhkA8aeDS3jsyKNFvkOUVUa9U9lzoTkwRcXqMgFy HTTP/1.1" 503 3800
+03/30/2019 02:27:17 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:17 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:17 INFO: ============Symantec, SIZE feature data collection completed============
+03/30/2019 02:27:17 INFO: ============Symantec, ACQUISITIONS feature data collection started============
+03/30/2019 02:27:17 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:17 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:17 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:18 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Symantec&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 750
+03/30/2019 02:27:18 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DSymantec%26as_oq%3D%2522acquire%2522%2520%2522take%2520over%2522%2520%2522took%2520over%2522%2520%2522acquisition%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGLX8--QFIhkA8aeDSzwVDusKRfu1xB9gdTCCRZaOnfq7MgFy HTTP/1.1" 503 3839
+03/30/2019 02:27:18 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:18 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:18 INFO: ============Symantec, ACQUISITIONS feature data collection completed============
+03/30/2019 02:27:18 INFO: ============Symantec, FUTURE GOALS feature data collection started============
+03/30/2019 02:27:18 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:18 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:18 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:19 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Symantec&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 804
+03/30/2019 02:27:19 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DSymantec%26as_oq%3D%2522future%2522%2520%2522goals%2522%2520%2522future%2520goals%2522%2520%2522aim%2522%2520%2522ambition%2522%2520%2522objectives%2522%2520%2522deals%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGLf8--QFIhkA8aeDSwyWIqRW77fQ5Nshf_Dh2pRNzdHYMgFy HTTP/1.1" 503 3953
+03/30/2019 02:27:19 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:19 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:19 INFO: ============Symantec, FUTURE GOALS feature data collection completed============
+03/30/2019 02:27:19 INFO: ============Symantec, TECH STACK feature data collection started============
+03/30/2019 02:27:19 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:19 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:19 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:20 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Symantec&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 747
+03/30/2019 02:27:20 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DSymantec%26as_oq%3D%2522technology%2522%2520%2522stack%2522%2520%2522stack%2522%2520%2522development%2520tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGLj8--QFIhkA8aeDS3yNJ6NJKpWcQ2EYL5AoRgQdO1BOMgFy HTTP/1.1" 503 3836
+03/30/2019 02:27:20 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:20 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:20 INFO: ============Symantec, TECH STACK feature data collection completed============
+03/30/2019 02:27:20 INFO: ============Symantec, PRODUCTS feature data collection started============
+03/30/2019 02:27:20 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:20 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:20 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:21 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Symantec&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 762
+03/30/2019 02:27:21 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DSymantec%26as_oq%3D%2522products%2522%2520%2522services%2522%2520%2522applications%2522%2520%2522software%2522%2520%2522tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGLn8--QFIhkA8aeDSyBBs5gwa_A7bRX4RllbNCYrzoOwMgFy HTTP/1.1" 503 3869
+03/30/2019 02:27:21 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:21 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:21 INFO: ============Symantec, PRODUCTS feature data collection completed============
+03/30/2019 02:27:21 INFO: ============Symantec data collection completed============
+03/30/2019 02:27:21 INFO: ============Pfizer data collection started============
+03/30/2019 02:27:21 INFO: ============Pfizer, SIZE feature data collection started============
+03/30/2019 02:27:21 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:21 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:21 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:22 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pfizer&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 729
+03/30/2019 02:27:23 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DPfizer%26as_oq%3D%2522size%2522%2520%2522number%2520of%2520employees%2522%2520%2522employees%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGLr8--QFIhkA8aeDSxls6GPmblU2hmjd47mHmTMvrGjcMgFy HTTP/1.1" 503 3794
+03/30/2019 02:27:23 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:23 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:23 INFO: ============Pfizer, SIZE feature data collection completed============
+03/30/2019 02:27:23 INFO: ============Pfizer, ACQUISITIONS feature data collection started============
+03/30/2019 02:27:23 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:23 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:23 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:23 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pfizer&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 748
+03/30/2019 02:27:23 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DPfizer%26as_oq%3D%2522acquire%2522%2520%2522take%2520over%2522%2520%2522took%2520over%2522%2520%2522acquisition%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGLv8--QFIhkA8aeDS0WQpcib8AmFRv1nW7E9O1PhBNFSMgFy HTTP/1.1" 503 3833
+03/30/2019 02:27:23 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:23 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:23 INFO: ============Pfizer, ACQUISITIONS feature data collection completed============
+03/30/2019 02:27:23 INFO: ============Pfizer, FUTURE GOALS feature data collection started============
+03/30/2019 02:27:23 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:23 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:23 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:24 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pfizer&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 802
+03/30/2019 02:27:25 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DPfizer%26as_oq%3D%2522future%2522%2520%2522goals%2522%2520%2522future%2520goals%2522%2520%2522aim%2522%2520%2522ambition%2522%2520%2522objectives%2522%2520%2522deals%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGLz8--QFIhkA8aeDS7RiDH2dj9fTdNa_vM6BJaTvfflPMgFy HTTP/1.1" 503 3947
+03/30/2019 02:27:25 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:25 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:25 INFO: ============Pfizer, FUTURE GOALS feature data collection completed============
+03/30/2019 02:27:25 INFO: ============Pfizer, TECH STACK feature data collection started============
+03/30/2019 02:27:25 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:25 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:25 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:25 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pfizer&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 745
+03/30/2019 02:27:25 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DPfizer%26as_oq%3D%2522technology%2522%2520%2522stack%2522%2520%2522stack%2522%2520%2522development%2520tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGL38--QFIhkA8aeDSzFwla4BPjCYQR0hYybw-oIreOBuMgFy HTTP/1.1" 503 3830
+03/30/2019 02:27:25 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:25 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:25 INFO: ============Pfizer, TECH STACK feature data collection completed============
+03/30/2019 02:27:25 INFO: ============Pfizer, PRODUCTS feature data collection started============
+03/30/2019 02:27:25 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:25 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:25 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:26 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Pfizer&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 760
+03/30/2019 02:27:26 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DPfizer%26as_oq%3D%2522products%2522%2520%2522services%2522%2520%2522applications%2522%2520%2522software%2522%2520%2522tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGL78--QFIhkA8aeDS4oXGpkDex_2B3dKL_opp9IOCUHHMgFy HTTP/1.1" 503 3863
+03/30/2019 02:27:26 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:26 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:27 INFO: ============Pfizer, PRODUCTS feature data collection completed============
+03/30/2019 02:27:27 INFO: ============Pfizer data collection completed============
+03/30/2019 02:27:27 INFO: ============Goldman Sachs data collection started============
+03/30/2019 02:27:27 INFO: ============Goldman Sachs, SIZE feature data collection started============
+03/30/2019 02:27:27 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:27 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:27 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:27 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Goldman%20Sachs&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 740
+03/30/2019 02:27:28 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DGoldman%2520Sachs%26as_oq%3D%2522size%2522%2520%2522number%2520of%2520employees%2522%2520%2522employees%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGL_8--QFIhkA8aeDSwQeuGdpKfCbAbxoWj4uencqbK5BMgFy HTTP/1.1" 503 3821
+03/30/2019 02:27:28 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:28 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:28 INFO: ============Goldman Sachs, SIZE feature data collection completed============
+03/30/2019 02:27:28 INFO: ============Goldman Sachs, ACQUISITIONS feature data collection started============
+03/30/2019 02:27:28 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:28 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:28 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:29 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Goldman%20Sachs&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 759
+03/30/2019 02:27:29 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DGoldman%2520Sachs%26as_oq%3D%2522acquire%2522%2520%2522take%2520over%2522%2520%2522took%2520over%2522%2520%2522acquisition%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGMD8--QFIhkA8aeDS3UkIiCtcudNi3jlZPU4dTeZDg6QMgFy HTTP/1.1" 503 3860
+03/30/2019 02:27:29 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:29 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:29 INFO: ============Goldman Sachs, ACQUISITIONS feature data collection completed============
+03/30/2019 02:27:29 INFO: ============Goldman Sachs, FUTURE GOALS feature data collection started============
+03/30/2019 02:27:29 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:29 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:29 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:30 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Goldman%20Sachs&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 813
+03/30/2019 02:27:30 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DGoldman%2520Sachs%26as_oq%3D%2522future%2522%2520%2522goals%2522%2520%2522future%2520goals%2522%2520%2522aim%2522%2520%2522ambition%2522%2520%2522objectives%2522%2520%2522deals%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGML8--QFIhkA8aeDS_ia15_pONlvdWkfW24gy_n-c4N9MgFy HTTP/1.1" 503 3974
+03/30/2019 02:27:30 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:30 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:30 INFO: ============Goldman Sachs, FUTURE GOALS feature data collection completed============
+03/30/2019 02:27:30 INFO: ============Goldman Sachs, TECH STACK feature data collection started============
+03/30/2019 02:27:30 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:30 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:30 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:31 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Goldman%20Sachs&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 756
+03/30/2019 02:27:31 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DGoldman%2520Sachs%26as_oq%3D%2522technology%2522%2520%2522stack%2522%2520%2522stack%2522%2520%2522development%2520tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGMP8--QFIhkA8aeDS2nawr_3t-XTAuEu98UExed62UV8MgFy HTTP/1.1" 503 3857
+03/30/2019 02:27:31 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:31 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:31 INFO: ============Goldman Sachs, TECH STACK feature data collection completed============
+03/30/2019 02:27:31 INFO: ============Goldman Sachs, PRODUCTS feature data collection started============
+03/30/2019 02:27:31 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:27:31 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:27:31 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:27:32 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Goldman%20Sachs&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 771
+03/30/2019 02:27:32 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DGoldman%2520Sachs%26as_oq%3D%2522products%2522%2520%2522services%2522%2520%2522applications%2522%2520%2522software%2522%2520%2522tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGMT8--QFIhkA8aeDS8wvgbP3Ro32IrRu-07B0dJPuQw2MgFy HTTP/1.1" 503 3890
+03/30/2019 02:27:32 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:27:32 INFO: =========================Getting search result source code=========================
+03/30/2019 02:27:32 INFO: ============Goldman Sachs, PRODUCTS feature data collection completed============
+03/30/2019 02:27:32 INFO: ============Goldman Sachs data collection completed============

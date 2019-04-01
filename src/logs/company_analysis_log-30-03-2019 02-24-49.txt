@@ -1,0 +1,48 @@
+03/30/2019 02:24:49 INFO: ============Script execution started============
+03/30/2019 02:24:49 INFO: ============China Construction Bank data collection started============
+03/30/2019 02:24:49 INFO: ============China Construction Bank, SIZE feature data collection started============
+03/30/2019 02:24:49 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:24:49 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:24:49 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:24:52 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 754
+03/30/2019 02:24:52 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DChina%2520Construction%2520Bank%26as_oq%3D%2522size%2522%2520%2522number%2520of%2520employees%2522%2520%2522employees%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGKL7--QFIhkA8aeDS-JuzE0scTM9aIquGqWb9DVAk3XcMgFy HTTP/1.1" 503 3857
+03/30/2019 02:24:52 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:24:52 INFO: =========================Getting search result source code=========================
+03/30/2019 02:24:52 INFO: ============China Construction Bank, SIZE feature data collection completed============
+03/30/2019 02:24:52 INFO: ============China Construction Bank, ACQUISITIONS feature data collection started============
+03/30/2019 02:24:52 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:24:52 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:24:52 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:24:53 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 773
+03/30/2019 02:24:54 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DChina%2520Construction%2520Bank%26as_oq%3D%2522acquire%2522%2520%2522take%2520over%2522%2520%2522took%2520over%2522%2520%2522acquisition%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGKT7--QFIhkA8aeDS65JV_5fwdRf10D23MLRx9neAPULMgFy HTTP/1.1" 503 3896
+03/30/2019 02:24:54 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:24:54 INFO: =========================Getting search result source code=========================
+03/30/2019 02:24:54 INFO: ============China Construction Bank, ACQUISITIONS feature data collection completed============
+03/30/2019 02:24:54 INFO: ============China Construction Bank, FUTURE GOALS feature data collection started============
+03/30/2019 02:24:54 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:24:54 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:24:54 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:24:55 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 827
+03/30/2019 02:24:55 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DChina%2520Construction%2520Bank%26as_oq%3D%2522future%2522%2520%2522goals%2522%2520%2522future%2520goals%2522%2520%2522aim%2522%2520%2522ambition%2522%2520%2522objectives%2522%2520%2522deals%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGKX7--QFIhkA8aeDS6WlOcvs8KODybVLAx5rO43WlwhAMgFy HTTP/1.1" 503 4010
+03/30/2019 02:24:55 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:24:55 INFO: =========================Getting search result source code=========================
+03/30/2019 02:24:55 INFO: ============China Construction Bank, FUTURE GOALS feature data collection completed============
+03/30/2019 02:24:55 INFO: ============China Construction Bank, TECH STACK feature data collection started============
+03/30/2019 02:24:55 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:24:55 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:24:55 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:24:56 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 770
+03/30/2019 02:24:56 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DChina%2520Construction%2520Bank%26as_oq%3D%2522technology%2522%2520%2522stack%2522%2520%2522stack%2522%2520%2522development%2520tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGKb7--QFIhkA8aeDS-MZe8VSxSUse18tgnhc3cKfc7c2MgFy HTTP/1.1" 503 3893
+03/30/2019 02:24:56 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:24:56 INFO: =========================Getting search result source code=========================
+03/30/2019 02:24:56 INFO: ============China Construction Bank, TECH STACK feature data collection completed============
+03/30/2019 02:24:56 INFO: ============China Construction Bank, PRODUCTS feature data collection started============
+03/30/2019 02:24:56 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:24:56 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:24:56 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:24:57 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 785
+03/30/2019 02:24:57 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DChina%2520Construction%2520Bank%26as_oq%3D%2522products%2522%2520%2522services%2522%2520%2522applications%2522%2520%2522software%2522%2520%2522tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGKf7--QFIhkA8aeDS4ltKb-3rmYgUvYDWEiA9dAqrXBeMgFy HTTP/1.1" 503 3926
+03/30/2019 02:24:57 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:24:57 INFO: =========================Getting search result source code=========================
+03/30/2019 02:24:57 INFO: ============China Construction Bank, PRODUCTS feature data collection completed============
+03/30/2019 02:24:57 INFO: ============China Construction Bank data collection completed============

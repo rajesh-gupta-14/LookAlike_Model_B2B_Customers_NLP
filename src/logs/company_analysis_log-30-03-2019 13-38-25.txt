@@ -1,0 +1,200 @@
+03/30/2019 13:38:25 INFO: ============Script execution started============
+03/30/2019 13:38:25 INFO: ============China Construction Bank data collection started============
+03/30/2019 13:38:25 INFO: ============China Construction Bank, SIZE feature data collection started============
+03/30/2019 13:38:25 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 13:38:25 INFO: ======================Generating Google Search code==========================
+03/30/2019 13:38:25 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 13:38:26 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 13:38:26 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 13:38:26 INFO: =========================Getting search result source code=========================
+03/30/2019 13:38:26 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 13:38:27 DEBUG: https://en.wikipedia.org:443 "GET /wiki/China_Construction_Bank HTTP/1.1" 200 None
+03/30/2019 13:38:27 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 13:38:28 DEBUG: https://www.statista.com:443 "GET /statistics/259804/number-of-employees-at-the-china-construction-bank/ HTTP/1.1" 200 None
+03/30/2019 13:38:28 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 13:38:28 DEBUG: https://en.wikipedia.org:443 "GET /wiki/China_Construction_Bank HTTP/1.1" 200 25895
+03/30/2019 13:38:28 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 13:38:29 DEBUG: https://www.forbes.com:443 "GET /companies/china-construction-bank/ HTTP/1.1" 200 42941
+03/30/2019 13:38:29 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/30/2019 13:38:29 DEBUG: https://www.glassdoor.ca:443 "GET /Overview/Working-at-China-Construction-Bank-EI_IE12617.11,34.htm HTTP/1.1" 403 None
+03/30/2019 13:38:29 DEBUG: Starting new HTTP connection (1): fortune.com:80
+03/30/2019 13:38:33 DEBUG: http://fortune.com:80 "GET /global500/china-construction-bank/ HTTP/1.1" 200 None
+03/30/2019 13:38:33 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 13:38:33 DEBUG: https://ca.linkedin.com:443 "GET /company/china-construction-bank HTTP/1.1" 999 1461
+03/30/2019 13:38:33 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 13:38:33 DEBUG: https://ca.linkedin.com:443 "GET /company/china-construction-bank-international HTTP/1.1" 999 1461
+03/30/2019 13:38:33 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 13:38:34 DEBUG: https://ca.linkedin.com:443 "GET /company/china-construction-bank-london-limited HTTP/1.1" 999 1461
+03/30/2019 13:38:34 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/30/2019 13:38:34 DEBUG: https://www.crunchbase.com:443 "GET /organization/china-construction-bank HTTP/1.1" 403 None
+03/30/2019 13:38:34 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 13:38:34 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2018-02-21/china-construction-bank-emerges-as-pick-for-blackrock-goldman HTTP/1.1" 307 0
+03/30/2019 13:38:34 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 13:38:34 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=41898260-530a-11e9-8930-831c4327648b&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMi0yMS9jaGluYS1jb25zdHJ1Y3Rpb24tYmFuay1lbWVyZ2VzLWFzLXBpY2stZm9yLWJsYWNrcm9jay1nb2xkbWFu HTTP/1.1" 200 4595
+03/30/2019 13:38:34 INFO: ============China Construction Bank, SIZE feature data collection completed============
+03/30/2019 13:38:34 INFO: ============China Construction Bank, ACQUISITIONS feature data collection started============
+03/30/2019 13:38:34 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 13:38:34 INFO: ======================Generating Google Search code==========================
+03/30/2019 13:38:34 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 13:38:35 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 13:38:35 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 13:38:35 INFO: =========================Getting search result source code=========================
+03/30/2019 13:38:35 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 13:38:35 DEBUG: https://en.wikipedia.org:443 "GET /wiki/China_Construction_Bank_(Asia) HTTP/1.1" 200 None
+03/30/2019 13:38:35 DEBUG: Starting new HTTPS connection (1): www.caixinglobal.com:443
+03/30/2019 13:38:37 DEBUG: https://www.caixinglobal.com:443 "GET /2018-08-28/china-construction-bank-sells-27-rural-banks-101319395.html HTTP/1.1" 200 10918
+03/30/2019 13:38:37 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 13:38:37 DEBUG: https://en.wikipedia.org:443 "GET /wiki/China_Construction_Bank_(Asia) HTTP/1.1" 200 9744
+03/30/2019 13:38:37 DEBUG: Starting new HTTPS connection (1): www.scmp.com:443
+03/30/2019 13:38:38 DEBUG: https://www.scmp.com:443 "GET /business/banking-finance/article/1039372/china-construction-bank-prowl-european-lender HTTP/1.1" 200 None
+03/30/2019 13:38:38 DEBUG: Starting new HTTPS connection (1): www.fasken.com:443
+03/30/2019 13:38:38 DEBUG: https://www.fasken.com:443 "GET /en/solutionhub/clientworkhub/2018/12/zijin-mining-enters-us870-million-credit-facility-with-china-construction-bank-corporation-to-partia HTTP/1.1" 403 1233
+03/30/2019 13:38:38 DEBUG: Starting new HTTPS connection (1): www.cliffordchance.com:443
+03/30/2019 13:38:39 DEBUG: https://www.cliffordchance.com:443 "GET /news/news/2019/01/clifford-chance-advises-china-construction-bank-on-us-840-millio.html HTTP/1.1" 200 20952
+03/30/2019 13:38:39 DEBUG: Starting new HTTPS connection (1): www.ft.com:443
+03/30/2019 13:38:39 DEBUG: https://www.ft.com:443 "GET /content/98d374ee-4312-11e3-8350-00144feabdc0 HTTP/1.1" 200 31006
+03/30/2019 13:38:39 DEBUG: Starting new HTTPS connection (1): www.mingtiandi.com:443
+03/30/2019 13:38:40 DEBUG: https://www.mingtiandi.com:443 "GET /real-estate/outbound-investment/china-construction-bank-buys-london-office-tower-for-187m/ HTTP/1.1" 403 162
+03/30/2019 13:38:40 DEBUG: Starting new HTTP connection (1): www.globaltimes.cn:80
+03/30/2019 13:38:42 DEBUG: http://www.globaltimes.cn:80 "GET /content/821968.shtml HTTP/1.1" 200 3190
+03/30/2019 13:38:42 DEBUG: Starting new HTTP connection (1): www.chinadaily.com.cn:80
+03/30/2019 13:38:43 DEBUG: http://www.chinadaily.com.cn:80 "GET /business/2006-12/31/content_772528.htm HTTP/1.1" 200 4412
+03/30/2019 13:38:43 DEBUG: Starting new HTTPS connection (1): www.reuters.com:443
+03/30/2019 13:38:44 DEBUG: https://www.reuters.com:443 "GET /article/us-china-cic-logicor/chinas-cic-raising-8-billion-loan-for-logicor-acquisition-basis-point-idUSKBN1AD1A0 HTTP/1.1" 200 None
+03/30/2019 13:38:44 INFO: ============China Construction Bank, ACQUISITIONS feature data collection completed============
+03/30/2019 13:38:44 INFO: ============China Construction Bank, FUTURE GOALS feature data collection started============
+03/30/2019 13:38:44 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 13:38:44 INFO: ======================Generating Google Search code==========================
+03/30/2019 13:38:44 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 13:38:44 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 13:38:45 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 13:38:45 INFO: =========================Getting search result source code=========================
+03/30/2019 13:38:45 DEBUG: Starting new HTTPS connection (1): www.quantumrun.com:443
+03/30/2019 13:38:45 DEBUG: https://www.quantumrun.com:443 "GET /company_profile/future-of-china-construction-bank/15973 HTTP/1.1" 200 None
+03/30/2019 13:38:45 DEBUG: Starting new HTTPS connection (1): www.bmc.com:443
+03/30/2019 13:38:46 DEBUG: https://www.bmc.com:443 "GET /blogs/china-construction-bank-enhances-mainframe-workload-management-while-progressing-to-the-cloud/ HTTP/1.1" 200 26479
+03/30/2019 13:38:46 DEBUG: Starting new HTTPS connection (1): simplywall.st:443
+03/30/2019 13:38:46 DEBUG: https://simplywall.st:443 "GET /stocks/hk/banks/hkg-939/china-construction-bank-shares/news/should-you-buy-china-construction-bank-corporation-hkg939-2/ HTTP/1.1" 200 None
+03/30/2019 13:38:46 DEBUG: Starting new HTTPS connection (1): ca.investing.com:443
+03/30/2019 13:38:47 DEBUG: https://ca.investing.com:443 "GET /equities/ccb HTTP/1.1" 403 728
+03/30/2019 13:38:47 DEBUG: Starting new HTTPS connection (1): www.banktrack.org:443
+03/30/2019 13:38:48 DEBUG: https://www.banktrack.org:443 "GET /bank/china_construction_bank/pdf HTTP/1.1" 200 35187
+03/30/2019 13:38:48 DEBUG: SHIFT_JIS Japanese prober hit error at byte 28
+03/30/2019 13:38:48 DEBUG: EUC-JP Japanese prober hit error at byte 29
+03/30/2019 13:38:48 DEBUG: GB2312 Chinese prober hit error at byte 29
+03/30/2019 13:38:48 DEBUG: EUC-KR Korean prober hit error at byte 29
+03/30/2019 13:38:48 DEBUG: CP949 Korean prober hit error at byte 29
+03/30/2019 13:38:48 DEBUG: Big5 Chinese prober hit error at byte 29
+03/30/2019 13:38:48 DEBUG: EUC-TW Taiwan prober hit error at byte 29
+03/30/2019 13:38:48 DEBUG: KOI8-R confidence = 0.03931355164699934, below negative shortcut threshhold 0.05
+03/30/2019 13:38:48 DEBUG: ISO-8859-5 confidence = 0.0458535343909358, below negative shortcut threshhold 0.05
+03/30/2019 13:38:48 DEBUG: IBM855 confidence = 0.04128722096085022, below negative shortcut threshhold 0.05
+03/30/2019 13:38:48 DEBUG: ISO-8859-5 confidence = 0.04340738191477737, below negative shortcut threshhold 0.05
+03/30/2019 13:38:48 DEBUG: windows-1251 confidence = 0.04982157518072034, below negative shortcut threshhold 0.05
+03/30/2019 13:38:48 DEBUG: TIS-620 confidence = 0.04630205034352872, below negative shortcut threshhold 0.05
+03/30/2019 13:38:48 DEBUG: windows-1255 confidence = 0.0498005138674687, below negative shortcut threshhold 0.05
+03/30/2019 13:38:48 DEBUG: windows-1255 confidence = 0.049122955855666395, below negative shortcut threshhold 0.05
+03/30/2019 13:38:48 DEBUG: windows-1251 Russian confidence = 0.05201300520778298
+03/30/2019 13:38:48 DEBUG: KOI8-R not active
+03/30/2019 13:38:48 DEBUG: ISO-8859-5 not active
+03/30/2019 13:38:48 DEBUG: MacCyrillic Russian confidence = 0.054972323570449406
+03/30/2019 13:38:48 DEBUG: IBM866 Russian confidence = 0.05006841988474301
+03/30/2019 13:38:48 DEBUG: IBM855 not active
+03/30/2019 13:38:48 DEBUG: ISO-8859-7 Greek confidence = 0.07861106087344344
+03/30/2019 13:38:48 DEBUG: windows-1253 Greek confidence = 0.08023592961553327
+03/30/2019 13:38:48 DEBUG: ISO-8859-5 not active
+03/30/2019 13:38:48 DEBUG: windows-1251 not active
+03/30/2019 13:38:48 DEBUG: TIS-620 not active
+03/30/2019 13:38:48 DEBUG: ISO-8859-9 Turkish confidence = 0.2090966650933323
+03/30/2019 13:38:48 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 13:38:48 DEBUG: windows-1255 not active
+03/30/2019 13:38:48 DEBUG: windows-1255 not active
+03/30/2019 13:38:48 DEBUG: windows-1251 Russian confidence = 0.05201300520778298
+03/30/2019 13:38:48 DEBUG: KOI8-R not active
+03/30/2019 13:38:48 DEBUG: ISO-8859-5 not active
+03/30/2019 13:38:48 DEBUG: MacCyrillic Russian confidence = 0.054972323570449406
+03/30/2019 13:38:48 DEBUG: IBM866 Russian confidence = 0.05006841988474301
+03/30/2019 13:38:48 DEBUG: IBM855 not active
+03/30/2019 13:38:48 DEBUG: ISO-8859-7 Greek confidence = 0.07861106087344344
+03/30/2019 13:38:48 DEBUG: windows-1253 Greek confidence = 0.08023592961553327
+03/30/2019 13:38:48 DEBUG: ISO-8859-5 not active
+03/30/2019 13:38:48 DEBUG: windows-1251 not active
+03/30/2019 13:38:48 DEBUG: TIS-620 not active
+03/30/2019 13:38:48 DEBUG: ISO-8859-9 Turkish confidence = 0.2090966650933323
+03/30/2019 13:38:48 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 13:38:48 DEBUG: windows-1255 not active
+03/30/2019 13:38:48 DEBUG: windows-1255 not active
+03/30/2019 13:38:48 DEBUG: Starting new HTTPS connection (1): quotes.wsj.com:443
+03/30/2019 13:38:50 DEBUG: https://quotes.wsj.com:443 "GET /CICHY HTTP/1.1" 200 None
+03/30/2019 13:38:50 DEBUG: Starting new HTTPS connection (1): www.ft.com:443
+03/30/2019 13:38:51 DEBUG: https://www.ft.com:443 "GET /stream/54a83d99-5e6d-4220-96a5-83b5a3439c8a HTTP/1.1" 200 46781
+03/30/2019 13:38:51 DEBUG: Starting new HTTP connection (1): en.ccb.com:80
+03/30/2019 13:38:51 DEBUG: http://en.ccb.com:80 "GET /en/investor/1129888838100.html HTTP/1.1" 200 4851
+03/30/2019 13:38:52 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 13:38:52 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DcMQyZAyP228 HTTP/1.1" 503 1800
+03/30/2019 13:38:52 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 13:38:53 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2018-02-21/china-construction-bank-emerges-as-pick-for-blackrock-goldman HTTP/1.1" 307 0
+03/30/2019 13:38:53 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 13:38:53 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=4ca60d80-530a-11e9-aa80-23ac5d32dcc4&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wMi0yMS9jaGluYS1jb25zdHJ1Y3Rpb24tYmFuay1lbWVyZ2VzLWFzLXBpY2stZm9yLWJsYWNrcm9jay1nb2xkbWFu HTTP/1.1" 200 4595
+03/30/2019 13:38:53 INFO: ============China Construction Bank, FUTURE GOALS feature data collection completed============
+03/30/2019 13:38:53 INFO: ============China Construction Bank, TECH STACK feature data collection started============
+03/30/2019 13:38:53 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 13:38:53 INFO: ======================Generating Google Search code==========================
+03/30/2019 13:38:53 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 13:38:53 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 13:38:54 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 13:38:54 INFO: =========================Getting search result source code=========================
+03/30/2019 13:38:54 DEBUG: Starting new HTTPS connection (1): e.huawei.com:443
+03/30/2019 13:38:55 DEBUG: https://e.huawei.com:443 "GET /topic/leading-new-ict-en/china-construction-bank-case.html HTTP/1.1" 200 8462
+03/30/2019 13:38:55 DEBUG: Starting new HTTPS connection (1): www.vrfocus.com:443
+03/30/2019 13:38:56 DEBUG: https://www.vrfocus.com:443 "GET /2018/04/virtual-banking-china-construction-bank-experiments-with-cutting-edge-technology/ HTTP/1.1" 200 21028
+03/30/2019 13:38:56 DEBUG: Starting new HTTPS connection (1): www.finextra.com:443
+03/30/2019 13:38:57 DEBUG: https://www.finextra.com:443 "GET /company-news/2288/china-construction-bank HTTP/1.1" 200 16684
+03/30/2019 13:38:57 DEBUG: Starting new HTTP connection (1): www.ccb.com:80
+03/30/2019 13:38:58 DEBUG: http://www.ccb.com:80 "GET /en/home/95533.html HTTP/1.1" 200 3067
+03/30/2019 13:38:58 DEBUG: Starting new HTTP connection (1): www.ccb.com:80
+03/30/2019 13:38:58 DEBUG: http://www.ccb.com:80 "GET /en/ccbtoday/anniversarycelebration.html HTTP/1.1" 200 17547
+03/30/2019 13:39:00 DEBUG: Starting new HTTPS connection (1): futurebranches.wbresearch.com:443
+03/30/2019 13:39:01 DEBUG: https://futurebranches.wbresearch.com:443 "GET /china-construction-bank-branch-robot-staff-strategy-ty-u HTTP/1.1" 200 None
+03/30/2019 13:39:01 DEBUG: Starting new HTTPS connection (1): www.bankingtech.com:443
+03/30/2019 13:39:03 DEBUG: https://www.bankingtech.com:443 "GET /2018/04/china-construction-bank-opens-robot-run-branch/ HTTP/1.1" 200 22036
+03/30/2019 13:39:03 DEBUG: Starting new HTTPS connection (1): www.scmp.com:443
+03/30/2019 13:39:06 DEBUG: https://www.scmp.com:443 "GET /business/companies/article/2141203/meet-new-face-branch-banking HTTP/1.1" 200 None
+03/30/2019 13:39:06 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/30/2019 13:39:06 DEBUG: https://www.crunchbase.com:443 "GET /organization/china-construction-bank HTTP/1.1" 403 None
+03/30/2019 13:39:06 DEBUG: Starting new HTTPS connection (1): www.reuters.com:443
+03/30/2019 13:39:07 DEBUG: https://www.reuters.com:443 "GET /finance/stocks/overview/601939.SS HTTP/1.1" 200 33821
+03/30/2019 13:39:07 INFO: ============China Construction Bank, TECH STACK feature data collection completed============
+03/30/2019 13:39:07 INFO: ============China Construction Bank, PRODUCTS feature data collection started============
+03/30/2019 13:39:07 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 13:39:07 INFO: ======================Generating Google Search code==========================
+03/30/2019 13:39:07 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 13:39:07 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 13:39:08 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 13:39:08 INFO: =========================Getting search result source code=========================
+03/30/2019 13:39:08 DEBUG: Starting new HTTP connection (1): www.ccb.com:80
+03/30/2019 13:39:11 DEBUG: http://www.ccb.com:80 "GET /en/home/indexv3.html HTTP/1.1" 200 4881
+03/30/2019 13:39:12 DEBUG: Starting new HTTP connection (1): en.ccb.com:80
+03/30/2019 13:39:15 DEBUG: http://en.ccb.com:80 "GET /en/investor/overview.html HTTP/1.1" 200 5462
+03/30/2019 13:39:15 DEBUG: Starting new HTTP connection (1): ca.ccb.com:80
+03/30/2019 13:39:16 DEBUG: http://ca.ccb.com:80 "GET /en/home/contactus.html HTTP/1.1" 200 3620
+03/30/2019 13:39:16 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 13:39:16 DEBUG: https://en.wikipedia.org:443 "GET /wiki/China_Construction_Bank HTTP/1.1" 200 25895
+03/30/2019 13:39:16 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 13:39:16 DEBUG: https://www.bloomberg.com:443 "GET /research/stocks/private/snapshot.asp%3FprivcapId%3D5463812 HTTP/1.1" 307 0
+03/30/2019 13:39:16 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 13:39:16 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=5ac37c90-530a-11e9-b812-79ff1f4b1794&url=L3Jlc2VhcmNoL3N0b2Nrcy9wcml2YXRlL3NuYXBzaG90LmFzcCUzRnByaXZjYXBJZCUzRDU0NjM4MTI= HTTP/1.1" 200 4595
+03/30/2019 13:39:16 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 13:39:17 DEBUG: https://www.bloomberg.com:443 "GET /profiles/companies/1052Z:HK-china-construction-bank-asia-corp-ltd HTTP/1.1" 307 0
+03/30/2019 13:39:17 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 13:39:17 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=5ae3fce0-530a-11e9-a459-f149aafd012b&url=L3Byb2ZpbGVzL2NvbXBhbmllcy8xMDUyWjpISy1jaGluYS1jb25zdHJ1Y3Rpb24tYmFuay1hc2lhLWNvcnAtbHRk HTTP/1.1" 200 4595
+03/30/2019 13:39:17 DEBUG: Starting new HTTPS connection (1): www.saba.com:443
+03/30/2019 13:39:18 DEBUG: https://www.saba.com:443 "GET /resources/case-studies/china-construction-bank HTTP/1.1" 200 13760
+03/30/2019 13:39:18 DEBUG: Starting new HTTPS connection (1): www.scmp.com:443
+03/30/2019 13:39:18 DEBUG: https://www.scmp.com:443 "GET /business/companies/article/2179685/bank-china-china-construction-bank-get-wealth-management-units HTTP/1.1" 200 None
+03/30/2019 13:39:18 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 13:39:18 DEBUG: https://www.forbes.com:443 "GET /companies/china-construction-bank/ HTTP/1.1" 200 42941
+03/30/2019 13:39:18 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 13:39:18 DEBUG: https://ca.linkedin.com:443 "GET /company/china-construction-bank-frankfurt-branch HTTP/1.1" 999 1461
+03/30/2019 13:39:19 INFO: ============China Construction Bank, PRODUCTS feature data collection completed============
+03/30/2019 13:39:19 INFO: ============China Construction Bank data collection completed============

@@ -1,0 +1,440 @@
+03/30/2019 15:26:05 INFO: ============Script execution started============
+03/30/2019 15:26:05 INFO: ============Tech Mahindra data collection started============
+03/30/2019 15:26:05 INFO: ============Tech Mahindra, SIZE feature data collection started============
+03/30/2019 15:26:05 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:26:05 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:26:05 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:26:06 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Tech%20Mahindra&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:26:06 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:26:06 INFO: =========================Getting search result source code=========================
+03/30/2019 15:26:06 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:26:06 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Tech_Mahindra HTTP/1.1" 200 25346
+03/30/2019 15:26:06 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:26:06 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Tech_Mahindra HTTP/1.1" 200 25346
+03/30/2019 15:26:07 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/30/2019 15:26:07 DEBUG: https://www.owler.com:443 "GET /company/techmahindra HTTP/1.1" 405 5784
+03/30/2019 15:26:07 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 15:26:07 DEBUG: https://ca.linkedin.com:443 "GET /company/tech-mahindra HTTP/1.1" 999 1461
+03/30/2019 15:26:07 DEBUG: Starting new HTTPS connection (1): www.glassdoor.com:443
+03/30/2019 15:26:08 DEBUG: https://www.glassdoor.com:443 "GET /Overview/Working-at-Tech-Mahindra-EI_IE135932.11,24.htm HTTP/1.1" 403 None
+03/30/2019 15:26:08 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 15:26:08 DEBUG: https://www.forbes.com:443 "GET /companies/tech-mahindra/ HTTP/1.1" 200 41663
+03/30/2019 15:26:08 DEBUG: Starting new HTTPS connection (1): www.dqindia.com:443
+03/30/2019 15:26:09 DEBUG: https://www.dqindia.com:443 "GET /tech-mahindras-moodometer-gauges-employees-mood-uplift-work-environment/ HTTP/1.1" 403 None
+03/30/2019 15:26:09 DEBUG: Starting new HTTPS connection (1): ca.indeed.com:443
+03/30/2019 15:26:10 DEBUG: https://ca.indeed.com:443 "GET /cmp/Tech-Mahindra/reviews HTTP/1.1" 200 None
+03/30/2019 15:26:10 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:26:12 DEBUG: https://www.techmahindra.com:443 "GET /company/default.aspx HTTP/1.1" 200 35298
+03/30/2019 15:26:13 DEBUG: Starting new HTTPS connection (1): www.glassdoor.co.in:443
+03/30/2019 15:26:13 DEBUG: https://www.glassdoor.co.in:443 "GET /Reviews/Tech-Mahindra-Reviews-E135932.htm HTTP/1.1" 403 None
+03/30/2019 15:26:13 DEBUG: Starting new HTTPS connection (1): www.business-standard.com:443
+03/30/2019 15:26:15 DEBUG: https://www.business-standard.com:443 "GET /article/companies/tech-mahindra-to-train-additional-10-000-employees-on-automation-in-2017-117110500332_1.html HTTP/1.1" 200 39381
+03/30/2019 15:26:15 INFO: ============Tech Mahindra, SIZE feature data collection completed============
+03/30/2019 15:26:15 INFO: ============Tech Mahindra, ACQUISITIONS feature data collection started============
+03/30/2019 15:26:15 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:26:15 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:26:15 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:26:15 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Tech%20Mahindra&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:26:15 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:26:16 INFO: =========================Getting search result source code=========================
+03/30/2019 15:26:16 DEBUG: Starting new HTTPS connection (1): m.economictimes.com:443
+03/30/2019 15:26:16 DEBUG: https://m.economictimes.com:443 "GET /tech/ites/tech-mahindra-to-acquire-czech-based-engineering-service-firm-for-rs-8-crore/articleshow/65502739.cms HTTP/1.1" 302 0
+03/30/2019 15:26:16 DEBUG: Starting new HTTPS connection (1): economictimes.indiatimes.com:443
+03/30/2019 15:26:17 DEBUG: https://economictimes.indiatimes.com:443 "GET /tech/ites/tech-mahindra-to-acquire-czech-based-engineering-service-firm-for-rs-8-crore/articleshow/65502739.cms?from=mdr HTTP/1.1" 200 36753
+03/30/2019 15:26:17 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:26:20 DEBUG: https://www.techmahindra.com:443 "GET /investors/acquisition_transcript.aspx HTTP/1.1" 200 39157
+03/30/2019 15:26:20 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:26:23 DEBUG: https://www.techmahindra.com:443 "GET /media/press_releases/TechMahindra-announces-DynaCommerce-acquisition.aspx HTTP/1.1" 200 38509
+03/30/2019 15:26:24 DEBUG: Starting new HTTPS connection (1): tech.economictimes.indiatimes.com:443
+03/30/2019 15:26:26 DEBUG: https://tech.economictimes.indiatimes.com:443 "GET /news/corporate/tech-mahindra-announces-dynacommerce-acquisition/67807285 HTTP/1.1" 200 27005
+03/30/2019 15:26:26 DEBUG: Starting new HTTPS connection (1): m.economictimes.com:443
+03/30/2019 15:26:26 DEBUG: https://m.economictimes.com:443 "GET /tech/ites/tech-mahindra-to-acquire-czech-based-engineering-service-firm-for-rs-8-crore/articleshow/65502739.cms HTTP/1.1" 302 0
+03/30/2019 15:26:26 DEBUG: Starting new HTTPS connection (1): economictimes.indiatimes.com:443
+03/30/2019 15:26:27 DEBUG: https://economictimes.indiatimes.com:443 "GET /tech/ites/tech-mahindra-to-acquire-czech-based-engineering-service-firm-for-rs-8-crore/articleshow/65502739.cms?from=mdr HTTP/1.1" 200 37097
+03/30/2019 15:26:27 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:26:27 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Tech_Mahindra HTTP/1.1" 200 25346
+03/30/2019 15:26:27 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:26:27 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Mahindra_Satyam HTTP/1.1" 200 21326
+03/30/2019 15:26:27 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/30/2019 15:26:27 DEBUG: https://www.crunchbase.com:443 "GET /organization/tech-mahindra HTTP/1.1" 403 None
+03/30/2019 15:26:27 DEBUG: Starting new HTTPS connection (1): www.nearshoreamericas.com:443
+03/30/2019 15:26:28 DEBUG: https://www.nearshoreamericas.com:443 "GET /tech-mahindra-acquires-us-based-healthcare-consulting-firm-cjs-solutions/ HTTP/1.1" 403 None
+03/30/2019 15:26:28 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 15:26:28 DEBUG: https://www.forbes.com:443 "GET /sites/anuraghunathan/2016/08/24/indian-it-major-tech-mahindra-uses-acquisitions-to-forge-ahead/ HTTP/1.1" 200 50220
+03/30/2019 15:26:28 DEBUG: Starting new HTTPS connection (1): www.finextra.com:443
+03/30/2019 15:26:29 DEBUG: https://www.finextra.com:443 "GET /newsarticle/28965/tech-mahindra-agrees-112m-target-group-acquisition HTTP/1.1" 200 19845
+03/30/2019 15:26:29 INFO: ============Tech Mahindra, ACQUISITIONS feature data collection completed============
+03/30/2019 15:26:29 INFO: ============Tech Mahindra, FUTURE GOALS feature data collection started============
+03/30/2019 15:26:29 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:26:29 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:26:29 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:26:30 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Tech%20Mahindra&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:26:30 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:26:30 INFO: =========================Getting search result source code=========================
+03/30/2019 15:26:30 DEBUG: Starting new HTTPS connection (1): partners.wsj.com:443
+03/30/2019 15:26:31 DEBUG: https://partners.wsj.com:443 "GET /tech-mahindra/in-the-future/ HTTP/1.1" 200 None
+03/30/2019 15:26:31 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:26:36 DEBUG: https://www.techmahindra.com:443 "GET /services/Enterprises-of-Future/Overview.aspx HTTP/1.1" 200 34294
+03/30/2019 15:26:36 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:26:38 DEBUG: https://www.techmahindra.com:443 "GET /industries/Enterprise/Manufacturing/Service_Offerings/automotive/Factory-of-Future.aspx HTTP/1.1" 200 39852
+03/30/2019 15:26:39 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:26:41 DEBUG: https://www.techmahindra.com:443 "GET /services/Enterprises-of-Future/CRM-Sales-force/Strategy-Offerings/Strategy-Planning-Workshop.aspx HTTP/1.1" 200 37061
+03/30/2019 15:26:41 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/30/2019 15:26:41 DEBUG: https://www.quora.com:443 "GET /What-benefits-do-Tech-Mahindra-offer-that-are-not-usual-in-other-Indian-IT-companies HTTP/1.1" 200 None
+03/30/2019 15:26:42 DEBUG: Starting new HTTPS connection (1): www.linkedin.com:443
+03/30/2019 15:26:42 DEBUG: https://www.linkedin.com:443 "GET /in/amit-kumar-78a79423 HTTP/1.1" 999 1461
+03/30/2019 15:26:42 DEBUG: Starting new HTTPS connection (1): m.moneycontrol.com:443
+03/30/2019 15:26:44 DEBUG: https://m.moneycontrol.com:443 "GET /stock/techmahindra/TM4/india/fnoquote HTTP/1.1" 200 19038
+03/30/2019 15:26:44 DEBUG: Starting new HTTPS connection (1): www.moneycontrol.com:443
+03/30/2019 15:26:45 DEBUG: https://www.moneycontrol.com:443 "GET /india/stockpricequote/computers-software/techmahindra/TM4 HTTP/1.1" 200 None
+03/30/2019 15:26:45 DEBUG: Starting new HTTPS connection (1): www.youtube.com:443
+03/30/2019 15:26:46 DEBUG: https://www.youtube.com:443 "GET /watch%3Fv%3DcwwSGsGnOKs HTTP/1.1" 503 1800
+03/30/2019 15:26:46 DEBUG: Starting new HTTPS connection (1): m.economictimes.com:443
+03/30/2019 15:26:47 DEBUG: https://m.economictimes.com:443 "GET /tech/ites/tech-mahindra-opens-factory-of-the-future-centre/articleshow/57517657.cms HTTP/1.1" 302 0
+03/30/2019 15:26:47 DEBUG: Starting new HTTPS connection (1): economictimes.indiatimes.com:443
+03/30/2019 15:26:57 DEBUG: https://economictimes.indiatimes.com:443 "GET /tech/ites/tech-mahindra-opens-factory-of-the-future-centre/articleshow/57517657.cms?from=mdr HTTP/1.1" 200 37203
+03/30/2019 15:26:57 INFO: ============Tech Mahindra, FUTURE GOALS feature data collection completed============
+03/30/2019 15:26:57 INFO: ============Tech Mahindra, TECH STACK feature data collection started============
+03/30/2019 15:26:57 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:26:57 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:26:57 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:26:58 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Tech%20Mahindra&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:26:58 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:26:58 INFO: =========================Getting search result source code=========================
+03/30/2019 15:26:58 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:27:00 DEBUG: https://www.techmahindra.com:443 "GET /industries/Enterprise/technology_media_and_entertainment/overview/overview.aspx HTTP/1.1" 200 49943
+03/30/2019 15:27:01 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:27:05 DEBUG: https://www.techmahindra.com:443 "GET /industries/Enterprise/technology_media_and_entertainment/overview/technology.aspx HTTP/1.1" 200 52814
+03/30/2019 15:27:06 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:27:09 DEBUG: https://www.techmahindra.com:443 "GET /industries/Enterprise/technology_media_and_entertainment/semiconductor_offerings/managed_business_information_technology_services.aspx HTTP/1.1" 200 42095
+03/30/2019 15:27:09 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/30/2019 15:27:09 DEBUG: https://www.quora.com:443 "GET /What-technology-does-tech-mahindra-use HTTP/1.1" 200 None
+03/30/2019 15:27:10 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:27:10 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Tech_Mahindra HTTP/1.1" 200 25346
+03/30/2019 15:27:10 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 15:27:10 DEBUG: https://ca.linkedin.com:443 "GET /company/tech-mahindra HTTP/1.1" 999 1461
+03/30/2019 15:27:10 DEBUG: Starting new HTTPS connection (1): www1.pega.com:443
+03/30/2019 15:27:11 DEBUG: https://www1.pega.com:443 "GET /services/partnerships/tech-mahindra HTTP/1.1" 301 264
+03/30/2019 15:27:11 DEBUG: Starting new HTTPS connection (1): www.pega.com:443
+03/30/2019 15:27:11 DEBUG: https://www.pega.com:443 "GET /services/partnerships/tech-mahindra HTTP/1.1" 200 39376
+03/30/2019 15:27:11 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 15:27:11 DEBUG: https://www.forbes.com:443 "GET /companies/tech-mahindra/ HTTP/1.1" 200 41657
+03/30/2019 15:27:11 DEBUG: Starting new HTTPS connection (1): www.gartner.com:443
+03/30/2019 15:27:12 DEBUG: https://www.gartner.com:443 "GET /reviews/market/data-center-outsourcing-and-infrastructure-utility-services-emea/compare/dxc-technology-vs-tech-mahindra HTTP/1.1" 200 None
+03/30/2019 15:27:12 INFO: ============Tech Mahindra, TECH STACK feature data collection completed============
+03/30/2019 15:27:12 INFO: ============Tech Mahindra, PRODUCTS feature data collection started============
+03/30/2019 15:27:12 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:27:12 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:27:12 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:27:12 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Tech%20Mahindra&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:27:12 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:27:13 INFO: =========================Getting search result source code=========================
+03/30/2019 15:27:13 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:27:14 DEBUG: https://www.techmahindra.com:443 "GET /industries/Communication/network_platforms_and_applications/overview.aspx HTTP/1.1" 200 37902
+03/30/2019 15:27:15 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:27:16 DEBUG: https://www.techmahindra.com:443 "GET /services/default.aspx HTTP/1.1" 200 34388
+03/30/2019 15:27:17 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:27:18 DEBUG: https://www.techmahindra.com:443 "GET /services/NextGenSolutions/smart_grid/offerings/default.aspx HTTP/1.1" 200 34849
+03/30/2019 15:27:19 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:27:21 DEBUG: https://www.techmahindra.com:443 "GET /services/infrastructure-and-cloud-services/offerings/overview.aspx HTTP/1.1" 200 47114
+03/30/2019 15:27:21 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:27:22 DEBUG: https://www.techmahindra.com:443 "GET /industries/Communication/network_platforms_and_applications/overview.aspx HTTP/1.1" 200 37887
+03/30/2019 15:27:22 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:27:26 DEBUG: https://www.techmahindra.com:443 "GET /platforms/default.aspx HTTP/1.1" 200 37804
+03/30/2019 15:27:26 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:27:30 DEBUG: https://www.techmahindra.com:443 "GET /industries/Enterprise/bfsi/solutions/bfsi_mngd_data_serv.aspx HTTP/1.1" 200 45724
+03/30/2019 15:27:30 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:27:33 DEBUG: https://www.techmahindra.com:443 "GET /services/integrated_engineering_solutions/horizontal_competencies/software_and_applications.aspx HTTP/1.1" 200 38312
+03/30/2019 15:27:33 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:27:35 DEBUG: https://www.techmahindra.com:443 "GET /industries/Enterprise/energy_and_utilities/utilities/utility_domain_solutions/product_engineering_services.aspx HTTP/1.1" 200 41331
+03/30/2019 15:27:36 DEBUG: Starting new HTTPS connection (1): www.techmahindra.com:443
+03/30/2019 15:27:39 DEBUG: https://www.techmahindra.com:443 "GET /services/integrated_engineering_solutions/horizontal_competencies/product_design_engineering.aspx HTTP/1.1" 200 37951
+03/30/2019 15:27:39 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:27:39 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Tech_Mahindra HTTP/1.1" 200 25346
+03/30/2019 15:27:39 INFO: ============Tech Mahindra, PRODUCTS feature data collection completed============
+03/30/2019 15:27:39 INFO: ============Tech Mahindra data collection completed============
+03/30/2019 15:27:39 INFO: ============Adobe Systems data collection started============
+03/30/2019 15:27:39 INFO: ============Adobe Systems, SIZE feature data collection started============
+03/30/2019 15:27:39 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:27:39 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:27:39 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:27:40 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Adobe%20Systems&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:27:40 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:27:41 INFO: =========================Getting search result source code=========================
+03/30/2019 15:27:41 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:27:41 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Adobe_Inc. HTTP/1.1" 200 53939
+03/30/2019 15:27:41 DEBUG: Starting new HTTPS connection (1): content.eluta.ca:443
+03/30/2019 15:27:41 DEBUG: https://content.eluta.ca:443 "GET /top-employer-adobe-systems-canada HTTP/1.1" 200 107378
+03/30/2019 15:27:41 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 15:27:42 DEBUG: https://www.forbes.com:443 "GET /companies/adobe-systems/ HTTP/1.1" 200 42407
+03/30/2019 15:27:42 DEBUG: Starting new HTTPS connection (1): www.adobe.com:443
+03/30/2019 15:27:42 DEBUG: https://www.adobe.com:443 "GET /aboutadobe/pressroom/pdfs/corp_bro_0703.pdf HTTP/1.1" 200 812961
+03/30/2019 15:27:42 DEBUG: SHIFT_JIS Japanese prober hit error at byte 813
+03/30/2019 15:27:42 DEBUG: EUC-JP Japanese prober hit error at byte 795
+03/30/2019 15:27:42 DEBUG: GB2312 Chinese prober hit error at byte 810
+03/30/2019 15:27:42 DEBUG: EUC-KR Korean prober hit error at byte 795
+03/30/2019 15:27:42 DEBUG: CP949 Korean prober hit error at byte 795
+03/30/2019 15:27:42 DEBUG: Big5 Chinese prober hit error at byte 802
+03/30/2019 15:27:42 DEBUG: EUC-TW Taiwan prober hit error at byte 795
+03/30/2019 15:27:43 DEBUG: windows-1251 confidence = 0.03980724344508132, below negative shortcut threshhold 0.05
+03/30/2019 15:27:44 DEBUG: KOI8-R confidence = 0.03475143078951831, below negative shortcut threshhold 0.05
+03/30/2019 15:27:44 DEBUG: ISO-8859-5 confidence = 0.0398161593940702, below negative shortcut threshhold 0.05
+03/30/2019 15:27:45 DEBUG: MacCyrillic confidence = 0.04369074842219022, below negative shortcut threshhold 0.05
+03/30/2019 15:27:46 DEBUG: IBM866 confidence = 0.0394951352104328, below negative shortcut threshhold 0.05
+03/30/2019 15:27:46 DEBUG: IBM855 confidence = 0.04224042068167735, below negative shortcut threshhold 0.05
+03/30/2019 15:27:48 DEBUG: ISO-8859-5 confidence = 0.03873760607791564, below negative shortcut threshhold 0.05
+03/30/2019 15:27:49 DEBUG: windows-1251 confidence = 0.03930181647497624, below negative shortcut threshhold 0.05
+03/30/2019 15:27:49 DEBUG: TIS-620 confidence = 0.04176958879742077, below negative shortcut threshhold 0.05
+03/30/2019 15:27:51 DEBUG: windows-1255 confidence = 0.04768784782161029, below negative shortcut threshhold 0.05
+03/30/2019 15:27:52 DEBUG: windows-1255 confidence = 0.046792265446790327, below negative shortcut threshhold 0.05
+03/30/2019 15:27:52 DEBUG: windows-1251 not active
+03/30/2019 15:27:52 DEBUG: KOI8-R not active
+03/30/2019 15:27:52 DEBUG: ISO-8859-5 not active
+03/30/2019 15:27:52 DEBUG: MacCyrillic not active
+03/30/2019 15:27:52 DEBUG: IBM866 not active
+03/30/2019 15:27:52 DEBUG: IBM855 not active
+03/30/2019 15:27:52 DEBUG: ISO-8859-7 Greek confidence = 0.07550735383656601
+03/30/2019 15:27:52 DEBUG: windows-1253 Greek confidence = 0.07741254523568965
+03/30/2019 15:27:52 DEBUG: ISO-8859-5 not active
+03/30/2019 15:27:52 DEBUG: windows-1251 not active
+03/30/2019 15:27:52 DEBUG: TIS-620 not active
+03/30/2019 15:27:52 DEBUG: ISO-8859-9 Turkish confidence = 0.06632000656729349
+03/30/2019 15:27:52 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:27:52 DEBUG: windows-1255 not active
+03/30/2019 15:27:52 DEBUG: windows-1255 not active
+03/30/2019 15:27:52 DEBUG: no probers hit minimum threshold
+03/30/2019 15:27:52 DEBUG: utf-8  confidence = 0.010000000000000009
+03/30/2019 15:27:52 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/30/2019 15:27:52 DEBUG: EUC-JP Japanese confidence = 0.01
+03/30/2019 15:27:52 DEBUG: GB2312 Chinese confidence = 0.01
+03/30/2019 15:27:52 DEBUG: EUC-KR Korean confidence = 0.01
+03/30/2019 15:27:52 DEBUG: CP949 Korean confidence = 0.01
+03/30/2019 15:27:52 DEBUG: Big5 Chinese confidence = 0.01
+03/30/2019 15:27:52 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/30/2019 15:27:52 DEBUG: windows-1251 Russian confidence = 0.03980724344508132
+03/30/2019 15:27:52 DEBUG: KOI8-R Russian confidence = 0.03475143078951831
+03/30/2019 15:27:52 DEBUG: ISO-8859-5 Russian confidence = 0.0398161593940702
+03/30/2019 15:27:52 DEBUG: MacCyrillic Russian confidence = 0.04369074842219022
+03/30/2019 15:27:52 DEBUG: IBM866 Russian confidence = 0.0394951352104328
+03/30/2019 15:27:52 DEBUG: IBM855 Russian confidence = 0.04224042068167735
+03/30/2019 15:27:52 DEBUG: ISO-8859-7 Greek confidence = 0.07550735383656601
+03/30/2019 15:27:52 DEBUG: windows-1253 Greek confidence = 0.07741254523568965
+03/30/2019 15:27:52 DEBUG: ISO-8859-5 Bulgairan confidence = 0.03873760607791564
+03/30/2019 15:27:52 DEBUG: windows-1251 Bulgarian confidence = 0.03930181647497624
+03/30/2019 15:27:52 DEBUG: TIS-620 Thai confidence = 0.04176958879742077
+03/30/2019 15:27:52 DEBUG: ISO-8859-9 Turkish confidence = 0.06632000656729349
+03/30/2019 15:27:52 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:27:52 DEBUG: windows-1255 Hebrew confidence = 0.04768784782161029
+03/30/2019 15:27:52 DEBUG: windows-1255 Hebrew confidence = 0.046792265446790327
+03/30/2019 15:27:52 DEBUG: windows-1255 Hebrew confidence = 0.046792265446790327
+03/30/2019 15:27:52 DEBUG: Starting new HTTPS connection (1): www.crunchbase.com:443
+03/30/2019 15:27:53 DEBUG: https://www.crunchbase.com:443 "GET /organization/adobe-systems HTTP/1.1" 403 None
+03/30/2019 15:27:53 DEBUG: Starting new HTTPS connection (1): www.payscale.com:443
+03/30/2019 15:27:53 DEBUG: https://www.payscale.com:443 "GET /research/CA/Employer%3DAdobe_Systems_Incorporated/Salary HTTP/1.1" 404 None
+03/30/2019 15:27:53 DEBUG: Starting new HTTPS connection (1): www.adobe.com:443
+03/30/2019 15:27:54 DEBUG: https://www.adobe.com:443 "GET /ca/ HTTP/1.1" 200 19461
+03/30/2019 15:27:54 DEBUG: Starting new HTTPS connection (1): www.ranker.com:443
+03/30/2019 15:27:54 DEBUG: https://www.ranker.com:443 "GET /list/notable-adobe-systems-employees/reference HTTP/1.1" 200 None
+03/30/2019 15:27:54 DEBUG: Starting new HTTPS connection (1): www.okta.com:443
+03/30/2019 15:27:55 DEBUG: https://www.okta.com:443 "GET /customers/adobe-systems/ HTTP/1.1" 200 None
+03/30/2019 15:27:55 DEBUG: Starting new HTTP connection (1): fortune.com:80
+03/30/2019 15:27:56 DEBUG: http://fortune.com:80 "GET /2015/06/16/adobe-employee-retention/ HTTP/1.1" 200 None
+03/30/2019 15:27:56 INFO: ============Adobe Systems, SIZE feature data collection completed============
+03/30/2019 15:27:56 INFO: ============Adobe Systems, ACQUISITIONS feature data collection started============
+03/30/2019 15:27:56 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:27:56 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:27:56 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:27:56 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Adobe%20Systems&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:27:57 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:27:57 INFO: =========================Getting search result source code=========================
+03/30/2019 15:27:57 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 15:27:57 DEBUG: https://www.cnbc.com:443 "GET /2018/09/20/adobe-confirms-its-buying-marketo-for-4point75-billion.html HTTP/1.1" 200 45115
+03/30/2019 15:27:57 DEBUG: Starting new HTTPS connection (1): news.adobe.com:443
+03/30/2019 15:27:58 DEBUG: https://news.adobe.com:443 "GET /press-release/corporate/adobe-acquire-magento-commerce HTTP/1.1" 200 9191
+03/30/2019 15:27:58 DEBUG: Starting new HTTPS connection (1): news.adobe.com:443
+03/30/2019 15:28:00 DEBUG: https://news.adobe.com:443 "GET /press-release/corporate/adobe-completes-acquisition-magento-commerce HTTP/1.1" 200 9039
+03/30/2019 15:28:00 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:28:00 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_acquisitions_by_Adobe HTTP/1.1" 200 25800
+03/30/2019 15:28:00 DEBUG: Starting new HTTPS connection (1): www.bizjournals.com:443
+03/30/2019 15:28:00 DEBUG: https://www.bizjournals.com:443 "GET /sanjose/news/2018/09/20/adobe-to-buy-marketo-adbe.html HTTP/1.1" 200 717
+03/30/2019 15:28:00 DEBUG: Starting new HTTPS connection (1): www.investors.com:443
+03/30/2019 15:28:01 DEBUG: https://www.investors.com:443 "GET /news/technology/adobe-systems-marketo-acquisition/ HTTP/1.1" 403 None
+03/30/2019 15:28:01 DEBUG: Starting new HTTPS connection (1): www.streetinsider.com:443
+03/30/2019 15:28:01 DEBUG: https://www.streetinsider.com:443 "GET /Corporate%2BNews/Adobe%2BSystems%2B%2528ADBE%2529%2Bto%2BAcquire%2BMarketo%2Bfor%2B%25244.75B/14629196.html HTTP/1.1" 416 3134
+03/30/2019 15:28:01 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 15:28:01 DEBUG: https://www.cnbc.com:443 "GET /2018/09/20/adobe-confirms-its-buying-marketo-for-4point75-billion.html HTTP/1.1" 200 45115
+03/30/2019 15:28:01 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 15:28:01 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2018-09-20/adobe-systems-is-said-to-be-nearing-5-billion-deal-for-marketo HTTP/1.1" 307 0
+03/30/2019 15:28:01 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 15:28:01 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=8be10ae0-5319-11e9-a7a5-67ab5d3aa67b&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wOS0yMC9hZG9iZS1zeXN0ZW1zLWlzLXNhaWQtdG8tYmUtbmVhcmluZy01LWJpbGxpb24tZGVhbC1mb3ItbWFya2V0bw== HTTP/1.1" 200 4595
+03/30/2019 15:28:01 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/30/2019 15:28:02 DEBUG: https://techcrunch.com:443 "GET /2018/09/20/adobe-gets-its-company-snaring-marketo-for-4-75-billion/ HTTP/1.1" 200 None
+03/30/2019 15:28:02 DEBUG: Starting new HTTPS connection (1): www.thedrum.com:443
+03/30/2019 15:28:03 DEBUG: https://www.thedrum.com:443 "GET /news/2018/09/15/adobe-systems-reportedly-talks-acquire-marketo HTTP/1.1" 200 None
+03/30/2019 15:28:03 INFO: ============Adobe Systems, ACQUISITIONS feature data collection completed============
+03/30/2019 15:28:03 INFO: ============Adobe Systems, FUTURE GOALS feature data collection started============
+03/30/2019 15:28:03 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:28:03 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:28:03 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:28:03 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Adobe%20Systems&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:28:04 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:28:04 INFO: =========================Getting search result source code=========================
+03/30/2019 15:28:04 DEBUG: Starting new HTTPS connection (1): www.quantumrun.com:443
+03/30/2019 15:28:05 DEBUG: https://www.quantumrun.com:443 "GET /company_profile/future-of-adobe-systems/15818 HTTP/1.1" 200 None
+03/30/2019 15:28:05 DEBUG: Starting new HTTPS connection (1): ca.finance.yahoo.com:443
+03/30/2019 15:28:05 DEBUG: https://ca.finance.yahoo.com:443 "GET /news/know-future-adobe-systems-incorporated-194109139.html HTTP/1.1" 200 None
+03/30/2019 15:28:06 DEBUG: Starting new HTTPS connection (1): simplywall.st:443
+03/30/2019 15:28:06 DEBUG: https://simplywall.st:443 "GET /stocks/us/software/nasdaq-adbe/adobe-systems/news/does-adobe-systems-incorporateds-nasdaqadbe-june-stock-price-reflect-its-future-growth/ HTTP/1.1" 200 None
+03/30/2019 15:28:06 DEBUG: Starting new HTTPS connection (1): simplywall.st:443
+03/30/2019 15:28:06 DEBUG: https://simplywall.st:443 "GET /stocks/us/software/nasdaq-adbe/adobe-systems/news/have-investors-priced-in-adobe-systems-incorporateds-nasdaqadbe-growth/ HTTP/1.1" 200 None
+03/30/2019 15:28:06 DEBUG: Starting new HTTPS connection (1): simplywall.st:443
+03/30/2019 15:28:07 DEBUG: https://simplywall.st:443 "GET /stocks/us/software/nasdaq-adbe/adobe-systems/news/how-adobe-systems-incorporateds-nasdaqadbe-earnings-growth-stacks-up-against-the-industry/ HTTP/1.1" 200 None
+03/30/2019 15:28:07 DEBUG: Starting new HTTPS connection (1): www.adobe.com:443
+03/30/2019 15:28:07 DEBUG: https://www.adobe.com:443 "GET /aboutadobe/pressroom/pdfs/corp_bro_0703.pdf HTTP/1.1" 200 812961
+03/30/2019 15:28:07 DEBUG: SHIFT_JIS Japanese prober hit error at byte 813
+03/30/2019 15:28:07 DEBUG: EUC-JP Japanese prober hit error at byte 795
+03/30/2019 15:28:07 DEBUG: GB2312 Chinese prober hit error at byte 810
+03/30/2019 15:28:07 DEBUG: EUC-KR Korean prober hit error at byte 795
+03/30/2019 15:28:07 DEBUG: CP949 Korean prober hit error at byte 795
+03/30/2019 15:28:07 DEBUG: Big5 Chinese prober hit error at byte 802
+03/30/2019 15:28:07 DEBUG: EUC-TW Taiwan prober hit error at byte 795
+03/30/2019 15:28:08 DEBUG: windows-1251 confidence = 0.03980724344508132, below negative shortcut threshhold 0.05
+03/30/2019 15:28:09 DEBUG: KOI8-R confidence = 0.03475143078951831, below negative shortcut threshhold 0.05
+03/30/2019 15:28:09 DEBUG: ISO-8859-5 confidence = 0.0398161593940702, below negative shortcut threshhold 0.05
+03/30/2019 15:28:10 DEBUG: MacCyrillic confidence = 0.04369074842219022, below negative shortcut threshhold 0.05
+03/30/2019 15:28:11 DEBUG: IBM866 confidence = 0.0394951352104328, below negative shortcut threshhold 0.05
+03/30/2019 15:28:11 DEBUG: IBM855 confidence = 0.04224042068167735, below negative shortcut threshhold 0.05
+03/30/2019 15:28:14 DEBUG: ISO-8859-5 confidence = 0.03873760607791564, below negative shortcut threshhold 0.05
+03/30/2019 15:28:14 DEBUG: windows-1251 confidence = 0.03930181647497624, below negative shortcut threshhold 0.05
+03/30/2019 15:28:15 DEBUG: TIS-620 confidence = 0.04176958879742077, below negative shortcut threshhold 0.05
+03/30/2019 15:28:17 DEBUG: windows-1255 confidence = 0.04768784782161029, below negative shortcut threshhold 0.05
+03/30/2019 15:28:18 DEBUG: windows-1255 confidence = 0.046792265446790327, below negative shortcut threshhold 0.05
+03/30/2019 15:28:19 DEBUG: windows-1251 not active
+03/30/2019 15:28:19 DEBUG: KOI8-R not active
+03/30/2019 15:28:19 DEBUG: ISO-8859-5 not active
+03/30/2019 15:28:19 DEBUG: MacCyrillic not active
+03/30/2019 15:28:19 DEBUG: IBM866 not active
+03/30/2019 15:28:19 DEBUG: IBM855 not active
+03/30/2019 15:28:19 DEBUG: ISO-8859-7 Greek confidence = 0.07550735383656601
+03/30/2019 15:28:19 DEBUG: windows-1253 Greek confidence = 0.07741254523568965
+03/30/2019 15:28:19 DEBUG: ISO-8859-5 not active
+03/30/2019 15:28:19 DEBUG: windows-1251 not active
+03/30/2019 15:28:19 DEBUG: TIS-620 not active
+03/30/2019 15:28:19 DEBUG: ISO-8859-9 Turkish confidence = 0.06632000656729349
+03/30/2019 15:28:19 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:28:19 DEBUG: windows-1255 not active
+03/30/2019 15:28:19 DEBUG: windows-1255 not active
+03/30/2019 15:28:19 DEBUG: no probers hit minimum threshold
+03/30/2019 15:28:19 DEBUG: utf-8  confidence = 0.010000000000000009
+03/30/2019 15:28:19 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/30/2019 15:28:19 DEBUG: EUC-JP Japanese confidence = 0.01
+03/30/2019 15:28:19 DEBUG: GB2312 Chinese confidence = 0.01
+03/30/2019 15:28:19 DEBUG: EUC-KR Korean confidence = 0.01
+03/30/2019 15:28:19 DEBUG: CP949 Korean confidence = 0.01
+03/30/2019 15:28:19 DEBUG: Big5 Chinese confidence = 0.01
+03/30/2019 15:28:19 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/30/2019 15:28:19 DEBUG: windows-1251 Russian confidence = 0.03980724344508132
+03/30/2019 15:28:19 DEBUG: KOI8-R Russian confidence = 0.03475143078951831
+03/30/2019 15:28:19 DEBUG: ISO-8859-5 Russian confidence = 0.0398161593940702
+03/30/2019 15:28:19 DEBUG: MacCyrillic Russian confidence = 0.04369074842219022
+03/30/2019 15:28:19 DEBUG: IBM866 Russian confidence = 0.0394951352104328
+03/30/2019 15:28:19 DEBUG: IBM855 Russian confidence = 0.04224042068167735
+03/30/2019 15:28:19 DEBUG: ISO-8859-7 Greek confidence = 0.07550735383656601
+03/30/2019 15:28:19 DEBUG: windows-1253 Greek confidence = 0.07741254523568965
+03/30/2019 15:28:19 DEBUG: ISO-8859-5 Bulgairan confidence = 0.03873760607791564
+03/30/2019 15:28:19 DEBUG: windows-1251 Bulgarian confidence = 0.03930181647497624
+03/30/2019 15:28:19 DEBUG: TIS-620 Thai confidence = 0.04176958879742077
+03/30/2019 15:28:19 DEBUG: ISO-8859-9 Turkish confidence = 0.06632000656729349
+03/30/2019 15:28:19 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:28:19 DEBUG: windows-1255 Hebrew confidence = 0.04768784782161029
+03/30/2019 15:28:19 DEBUG: windows-1255 Hebrew confidence = 0.046792265446790327
+03/30/2019 15:28:19 DEBUG: windows-1255 Hebrew confidence = 0.046792265446790327
+03/30/2019 15:28:19 DEBUG: Starting new HTTPS connection (1): www.adobe.com:443
+03/30/2019 15:28:19 DEBUG: https://www.adobe.com:443 "GET /ca/ HTTP/1.1" 200 19461
+03/30/2019 15:28:19 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 15:28:19 DEBUG: https://www.bloomberg.com:443 "GET /news/articles/2018-09-20/adobe-systems-is-said-to-be-nearing-5-billion-deal-for-marketo HTTP/1.1" 307 0
+03/30/2019 15:28:19 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 15:28:19 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=96699360-5319-11e9-ad24-8f19cbfd9baf&url=L25ld3MvYXJ0aWNsZXMvMjAxOC0wOS0yMC9hZG9iZS1zeXN0ZW1zLWlzLXNhaWQtdG8tYmUtbmVhcmluZy01LWJpbGxpb24tZGVhbC1mb3ItbWFya2V0bw== HTTP/1.1" 200 4595
+03/30/2019 15:28:19 DEBUG: Starting new HTTPS connection (1): walletinvestor.com:443
+03/30/2019 15:28:20 DEBUG: https://walletinvestor.com:443 "GET /stock-forecast/adbe-stock-prediction HTTP/1.1" 200 17283
+03/30/2019 15:28:20 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 15:28:21 DEBUG: https://www.forbes.com:443 "GET /sites/petercohan/2018/05/22/why-you-should-buy-adobe-stock-despite-high-valuation-before-it-hits-400/ HTTP/1.1" 200 47903
+03/30/2019 15:28:21 INFO: ============Adobe Systems, FUTURE GOALS feature data collection completed============
+03/30/2019 15:28:21 INFO: ============Adobe Systems, TECH STACK feature data collection started============
+03/30/2019 15:28:21 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 15:28:21 INFO: ======================Generating Google Search code==========================
+03/30/2019 15:28:21 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 15:28:21 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Adobe%20Systems&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 15:28:22 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 15:28:22 INFO: =========================Getting search result source code=========================
+03/30/2019 15:28:22 DEBUG: Starting new HTTPS connection (1): www.adobe.com:443
+03/30/2019 15:28:22 DEBUG: https://www.adobe.com:443 "GET /aboutadobe/pressroom/pdfs/corp_bro_0703.pdf HTTP/1.1" 200 812961
+03/30/2019 15:28:22 DEBUG: SHIFT_JIS Japanese prober hit error at byte 813
+03/30/2019 15:28:23 DEBUG: EUC-JP Japanese prober hit error at byte 795
+03/30/2019 15:28:23 DEBUG: GB2312 Chinese prober hit error at byte 810
+03/30/2019 15:28:23 DEBUG: EUC-KR Korean prober hit error at byte 795
+03/30/2019 15:28:23 DEBUG: CP949 Korean prober hit error at byte 795
+03/30/2019 15:28:23 DEBUG: Big5 Chinese prober hit error at byte 802
+03/30/2019 15:28:23 DEBUG: EUC-TW Taiwan prober hit error at byte 795
+03/30/2019 15:28:23 DEBUG: windows-1251 confidence = 0.03980724344508132, below negative shortcut threshhold 0.05
+03/30/2019 15:28:24 DEBUG: KOI8-R confidence = 0.03475143078951831, below negative shortcut threshhold 0.05
+03/30/2019 15:28:25 DEBUG: ISO-8859-5 confidence = 0.0398161593940702, below negative shortcut threshhold 0.05
+03/30/2019 15:28:26 DEBUG: MacCyrillic confidence = 0.04369074842219022, below negative shortcut threshhold 0.05
+03/30/2019 15:28:27 DEBUG: IBM866 confidence = 0.0394951352104328, below negative shortcut threshhold 0.05
+03/30/2019 15:28:27 DEBUG: IBM855 confidence = 0.04224042068167735, below negative shortcut threshhold 0.05
+03/30/2019 15:28:29 DEBUG: ISO-8859-5 confidence = 0.03873760607791564, below negative shortcut threshhold 0.05
+03/30/2019 15:28:30 DEBUG: windows-1251 confidence = 0.03930181647497624, below negative shortcut threshhold 0.05
+03/30/2019 15:28:30 DEBUG: TIS-620 confidence = 0.04176958879742077, below negative shortcut threshhold 0.05
+03/30/2019 15:28:32 DEBUG: windows-1255 confidence = 0.04768784782161029, below negative shortcut threshhold 0.05
+03/30/2019 15:28:33 DEBUG: windows-1255 confidence = 0.046792265446790327, below negative shortcut threshhold 0.05
+03/30/2019 15:28:34 DEBUG: windows-1251 not active
+03/30/2019 15:28:34 DEBUG: KOI8-R not active
+03/30/2019 15:28:34 DEBUG: ISO-8859-5 not active
+03/30/2019 15:28:34 DEBUG: MacCyrillic not active
+03/30/2019 15:28:34 DEBUG: IBM866 not active
+03/30/2019 15:28:34 DEBUG: IBM855 not active
+03/30/2019 15:28:34 DEBUG: ISO-8859-7 Greek confidence = 0.07550735383656601
+03/30/2019 15:28:34 DEBUG: windows-1253 Greek confidence = 0.07741254523568965
+03/30/2019 15:28:34 DEBUG: ISO-8859-5 not active
+03/30/2019 15:28:34 DEBUG: windows-1251 not active
+03/30/2019 15:28:34 DEBUG: TIS-620 not active
+03/30/2019 15:28:34 DEBUG: ISO-8859-9 Turkish confidence = 0.06632000656729349
+03/30/2019 15:28:34 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:28:34 DEBUG: windows-1255 not active
+03/30/2019 15:28:34 DEBUG: windows-1255 not active
+03/30/2019 15:28:34 DEBUG: no probers hit minimum threshold
+03/30/2019 15:28:34 DEBUG: utf-8  confidence = 0.010000000000000009
+03/30/2019 15:28:34 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/30/2019 15:28:34 DEBUG: EUC-JP Japanese confidence = 0.01
+03/30/2019 15:28:34 DEBUG: GB2312 Chinese confidence = 0.01
+03/30/2019 15:28:34 DEBUG: EUC-KR Korean confidence = 0.01
+03/30/2019 15:28:34 DEBUG: CP949 Korean confidence = 0.01
+03/30/2019 15:28:34 DEBUG: Big5 Chinese confidence = 0.01
+03/30/2019 15:28:34 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/30/2019 15:28:34 DEBUG: windows-1251 Russian confidence = 0.03980724344508132
+03/30/2019 15:28:34 DEBUG: KOI8-R Russian confidence = 0.03475143078951831
+03/30/2019 15:28:34 DEBUG: ISO-8859-5 Russian confidence = 0.0398161593940702
+03/30/2019 15:28:34 DEBUG: MacCyrillic Russian confidence = 0.04369074842219022
+03/30/2019 15:28:34 DEBUG: IBM866 Russian confidence = 0.0394951352104328
+03/30/2019 15:28:34 DEBUG: IBM855 Russian confidence = 0.04224042068167735
+03/30/2019 15:28:34 DEBUG: ISO-8859-7 Greek confidence = 0.07550735383656601
+03/30/2019 15:28:34 DEBUG: windows-1253 Greek confidence = 0.07741254523568965
+03/30/2019 15:28:34 DEBUG: ISO-8859-5 Bulgairan confidence = 0.03873760607791564
+03/30/2019 15:28:34 DEBUG: windows-1251 Bulgarian confidence = 0.03930181647497624
+03/30/2019 15:28:34 DEBUG: TIS-620 Thai confidence = 0.04176958879742077
+03/30/2019 15:28:34 DEBUG: ISO-8859-9 Turkish confidence = 0.06632000656729349
+03/30/2019 15:28:34 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 15:28:34 DEBUG: windows-1255 Hebrew confidence = 0.04768784782161029
+03/30/2019 15:28:34 DEBUG: windows-1255 Hebrew confidence = 0.046792265446790327
+03/30/2019 15:28:34 DEBUG: windows-1255 Hebrew confidence = 0.046792265446790327
+03/30/2019 15:28:34 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:28:34 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Adobe_Inc. HTTP/1.1" 200 53939
+03/30/2019 15:28:34 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 15:28:35 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_acquisitions_by_Adobe HTTP/1.1" 200 25800
+03/30/2019 15:28:35 DEBUG: Starting new HTTPS connection (1): dtech.duke.edu:443
+03/30/2019 15:28:36 DEBUG: https://dtech.duke.edu:443 "GET /adobe-systems-inc HTTP/1.1" 200 None
+03/30/2019 15:28:36 DEBUG: Starting new HTTPS connection (1): www.onetonline.org:443
+03/30/2019 15:28:37 DEBUG: https://www.onetonline.org:443 "GET /search/hot_tech/detail/140 HTTP/1.1" 200 4627
+03/30/2019 15:28:37 DEBUG: Starting new HTTPS connection (1): www.onetonline.org:443
+03/30/2019 15:28:37 DEBUG: https://www.onetonline.org:443 "GET /search/hot_tech/detail/58 HTTP/1.1" 200 4601
+03/30/2019 15:28:37 DEBUG: Starting new HTTPS connection (1): www.zacks.com:443

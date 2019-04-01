@@ -1,0 +1,174 @@
+03/30/2019 02:17:03 INFO: ============Script execution started============
+03/30/2019 02:17:03 INFO: ============Dassault Systèmes data collection started============
+03/30/2019 02:17:03 INFO: ============Dassault Systèmes, SIZE feature data collection started============
+03/30/2019 02:17:03 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:17:03 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:17:03 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:17:05 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Dassault%20Syst%C3%A8mes&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 02:17:05 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:17:05 INFO: =========================Getting search result source code=========================
+03/30/2019 02:17:05 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 02:17:06 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Dassault_Syst%25C3%25A8mes HTTP/1.1" 400 None
+03/30/2019 02:17:06 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 02:17:06 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Dassault_Syst%25C3%25A8mes HTTP/1.1" 400 None
+03/30/2019 02:17:06 DEBUG: Starting new HTTPS connection (1): www.owler.com:443
+03/30/2019 02:17:07 DEBUG: https://www.owler.com:443 "GET /company/3ds HTTP/1.1" 405 5766
+03/30/2019 02:17:07 DEBUG: Starting new HTTPS connection (1): www.glassdoor.ca:443
+03/30/2019 02:17:08 DEBUG: https://www.glassdoor.ca:443 "GET /Reviews/Dassault-Systemes-Reviews-E6162.htm HTTP/1.1" 403 None
+03/30/2019 02:17:08 DEBUG: Starting new HTTPS connection (1): content.eluta.ca:443
+03/30/2019 02:17:09 DEBUG: https://content.eluta.ca:443 "GET /top-employer-dassault-systemes-canada HTTP/1.1" 200 14663
+03/30/2019 02:17:09 DEBUG: Starting new HTTPS connection (1): www.3ds.com:443
+03/30/2019 02:17:09 DEBUG: https://www.3ds.com:443 "GET /fileadmin/COMPANY/Investors/Regulated-Information/2018/EN/DSSE-2017-ANNUAL-REPORT-21032018.pdf HTTP/1.1" 200 4495936
+03/30/2019 02:17:10 DEBUG: SHIFT_JIS Japanese prober hit error at byte 109
+03/30/2019 02:17:10 DEBUG: EUC-JP Japanese prober hit error at byte 105
+03/30/2019 02:17:10 DEBUG: GB2312 Chinese prober hit error at byte 105
+03/30/2019 02:17:10 DEBUG: EUC-KR Korean prober hit error at byte 104
+03/30/2019 02:17:10 DEBUG: CP949 Korean prober hit error at byte 104
+03/30/2019 02:17:10 DEBUG: Big5 Chinese prober hit error at byte 105
+03/30/2019 02:17:10 DEBUG: EUC-TW Taiwan prober hit error at byte 104
+03/30/2019 02:17:13 DEBUG: windows-1251 confidence = 0.04234308151166359, below negative shortcut threshhold 0.05
+03/30/2019 02:17:19 DEBUG: KOI8-R confidence = 0.03987074915452111, below negative shortcut threshhold 0.05
+03/30/2019 02:17:22 DEBUG: ISO-8859-5 confidence = 0.0420851053619927, below negative shortcut threshhold 0.05
+03/30/2019 02:17:26 DEBUG: MacCyrillic confidence = 0.04380965022968778, below negative shortcut threshhold 0.05
+03/30/2019 02:17:30 DEBUG: IBM866 confidence = 0.042184627602272644, below negative shortcut threshhold 0.05
+03/30/2019 02:17:33 DEBUG: IBM855 confidence = 0.03899761566058487, below negative shortcut threshhold 0.05
+03/30/2019 02:17:44 DEBUG: ISO-8859-5 confidence = 0.04047558555980138, below negative shortcut threshhold 0.05
+03/30/2019 02:17:48 DEBUG: windows-1251 confidence = 0.04030038349619473, below negative shortcut threshhold 0.05
+03/30/2019 02:17:51 DEBUG: TIS-620 confidence = 0.04115111947848182, below negative shortcut threshhold 0.05
+03/30/2019 02:17:59 DEBUG: windows-1255 confidence = 0.04587030464628447, below negative shortcut threshhold 0.05
+03/30/2019 02:18:03 DEBUG: windows-1255 confidence = 0.046192243016811005, below negative shortcut threshhold 0.05
+03/30/2019 02:18:07 DEBUG: windows-1251 not active
+03/30/2019 02:18:07 DEBUG: KOI8-R not active
+03/30/2019 02:18:07 DEBUG: ISO-8859-5 not active
+03/30/2019 02:18:07 DEBUG: MacCyrillic not active
+03/30/2019 02:18:07 DEBUG: IBM866 not active
+03/30/2019 02:18:07 DEBUG: IBM855 not active
+03/30/2019 02:18:07 DEBUG: ISO-8859-7 Greek confidence = 0.07126571672864122
+03/30/2019 02:18:07 DEBUG: windows-1253 Greek confidence = 0.07264399014219035
+03/30/2019 02:18:07 DEBUG: ISO-8859-5 not active
+03/30/2019 02:18:07 DEBUG: windows-1251 not active
+03/30/2019 02:18:07 DEBUG: TIS-620 not active
+03/30/2019 02:18:07 DEBUG: ISO-8859-9 Turkish confidence = 0.06385828070578874
+03/30/2019 02:18:07 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 02:18:07 DEBUG: windows-1255 not active
+03/30/2019 02:18:07 DEBUG: windows-1255 not active
+03/30/2019 02:18:07 DEBUG: no probers hit minimum threshold
+03/30/2019 02:18:07 DEBUG: utf-8  confidence = 0.010000000000000009
+03/30/2019 02:18:07 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/30/2019 02:18:07 DEBUG: EUC-JP Japanese confidence = 0.01
+03/30/2019 02:18:07 DEBUG: GB2312 Chinese confidence = 0.01
+03/30/2019 02:18:07 DEBUG: EUC-KR Korean confidence = 0.01
+03/30/2019 02:18:07 DEBUG: CP949 Korean confidence = 0.01
+03/30/2019 02:18:07 DEBUG: Big5 Chinese confidence = 0.01
+03/30/2019 02:18:07 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/30/2019 02:18:07 DEBUG: windows-1251 Russian confidence = 0.04234308151166359
+03/30/2019 02:18:07 DEBUG: KOI8-R Russian confidence = 0.03987074915452111
+03/30/2019 02:18:07 DEBUG: ISO-8859-5 Russian confidence = 0.0420851053619927
+03/30/2019 02:18:07 DEBUG: MacCyrillic Russian confidence = 0.04380965022968778
+03/30/2019 02:18:07 DEBUG: IBM866 Russian confidence = 0.042184627602272644
+03/30/2019 02:18:07 DEBUG: IBM855 Russian confidence = 0.03899761566058487
+03/30/2019 02:18:07 DEBUG: ISO-8859-7 Greek confidence = 0.07126571672864122
+03/30/2019 02:18:07 DEBUG: windows-1253 Greek confidence = 0.07264399014219035
+03/30/2019 02:18:07 DEBUG: ISO-8859-5 Bulgairan confidence = 0.04047558555980138
+03/30/2019 02:18:07 DEBUG: windows-1251 Bulgarian confidence = 0.04030038349619473
+03/30/2019 02:18:07 DEBUG: TIS-620 Thai confidence = 0.04115111947848182
+03/30/2019 02:18:07 DEBUG: ISO-8859-9 Turkish confidence = 0.06385828070578874
+03/30/2019 02:18:07 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 02:18:07 DEBUG: windows-1255 Hebrew confidence = 0.04587030464628447
+03/30/2019 02:18:07 DEBUG: windows-1255 Hebrew confidence = 0.046192243016811005
+03/30/2019 02:18:07 DEBUG: windows-1255 Hebrew confidence = 0.046192243016811005
+03/30/2019 02:18:07 DEBUG: Starting new HTTPS connection (1): craft.co:443
+03/30/2019 02:18:07 DEBUG: https://craft.co:443 "GET /dassault-systemes HTTP/1.1" 405 2892
+03/30/2019 02:18:07 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 02:18:07 DEBUG: https://ca.linkedin.com:443 "GET /company/dassaultsystemes HTTP/1.1" 999 1461
+03/30/2019 02:18:08 DEBUG: Starting new HTTPS connection (1): ca.linkedin.com:443
+03/30/2019 02:18:08 DEBUG: https://ca.linkedin.com:443 "GET /company/dassault-systemes-italia HTTP/1.1" 999 1461
+03/30/2019 02:18:08 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 02:18:08 DEBUG: https://www.forbes.com:443 "GET /companies/dassault-systemes/ HTTP/1.1" 200 41836
+03/30/2019 02:18:08 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 02:18:09 DEBUG: https://www.statista.com:443 "GET /statistics/666572/dassault-systemes-employment-figures/ HTTP/1.1" 200 None
+03/30/2019 02:18:09 INFO: ============Dassault Systèmes, SIZE feature data collection completed============
+03/30/2019 02:18:09 INFO: ============Dassault Systèmes, ACQUISITIONS feature data collection started============
+03/30/2019 02:18:09 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:18:09 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:18:09 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:18:09 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Dassault%20Syst%C3%A8mes&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 772
+03/30/2019 02:18:10 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DDassault%2520Syst%25C3%25A8mes%26as_oq%3D%2522acquire%2522%2520%2522take%2520over%2522%2520%2522took%2520over%2522%2520%2522acquisition%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGJD4--QFIhkA8aeDSzHZY3huyonY64j9XCwQmF99Ko4uMgFy HTTP/1.1" 503 3887
+03/30/2019 02:18:10 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:18:10 INFO: =========================Getting search result source code=========================
+03/30/2019 02:18:10 INFO: ============Dassault Systèmes, ACQUISITIONS feature data collection completed============
+03/30/2019 02:18:10 INFO: ============Dassault Systèmes, FUTURE GOALS feature data collection started============
+03/30/2019 02:18:10 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:18:10 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:18:10 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:18:10 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Dassault%20Syst%C3%A8mes&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 826
+03/30/2019 02:18:10 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DDassault%2520Syst%25C3%25A8mes%26as_oq%3D%2522future%2522%2520%2522goals%2522%2520%2522future%2520goals%2522%2520%2522aim%2522%2520%2522ambition%2522%2520%2522objectives%2522%2520%2522deals%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGJD4--QFIhkA8aeDSybwOvZJgX0AMwgnjHNvDysLNruFMgFy HTTP/1.1" 503 4001
+03/30/2019 02:18:10 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:18:10 INFO: =========================Getting search result source code=========================
+03/30/2019 02:18:10 INFO: ============Dassault Systèmes, FUTURE GOALS feature data collection completed============
+03/30/2019 02:18:10 INFO: ============Dassault Systèmes, TECH STACK feature data collection started============
+03/30/2019 02:18:10 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:18:10 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:18:10 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:18:11 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Dassault%20Syst%C3%A8mes&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 769
+03/30/2019 02:18:11 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DDassault%2520Syst%25C3%25A8mes%26as_oq%3D%2522technology%2522%2520%2522stack%2522%2520%2522stack%2522%2520%2522development%2520tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGJH4--QFIhkA8aeDS1GbTT9O0bHbyCQR-IcWhEDSHzX_MgFy HTTP/1.1" 503 3884
+03/30/2019 02:18:11 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:18:11 INFO: =========================Getting search result source code=========================
+03/30/2019 02:18:11 INFO: ============Dassault Systèmes, TECH STACK feature data collection completed============
+03/30/2019 02:18:11 INFO: ============Dassault Systèmes, PRODUCTS feature data collection started============
+03/30/2019 02:18:11 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:18:11 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:18:11 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:18:12 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Dassault%20Syst%C3%A8mes&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 784
+03/30/2019 02:18:12 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DDassault%2520Syst%25C3%25A8mes%26as_oq%3D%2522products%2522%2520%2522services%2522%2520%2522applications%2522%2520%2522software%2522%2520%2522tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGJL4--QFIhkA8aeDS4-qTAfi1JaNEIJDOxFMzmQGHXBiMgFy HTTP/1.1" 503 3917
+03/30/2019 02:18:12 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:18:12 INFO: =========================Getting search result source code=========================
+03/30/2019 02:18:12 INFO: ============Dassault Systèmes, PRODUCTS feature data collection completed============
+03/30/2019 02:18:12 INFO: ============Dassault Systèmes data collection completed============
+03/30/2019 02:18:12 INFO: ============China Construction Bank data collection started============
+03/30/2019 02:18:12 INFO: ============China Construction Bank, SIZE feature data collection started============
+03/30/2019 02:18:12 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:18:12 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:18:12 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:18:13 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 754
+03/30/2019 02:18:13 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DChina%2520Construction%2520Bank%26as_oq%3D%2522size%2522%2520%2522number%2520of%2520employees%2522%2520%2522employees%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGJP4--QFIhkA8aeDS6Zq4a0KUMF3O5Gire72WT8FxRGAMgFy HTTP/1.1" 503 3857
+03/30/2019 02:18:13 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:18:13 INFO: =========================Getting search result source code=========================
+03/30/2019 02:18:13 INFO: ============China Construction Bank, SIZE feature data collection completed============
+03/30/2019 02:18:13 INFO: ============China Construction Bank, ACQUISITIONS feature data collection started============
+03/30/2019 02:18:13 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:18:13 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:18:13 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:18:14 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 773
+03/30/2019 02:18:14 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DChina%2520Construction%2520Bank%26as_oq%3D%2522acquire%2522%2520%2522take%2520over%2522%2520%2522took%2520over%2522%2520%2522acquisition%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGJT4--QFIhkA8aeDS7KvsmBpF-OfOplqAImGideaCESSMgFy HTTP/1.1" 503 3896
+03/30/2019 02:18:14 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:18:14 INFO: =========================Getting search result source code=========================
+03/30/2019 02:18:14 INFO: ============China Construction Bank, ACQUISITIONS feature data collection completed============
+03/30/2019 02:18:14 INFO: ============China Construction Bank, FUTURE GOALS feature data collection started============
+03/30/2019 02:18:14 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:18:14 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:18:14 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:18:14 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 827
+03/30/2019 02:18:14 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DChina%2520Construction%2520Bank%26as_oq%3D%2522future%2522%2520%2522goals%2522%2520%2522future%2520goals%2522%2520%2522aim%2522%2520%2522ambition%2522%2520%2522objectives%2522%2520%2522deals%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGJT4--QFIhkA8aeDS5uZVWAtszdB4BKuxsMcLr_RYdulMgFy HTTP/1.1" 503 4010
+03/30/2019 02:18:14 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:18:14 INFO: =========================Getting search result source code=========================
+03/30/2019 02:18:14 INFO: ============China Construction Bank, FUTURE GOALS feature data collection completed============
+03/30/2019 02:18:14 INFO: ============China Construction Bank, TECH STACK feature data collection started============
+03/30/2019 02:18:14 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:18:14 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:18:14 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:18:15 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 770
+03/30/2019 02:18:15 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DChina%2520Construction%2520Bank%26as_oq%3D%2522technology%2522%2520%2522stack%2522%2520%2522stack%2522%2520%2522development%2520tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGJX4--QFIhkA8aeDS-I1JhtBwixNy9QRpGi6YURnccNJMgFy HTTP/1.1" 503 3893
+03/30/2019 02:18:15 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:18:15 INFO: =========================Getting search result source code=========================
+03/30/2019 02:18:15 INFO: ============China Construction Bank, TECH STACK feature data collection completed============
+03/30/2019 02:18:15 INFO: ============China Construction Bank, PRODUCTS feature data collection started============
+03/30/2019 02:18:15 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 02:18:15 INFO: ======================Generating Google Search code==========================
+03/30/2019 02:18:15 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 02:18:16 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=China%20Construction%20Bank&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 302 785
+03/30/2019 02:18:17 DEBUG: https://www.google.com:443 "GET /sorry/index?continue=https://www.google.com/search%3Fhl%3Den%26as_q%3D%26as_epq%3DChina%2520Construction%2520Bank%26as_oq%3D%2522products%2522%2520%2522services%2522%2520%2522applications%2522%2520%2522software%2522%2520%2522tools%2522%26as_eq%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_nlo%3D%26as_nhi%3D%26lr%3Dlang_en%26cr%3D%26as_qdr%3Dall%26as_sitesearch%3D%26as_occt%3Dany%26safe%3Dimages%26as_filetype%3D%250A%2520%2520%2520%2520%2520%2520%2520%2520%26as_rights%3D%26num%3D10&hl=en&q=EgRkKvCBGJb4--QFIhkA8aeDS2wQdLlaVQPKhCU9VkAv2E6u1R-nMgFy HTTP/1.1" 503 3926
+03/30/2019 02:18:17 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 02:18:17 INFO: =========================Getting search result source code=========================
+03/30/2019 02:18:17 INFO: ============China Construction Bank, PRODUCTS feature data collection completed============
+03/30/2019 02:18:17 INFO: ============China Construction Bank data collection completed============

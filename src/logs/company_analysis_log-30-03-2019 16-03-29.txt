@@ -1,0 +1,207 @@
+03/30/2019 16:03:29 INFO: ============Script execution started============
+03/30/2019 16:03:29 INFO: ============Apple data collection started============
+03/30/2019 16:03:29 INFO: ============Apple, SIZE feature data collection started============
+03/30/2019 16:03:29 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 16:03:29 INFO: ======================Generating Google Search code==========================
+03/30/2019 16:03:29 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 16:03:30 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Apple&as_oq=%22size%22%20%22number%20of%20employees%22%20%22employees%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 16:03:30 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 16:03:30 INFO: =========================Getting search result source code=========================
+03/30/2019 16:03:30 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 16:03:31 DEBUG: https://www.statista.com:443 "GET /statistics/273439/number-of-employees-of-apple-since-2005/ HTTP/1.1" 200 None
+03/30/2019 16:03:31 DEBUG: Starting new HTTPS connection (1): www.macrumors.com:443
+03/30/2019 16:03:32 DEBUG: https://www.macrumors.com:443 "GET /2018/11/05/apple-2018-form-10-k-highlights/ HTTP/1.1" 200 19304
+03/30/2019 16:03:32 DEBUG: Starting new HTTPS connection (1): www.statista.com:443
+03/30/2019 16:03:32 DEBUG: https://www.statista.com:443 "GET /statistics/273439/number-of-employees-of-apple-since-2005/ HTTP/1.1" 200 None
+03/30/2019 16:03:32 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 16:03:32 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Apple_Inc. HTTP/1.1" 200 218900
+03/30/2019 16:03:33 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 16:03:33 DEBUG: https://www.apple.com:443 "GET /job-creation/ HTTP/1.1" 200 23629
+03/30/2019 16:03:33 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 16:03:34 DEBUG: https://www.apple.com:443 "GET /ca/business/get-started/ HTTP/1.1" 200 8814
+03/30/2019 16:03:34 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 16:03:34 DEBUG: https://www.apple.com:443 "GET /ca/business/ HTTP/1.1" 200 7676
+03/30/2019 16:03:34 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 16:03:34 DEBUG: https://www.apple.com:443 "GET /ca/business/resources/docs/Employee_Choice_Guide_for_IT.pdf HTTP/1.1" 200 6985819
+03/30/2019 16:03:39 DEBUG: SHIFT_JIS Japanese prober hit error at byte 104
+03/30/2019 16:03:39 DEBUG: EUC-JP Japanese prober hit error at byte 17
+03/30/2019 16:03:39 DEBUG: GB2312 Chinese prober hit error at byte 21
+03/30/2019 16:03:39 DEBUG: EUC-KR Korean prober hit error at byte 17
+03/30/2019 16:03:39 DEBUG: CP949 Korean prober hit error at byte 17
+03/30/2019 16:03:39 DEBUG: Big5 Chinese prober hit error at byte 21
+03/30/2019 16:03:39 DEBUG: EUC-TW Taiwan prober hit error at byte 17
+03/30/2019 16:03:42 DEBUG: windows-1251 confidence = 0.04057660835631772, below negative shortcut threshhold 0.05
+03/30/2019 16:03:44 DEBUG: KOI8-R confidence = 0.039347342229455885, below negative shortcut threshhold 0.05
+03/30/2019 16:03:47 DEBUG: ISO-8859-5 confidence = 0.04155215171048032, below negative shortcut threshhold 0.05
+03/30/2019 16:03:50 DEBUG: MacCyrillic confidence = 0.04182732971397864, below negative shortcut threshhold 0.05
+03/30/2019 16:03:52 DEBUG: IBM866 confidence = 0.043789414957013155, below negative shortcut threshhold 0.05
+03/30/2019 16:03:55 DEBUG: IBM855 confidence = 0.040501673514092, below negative shortcut threshhold 0.05
+03/30/2019 16:04:04 DEBUG: ISO-8859-5 confidence = 0.04100993567330253, below negative shortcut threshhold 0.05
+03/30/2019 16:04:07 DEBUG: windows-1251 confidence = 0.04042623840041744, below negative shortcut threshhold 0.05
+03/30/2019 16:04:10 DEBUG: TIS-620 confidence = 0.043283835546542734, below negative shortcut threshhold 0.05
+03/30/2019 16:04:12 DEBUG: ISO-8859-9 confidence = 0.04410082799063842, below negative shortcut threshhold 0.05
+03/30/2019 16:04:17 DEBUG: windows-1255 confidence = 0.04203393628218735, below negative shortcut threshhold 0.05
+03/30/2019 16:04:20 DEBUG: windows-1255 confidence = 0.04177728338990168, below negative shortcut threshhold 0.05
+03/30/2019 16:04:24 DEBUG: windows-1251 not active
+03/30/2019 16:04:24 DEBUG: KOI8-R not active
+03/30/2019 16:04:24 DEBUG: ISO-8859-5 not active
+03/30/2019 16:04:24 DEBUG: MacCyrillic not active
+03/30/2019 16:04:24 DEBUG: IBM866 not active
+03/30/2019 16:04:24 DEBUG: IBM855 not active
+03/30/2019 16:04:24 DEBUG: ISO-8859-7 Greek confidence = 0.0700619711988003
+03/30/2019 16:04:24 DEBUG: windows-1253 Greek confidence = 0.07157849916915575
+03/30/2019 16:04:24 DEBUG: ISO-8859-5 not active
+03/30/2019 16:04:24 DEBUG: windows-1251 not active
+03/30/2019 16:04:24 DEBUG: TIS-620 not active
+03/30/2019 16:04:24 DEBUG: ISO-8859-9 not active
+03/30/2019 16:04:24 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 16:04:24 DEBUG: windows-1255 not active
+03/30/2019 16:04:24 DEBUG: windows-1255 not active
+03/30/2019 16:04:24 DEBUG: no probers hit minimum threshold
+03/30/2019 16:04:24 DEBUG: utf-8  confidence = 0.010000000000000009
+03/30/2019 16:04:24 DEBUG: SHIFT_JIS Japanese confidence = 0.01
+03/30/2019 16:04:24 DEBUG: EUC-JP Japanese confidence = 0.01
+03/30/2019 16:04:24 DEBUG: GB2312 Chinese confidence = 0.01
+03/30/2019 16:04:24 DEBUG: EUC-KR Korean confidence = 0.01
+03/30/2019 16:04:24 DEBUG: CP949 Korean confidence = 0.01
+03/30/2019 16:04:24 DEBUG: Big5 Chinese confidence = 0.01
+03/30/2019 16:04:24 DEBUG: EUC-TW Taiwan confidence = 0.01
+03/30/2019 16:04:24 DEBUG: windows-1251 Russian confidence = 0.04057660835631772
+03/30/2019 16:04:24 DEBUG: KOI8-R Russian confidence = 0.039347342229455885
+03/30/2019 16:04:24 DEBUG: ISO-8859-5 Russian confidence = 0.04155215171048032
+03/30/2019 16:04:24 DEBUG: MacCyrillic Russian confidence = 0.04182732971397864
+03/30/2019 16:04:24 DEBUG: IBM866 Russian confidence = 0.043789414957013155
+03/30/2019 16:04:24 DEBUG: IBM855 Russian confidence = 0.040501673514092
+03/30/2019 16:04:24 DEBUG: ISO-8859-7 Greek confidence = 0.0700619711988003
+03/30/2019 16:04:24 DEBUG: windows-1253 Greek confidence = 0.07157849916915575
+03/30/2019 16:04:24 DEBUG: ISO-8859-5 Bulgairan confidence = 0.04100993567330253
+03/30/2019 16:04:24 DEBUG: windows-1251 Bulgarian confidence = 0.04042623840041744
+03/30/2019 16:04:24 DEBUG: TIS-620 Thai confidence = 0.043283835546542734
+03/30/2019 16:04:24 DEBUG: ISO-8859-9 Turkish confidence = 0.04410082799063842
+03/30/2019 16:04:24 DEBUG: windows-1255 Hebrew confidence = 0.0
+03/30/2019 16:04:24 DEBUG: windows-1255 Hebrew confidence = 0.04203393628218735
+03/30/2019 16:04:24 DEBUG: windows-1255 Hebrew confidence = 0.04177728338990168
+03/30/2019 16:04:24 DEBUG: windows-1255 Hebrew confidence = 0.04177728338990168
+03/30/2019 16:04:24 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 16:04:24 DEBUG: https://www.apple.com:443 "GET /jobs/us/ HTTP/1.1" 200 8782
+03/30/2019 16:04:24 DEBUG: Starting new HTTPS connection (1): www.forbes.com:443
+03/30/2019 16:04:24 DEBUG: https://www.forbes.com:443 "GET /sites/connieguglielmo/2012/03/02/apple-touts-itself-as-big-job-creator-in-the-u-s/ HTTP/1.1" 200 47453
+03/30/2019 16:04:24 DEBUG: Starting new HTTPS connection (1): bestapples.com:443
+03/30/2019 16:04:25 DEBUG: https://bestapples.com:443 "GET /trade-and-export-marketing/grades-sizing/ HTTP/1.1" 200 None
+03/30/2019 16:04:26 INFO: ============Apple, SIZE feature data collection completed============
+03/30/2019 16:04:26 INFO: ============Apple, ACQUISITIONS feature data collection started============
+03/30/2019 16:04:26 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 16:04:26 INFO: ======================Generating Google Search code==========================
+03/30/2019 16:04:26 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 16:04:26 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Apple&as_oq=%22acquire%22%20%22take%20over%22%20%22took%20over%22%20%22acquisition%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 16:04:26 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 16:04:26 INFO: =========================Getting search result source code=========================
+03/30/2019 16:04:26 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 16:04:27 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_mergers_and_acquisitions_by_Apple HTTP/1.1" 200 50547
+03/30/2019 16:04:27 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 16:04:27 DEBUG: https://en.wikipedia.org:443 "GET /wiki/List_of_mergers_and_acquisitions_by_Apple HTTP/1.1" 200 50547
+03/30/2019 16:04:27 DEBUG: Starting new HTTPS connection (1): www.macrumors.com:443
+03/30/2019 16:04:29 DEBUG: https://www.macrumors.com:443 "GET /roundup/apple-acquisition/ HTTP/1.1" 200 28998
+03/30/2019 16:04:29 DEBUG: Starting new HTTPS connection (1): 9to5mac.com:443
+03/30/2019 16:04:29 DEBUG: https://9to5mac.com:443 "GET /2018/12/22/year-in-review-all-of-the-companies-apple-acquired-in-2018-that-we-know-of/ HTTP/1.1" 200 None
+03/30/2019 16:04:29 DEBUG: Starting new HTTPS connection (1): www.investopedia.com:443
+03/30/2019 16:04:30 DEBUG: https://www.investopedia.com:443 "GET /investing/top-companies-owned-apple/ HTTP/1.1" 200 None
+03/30/2019 16:04:30 DEBUG: Starting new HTTPS connection (1): www.cnbc.com:443
+03/30/2019 16:04:30 DEBUG: https://www.cnbc.com:443 "GET /2019/01/04/what-wall-street-bankers-think-apple-should-buy.html HTTP/1.1" 200 47961
+03/30/2019 16:04:30 DEBUG: Starting new HTTP connection (1): fortune.com:80
+03/30/2019 16:04:31 DEBUG: http://fortune.com:80 "GET /2019/02/04/apple-netflix-acquisition/ HTTP/1.1" 200 None
+03/30/2019 16:04:31 DEBUG: Starting new HTTPS connection (1): techcrunch.com:443
+03/30/2019 16:04:31 DEBUG: https://techcrunch.com:443 "GET /2018/12/07/apple-platoon/ HTTP/1.1" 200 None
+03/30/2019 16:04:31 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 16:04:31 DEBUG: https://www.bloomberg.com:443 "GET /news/videos/2019-01-30/apple-may-acquire-a-film-studio-in-2019-wedbush-s-ives-says-video HTTP/1.1" 307 0
+03/30/2019 16:04:31 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 16:04:32 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=a5529d90-531e-11e9-b0a1-c9309b88f51c&url=L25ld3MvdmlkZW9zLzIwMTktMDEtMzAvYXBwbGUtbWF5LWFjcXVpcmUtYS1maWxtLXN0dWRpby1pbi0yMDE5LXdlZGJ1c2gtcy1pdmVzLXNheXMtdmlkZW8= HTTP/1.1" 200 4595
+03/30/2019 16:04:32 DEBUG: Starting new HTTPS connection (1): bgr.com:443
+03/30/2019 16:04:32 DEBUG: https://bgr.com:443 "GET /2019/02/04/netflix-vs-apple-tv-shows-acquisition-isnt-happening/ HTTP/1.1" 200 None
+03/30/2019 16:04:32 DEBUG: Starting new HTTPS connection (1): www.lassonde.com:443
+03/30/2019 16:04:33 DEBUG: https://www.lassonde.com:443 "GET /en/communications/lassonde-industries-inc-acquire-u-s-branded-juice-company-apple-eve-llc-port-washington-new-york-us150-0-million-transaction/ HTTP/1.1" 200 None
+03/30/2019 16:04:33 INFO: ============Apple, ACQUISITIONS feature data collection completed============
+03/30/2019 16:04:33 INFO: ============Apple, FUTURE GOALS feature data collection started============
+03/30/2019 16:04:33 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 16:04:33 INFO: ======================Generating Google Search code==========================
+03/30/2019 16:04:33 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 16:04:33 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Apple&as_oq=%22future%22%20%22goals%22%20%22future%20goals%22%20%22aim%22%20%22ambition%22%20%22objectives%22%20%22deals%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 16:04:34 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 16:04:34 INFO: =========================Getting search result source code=========================
+03/30/2019 16:04:34 DEBUG: Starting new HTTPS connection (1): www.macrumors.com:443
+03/30/2019 16:04:38 DEBUG: https://www.macrumors.com:443 "GET /roundup/best-apple-deals/ HTTP/1.1" 200 74528
+03/30/2019 16:04:38 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 16:04:39 DEBUG: https://www.apple.com:443 "GET /procurement/ HTTP/1.1" 200 7908
+03/30/2019 16:04:39 DEBUG: Starting new HTTPS connection (1): www.tomsguide.com:443
+03/30/2019 16:04:39 DEBUG: https://www.tomsguide.com:443 "GET /us/best-apple-deals,news-29273.html HTTP/1.1" 403 146
+03/30/2019 16:04:39 DEBUG: Starting new HTTPS connection (1): www.bloomberg.com:443
+03/30/2019 16:04:39 DEBUG: https://www.bloomberg.com:443 "GET /opinion/articles/2019-01-09/time-to-start-imagining-a-post-iphone-apple HTTP/1.1" 307 0
+03/30/2019 16:04:39 DEBUG: Resetting dropped connection: www.bloomberg.com
+03/30/2019 16:04:40 DEBUG: https://www.bloomberg.com:443 "GET /tosv2.html?vid=&uuid=aa0d8d90-531e-11e9-9f7f-0b47da2aaa5e&url=L29waW5pb24vYXJ0aWNsZXMvMjAxOS0wMS0wOS90aW1lLXRvLXN0YXJ0LWltYWdpbmluZy1hLXBvc3QtaXBob25lLWFwcGxl HTTP/1.1" 200 4595
+03/30/2019 16:04:40 DEBUG: Starting new HTTPS connection (1): www.bestbuy.com:443
+03/30/2019 16:04:40 DEBUG: https://www.bestbuy.com:443 "GET /site/apple/apple-shopping-event/pcmcat748301171883.c%3Fid%3Dpcmcat748301171883 HTTP/1.1" 403 374
+03/30/2019 16:04:40 DEBUG: Starting new HTTPS connection (1): www.quora.com:443
+03/30/2019 16:04:40 DEBUG: https://www.quora.com:443 "GET /What-is-the-future-of-Apple HTTP/1.1" 200 None
+03/30/2019 16:04:40 DEBUG: Starting new HTTPS connection (1): www.macworld.com:443
+03/30/2019 16:04:40 DEBUG: https://www.macworld.com:443 "GET /article/3330739/future-shlock-apple-s-prospects-never-look-good.html HTTP/1.1" 200 30401
+03/30/2019 16:04:41 DEBUG: Starting new HTTPS connection (1): hackernoon.com:443
+03/30/2019 16:04:41 DEBUG: https://hackernoon.com:443 "GET /the-future-of-apple-as-a-tech-leader-8b394068cda7 HTTP/1.1" 302 154
+03/30/2019 16:04:41 DEBUG: Starting new HTTPS connection (1): medium.com:443
+03/30/2019 16:04:41 DEBUG: https://medium.com:443 "GET /m/global-identity?redirectUrl=https%3A%2F%2Fhackernoon.com%2Fthe-future-of-apple-as-a-tech-leader-8b394068cda7 HTTP/1.1" 302 None
+03/30/2019 16:04:42 DEBUG: https://hackernoon.com:443 "GET /the-future-of-apple-as-a-tech-leader-8b394068cda7?gi=7350d1d6af9b HTTP/1.1" 200 None
+03/30/2019 16:04:42 DEBUG: Starting new HTTPS connection (1): www.bestbuy.ca:443
+03/30/2019 16:04:43 DEBUG: https://www.bestbuy.ca:443 "GET /en-CA/apple-store.aspx HTTP/1.1" 200 42410
+03/30/2019 16:04:43 DEBUG: Starting new HTTPS connection (1): www.target.com:443
+03/30/2019 16:04:43 DEBUG: https://www.target.com:443 "GET /c/ipad-tablets-e-readers-electronics/-/N-5586q HTTP/1.1" 302 0
+03/30/2019 16:04:43 DEBUG: Starting new HTTPS connection (1): intl.target.com:443
+03/30/2019 16:04:43 DEBUG: https://intl.target.com:443 "GET / HTTP/1.1" 200 None
+03/30/2019 16:04:44 INFO: ============Apple, FUTURE GOALS feature data collection completed============
+03/30/2019 16:04:44 INFO: ============Apple, TECH STACK feature data collection started============
+03/30/2019 16:04:44 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 16:04:44 INFO: ======================Generating Google Search code==========================
+03/30/2019 16:04:44 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 16:04:44 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Apple&as_oq=%22technology%22%20%22stack%22%20%22stack%22%20%22development%20tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 16:04:44 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 16:04:44 INFO: =========================Getting search result source code=========================
+03/30/2019 16:04:44 DEBUG: Starting new HTTPS connection (1): itunes.apple.com:443
+03/30/2019 16:04:45 DEBUG: https://itunes.apple.com:443 "GET /ca/app/stack-finance/id1305820272%3Fmt%3D8 HTTP/1.1" 404 0
+03/30/2019 16:04:45 DEBUG: Starting new HTTPS connection (1): support.apple.com:443
+03/30/2019 16:04:45 DEBUG: https://support.apple.com:443 "GET /en-ca/HT209101 HTTP/1.1" 200 9927
+03/30/2019 16:04:45 DEBUG: Starting new HTTPS connection (1): developer.apple.com:443
+03/30/2019 16:04:46 DEBUG: https://developer.apple.com:443 "GET /discover/ HTTP/1.1" 200 None
+03/30/2019 16:04:46 DEBUG: Starting new HTTPS connection (1): apple.stackexchange.com:443
+03/30/2019 16:04:46 DEBUG: https://apple.stackexchange.com:443 "GET / HTTP/1.1" 200 26724
+03/30/2019 16:04:46 DEBUG: Starting new HTTPS connection (1): www.macrumors.com:443
+03/30/2019 16:04:47 DEBUG: https://www.macrumors.com:443 "GET /how-to/use-stacks-in-macos-mojave/ HTTP/1.1" 200 18082
+03/30/2019 16:04:47 DEBUG: Starting new HTTPS connection (1): www.cornellstore.com:443
+03/30/2019 16:04:47 DEBUG: https://www.cornellstore.com:443 "GET /technology/apple HTTP/1.1" 200 None
+03/30/2019 16:04:47 DEBUG: Starting new HTTPS connection (1): www.theguardian.com:443
+03/30/2019 16:04:48 DEBUG: https://www.theguardian.com:443 "GET /technology/2018/aug/02/macs-ipods-apps-how-apple-revolutionised-technology HTTP/1.1" 200 167102
+03/30/2019 16:04:48 DEBUG: Starting new HTTPS connection (1): www.cultofmac.com:443
+03/30/2019 16:04:48 DEBUG: https://www.cultofmac.com:443 "GET /103454/apples-products-cant-be-beaten-because-they-use-tech-from-the-future/ HTTP/1.1" 200 None
+03/30/2019 16:04:48 DEBUG: Starting new HTTPS connection (1): www.indiegogo.com:443
+03/30/2019 16:04:50 DEBUG: https://www.indiegogo.com:443 "GET /projects/bento-stack-for-apple-accessories HTTP/1.1" 200 None
+03/30/2019 16:04:50 DEBUG: Starting new HTTPS connection (1): en.wikipedia.org:443
+03/30/2019 16:04:50 DEBUG: https://en.wikipedia.org:443 "GET /wiki/Apple_Inc. HTTP/1.1" 200 218900
+03/30/2019 16:04:50 INFO: ============Apple, TECH STACK feature data collection completed============
+03/30/2019 16:04:50 INFO: ============Apple, PRODUCTS feature data collection started============
+03/30/2019 16:04:50 INFO: =====================Setting company variables for Google Search===================
+03/30/2019 16:04:50 INFO: ======================Generating Google Search code==========================
+03/30/2019 16:04:50 DEBUG: Starting new HTTPS connection (1): www.google.com:443
+03/30/2019 16:04:50 DEBUG: https://www.google.com:443 "GET /search?hl=en&as_q=&as_epq=Apple&as_oq=%22products%22%20%22services%22%20%22applications%22%20%22software%22%20%22tools%22&as_eq=%0A%20%20%20%20%20%20%20%20&as_nlo=&as_nhi=&lr=lang_en&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=images&as_filetype=%0A%20%20%20%20%20%20%20%20&as_rights=&num=10 HTTP/1.1" 200 None
+03/30/2019 16:04:51 INFO: =========================Getting search result hyperlinks========================
+03/30/2019 16:04:51 INFO: =========================Getting search result source code=========================
+03/30/2019 16:04:51 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 16:04:51 DEBUG: https://www.apple.com:443 "GET /ca/shop/mac/mac-accessories/software HTTP/1.1" 200 21471
+03/30/2019 16:04:51 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 16:04:52 DEBUG: https://www.apple.com:443 "GET /ca/shop/help/downloadable_software HTTP/1.1" 200 16949
+03/30/2019 16:04:52 DEBUG: Starting new HTTPS connection (1): support.apple.com:443
+03/30/2019 16:04:52 DEBUG: https://support.apple.com:443 "GET /downloads HTTP/1.1" 200 6409
+03/30/2019 16:04:52 DEBUG: Starting new HTTPS connection (1): www.apple.com:443
+03/30/2019 16:04:53 DEBUG: https://www.apple.com:443 "GET /ca/downloads/index.html HTTP/1.1" 200 6150
+03/30/2019 16:04:53 DEBUG: Starting new HTTPS connection (1): tools.applemusic.com:443
+03/30/2019 16:04:53 DEBUG: https://tools.applemusic.com:443 "GET / HTTP/1.1" 302 111
+03/30/2019 16:04:53 DEBUG: https://tools.applemusic.com:443 "GET /en-us HTTP/1.1" 200 10750
+03/30/2019 16:04:53 DEBUG: Starting new HTTPS connection (1): www.bestbuy.ca:443
+03/30/2019 16:04:53 DEBUG: https://www.bestbuy.ca:443 "GET /en-CA/apple-store.aspx HTTP/1.1" 200 42410
+03/30/2019 16:04:53 DEBUG: Starting new HTTPS connection (1): www.costco.ca:443
