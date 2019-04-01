@@ -1,0 +1,8 @@
+04/01/2019 14:18:55 INFO: ===============Topic modelling activated===============
+04/01/2019 14:18:55 INFO: ===============Unpickling of TECH STACK===============
+04/01/2019 14:18:55 INFO: ===============Count vectorizer model being built===============
+04/01/2019 14:18:56 INFO: ===============LDA model being built===============
+04/01/2019 15:47:11 INFO: ===============LDA model saved===============
+04/01/2019 15:47:11 INFO: ===============Transforming feature data to get topic distribution vectors===============
+04/01/2019 15:47:11 INFO: ===============Pickling the topic dist model for TECH STACK===============
+04/01/2019 16:46:45 INFO: ===============Topic modelling completed===============
