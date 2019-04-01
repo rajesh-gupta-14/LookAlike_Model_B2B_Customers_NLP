@@ -43,3 +43,6 @@ KNN = 0
 
 # topic modelling iterations
 NO_OF_ITERATIONS = 10000
+
+# no of topics
+NO_OF_TOPICS = 10
