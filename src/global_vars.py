@@ -40,3 +40,6 @@ MAKE_DATASETS = 0
 
 # Knn model activation
 KNN = 0
+
+# topic modelling iterations
+NO_OF_ITERATIONS = 10000
