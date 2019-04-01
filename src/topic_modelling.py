@@ -31,7 +31,7 @@ def topic_model(feature):
     lda_model = LatentDirichletAllocation(n_topics=NO_OF_TOPICS, max_iter=NO_OF_ITERATIONS, learning_method='online')
     model = lda_model.fit(vector_data)
 
-    pickle(model, "lda_model", "topic_models")
+    pickle(model, f"lda_model_{feature}", "topic_models")
     logging.info("="*15 + "LDA model saved" + "="*15)
 
     logging.info("="*15 + "Transforming feature data to get topic distribution vectors" + "="*15)

@@ -2,15 +2,7 @@
 import os
 
 # Company names
-<<<<<<< HEAD
-COMPANIES = ["Arista Networks", "Cognizant", "Deloitte", "Dropbox", "Freshdesk", "Informatica", "Shopify", "Spotify", "Symantec", "Toyota Motor", "VMware", "Zoho"]
-=======
-<<<<<<< HEAD
-COMPANIES = ["Amazon", "China Construction Bank", "Microsoft", "Accenture", "Apple", "Smartsheet", "Tech Mahindra", "Adobe Systems", "Walmart", "Netflix"]
-=======
-COMPANIES = ["Samsung", "Oracle", "IBM", "Intuit", "OpenText","ICBC", "MicroStrategy", "Appian", "Symantec", "Pfizer", "Goldman Sachs"]
->>>>>>> develop
->>>>>>> develop
+COMPANIES = ["Samsung", "Oracle", "IBM", "Intuit", "OpenText", "ICBC", "MicroStrategy", "Appian", "Symantec", "Pfizer", "Goldman Sachs", "Arista Networks", "Cognizant", "Deloitte", "Dropbox", "Freshdesk", "Informatica", "Shopify", "Spotify", "Symantec", "Toyota Motor", "VMware", "Zoho", "Amazon", "China Construction Bank", "Microsoft", "Accenture", "Apple", "Smartsheet", "Tech Mahindra", "Adobe Systems", "Walmart", "Netflix", "Morgan Stanley"]
 
 # Features
 FEATURES = {
@@ -44,7 +36,7 @@ TWEETS = 200
 TOPIC_MODELLING = 1
 
 # Make datasets
-MAKE_DATASETS = 1
+MAKE_DATASETS = 0
 
 # Knn model activation
-KNN = 1
+KNN = 0

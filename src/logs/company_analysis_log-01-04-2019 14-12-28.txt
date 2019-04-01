@@ -1,0 +1,181 @@
+04/01/2019 14:12:28 INFO: ===============Merging cleaned dataframes===============
+04/01/2019 14:12:28 INFO: ===============Generating SIZE set
+04/01/2019 14:12:28 INFO: ===============Merging for Samsung SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Oracle SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for IBM SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Intuit SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for OpenText SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for ICBC SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for MicroStrategy SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Appian SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Symantec SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Pfizer SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Goldman Sachs SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Arista Networks SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Cognizant SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Deloitte SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Dropbox SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Freshdesk SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Informatica SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Shopify SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Spotify SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Symantec SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Toyota Motor SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for VMware SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Zoho SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Amazon SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for China Construction Bank SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Microsoft SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Accenture SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Apple SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Smartsheet SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Tech Mahindra SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Adobe Systems SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Walmart SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Netflix SIZE===============
+04/01/2019 14:12:28 INFO: ===============Merging for Morgan Stanley SIZE===============
+04/01/2019 14:12:28 INFO: ===============Successfully generated===============
+04/01/2019 14:12:28 INFO: ===============Generating ACQUISITIONS set
+04/01/2019 14:12:28 INFO: ===============Merging for Samsung ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Oracle ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for IBM ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Intuit ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for OpenText ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for ICBC ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for MicroStrategy ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Appian ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Symantec ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Pfizer ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Goldman Sachs ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Arista Networks ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Cognizant ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Deloitte ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Dropbox ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Freshdesk ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Informatica ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Shopify ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Spotify ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Symantec ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Toyota Motor ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for VMware ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Zoho ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Amazon ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for China Construction Bank ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Microsoft ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Accenture ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Apple ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Smartsheet ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Tech Mahindra ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Adobe Systems ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Walmart ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Netflix ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Morgan Stanley ACQUISITIONS===============
+04/01/2019 14:12:28 INFO: ===============Successfully generated===============
+04/01/2019 14:12:28 INFO: ===============Generating FUTURE GOALS set
+04/01/2019 14:12:28 INFO: ===============Merging for Samsung FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Oracle FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for IBM FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Intuit FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for OpenText FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for ICBC FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for MicroStrategy FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Appian FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Symantec FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Pfizer FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Goldman Sachs FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Arista Networks FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Cognizant FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Deloitte FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Dropbox FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Freshdesk FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Informatica FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Shopify FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Spotify FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Symantec FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Toyota Motor FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for VMware FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Zoho FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Amazon FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for China Construction Bank FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Microsoft FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Accenture FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Apple FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Smartsheet FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Tech Mahindra FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Adobe Systems FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Walmart FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Netflix FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Morgan Stanley FUTURE GOALS===============
+04/01/2019 14:12:28 INFO: ===============Successfully generated===============
+04/01/2019 14:12:28 INFO: ===============Generating TECH STACK set
+04/01/2019 14:12:28 INFO: ===============Merging for Samsung TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Oracle TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for IBM TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Intuit TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for OpenText TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for ICBC TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for MicroStrategy TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Appian TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Symantec TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Pfizer TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Goldman Sachs TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Arista Networks TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Cognizant TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Deloitte TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Dropbox TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Freshdesk TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Informatica TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Shopify TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Spotify TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Symantec TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Toyota Motor TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for VMware TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Zoho TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Amazon TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for China Construction Bank TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Microsoft TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Accenture TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Apple TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Smartsheet TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Tech Mahindra TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Adobe Systems TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Walmart TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Netflix TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Merging for Morgan Stanley TECH STACK===============
+04/01/2019 14:12:28 INFO: ===============Successfully generated===============
+04/01/2019 14:12:28 INFO: ===============Generating PRODUCTS set
+04/01/2019 14:12:28 INFO: ===============Merging for Samsung PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Oracle PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for IBM PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Intuit PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for OpenText PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for ICBC PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for MicroStrategy PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Appian PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Symantec PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Pfizer PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Goldman Sachs PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Arista Networks PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Cognizant PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Deloitte PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Dropbox PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Freshdesk PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Informatica PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Shopify PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Spotify PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Symantec PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Toyota Motor PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for VMware PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Zoho PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Amazon PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for China Construction Bank PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Microsoft PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Accenture PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Apple PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Smartsheet PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Tech Mahindra PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Adobe Systems PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Walmart PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Netflix PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Merging for Morgan Stanley PRODUCTS===============
+04/01/2019 14:12:28 INFO: ===============Successfully generated===============
