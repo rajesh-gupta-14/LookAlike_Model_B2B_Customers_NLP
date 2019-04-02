@@ -1,0 +1,8 @@
+04/01/2019 19:09:52 INFO: ===============Topic modelling activated===============
+04/01/2019 19:09:52 INFO: ===============Unpickling of FUTURE GOALS===============
+04/01/2019 19:09:52 INFO: ===============Count vectorizer model being built===============
+04/01/2019 19:09:52 INFO: ===============LDA model being built===============
+04/01/2019 20:29:18 INFO: ===============LDA model saved===============
+04/01/2019 20:29:18 INFO: ===============Transforming feature data to get topic distribution vectors===============
+04/01/2019 20:29:18 INFO: ===============Pickling the topic dist model for FUTURE GOALS===============
+04/01/2019 20:29:18 INFO: ===============Topic modelling completed===============
