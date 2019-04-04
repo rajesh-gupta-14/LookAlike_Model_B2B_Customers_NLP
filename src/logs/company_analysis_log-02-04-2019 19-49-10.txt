@@ -1,0 +1,8 @@
+04/02/2019 19:49:15 INFO: ===============Topic modelling activated===============
+04/02/2019 19:49:15 INFO: ===============Unpickling of PRODUCTS===============
+04/02/2019 19:49:15 INFO: ===============Count vectorizer model being built===============
+04/02/2019 19:49:15 INFO: ===============LDA model being built===============
+04/02/2019 21:11:29 INFO: ===============LDA model saved===============
+04/02/2019 21:11:29 INFO: ===============Transforming feature data to get topic distribution vectors===============
+04/02/2019 21:11:29 INFO: ===============Pickling the topic dist model for PRODUCTS===============
+04/02/2019 21:11:29 INFO: ===============Topic modelling completed===============
