@@ -77,7 +77,7 @@ def knn(df):
         test_comp = pd.DataFrame({"TOPIC_MODEL_VECTOR":list(X_test), "COMPANY":list(y_test), "SIMILAR_COMPANY":list(y_pred), "DISTANCE":list(y_pred_dist[0])})
         result = pd.concat([result, test_comp], ignore_index=True, axis=0)
     print(result)
-        
+	pickle(result, f"result_{feature}", "results")    
 
 def make_data(feature):
     logging.info("="*15 + f"Unpickling of transformed {feature}" + "="*15)

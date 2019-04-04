@@ -33,13 +33,13 @@ TWITTER = 0
 TWEETS = 200
 
 # Modelling
-TOPIC_MODELLING = 1
+TOPIC_MODELLING = 0
 
 # Make datasets
-MAKE_DATASETS = 0
+MAKE_DATASETS = 1
 
 # Knn model activation
-KNN = 0
+KNN = 1
 
 # topic modelling iterations
 NO_OF_ITERATIONS = 10000
