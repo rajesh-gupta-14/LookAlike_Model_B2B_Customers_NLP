@@ -1,0 +1,275 @@
+04/04/2019 20:20:22 INFO: ===============Building datasets===============
+04/04/2019 20:20:22 INFO: ===============Unpickling of transformed PRODUCTS===============
+04/04/2019 20:20:22 INFO: ===============Samsung dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Samsung dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Oracle dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Oracle dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============IBM dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============IBM dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Intuit dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Intuit dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============OpenText dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============OpenText dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============ICBC dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============ICBC dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============MicroStrategy dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============MicroStrategy dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Appian dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Appian dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Symantec dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Symantec dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Pfizer dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Pfizer dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Goldman Sachs dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Goldman Sachs dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Arista Networks dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Arista Networks dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Cognizant dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Cognizant dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Deloitte dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Deloitte dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Dropbox dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Dropbox dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Freshdesk dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Freshdesk dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Informatica dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Informatica dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Shopify dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Shopify dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Spotify dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Spotify dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Toyota Motor dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Toyota Motor dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============VMware dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============VMware dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Zoho dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Zoho dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Amazon dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Amazon dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============China Construction Bank dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============China Construction Bank dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Microsoft dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Microsoft dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Accenture dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Accenture dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Apple dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Apple dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Smartsheet dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Smartsheet dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Tech Mahindra dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Tech Mahindra dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Adobe Systems dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Adobe Systems dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Walmart dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Walmart dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Netflix dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Netflix dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Morgan Stanley dataset - average of topic vectors being calculated===============
+04/04/2019 20:20:22 INFO: ===============Morgan Stanley dataset - average obtained===============
+04/04/2019 20:20:22 INFO: ===============Datasets built===============
+04/04/2019 20:20:22 INFO: ===============kNN model activated===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Samsung being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Samsung successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Oracle being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Oracle successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to IBM being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to IBM successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Intuit being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Intuit successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to OpenText being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to OpenText successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to ICBC being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to ICBC successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to MicroStrategy being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to MicroStrategy successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Appian being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Appian successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Symantec being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Symantec successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Pfizer being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Pfizer successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Goldman Sachs being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Goldman Sachs successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Arista Networks being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Arista Networks successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Cognizant being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Cognizant successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Deloitte being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Deloitte successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Dropbox being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Dropbox successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Freshdesk being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Freshdesk successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Informatica being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Informatica successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Shopify being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Shopify successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Spotify being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Spotify successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Symantec being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Symantec successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Toyota Motor being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Toyota Motor successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to VMware being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to VMware successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Zoho being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Zoho successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Amazon being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Amazon successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to China Construction Bank being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to China Construction Bank successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Microsoft being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Microsoft successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Accenture being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Accenture successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Apple being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Apple successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Smartsheet being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model predicted the most similar company to Smartsheet successfully===============
+04/04/2019 20:20:22 INFO: ===============kNN model for similar company to Tech Mahindra being built===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:22 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:22 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:23 INFO: ===============kNN model predicted the most similar company to Tech Mahindra successfully===============
+04/04/2019 20:20:23 INFO: ===============kNN model for similar company to Adobe Systems being built===============
+04/04/2019 20:20:23 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:23 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:23 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:23 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:23 INFO: ===============kNN model predicted the most similar company to Adobe Systems successfully===============
+04/04/2019 20:20:23 INFO: ===============kNN model for similar company to Walmart being built===============
+04/04/2019 20:20:23 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:23 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:23 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:23 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:23 INFO: ===============kNN model predicted the most similar company to Walmart successfully===============
+04/04/2019 20:20:23 INFO: ===============kNN model for similar company to Netflix being built===============
+04/04/2019 20:20:23 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:23 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:23 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:23 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:23 INFO: ===============kNN model predicted the most similar company to Netflix successfully===============
+04/04/2019 20:20:23 INFO: ===============kNN model for similar company to Morgan Stanley being built===============
+04/04/2019 20:20:23 INFO: ===============kNN model - Train data READY===============
+04/04/2019 20:20:23 INFO: ===============kNN model - Test data READY===============
+04/04/2019 20:20:23 INFO: ===============kNN model being trained===============
+04/04/2019 20:20:23 INFO: ===============kNN model trained successfully===============
+04/04/2019 20:20:23 INFO: ===============kNN model predicted the most similar company to Morgan Stanley successfully===============
+04/04/2019 20:20:23 INFO: ===============Similar companies predicted===============

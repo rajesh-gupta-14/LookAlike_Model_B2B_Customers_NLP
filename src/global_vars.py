@@ -33,7 +33,7 @@ TWITTER = 0
 TWEETS = 200
 
 # Modelling
-TOPIC_MODELLING = 1
+TOPIC_MODELLING = 0
 
 # Make datasets
 MAKE_DATASETS = 0
@@ -46,3 +46,6 @@ NO_OF_ITERATIONS = 10000
 
 # no of topics
 NO_OF_TOPICS = 10
+
+# generating JSON
+GENERATE_JSON = 1
