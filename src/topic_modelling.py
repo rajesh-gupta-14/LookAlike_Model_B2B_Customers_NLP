@@ -42,43 +42,54 @@ def topic_model(feature):
     pickle(feature_set, f"test_{feature}", "transformed_feature_sets")
     print(feature_set[["TOPIC_MODEL_VECTOR","COMPANY"]])
     
-def knn(df):
-    """
-    X_train, X_test, y_train, y_test = train_test_split(input,
-                                            inputlabel, test_size=0.5)
-    """
-    result = pd.DataFrame()
-    for company in COMPANIES:
-        logging.info("="*15 + f"kNN model for similar company to {company} being built" + "="*15)
-        X_train = np.array(df[df["COMPANY"]!=company]["TOPIC_MODEL_VECTOR"].values.tolist())
-        y_train = df[df["COMPANY"]!=company]["COMPANY"]
-        logging.info("="*15 + f"kNN model - Train data READY" + "="*15)
-        X_test = np.array(df[df["COMPANY"]==company]["TOPIC_MODEL_VECTOR"].values.tolist())
-        y_test = df[df["COMPANY"]==company]["COMPANY"]
-        logging.info("="*15 + f"kNN model - Test data READY" + "="*15)
-        
-        knn_model = KNeighborsClassifier(n_neighbors=1)
-        logging.info("="*15 + f"kNN model being trained" + "="*15)
-        # Train the model
-        knn_model.fit(X_train, y_train)
-        logging.info("="*15 + f"kNN model trained successfully" + "="*15)
-        # Predict the response for test dataset
-        y_pred = knn_model.predict(X_test)
-        y_pred_proba = knn_model.predict_proba(X_test)
-        y_pred_dist = knn_model.kneighbors(X_test)
-        """
-        print(f"TEST DATA ORDER\n {y_train}")
-        print(f"PREDICTION \n {y_pred}")
-        print(f"PROBABILITIES \n {y_pred_proba}")
-        dist = list(y_pred_dist[0])
-        print(f"DISTANCE in same order as TEST DATA \n{dist}\n")
-        """
-        logging.info("="*15 + f"kNN model predicted the most similar company to {company} successfully" + "="*15)
-        test_comp = pd.DataFrame({"TOPIC_MODEL_VECTOR":list(X_test), "COMPANY":list(y_test), "SIMILAR_COMPANY":list(y_pred), "DISTANCE":list(y_pred_dist[0])})
-        result = pd.concat([result, test_comp], ignore_index=True, axis=0)
-    print(result)
+def knn(df, feature):
+	"""
+	X_train, X_test, y_train, y_test = train_test_split(input,
+								inputlabel, test_size=0.5)
+	"""
+	result = pd.DataFrame()
+	for company in COMPANIES:
+		logging.info("="*15 + f"kNN model for similar company to {company} being built" + "="*15)
+		X_train = np.array(df[df["COMPANY"]!=company]["TOPIC_MODEL_VECTOR"].values.tolist())
+		y_train = df[df["COMPANY"]!=company]["COMPANY"]
+		logging.info("="*15 + f"kNN model - Train data READY" + "="*15)
+		X_test = np.array(df[df["COMPANY"]==company]["TOPIC_MODEL_VECTOR"].values.tolist())
+		y_test = df[df["COMPANY"]==company]["COMPANY"]
+		logging.info("="*15 + f"kNN model - Test data READY" + "="*15)
+
+		knn_model = KNeighborsClassifier(n_neighbors=1)
+		logging.info("="*15 + f"kNN model being trained" + "="*15)
+		# Train the model
+		knn_model.fit(X_train, y_train)
+		logging.info("="*15 + f"kNN model trained successfully" + "="*15)
+		# Predict the response for test dataset
+		y_pred = knn_model.predict(X_test)
+		y_pred_proba = knn_model.predict_proba(X_test)
+		y_pred_dist = knn_model.kneighbors(X_test)
+		"""
+		print(f"TEST DATA ORDER\n {y_train}")
+		print(f"PREDICTION \n {y_pred}")
+		print(f"PROBABILITIES \n {y_pred_proba}")
+		dist = list(y_pred_dist[0])
+		print(f"DISTANCE in same order as TEST DATA \n{dist}\n")
+		"""
+		logging.info("="*15 + f"kNN model predicted the most similar company to {company} successfully" + "="*15)
+		test_comp = pd.DataFrame({"TOPIC_MODEL_VECTOR":list(X_test), "COMPANY":list(y_test), "SIMILAR_COMPANY":list(y_pred), "DISTANCE":list(y_pred_dist[0])})
+		result = pd.concat([result, test_comp], ignore_index=True, axis=0)
+	print(result)
 	pickle(result, f"result_{feature}", "results")    
 
+def generate_JSON(result_data, feature):
+	companies = list(result_data["COMPANY"])
+	nodes_with_values = {companies[i]:i for i in range(len(companies))}
+	nodes = [{"name":i} for i in nodes_with_values.keys()]
+	print(result_data["COMPANY"])
+	result_data["LINKS"] = result_data.apply(lambda x: {"source":nodes_with_values[x["COMPANY"]],"target":nodes_with_values[x["SIMILAR_COMPANY"]]}, axis=1)
+	links = list(result_data["LINKS"])
+	graph = {"nodes":nodes,"links":links}
+	print(graph)
+	write_JSON(graph, f"result_{feature}", "results")
+	
 def make_data(feature):
     logging.info("="*15 + f"Unpickling of transformed {feature}" + "="*15)
     data = unpickle(f"test_{feature}", "transformed_feature_sets")
@@ -91,24 +102,28 @@ def make_data(feature):
         company_df = pd.DataFrame([[np.array(comp_topic_vector),company]], columns=["TOPIC_MODEL_VECTOR","COMPANY"])
         final_data = pd.concat([final_data, company_df], axis=0, ignore_index=True)
         logging.info("="*15 + f"{company} dataset - average obtained" + "="*15)
-    pickle(final_data, "final_data", "final_data")
+    pickle(final_data, f"final_data_{feature}", "final_data")
 
 def main():
-    feature = str(input("Enter feature .pkl file name in EXACT format:\n"))
-    if TOPIC_MODELLING:
-        logging.info("="*15 + "Topic modelling activated" + "="*15)
-        topic_model(feature)
-        logging.info("="*15 + "Topic modelling completed" + "="*15)
-    if MAKE_DATASETS:
-        logging.info("="*15 + "Building datasets" + "="*15)
-        make_data(feature)
-        logging.info("="*15 + "Datasets built" + "="*15)
-    if KNN:
-        logging.info("="*15 + "kNN model activated" + "="*15)
-        final_data = unpickle("final_data", "final_data")
-        knn(final_data)
-        logging.info("="*15 + "Similar companies predicted" + "="*15)
-
+	feature = str(input("Enter feature .pkl file name in EXACT format:\n"))
+	if TOPIC_MODELLING:
+		logging.info("="*15 + "Topic modelling activated" + "="*15)
+		topic_model(feature)
+		logging.info("="*15 + "Topic modelling completed" + "="*15)
+	if MAKE_DATASETS:
+		logging.info("="*15 + "Building datasets" + "="*15)
+		make_data(feature)
+		logging.info("="*15 + "Datasets built" + "="*15)
+	if KNN:
+		logging.info("="*15 + "kNN model activated" + "="*15)
+		final_data = unpickle(f"final_data_{feature}", "final_data")
+		knn(final_data, feature)
+		logging.info("="*15 + "Similar companies predicted" + "="*15)
+	if GENERATE_JSON:
+		logging.info("="*15 + f"JSON generation for {feature}" + "="*15)    
+		result_data = unpickle(f"result_{feature}", "results")
+		generate_JSON(result_data, feature)
+		
 # ------------------------------
 if __name__ == "__main__":
     configure_logger()

@@ -36,13 +36,16 @@ TWEETS = 200
 TOPIC_MODELLING = 0
 
 # Make datasets
-MAKE_DATASETS = 1
+MAKE_DATASETS = 0
 
 # Knn model activation
-KNN = 1
+KNN = 0
 
 # topic modelling iterations
 NO_OF_ITERATIONS = 10000
 
 # no of topics
 NO_OF_TOPICS = 10
+
+# generating JSON
+GENERATE_JSON = 1

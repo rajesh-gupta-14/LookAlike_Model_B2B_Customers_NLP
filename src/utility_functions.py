@@ -54,6 +54,11 @@ def pickle(obj, filename, foldername):
 	COMPANYPKLPATH = os.path.join(os.getcwd(), foldername, filename + ".pkl") 
 	with open(COMPANYPKLPATH, "wb") as f:
 		pkl.dump(obj, f)
+		
+def write_JSON(obj, filename, foldername):
+	COMPANYJSONPATH = os.path.join(os.getcwd(), foldername, filename + ".json") 
+	with open(COMPANYJSONPATH, "w") as f:
+		json.dump(obj, f)
 
 def unpickle(filename, foldername):
 	COMPANYPKLPATH = os.path.join(os.getcwd(), foldername, filename + ".pkl")
