@@ -80,6 +80,7 @@ def knn(df, feature):
 	pickle(result, f"result_{feature}", "results")    
 
 def generate_JSON(result_data, feature):
+	result_data.drop_duplicates(subset="COMPANY", inplace=True)
 	companies = list(result_data["COMPANY"])
 	nodes_with_values = {companies[i]:i for i in range(len(companies))}
 	nodes = [{"name":i} for i in nodes_with_values.keys()]
@@ -91,18 +92,18 @@ def generate_JSON(result_data, feature):
 	write_JSON(graph, f"result_{feature}", "results")
 	
 def make_data(feature):
-    logging.info("="*15 + f"Unpickling of transformed {feature}" + "="*15)
-    data = unpickle(f"test_{feature}", "transformed_feature_sets")
-    companies = list(data["COMPANY"].unique())
-    final_data = pd.DataFrame()
-    for company in companies:
-        logging.info("="*15 + f"{company} dataset - average of topic vectors being calculated" + "="*15)
-        company_data_dist = data[data["COMPANY"]==company][["TOPIC_MODEL_VECTOR","COMPANY"]]
-        comp_topic_vector = np.mean(company_data_dist["TOPIC_MODEL_VECTOR"])
-        company_df = pd.DataFrame([[np.array(comp_topic_vector),company]], columns=["TOPIC_MODEL_VECTOR","COMPANY"])
-        final_data = pd.concat([final_data, company_df], axis=0, ignore_index=True)
-        logging.info("="*15 + f"{company} dataset - average obtained" + "="*15)
-    pickle(final_data, f"final_data_{feature}", "final_data")
+	logging.info("="*15 + f"Unpickling of transformed {feature}" + "="*15)
+	data = unpickle(f"test_{feature}", "transformed_feature_sets")
+	companies = list(data["COMPANY"].unique())
+	final_data = pd.DataFrame()
+	for company in companies:
+		logging.info("="*15 + f"{company} dataset - average of topic vectors being calculated" + "="*15)
+		company_data_dist = data[data["COMPANY"]==company][["TOPIC_MODEL_VECTOR","COMPANY"]]
+		comp_topic_vector = np.mean(company_data_dist["TOPIC_MODEL_VECTOR"])
+		company_df = pd.DataFrame([[np.array(comp_topic_vector),company]], columns=["TOPIC_MODEL_VECTOR","COMPANY"])
+		final_data = pd.concat([final_data, company_df], axis=0, ignore_index=True)
+		logging.info("="*15 + f"{company} dataset - average obtained" + "="*15)
+	pickle(final_data, f"final_data_{feature}", "final_data")
 
 def main():
 	feature = str(input("Enter feature .pkl file name in EXACT format:\n"))
