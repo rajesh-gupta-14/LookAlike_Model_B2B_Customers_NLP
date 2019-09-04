@@ -1,10 +1,7 @@
 # Look-alike modeling for B2B customers #
 
-## Authors: ##
+## Author: ##
 * Rajesh Gupta - rajesh.gupta@dal.ca (Owner)
-* Brakadeesh Shankar - brakshankar@dal.ca (Contributor)
-* Anurag Sreekumar - anurag@dal.ca (Contributor)
-* Karthik Parameswaran - karthik@dal.ca (Contributor)
 
 ## Description: ##
 This repository hosts the code to scrape data from Google and Twitter, clean data, reduce the dimensions of data and construct a look-alike model. The look-alike model uses KNN to identify similar companies from the existing customer base based on certain characteristics. The characteristics include products developed, the technology stack, the size, the acquisitions and future goals of a company.
@@ -51,3 +48,5 @@ Firstly, configure the characteristics/features using relevant keywords in globa
 [5]"Documentation scikit-learn: machine learning in Python — scikit-learn 0.20.3 documentation", Scikit-learn.org, 2019. [Online]. Available: https://scikit-learn.org/stable/documentation.html.<br/>
 [6] N. Bölücü and B. Can, "Unsupervised Joint PoS Tagging and Stemming for Agglutinative Languages", ACM Transactions on Asian and Low-Resource Language Information Processing, vol. 18, no. 3, pp. 1-21, 2019. Available: 10.1145/3292398.<br/>
 [7] D. Yu and A. Houg, "Facebook Analytics, Advertising, and Marketing", Facebook Nation, pp. 117-138, 2014. Available: 10.1007/978-1-4939-1740-2_6.<br/>
+
+I sincerely thank Brakadeesh Shankar, Anurag Sreekumar, and Karthik Parameswaran for their contribution in helping me test out the various modules.
