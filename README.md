@@ -38,11 +38,6 @@ Firstly, configure the characteristics/features using relevant keywords in globa
 - Run this command to construct topic vectors and reduce the data dimensions in the command prompt/terminal: ```python topic_modelling.py```
 - Input taken is src/feature_sets and output is stored in serialized format in src/transformed_feature_sets
 
-### Data Dimensionality Reduction ###
-- Configure the TOPIC_MODLELING, NO_OF_ITERATIONS, NO_OF_TOPICS variables to activate the topic modeling module, and the iterations and size of topic vector.
-- Run this command to construct topic vectors and reduce the data dimensions in the command prompt/terminal: ```python topic_modelling.py```
-- Input taken is src/feature_sets and output is stored in serialized format in src/transformed_feature_sets
-
 ### KNN modeling ###
 - Configure the KNN, MAKE_DATASETS variable to activate the Knn algorithm and generate suitable training data for Knn.
 - Run this command to construct the model and output results in the command prompt/terminal: ```python topic_modelling.py```
