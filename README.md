@@ -21,7 +21,6 @@ Firstly, configure the characteristics/features using relevant keywords in globa
 
 ### Data Collection ###
 - Configure the TWITTER and GOOGLE boolean variables in global_vars.py file to run either or both of the custom scrapers.
-<br>
 - Run the command in the command prompt/terminal:  ```python main.py```
 - Output is stored in a serialized format in src/raw_data
 
