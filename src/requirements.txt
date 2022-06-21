@@ -5,7 +5,7 @@ chardet==3.0.4
 feedparser==5.2.1
 idna==2.8
 nltk==3.4
-numpy==1.16.2
+numpy==1.22.0
 oauthlib==3.0.1
 pandas==0.24.1
 PySocks==1.6.8
